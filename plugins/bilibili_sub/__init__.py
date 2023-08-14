@@ -244,7 +244,7 @@ async def _(event: MessageEvent):
 # 推送
 @scheduler.scheduled_job(
     "interval",
-    seconds=30,
+    seconds=60,
 )
 async def _():
     bot = get_bot()

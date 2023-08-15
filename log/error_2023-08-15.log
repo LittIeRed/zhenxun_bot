@@ -1,0 +1,431 @@
+08-16 00:00:44 [ERROR] services | Id：348399122 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-16 00:01:44 [ERROR] services | Id：1197454103 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-16 00:02:44 [ERROR] services | Id：1197454103 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-16 00:03:44 [ERROR] services | Id：348399122 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-16 00:04:45 [ERROR] services | Id：348399122 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-16 00:05:44 [ERROR] services | Id：1197454103 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-16 00:06:44 [ERROR] services | Id：1197454103 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-16 00:07:44 [ERROR] services | Id：348399122 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-16 00:08:44 [ERROR] services | Id：348399122 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-16 00:09:44 [ERROR] services | Id：1197454103 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-16 00:10:46 [ERROR] nonebot | Running Matcher(type='message', module=plugins.sign_in) failed.
+Traceback (most recent call last):
+
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/anyio/_core/_sockets.py", line 186, in connect_tcp
+    addr_obj = ip_address(remote_host)
+               │          └ 'q1.qlogo.cn'
+               └ <function ip_address at 0x7f2d365a1700>
+  File "/usr/lib/python3.9/ipaddress.py", line 53, in ip_address
+    raise ValueError('%r does not appear to be an IPv4 or IPv6 address' %
+
+ValueError: 'q1.qlogo.cn' does not appear to be an IPv4 or IPv6 address
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/httpcore/backends/asyncio.py", line 111, in connect_tcp
+    stream: anyio.abc.ByteStream = await anyio.connect_tcp(
+            │     │   │                  │     └ <function connect_tcp at 0x7f2d34d91dc0>
+            │     │   │                  └ <module 'anyio' from '/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/anyio/__init__...
+            │     │   └ <class 'anyio.abc.ByteStream'>
+            │     └ <module 'anyio.abc' from '/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/anyio/abc/...
+            └ <module 'anyio' from '/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/anyio/__init__...
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/anyio/_core/_sockets.py", line 189, in connect_tcp
+    gai_res = await getaddrinfo(
+                    └ <function getaddrinfo at 0x7f2d34da6a60>
+
+asyncio.exceptions.CancelledError
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/httpcore/_exceptions.py", line 10, in map_exceptions
+    yield
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/httpcore/backends/asyncio.py", line 111, in connect_tcp
+    stream: anyio.abc.ByteStream = await anyio.connect_tcp(
+            │     │   │                  │     └ <function connect_tcp at 0x7f2d34d91dc0>
+            │     │   │                  └ <module 'anyio' from '/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/anyio/__init__...
+            │     │   └ <class 'anyio.abc.ByteStream'>
+            │     └ <module 'anyio.abc' from '/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/anyio/abc/...
+            └ <module 'anyio' from '/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/anyio/__init__...
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/anyio/_core/_tasks.py", line 118, in __exit__
+    raise TimeoutError
+
+TimeoutError
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/httpx/_transports/default.py", line 60, in map_httpcore_exceptions
+    yield
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/httpx/_transports/default.py", line 353, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+                 │    │     │                    └ <Request [b'GET']>
+                 │    │     └ <function AsyncConnectionPool.handle_async_request at 0x7f2d345314c0>
+                 │    └ <httpcore.AsyncConnectionPool object at 0x7f2cf4a82460>
+                 └ <httpx.AsyncHTTPTransport object at 0x7f2cf4a82ac0>
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/httpcore/_async/connection_pool.py", line 253, in handle_async_request
+    raise exc
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/httpcore/_async/connection_pool.py", line 237, in handle_async_request
+    response = await connection.handle_async_request(request)
+                     │          │                    └ <Request [b'GET']>
+                     │          └ <function AsyncHTTPConnection.handle_async_request at 0x7f2d3452c700>
+                     └ <AsyncHTTPConnection [CONNECTION FAILED]>
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/httpcore/_async/connection.py", line 86, in handle_async_request
+    raise exc
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/httpcore/_async/connection.py", line 63, in handle_async_request
+    stream = await self._connect(request)
+                   │    │        └ <Request [b'GET']>
+                   │    └ <function AsyncHTTPConnection._connect at 0x7f2d3452c790>
+                   └ <AsyncHTTPConnection [CONNECTION FAILED]>
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/httpcore/_async/connection.py", line 111, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+                   │    │                │             └ {'host': 'q1.qlogo.cn', 'port': 80, 'local_address': None, 'timeout': 5.0}
+                   │    │                └ <function AutoBackend.connect_tcp at 0x7f2d34524040>
+                   │    └ <httpcore.backends.auto.AutoBackend object at 0x7f2cf4a82c10>
+                   └ <AsyncHTTPConnection [CONNECTION FAILED]>
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/httpcore/backends/auto.py", line 29, in connect_tcp
+    return await self._backend.connect_tcp(
+                 │    │        └ <function AsyncIOBackend.connect_tcp at 0x7f2d17781ca0>
+                 │    └ <httpcore.backends.asyncio.AsyncIOBackend object at 0x7f2cf4b4d5b0>
+                 └ <httpcore.backends.auto.AutoBackend object at 0x7f2cf4a82c10>
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/httpcore/backends/asyncio.py", line 111, in connect_tcp
+    stream: anyio.abc.ByteStream = await anyio.connect_tcp(
+            │     │   │                  │     └ <function connect_tcp at 0x7f2d34d91dc0>
+            │     │   │                  └ <module 'anyio' from '/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/anyio/__init__...
+            │     │   └ <class 'anyio.abc.ByteStream'>
+            │     └ <module 'anyio.abc' from '/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/anyio/abc/...
+            └ <module 'anyio' from '/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/anyio/__init__...
+  File "/usr/lib/python3.9/contextlib.py", line 135, in __exit__
+    self.gen.throw(type, value, traceback)
+    │    │   │     │     │      └ <traceback object at 0x7f2d1774bec0>
+    │    │   │     │     └ TimeoutError()
+    │    │   │     └ <class 'TimeoutError'>
+    │    │   └ <method 'throw' of 'generator' objects>
+    │    └ <generator object map_exceptions at 0x7f2d14046270>
+    └ <contextlib._GeneratorContextManager object at 0x7f2cf4b4db80>
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc)
+          └ <class 'httpcore.ConnectTimeout'>
+
+httpcore.ConnectTimeout
+
+
+The above exception was the direct cause of the following exception:
+
+
+Traceback (most recent call last):
+
+  File "/opt/zhenxun_bot/bot.py", line 21, in <module>
+    nonebot.run()
+    │       └ <function run at 0x7f2d35ccc1f0>
+    └ <module 'nonebot' from '/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/__in...
+
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/__init__.py", line 273, in run
+    get_driver().run(*args, **kwargs)
+    │                 │       └ {}
+    │                 └ ()
+    └ <function get_driver at 0x7f2d370ef1f0>
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/drivers/fastapi.py", line 172, in run
+    uvicorn.run(
+    │       └ <function run at 0x7f2d366fc160>
+    └ <module 'uvicorn' from '/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/uvicorn/__in...
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/uvicorn/main.py", line 578, in run
+    server.run()
+    │      └ <function Server.run at 0x7f2d366fc310>
+    └ <uvicorn.server.Server object at 0x7f2d1e2a2790>
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/uvicorn/server.py", line 61, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           │       │   │    │             └ None
+           │       │   │    └ <function Server.serve at 0x7f2d366fc3a0>
+           │       │   └ <uvicorn.server.Server object at 0x7f2d1e2a2790>
+           │       └ <function run at 0x7f2d36d09430>
+           └ <module 'asyncio' from '/usr/lib/python3.9/asyncio/__init__.py'>
+  File "/usr/lib/python3.9/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+           │    │                  └ <coroutine object Server.serve at 0x7f2d1e2a1b40>
+           │    └ <method 'run_until_complete' of 'uvloop.loop.Loop' objects>
+           └ <uvloop.Loop running=True closed=False debug=False>
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/message.py", line 142, in _check_matcher
+    await _run_matcher(Matcher, bot, event, state, stack, dependency_cache)
+          │            │        │    │      │      │      └ {<function _command at 0x7f2d35c63af0>: <Task finished name='Task-932406' coro=<_command() done, defined at /root/.cache/pypo...
+          │            │        │    │      │      └ <contextlib.AsyncExitStack object at 0x7f2cf5d248b0>
+          │            │        │    │      └ {'_prefix': {'command': None, 'raw_command': None, 'command_arg': None, 'command_start': None}, '_matched': '签到', '_matched_g...
+          │            │        │    └ GroupMessageEvent(time=1692115840, self_id=920935721, post_type='message', sub_type='normal', user_id=552491466, message_type...
+          │            │        └ Bot(type='OneBot V11', self_id='920935721')
+          │            └ Matcher(type='message', module=plugins.sign_in)
+          └ <function _run_matcher at 0x7f2d35a92280>
+> File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/message.py", line 188, in _run_matcher
+    await matcher.run(bot, event, state, stack, dependency_cache)
+          │       │   │    │      │      │      └ {<function _command at 0x7f2d35c63af0>: <Task finished name='Task-932406' coro=<_command() done, defined at /root/.cache/pypo...
+          │       │   │    │      │      └ <contextlib.AsyncExitStack object at 0x7f2cf5d248b0>
+          │       │   │    │      └ {'_prefix': {'command': None, 'raw_command': None, 'command_arg': None, 'command_start': None}, '_matched': '签到', '_matched_g...
+          │       │   │    └ GroupMessageEvent(time=1692115840, self_id=920935721, post_type='message', sub_type='normal', user_id=552491466, message_type...
+          │       │   └ Bot(type='OneBot V11', self_id='920935721')
+          │       └ <function Matcher.run at 0x7f2d35c63790>
+          └ Matcher(type='message', module=plugins.sign_in)
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/internal/matcher/matcher.py", line 727, in run
+    await self.simple_run(bot, event, state, stack, dependency_cache)
+          │    │          │    │      │      │      └ {<function _command at 0x7f2d35c63af0>: <Task finished name='Task-932406' coro=<_command() done, defined at /root/.cache/pypo...
+          │    │          │    │      │      └ <contextlib.AsyncExitStack object at 0x7f2cf5d248b0>
+          │    │          │    │      └ {'_prefix': {'command': None, 'raw_command': None, 'command_arg': None, 'command_start': None}, '_matched': '签到', '_matched_g...
+          │    │          │    └ GroupMessageEvent(time=1692115840, self_id=920935721, post_type='message', sub_type='normal', user_id=552491466, message_type...
+          │    │          └ Bot(type='OneBot V11', self_id='920935721')
+          │    └ <function Matcher.simple_run at 0x7f2d35c63700>
+          └ Matcher(type='message', module=plugins.sign_in)
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/internal/matcher/matcher.py", line 702, in simple_run
+    await handler(
+          └ Dependent(call=_)
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/dependencies/__init__.py", line 108, in __call__
+    return await cast(Callable[..., Awaitable[R]], self.call)(**values)
+                 │    │             │         │    │    │       └ {'event': GroupMessageEvent(time=1692115840, self_id=920935721, post_type='message', sub_type='normal', user_id=552491466, me...
+                 │    │             │         │    │    └ <function _ at 0x7f2d1b547ca0>
+                 │    │             │         │    └ Dependent(call=_)
+                 │    │             │         └ ~R
+                 │    │             └ typing.Awaitable
+                 │    └ typing.Callable
+                 └ <function cast at 0x7f2d36ff5ee0>
+
+  File "/opt/zhenxun_bot/plugins/sign_in/__init__.py", line 117, in _
+    await group_user_check_in(nickname, event.user_id, event.group_id),
+          │                   │         │     │        │     └ 178794340
+          │                   │         │     │        └ GroupMessageEvent(time=1692115840, self_id=920935721, post_type='message', sub_type='normal', user_id=552491466, message_type...
+          │                   │         │     └ 552491466
+          │                   │         └ GroupMessageEvent(time=1692115840, self_id=920935721, post_type='message', sub_type='normal', user_id=552491466, message_type...
+          │                   └ '小红帽'
+          └ <function group_user_check_in at 0x7f2d1c4059d0>
+
+  File "/opt/zhenxun_bot/plugins/sign_in/group_user_checkin.py", line 42, in group_user_check_in
+    return await _handle_check_in(nickname, user_id, group, present)  # ok
+                 │                │         │        │      └ datetime.datetime(2023, 8, 16, 0, 10, 41, 117317)
+                 │                │         │        └ 178794340
+                 │                │         └ 552491466
+                 │                └ '小红帽'
+                 └ <function _handle_check_in at 0x7f2d1b547550>
+
+  File "/opt/zhenxun_bot/plugins/sign_in/group_user_checkin.py", line 95, in _handle_check_in
+    return await get_card(user, nickname, impression_added, gold, gift)
+                 │        │     │         │                 │     └ '额外金币 + 4'
+                 │        │     │         │                 └ 71
+                 │        │     │         └ 0.27
+                 │        │     └ '小红帽'
+                 │        └ <SignGroupUser: 2>
+                 └ <function get_card at 0x7f2d1b547280>
+
+  File "/opt/zhenxun_bot/plugins/sign_in/utils.py", line 85, in get_card
+    ava = BytesIO(await get_user_avatar(user_id))
+          │             │               └ '552491466'
+          │             └ <function get_user_avatar at 0x7f2d327e1a60>
+          └ <class '_io.BytesIO'>
+
+  File "/opt/zhenxun_bot/utils/utils.py", line 425, in get_user_avatar
+    return (await client.get(url)).content
+                  │      │   └ 'http://q1.qlogo.cn/g?b=qq&nk=552491466&s=160'
+                  │      └ <function AsyncClient.get at 0x7f2d34551b80>
+                  └ <httpx.AsyncClient object at 0x7f2cf4913970>
+
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/httpx/_client.py", line 1757, in get
+    return await self.request(
+                 │    └ <function AsyncClient.request at 0x7f2d34551790>
+                 └ <httpx.AsyncClient object at 0x7f2cf4913970>
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/httpx/_client.py", line 1533, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+                 │    │    │             │                      └ <httpx._client.UseClientDefault object at 0x7f2d3463fd60>
+                 │    │    │             └ <httpx._client.UseClientDefault object at 0x7f2d3463fd60>
+                 │    │    └ <Request('GET', 'http://q1.qlogo.cn/g?b=qq&nk=552491466&s=160')>
+                 │    └ <function AsyncClient.send at 0x7f2d34551940>
+                 └ <httpx.AsyncClient object at 0x7f2cf4913970>
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/httpx/_client.py", line 1620, in send
+    response = await self._send_handling_auth(
+                     │    └ <function AsyncClient._send_handling_auth at 0x7f2d345519d0>
+                     └ <httpx.AsyncClient object at 0x7f2cf4913970>
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/httpx/_client.py", line 1648, in _send_handling_auth
+    response = await self._send_handling_redirects(
+                     │    └ <function AsyncClient._send_handling_redirects at 0x7f2d34551a60>
+                     └ <httpx.AsyncClient object at 0x7f2cf4913970>
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/httpx/_client.py", line 1685, in _send_handling_redirects
+    response = await self._send_single_request(request)
+                     │    │                    └ <Request('GET', 'http://q1.qlogo.cn/g?b=qq&nk=552491466&s=160')>
+                     │    └ <function AsyncClient._send_single_request at 0x7f2d34551af0>
+                     └ <httpx.AsyncClient object at 0x7f2cf4913970>
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/httpx/_client.py", line 1722, in _send_single_request
+    response = await transport.handle_async_request(request)
+                     │         │                    └ <Request('GET', 'http://q1.qlogo.cn/g?b=qq&nk=552491466&s=160')>
+                     │         └ <function AsyncHTTPTransport.handle_async_request at 0x7f2d34544ee0>
+                     └ <httpx.AsyncHTTPTransport object at 0x7f2cf4a82ac0>
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/httpx/_transports/default.py", line 353, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+                 │    │     │                    └ <Request [b'GET']>
+                 │    │     └ <function AsyncConnectionPool.handle_async_request at 0x7f2d345314c0>
+                 │    └ <httpcore.AsyncConnectionPool object at 0x7f2cf4a82460>
+                 └ <httpx.AsyncHTTPTransport object at 0x7f2cf4a82ac0>
+  File "/usr/lib/python3.9/contextlib.py", line 135, in __exit__
+    self.gen.throw(type, value, traceback)
+    │    │   │     │     │      └ <traceback object at 0x7f2cf5977100>
+    │    │   │     │     └ ConnectTimeout(TimeoutError())
+    │    │   │     └ <class 'httpcore.ConnectTimeout'>
+    │    │   └ <method 'throw' of 'generator' objects>
+    │    └ <generator object map_httpcore_exceptions at 0x7f2d14104eb0>
+    └ <contextlib._GeneratorContextManager object at 0x7f2cf4b4da60>
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/httpx/_transports/default.py", line 77, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+          │          └ ''
+          └ <class 'httpx.ConnectTimeout'>
+
+httpx.ConnectTimeout
+08-16 00:11:44 [ERROR] services | Id：348399122 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-16 00:12:44 [ERROR] services | Id：348399122 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-16 00:13:44 [ERROR] services | Id：1197454103 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-16 00:14:44 [ERROR] services | Id：348399122 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-16 00:15:44 [ERROR] services | Id：1197454103 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-16 00:16:45 [ERROR] services | Id：348399122 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-16 00:17:45 [ERROR] services | Id：1197454103 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-16 00:18:44 [ERROR] services | Id：348399122 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-16 00:19:45 [ERROR] services | Id：1197454103 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-16 00:20:44 [ERROR] services | Id：1197454103 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-16 00:21:44 [ERROR] services | Id：348399122 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-16 00:22:46 [ERROR] services | Id：1197454103 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-16 00:23:44 [ERROR] services | Id：348399122 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-16 00:24:44 [ERROR] services | Id：1197454103 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-16 00:26:44 [ERROR] services | Id：348399122 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-16 00:27:45 [ERROR] services | Id：1197454103 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-16 00:28:44 [ERROR] services | Id：1197454103 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-16 00:30:44 [ERROR] services | Id：348399122 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-16 00:31:44 [ERROR] services | Id：1197454103 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-16 00:32:44 [ERROR] services | Id：1197454103 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-16 00:33:44 [ERROR] services | Id：348399122 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-16 00:35:44 [ERROR] services | Id：1197454103 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-16 00:39:44 [ERROR] services | Id：348399122 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-16 00:41:44 [ERROR] services | Id：1197454103 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-16 00:43:44 [ERROR] services | Id：348399122 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-16 00:44:44 [ERROR] services | Id：348399122 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-16 00:45:44 [ERROR] services | Id：1197454103 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-16 00:47:44 [ERROR] services | Id：1197454103 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-16 00:48:44 [ERROR] services | Id：348399122 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-16 00:49:44 [ERROR] services | Id：1197454103 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-16 00:52:44 [ERROR] services | Id：348399122 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-16 00:55:44 [ERROR] services | Id：1197454103 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-16 00:57:45 [ERROR] services | Id：1197454103 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-16 00:58:44 [ERROR] services | Id：1197454103 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-16 00:59:44 [ERROR] services | Id：348399122 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-16 01:00:44 [ERROR] services | Id：1197454103 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-16 01:01:44 [ERROR] services | Id：348399122 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-16 01:02:44 [ERROR] services | Id：1197454103 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-16 01:03:44 [ERROR] services | Id：348399122 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-16 01:04:44 [ERROR] services | Id：348399122 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-16 01:06:44 [ERROR] services | Id：1197454103 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-16 01:07:44 [ERROR] services | Id：348399122 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-16 01:09:44 [ERROR] services | Id：348399122 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-16 01:10:44 [ERROR] services | Id：348399122 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-16 01:11:44 [ERROR] services | Id：1197454103 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-16 01:12:44 [ERROR] services | Id：1197454103 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-16 01:13:44 [ERROR] services | Id：348399122 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-16 01:14:44 [ERROR] services | Id：348399122 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-16 01:16:44 [ERROR] services | Id：348399122 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-16 01:17:44 [ERROR] services | Id：1197454103 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-16 01:18:44 [ERROR] services | Id：1197454103 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-16 01:19:44 [ERROR] services | Id：348399122 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-16 01:20:44 [ERROR] apscheduler | Job "_ (trigger: interval[0:02:00], next run at: 2023-08-16 01:22:44 CST)" raised an exception
+Traceback (most recent call last):
+
+  File "/opt/zhenxun_bot/bot.py", line 21, in <module>
+    nonebot.run()
+    │       └ <function run at 0x7f2d35ccc1f0>
+    └ <module 'nonebot' from '/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/__in...
+
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/__init__.py", line 273, in run
+    get_driver().run(*args, **kwargs)
+    │                 │       └ {}
+    │                 └ ()
+    └ <function get_driver at 0x7f2d370ef1f0>
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/drivers/fastapi.py", line 172, in run
+    uvicorn.run(
+    │       └ <function run at 0x7f2d366fc160>
+    └ <module 'uvicorn' from '/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/uvicorn/__in...
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/uvicorn/main.py", line 578, in run
+    server.run()
+    │      └ <function Server.run at 0x7f2d366fc310>
+    └ <uvicorn.server.Server object at 0x7f2d1e2a2790>
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/uvicorn/server.py", line 61, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           │       │   │    │             └ None
+           │       │   │    └ <function Server.serve at 0x7f2d366fc3a0>
+           │       │   └ <uvicorn.server.Server object at 0x7f2d1e2a2790>
+           │       └ <function run at 0x7f2d36d09430>
+           └ <module 'asyncio' from '/usr/lib/python3.9/asyncio/__init__.py'>
+  File "/usr/lib/python3.9/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+           │    │                  └ <coroutine object Server.serve at 0x7f2d1e2a1b40>
+           │    └ <method 'run_until_complete' of 'uvloop.loop.Loop' objects>
+           └ <uvloop.Loop running=True closed=False debug=False>
+> File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/apscheduler/executors/base_py3.py", line 30, in run_coroutine_job
+    retval = await job.func(*job.args, **job.kwargs)
+                   │   │     │   │       │   └ <member 'kwargs' of 'Job' objects>
+                   │   │     │   │       └ <Job (id=a82419d25c8b4cf5a482905b98f6e0d9 name=_)>
+                   │   │     │   └ <member 'args' of 'Job' objects>
+                   │   │     └ <Job (id=a82419d25c8b4cf5a482905b98f6e0d9 name=_)>
+                   │   └ <member 'func' of 'Job' objects>
+                   └ <Job (id=a82419d25c8b4cf5a482905b98f6e0d9 name=_)>
+
+  File "/opt/zhenxun_bot/extensive_plugin/zhenxun_plugin_weibo/__init__.py", line 314, in _
+    latest_weibos = await spider.get_latest_weibos()
+                          │      └ <function BaseWeiboSpider.get_latest_weibos at 0x7f2d1b36b310>
+                          └ <extensive_plugin.zhenxun_plugin_weibo.weibo_spider.UserWeiboSpider object at 0x7f2d1b357880>
+
+  File "/opt/zhenxun_bot/extensive_plugin/zhenxun_plugin_weibo/weibo_spider.py", line 359, in get_latest_weibos
+    js = await self.get_weibo_json()
+               │    └ <function BaseWeiboSpider.get_weibo_json at 0x7f2d1b3433a0>
+               └ <extensive_plugin.zhenxun_plugin_weibo.weibo_spider.UserWeiboSpider object at 0x7f2d1b357880>
+
+  File "/opt/zhenxun_bot/extensive_plugin/zhenxun_plugin_weibo/weibo_spider.py", line 301, in get_weibo_json
+    js = await self.get_json(
+               │    └ <function BaseWeiboSpider.get_json at 0x7f2d1b363f70>
+               └ <extensive_plugin.zhenxun_plugin_weibo.weibo_spider.UserWeiboSpider object at 0x7f2d1b357880>
+
+  File "/opt/zhenxun_bot/extensive_plugin/zhenxun_plugin_weibo/weibo_spider.py", line 116, in get_json
+    r = await client.get(
+              │      └ <function ClientSession.get at 0x7f2d1d7d5b80>
+              └ <aiohttp.client.ClientSession object at 0x7f2d176484f0>
+
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/aiohttp/client.py", line 520, in _request
+    conn = await self._connector.connect(
+                 │    └ None
+                 └ <aiohttp.client.ClientSession object at 0x7f2d176484f0>
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/aiohttp/connector.py", line 535, in connect
+    proto = await self._create_connection(req, traces, timeout)
+                  │    │                  │    │       └ ClientTimeout(total=20, connect=None, sock_read=None, sock_connect=None)
+                  │    │                  │    └ []
+                  │    │                  └ <aiohttp.client_reqrep.ClientRequest object at 0x7f2d17651d60>
+                  │    └ <function TCPConnector._create_connection at 0x7f2d1d8145e0>
+                  └ <aiohttp.connector.TCPConnector object at 0x7f2cf5ae1a00>
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/aiohttp/connector.py", line 892, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+                     │    │                         │    │       └ ClientTimeout(total=20, connect=None, sock_read=None, sock_connect=None)
+                     │    │                         │    └ []
+                     │    │                         └ <aiohttp.client_reqrep.ClientRequest object at 0x7f2d17651d60>
+                     │    └ <function TCPConnector._create_direct_connection at 0x7f2d1d814940>
+                     └ <aiohttp.connector.TCPConnector object at 0x7f2cf5ae1a00>
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/aiohttp/connector.py", line 1020, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+                          │    └ <function TCPConnector._wrap_create_connection at 0x7f2d1d8148b0>
+                          └ <aiohttp.connector.TCPConnector object at 0x7f2cf5ae1a00>
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/aiohttp/connector.py", line 969, in _wrap_create_connection
+    return await self._loop.create_connection(*args, **kwargs)  # type: ignore  # noqa
+                 │    │     │                  │       └ {'ssl': <ssl.SSLContext object at 0x7f2d141518c0>, 'family': <AddressFamily.AF_INET: 2>, 'proto': 6, 'flags': <AddressInfo.AI...
+                 │    │     │                  └ (functools.partial(<class 'aiohttp.client_proto.ResponseHandler'>, loop=<uvloop.Loop running=True closed=False debug=False>),...
+                 │    │     └ <method 'create_connection' of 'uvloop.loop.Loop' objects>
+                 │    └ <uvloop.Loop running=True closed=False debug=False>
+                 └ <aiohttp.connector.TCPConnector object at 0x7f2cf5ae1a00>
+  File "uvloop/loop.pyx", line 2084, in create_connection
+  File "uvloop/loop.pyx", line 2079, in uvloop.loop.Loop.create_connection
+
+asyncio.exceptions.CancelledError

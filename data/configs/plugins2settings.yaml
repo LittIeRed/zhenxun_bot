@@ -1,0 +1,770 @@
+PluginSettings:
+  # 模块与对应命令和对应群权限
+  # 用于生成帮助图片 和 开关功能
+  # key：模块名称
+  # level：需要的群等级
+  # default_status：加入群时功能的默认开关状态
+  # limit_superuser: 功能状态是否限制超级用户
+  # cmd: 关闭[cmd] 都会触发命令 关闭对应功能，cmd列表第一个词为统计的功能名称
+  # plugin_type: 帮助类别 示例：('原神相关',) 或 ('原神相关', 1)，1代表帮助命令列向排列，否则为横向排列
+  chat_message_handle:
+    cmd:
+    - 消息统计
+    default_status: true
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - 数据统计
+    - '1'
+    cost_gold: 0
+  buy:
+    cmd:
+    - 商店
+    - 购买道具
+    - 商店 - 购买道具
+    default_status: true
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - 商店
+    cost_gold: 0
+  use:
+    cmd:
+    - 商店
+    - 使用道具
+    - 商店 - 使用道具
+    default_status: true
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - 商店
+    cost_gold: 0
+  gold:
+    cmd:
+    - 商店
+    - 我的金币
+    - 商店 - 我的金币
+    default_status: true
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - 商店
+    cost_gold: 0
+  my_props:
+    cmd:
+    - 商店
+    - 我的道具
+    - 商店 - 我的道具
+    default_status: true
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - 商店
+    cost_gold: 0
+  shop_handle:
+    cmd:
+    - 商店
+    default_status: true
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - 商店
+    cost_gold: 0
+  update_info:
+    cmd:
+    - 更新信息
+    default_status: true
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - normal
+    cost_gold: 0
+  nickname:
+    cmd:
+    - 昵称
+    - 昵称系统
+    default_status: true
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - normal
+    cost_gold: 0
+  query_resource_points:
+    cmd:
+    - 原神资源查询
+    - 原神资源列表
+    default_status: false
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - 原神相关
+    cost_gold: 0
+  material_remind:
+    cmd:
+    - 今日素材
+    - 今天素材
+    default_status: false
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - 原神相关
+    cost_gold: 0
+  mihoyobbs_sign:
+    cmd:
+    - 米游社签到
+    - 米游社自动签到
+    default_status: false
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - 原神相关
+    cost_gold: 0
+  bind:
+    cmd:
+    - 原神绑定
+    default_status: false
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - 原神相关
+    cost_gold: 0
+  genshin_sign:
+    cmd:
+    - 原神签到
+    - 原神自动签到
+    default_status: false
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - 原神相关
+    cost_gold: 0
+  query_memo:
+    cmd:
+    - 原神便笺查询
+    default_status: false
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - 原神相关
+    cost_gold: 0
+  query_role:
+    cmd:
+    - 原神玩家查询
+    default_status: false
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - 原神相关
+    cost_gold: 0
+  resin_remind:
+    cmd:
+    - 原神树脂提醒
+    - 关原神树脂提醒
+    - 开原神树脂提醒
+    default_status: false
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - 原神相关
+    cost_gold: 0
+  almanac:
+    cmd:
+    - 原神黄历
+    - 原神老黄历
+    default_status: false
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - 原神相关
+    cost_gold: 0
+  luxun:
+    cmd:
+    - 鲁迅说
+    default_status: true
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - normal
+    cost_gold: 0
+  roll:
+    cmd:
+    - roll
+    default_status: true
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - normal
+    cost_gold: 0
+  send_dinggong_voice:
+    cmd:
+    - 骂老子
+    - 骂我
+    default_status: true
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - normal
+    cost_gold: 0
+  send_setu:
+    cmd:
+    - 色图
+    - 涩图
+    - 瑟图
+    default_status: false
+    level: 9
+    limit_superuser: false
+    plugin_type:
+    - 来点好康的
+    cost_gold: 0
+  send_image:
+    cmd:
+    - 发送图片
+    - 美图
+    - 萝莉
+    - 壁纸
+    - 本地图库
+    default_status: true
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - 来点好康的
+    cost_gold: 0
+  pixiv_rank_search:
+    cmd:
+    - p站排行
+    - 搜图
+    - p站搜图
+    - P站搜图
+    - P站排行/搜图
+    default_status: true
+    level: 8
+    limit_superuser: false
+    plugin_type:
+    - 来点好康的
+    cost_gold: 0
+  poke:
+    cmd:
+    - 戳一戳
+    default_status: true
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - 其他
+    cost_gold: 0
+  search_anime:
+    cmd:
+    - 搜番
+    default_status: true
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - 一些工具
+    cost_gold: 0
+  pix:
+    cmd:
+    - pix
+    - Pix
+    - PIX
+    - pIx
+    default_status: true
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - 来点好康的
+    cost_gold: 0
+  bt:
+    cmd:
+    - bt
+    - 磁力搜索
+    - Bt
+    - BT
+    default_status: false
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - normal
+    cost_gold: 0
+  jitang:
+    cmd:
+    - 鸡汤
+    - 毒鸡汤
+    default_status: false
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - normal
+    cost_gold: 0
+  comments_163:
+    cmd:
+    - 网易云热评
+    - 网易云评论
+    - 到点了
+    - 12点了
+    default_status: true
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - normal
+    cost_gold: 0
+  cover:
+    cmd:
+    - b封面
+    - B封面
+    default_status: true
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - 一些工具
+    cost_gold: 0
+  poetry:
+    cmd:
+    - 念诗
+    - 来首诗
+    - 念首诗
+    - 古诗
+    default_status: false
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - normal
+    cost_gold: 0
+  about:
+    cmd:
+    - 关于
+    default_status: true
+    level: 1
+    limit_superuser: false
+    plugin_type:
+    - 其他
+    cost_gold: 0
+  epic:
+    cmd:
+    - epic
+    - epic免费游戏
+    default_status: true
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - normal
+    cost_gold: 0
+  gold_redbag:
+    cmd:
+    - 金币红包
+    - 塞红包
+    default_status: true
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - normal
+    cost_gold: 0
+  word_clouds:
+    cmd:
+    - 今日词云
+    - 昨日词云
+    - 本周词云
+    - 词云
+    default_status: false
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - normal
+    cost_gold: 0
+  fake_msg:
+    cmd:
+    - 假消息
+    - 构造分享消息
+    default_status: false
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - normal
+    cost_gold: 0
+  nbnhhsh:
+    cmd:
+    - 能不能好好说话
+    - nbnhhsh
+    default_status: true
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - normal
+    cost_gold: 0
+  yiqing:
+    cmd:
+    - 查询疫情
+    - 疫情
+    - 疫情查询
+    default_status: false
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - 一些工具
+    cost_gold: 0
+  open_cases:
+    cmd:
+    - csgo开箱
+    - 开箱
+    default_status: false
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - 抽卡相关
+    - '1'
+    cost_gold: 0
+  russian:
+    cmd:
+    - 俄罗斯轮盘
+    - 装弹
+    default_status: true
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - 群内小游戏
+    - '1'
+    cost_gold: 0
+  weather:
+    cmd:
+    - 查询天气
+    - 天气
+    - 天气查询
+    - 查天气
+    default_status: true
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - 一些工具
+    cost_gold: 0
+  music:
+    cmd:
+    - 点歌
+    default_status: true
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - 一些工具
+    cost_gold: 0
+  translate:
+    cmd:
+    - 翻译
+    default_status: false
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - 一些工具
+    cost_gold: 0
+  pid_search:
+    cmd:
+    - p搜
+    - pid搜索
+    default_status: true
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - normal
+    cost_gold: 0
+  search_buff_skin_price:
+    cmd:
+    - 查询皮肤
+    - BUFF查询皮肤
+    default_status: false
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - 一些工具
+    cost_gold: 0
+  search_image:
+    cmd:
+    - 识图
+    default_status: true
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - 一些工具
+    cost_gold: 0
+  wbtop:
+    cmd:
+    - 微博热搜
+    default_status: false
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - normal
+    cost_gold: 0
+  quotations:
+    cmd:
+    - 语录
+    - 二次元
+    - 一言二次元语录
+    default_status: true
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - normal
+    cost_gold: 0
+  update_picture:
+    cmd:
+    - 修改图片
+    - 改图
+    - 操作图片
+    - 各种图片简易操作
+    default_status: true
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - 一些工具
+    - '1'
+    cost_gold: 0
+  draw_card:
+    cmd:
+    - 游戏抽卡
+    - 抽卡
+    default_status: false
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - 抽卡相关
+    - '1'
+    cost_gold: 0
+  sign_in:
+    cmd:
+    - 签到
+    default_status: true
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - normal
+    cost_gold: 0
+  statistics_handle:
+    cmd:
+    - 功能调用统计
+    - 功能调用统计可视化
+    default_status: true
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - 数据统计
+    - '1'
+    cost_gold: 0
+  white2black_image:
+    cmd:
+    - 黑白图
+    - 黑白草图
+    default_status: true
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - normal
+    cost_gold: 0
+  what_anime:
+    cmd:
+    - 识番
+    default_status: true
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - 一些工具
+    cost_gold: 0
+  bilibili_sub:
+    cmd:
+    - B站订阅
+    - b站订阅
+    - 添加订阅
+    - 删除订阅
+    - 查看订阅
+    default_status: true
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - normal
+    cost_gold: 0
+  group_welcome_msg:
+    cmd:
+    - 查看群欢迎消息
+    default_status: true
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - normal
+    cost_gold: 0
+  coser:
+    cmd:
+    - cos
+    - coser
+    - 括丝
+    - COS
+    - Cos
+    - cOS
+    - coS
+    default_status: true
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - normal
+    cost_gold: 0
+  dialogue:
+    cmd:
+    - 滴滴滴-
+    - 滴滴滴
+    - 联系管理员
+    default_status: true
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - 联系管理员
+    cost_gold: 0
+  pix_show_info:
+    cmd:
+    - 查看pix图库
+    default_status: true
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - normal
+    cost_gold: 0
+  black_word:
+    cmd:
+    - 敏感词检测
+    default_status: false
+    level: 9
+    limit_superuser: false
+    plugin_type:
+    - 其他
+    cost_gold: 0
+  one_friend:
+    cmd:
+    - 我有一个朋友想问问
+    - 我有一个朋友
+    default_status: true
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - normal
+    cost_gold: 0
+  ai:
+    cmd:
+    - Ai
+    - ai
+    - AI
+    - aI
+    default_status: true
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - normal
+    cost_gold: 0
+  TZdajie:
+    cmd:
+    - 劫财 [@user]
+    - 劫色 [@user]
+    - 打劫
+    default_status: true
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - 群内小游戏
+    cost_gold: 0
+  TZbank:
+    cmd:
+    - 银行
+    - '#银行存入'
+    - '#银行取出'
+    - '#银行汇款'
+    - '#个人汇款'
+    - '#个人转账'
+    - '#我的存款'
+    - '#存款排行'
+    default_status: true
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - 群内小游戏
+    cost_gold: 0
+  TZxibai:
+    cmd:
+    - 洗白
+    - '#洗白'
+    - '#我的黑钱'
+    default_status: true
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - 群内小游戏
+    cost_gold: 0
+  TZfulijin:
+    cmd:
+    - 行行好给点钱
+    - 乞讨福利金
+    default_status: true
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - 群内小游戏
+    cost_gold: 0
+  TZjupai:
+    cmd:
+    - 小人举牌
+    default_status: true
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - 一些工具
+    - '2'
+    cost_gold: 0
+  TZggl:
+    cmd:
+    - 刮刮乐
+    default_status: true
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - 群内小游戏
+    cost_gold: 0
+  TZ21:
+    cmd:
+    - 21点
+    default_status: true
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - 群内小游戏
+    cost_gold: 0
+  zhenxun_plugins_luckball:
+    cmd:
+    - 祈祷数字
+    - 我的幸运球
+    - 群幸运球统计
+    - 幸运球
+    default_status: true
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - 群内小游戏
+    cost_gold: 0
+  slave_market:
+    cmd:
+    - 群友市场
+    - 购买群友
+    default_status: true
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - 群内小游戏
+    cost_gold: 0
+  todaybefore:
+    cmd:
+    - 历史上的今天
+    default_status: true
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - 一些工具
+    cost_gold: 0
+  zhenxun_plugin_weibo:
+    cmd:
+    - 微博推送
+    default_status: true
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - normal
+    cost_gold: 0

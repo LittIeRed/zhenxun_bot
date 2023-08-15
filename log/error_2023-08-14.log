@@ -1,0 +1,594 @@
+08-14 22:45:47 [ERROR] uvicorn | Traceback (most recent call last):
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/starlette/routing.py", line 677, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/starlette/routing.py", line 566, in __aenter__
+    await self._router.startup()
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/starlette/routing.py", line 654, in startup
+    await handler()
+  File "/opt/zhenxun_bot/basic_plugins/init_plugin_config/__init__.py", line 48, in _
+    raise Exception("首次运行，已在configs目录下生成配置文件config.yaml，修改后重启即可...")
+Exception: 首次运行，已在configs目录下生成配置文件config.yaml，修改后重启即可...
+
+08-14 22:45:47 [ERROR] uvicorn | Application startup failed. Exiting.
+08-14 22:52:54 [ERROR] nonebot | Running Matcher(type='message', module=plugins.aconfig) failed.
+Traceback (most recent call last):
+
+  File "/opt/zhenxun_bot/bot.py", line 21, in <module>
+    nonebot.run()
+    │       └ <function run at 0x7fedf6d5e1f0>
+    └ <module 'nonebot' from '/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/__in...
+
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/__init__.py", line 273, in run
+    get_driver().run(*args, **kwargs)
+    │                 │       └ {}
+    │                 └ ()
+    └ <function get_driver at 0x7fedf81811f0>
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/drivers/fastapi.py", line 172, in run
+    uvicorn.run(
+    │       └ <function run at 0x7fedf5ef4e50>
+    └ <module 'uvicorn' from '/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/uvicorn/__in...
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/uvicorn/main.py", line 578, in run
+    server.run()
+    │      └ <function Server.run at 0x7fedf5efe040>
+    └ <uvicorn.server.Server object at 0x7fedd7e0b7f0>
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/uvicorn/server.py", line 61, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           │       │   │    │             └ None
+           │       │   │    └ <function Server.serve at 0x7fedf5efe0d0>
+           │       │   └ <uvicorn.server.Server object at 0x7fedd7e0b7f0>
+           │       └ <function run at 0x7fedf7d9a430>
+           └ <module 'asyncio' from '/usr/lib/python3.9/asyncio/__init__.py'>
+  File "/usr/lib/python3.9/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+           │    │                  └ <coroutine object Server.serve at 0x7fedd7b01740>
+           │    └ <method 'run_until_complete' of 'uvloop.loop.Loop' objects>
+           └ <uvloop.Loop running=True closed=False debug=False>
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/message.py", line 142, in _check_matcher
+    await _run_matcher(Matcher, bot, event, state, stack, dependency_cache)
+          │            │        │    │      │      │      └ {<function _command at 0x7fedf6cf5af0>: <Task finished name='Task-205696' coro=<_command() done, defined at /root/.cache/pypo...
+          │            │        │    │      │      └ <contextlib.AsyncExitStack object at 0x7fedbacb95e0>
+          │            │        │    │      └ {'_prefix': {'command': None, 'raw_command': None, 'command_arg': None, 'command_start': None}, '_keyword': '打游戏'}
+          │            │        │    └ GroupMessageEvent(time=1692014860, self_id=920935721, post_type='message', sub_type='normal', user_id=2220682434, message_typ...
+          │            │        └ Bot(type='OneBot V11', self_id='920935721')
+          │            └ Matcher(type='message', module=plugins.aconfig)
+          └ <function _run_matcher at 0x7fedf6b24280>
+> File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/message.py", line 188, in _run_matcher
+    await matcher.run(bot, event, state, stack, dependency_cache)
+          │       │   │    │      │      │      └ {<function _command at 0x7fedf6cf5af0>: <Task finished name='Task-205696' coro=<_command() done, defined at /root/.cache/pypo...
+          │       │   │    │      │      └ <contextlib.AsyncExitStack object at 0x7fedbacb95e0>
+          │       │   │    │      └ {'_prefix': {'command': None, 'raw_command': None, 'command_arg': None, 'command_start': None}, '_keyword': '打游戏'}
+          │       │   │    └ GroupMessageEvent(time=1692014860, self_id=920935721, post_type='message', sub_type='normal', user_id=2220682434, message_typ...
+          │       │   └ Bot(type='OneBot V11', self_id='920935721')
+          │       └ <function Matcher.run at 0x7fedf6cf5790>
+          └ Matcher(type='message', module=plugins.aconfig)
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/internal/matcher/matcher.py", line 727, in run
+    await self.simple_run(bot, event, state, stack, dependency_cache)
+          │    │          │    │      │      │      └ {<function _command at 0x7fedf6cf5af0>: <Task finished name='Task-205696' coro=<_command() done, defined at /root/.cache/pypo...
+          │    │          │    │      │      └ <contextlib.AsyncExitStack object at 0x7fedbacb95e0>
+          │    │          │    │      └ {'_prefix': {'command': None, 'raw_command': None, 'command_arg': None, 'command_start': None}, '_keyword': '打游戏'}
+          │    │          │    └ GroupMessageEvent(time=1692014860, self_id=920935721, post_type='message', sub_type='normal', user_id=2220682434, message_typ...
+          │    │          └ Bot(type='OneBot V11', self_id='920935721')
+          │    └ <function Matcher.simple_run at 0x7fedf6cf5700>
+          └ Matcher(type='message', module=plugins.aconfig)
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/internal/matcher/matcher.py", line 702, in simple_run
+    await handler(
+          └ Dependent(call=_)
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/dependencies/__init__.py", line 108, in __call__
+    return await cast(Callable[..., Awaitable[R]], self.call)(**values)
+                 │    │             │         │    │    │       └ {'event': GroupMessageEvent(time=1692014860, self_id=920935721, post_type='message', sub_type='normal', user_id=2220682434, m...
+                 │    │             │         │    │    └ <function _ at 0x7fedddcc5b80>
+                 │    │             │         │    └ Dependent(call=_)
+                 │    │             │         └ ~R
+                 │    │             └ typing.Awaitable
+                 │    └ typing.Callable
+                 └ <function cast at 0x7fedf8087ee0>
+
+  File "/opt/zhenxun_bot/plugins/aconfig/__init__.py", line 31, in _
+    await config_play_game.finish(
+          │                └ <classmethod object at 0x7fedf6cee9a0>
+          └ Matcher(type='message', module=plugins.aconfig)
+
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/internal/matcher/matcher.py", line 476, in finish
+    await cls.send(message, **kwargs)
+          │   │    │          └ {}
+          │   │    └ MessageSegment(type='image', data={'file': '', 'type': None, 'cache': 'true', 'proxy': 'true', 'timeout': None})
+          │   └ <classmethod object at 0x7fedf6cee970>
+          └ Matcher(type='message', module=plugins.aconfig)
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/internal/matcher/matcher.py", line 461, in send
+    return await bot.send(event=event, message=_message, **kwargs)
+                 │   │          │              │           └ {}
+                 │   │          │              └ MessageSegment(type='image', data={'file': '', 'type': None, 'cache': 'true', 'proxy': 'true', 'timeout': None})
+                 │   │          └ GroupMessageEvent(time=1692014860, self_id=920935721, post_type='message', sub_type='normal', user_id=2220682434, message_typ...
+                 │   └ <function Bot.send at 0x7fedf6b24700>
+                 └ Bot(type='OneBot V11', self_id='920935721')
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/adapters/onebot/v11/bot.py", line 220, in send
+    return await self.__class__.send_handler(self, event, message, **kwargs)
+                 │    │                      │     │      │          └ {}
+                 │    │                      │     │      └ MessageSegment(type='image', data={'file': '', 'type': None, 'cache': 'true', 'proxy': 'true', 'timeout': None})
+                 │    │                      │     └ GroupMessageEvent(time=1692014860, self_id=920935721, post_type='message', sub_type='normal', user_id=2220682434, message_typ...
+                 │    │                      └ Bot(type='OneBot V11', self_id='920935721')
+                 │    └ <attribute '__class__' of 'object' objects>
+                 └ Bot(type='OneBot V11', self_id='920935721')
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/adapters/onebot/v11/bot.py", line 174, in send
+    return await bot.send_msg(**params)
+                 │              └ {'user_id': 2220682434, 'group_id': 178794340, 'message_type': 'group', 'message': [MessageSegment(type='image', data={'file'...
+                 └ Bot(type='OneBot V11', self_id='920935721')
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/internal/adapter/bot.py", line 120, in call_api
+    raise exception
+          └ ActionFailed(data=None, echo='23', message='empty message', msg='SEND_MSG_API_ERROR', retcode=100, status='failed', wording='...
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/internal/adapter/bot.py", line 98, in call_api
+    result = await self.adapter._call_api(self, api, **data)
+                   │    │       │         │     │      └ {'user_id': 2220682434, 'group_id': 178794340, 'message_type': 'group', 'message': [MessageSegment(type='image', data={'file'...
+                   │    │       │         │     └ 'send_msg'
+                   │    │       │         └ Bot(type='OneBot V11', self_id='920935721')
+                   │    │       └ <function Adapter._call_api at 0x7fedf6b289d0>
+                   │    └ Adapter(name='OneBot V11')
+                   └ Bot(type='OneBot V11', self_id='920935721')
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/adapters/onebot/v11/adapter.py", line 132, in _call_api
+    return handle_api_result(await self._result_store.fetch(seq, timeout))
+           │                       │    │             │     │    └ 30.0
+           │                       │    │             │     └ 23
+           │                       │    │             └ <function ResultStore.fetch at 0x7fedf6b28790>
+           │                       │    └ <nonebot.adapters.onebot.store.ResultStore object at 0x7fedf6b351f0>
+           │                       └ Adapter(name='OneBot V11')
+           └ <function handle_api_result at 0x7fedf6ba8430>
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/adapters/onebot/v11/utils.py", line 58, in handle_api_result
+    raise ActionFailed(**result)
+          │              └ {'data': None, 'echo': '23', 'message': 'empty message', 'msg': 'SEND_MSG_API_ERROR', 'retcode': 100, 'status': 'failed', 'wo...
+          └ <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>
+
+nonebot.adapters.onebot.v11.exception.ActionFailed
+08-14 22:53:45 [ERROR] services | Id：1197454103 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-14 22:54:11 [ERROR] nonebot | Error when running RunPreProcessors. Running cancelled!
+Traceback (most recent call last):
+
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/message.py", line 142, in _check_matcher
+    await _run_matcher(Matcher, bot, event, state, stack, dependency_cache)
+          │            │        │    │      │      │      └ {}
+          │            │        │    │      │      └ <contextlib.AsyncExitStack object at 0x7fedc4897580>
+          │            │        │    │      └ {'_prefix': {'command': None, 'raw_command': None, 'command_arg': None, 'command_start': None}}
+          │            │        │    └ GroupRecallNoticeEvent(time=1692013663, self_id=920935721, post_type='notice', notice_type='group_recall', user_id=1584408682...
+          │            │        └ Bot(type='OneBot V11', self_id='920935721')
+          │            └ Matcher(type='notice', module=basic_plugins.admin_bot_manage.admin_config)
+          └ <function _run_matcher at 0x7fedf6b24280>
+> File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/message.py", line 173, in _run_matcher
+    await asyncio.gather(*coros)
+          │       │       └ [<coroutine object run_coro_with_catch at 0x7fedd58714c0>, <coroutine object run_coro_with_catch at 0x7fedba5be840>, <corouti...
+          │       └ <function gather at 0x7fedf78c5ca0>
+          └ <module 'asyncio' from '/usr/lib/python3.9/asyncio/__init__.py'>
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/utils.py", line 157, in run_coro_with_catch
+    return await coro
+                 └ <coroutine object Dependent.__call__ at 0x7fedc55d3540>
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/dependencies/__init__.py", line 108, in __call__
+    return await cast(Callable[..., Awaitable[R]], self.call)(**values)
+                 │    │             │         │    │    │       └ {'matcher': Matcher(type='notice', module=basic_plugins.admin_bot_manage.admin_config), 'bot': Bot(type='OneBot V11', self_id...
+                 │    │             │         │    │    └ <function _ at 0x7fedd7af5160>
+                 │    │             │         │    └ Dependent(call=_)
+                 │    │             │         └ ~R
+                 │    │             └ typing.Awaitable
+                 │    └ typing.Callable
+                 └ <function cast at 0x7fedf8087ee0>
+
+  File "/opt/zhenxun_bot/basic_plugins/hooks/ban_hook.py", line 78, in _
+    await bot.send_private_msg(
+          └ Bot(type='OneBot V11', self_id='920935721')
+
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/internal/adapter/bot.py", line 120, in call_api
+    raise exception
+          └ ActionFailed(data=None, echo='25', message='请参考 go-cqhttp 端输出', msg='SEND_MSG_API_ERROR', retcode=100, status='failed', wordi...
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/internal/adapter/bot.py", line 98, in call_api
+    result = await self.adapter._call_api(self, api, **data)
+                   │    │       │         │     │      └ {'user_id': 1584408682, 'message': [MessageSegment(type='at', data={'qq': '1584408682'}), MessageSegment(type='text', data={'...
+                   │    │       │         │     └ 'send_private_msg'
+                   │    │       │         └ Bot(type='OneBot V11', self_id='920935721')
+                   │    │       └ <function Adapter._call_api at 0x7fedf6b289d0>
+                   │    └ Adapter(name='OneBot V11')
+                   └ Bot(type='OneBot V11', self_id='920935721')
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/adapters/onebot/v11/adapter.py", line 132, in _call_api
+    return handle_api_result(await self._result_store.fetch(seq, timeout))
+           │                       │    │             │     │    └ 30.0
+           │                       │    │             │     └ 25
+           │                       │    │             └ <function ResultStore.fetch at 0x7fedf6b28790>
+           │                       │    └ <nonebot.adapters.onebot.store.ResultStore object at 0x7fedf6b351f0>
+           │                       └ Adapter(name='OneBot V11')
+           └ <function handle_api_result at 0x7fedf6ba8430>
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/adapters/onebot/v11/utils.py", line 58, in handle_api_result
+    raise ActionFailed(**result)
+          │              └ {'data': None, 'echo': '25', 'message': '请参考 go-cqhttp 端输出', 'msg': 'SEND_MSG_API_ERROR', 'retcode': 100, 'status': 'failed',...
+          └ <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>
+
+nonebot.adapters.onebot.v11.exception.ActionFailed
+08-14 22:54:56 [ERROR] nonebot | Error when running RunPreProcessors. Running cancelled!
+Traceback (most recent call last):
+
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/message.py", line 142, in _check_matcher
+    await _run_matcher(Matcher, bot, event, state, stack, dependency_cache)
+          │            │        │    │      │      │      └ {}
+          │            │        │    │      │      └ <contextlib.AsyncExitStack object at 0x7fedc4897580>
+          │            │        │    │      └ {'_prefix': {'command': None, 'raw_command': None, 'command_arg': None, 'command_start': None}}
+          │            │        │    └ GroupRecallNoticeEvent(time=1692013663, self_id=920935721, post_type='notice', notice_type='group_recall', user_id=1584408682...
+          │            │        └ Bot(type='OneBot V11', self_id='920935721')
+          │            └ Matcher(type='notice', module=plugins.gold_redbag)
+          └ <function _run_matcher at 0x7fedf6b24280>
+> File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/message.py", line 173, in _run_matcher
+    await asyncio.gather(*coros)
+          │       │       └ [<coroutine object run_coro_with_catch at 0x7fedc4fe46c0>, <coroutine object run_coro_with_catch at 0x7fedc4fe4e40>, <corouti...
+          │       └ <function gather at 0x7fedf78c5ca0>
+          └ <module 'asyncio' from '/usr/lib/python3.9/asyncio/__init__.py'>
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/utils.py", line 157, in run_coro_with_catch
+    return await coro
+                 └ <coroutine object Dependent.__call__ at 0x7fedc4fe4740>
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/dependencies/__init__.py", line 108, in __call__
+    return await cast(Callable[..., Awaitable[R]], self.call)(**values)
+                 │    │             │         │    │    │       └ {'matcher': Matcher(type='notice', module=plugins.gold_redbag), 'bot': Bot(type='OneBot V11', self_id='920935721'), 'event': ...
+                 │    │             │         │    │    └ <function _ at 0x7fedd7af5160>
+                 │    │             │         │    └ Dependent(call=_)
+                 │    │             │         └ ~R
+                 │    │             └ typing.Awaitable
+                 │    └ typing.Callable
+                 └ <function cast at 0x7fedf8087ee0>
+
+  File "/opt/zhenxun_bot/basic_plugins/hooks/ban_hook.py", line 78, in _
+    await bot.send_private_msg(
+          └ Bot(type='OneBot V11', self_id='920935721')
+
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/internal/adapter/bot.py", line 120, in call_api
+    raise exception
+          └ ActionFailed(data=None, echo='26', message='请参考 go-cqhttp 端输出', msg='SEND_MSG_API_ERROR', retcode=100, status='failed', wordi...
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/internal/adapter/bot.py", line 98, in call_api
+    result = await self.adapter._call_api(self, api, **data)
+                   │    │       │         │     │      └ {'user_id': 1584408682, 'message': [MessageSegment(type='at', data={'qq': '1584408682'}), MessageSegment(type='text', data={'...
+                   │    │       │         │     └ 'send_private_msg'
+                   │    │       │         └ Bot(type='OneBot V11', self_id='920935721')
+                   │    │       └ <function Adapter._call_api at 0x7fedf6b289d0>
+                   │    └ Adapter(name='OneBot V11')
+                   └ Bot(type='OneBot V11', self_id='920935721')
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/adapters/onebot/v11/adapter.py", line 132, in _call_api
+    return handle_api_result(await self._result_store.fetch(seq, timeout))
+           │                       │    │             │     │    └ 30.0
+           │                       │    │             │     └ 26
+           │                       │    │             └ <function ResultStore.fetch at 0x7fedf6b28790>
+           │                       │    └ <nonebot.adapters.onebot.store.ResultStore object at 0x7fedf6b351f0>
+           │                       └ Adapter(name='OneBot V11')
+           └ <function handle_api_result at 0x7fedf6ba8430>
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/adapters/onebot/v11/utils.py", line 58, in handle_api_result
+    raise ActionFailed(**result)
+          │              └ {'data': None, 'echo': '26', 'message': '请参考 go-cqhttp 端输出', 'msg': 'SEND_MSG_API_ERROR', 'retcode': 100, 'status': 'failed',...
+          └ <class 'nonebot.adapters.onebot.v11.exception.ActionFailed'>
+
+nonebot.adapters.onebot.v11.exception.ActionFailed
+08-14 22:55:08 [ERROR] services | Id：348399122 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-14 22:55:13 [ERROR] services | Id：348399122 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-14 22:55:51 [ERROR] services | 获取订阅状态发生预料之外的错误 Id_：1197454103 || 错误 <class 'httpx.ConnectTimeout'>: 
+08-14 22:56:26 [ERROR] nonebot | Running Matcher(type='message', module=basic_plugins.help) failed.
+Traceback (most recent call last):
+
+  File "/opt/zhenxun_bot/bot.py", line 21, in <module>
+    nonebot.run()
+    │       └ <function run at 0x7fedf6d5e1f0>
+    └ <module 'nonebot' from '/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/__in...
+
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/__init__.py", line 273, in run
+    get_driver().run(*args, **kwargs)
+    │                 │       └ {}
+    │                 └ ()
+    └ <function get_driver at 0x7fedf81811f0>
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/drivers/fastapi.py", line 172, in run
+    uvicorn.run(
+    │       └ <function run at 0x7fedf5ef4e50>
+    └ <module 'uvicorn' from '/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/uvicorn/__in...
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/uvicorn/main.py", line 578, in run
+    server.run()
+    │      └ <function Server.run at 0x7fedf5efe040>
+    └ <uvicorn.server.Server object at 0x7fedd7e0b7f0>
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/uvicorn/server.py", line 61, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           │       │   │    │             └ None
+           │       │   │    └ <function Server.serve at 0x7fedf5efe0d0>
+           │       │   └ <uvicorn.server.Server object at 0x7fedd7e0b7f0>
+           │       └ <function run at 0x7fedf7d9a430>
+           └ <module 'asyncio' from '/usr/lib/python3.9/asyncio/__init__.py'>
+  File "/usr/lib/python3.9/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+           │    │                  └ <coroutine object Server.serve at 0x7fedd7b01740>
+           │    └ <method 'run_until_complete' of 'uvloop.loop.Loop' objects>
+           └ <uvloop.Loop running=True closed=False debug=False>
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/message.py", line 142, in _check_matcher
+    await _run_matcher(Matcher, bot, event, state, stack, dependency_cache)
+          │            │        │    │      │      │      └ {<function _command at 0x7fedf6cf5af0>: <Task finished name='Task-838804' coro=<_command() done, defined at /root/.cache/pypo...
+          │            │        │    │      │      └ <contextlib.AsyncExitStack object at 0x7fedaa224b20>
+          │            │        │    │      └ {'_prefix': {'command': ('帮助',), 'raw_command': '帮助', 'command_arg': [], 'command_start': ''}}
+          │            │        │    └ PrivateMessageEvent(time=1692024928, self_id=920935721, post_type='message', sub_type='friend', user_id=552491466, message_ty...
+          │            │        └ Bot(type='OneBot V11', self_id='920935721')
+          │            └ Matcher(type='message', module=basic_plugins.help)
+          └ <function _run_matcher at 0x7fedf6b24280>
+> File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/message.py", line 188, in _run_matcher
+    await matcher.run(bot, event, state, stack, dependency_cache)
+          │       │   │    │      │      │      └ {<function _command at 0x7fedf6cf5af0>: <Task finished name='Task-838804' coro=<_command() done, defined at /root/.cache/pypo...
+          │       │   │    │      │      └ <contextlib.AsyncExitStack object at 0x7fedaa224b20>
+          │       │   │    │      └ {'_prefix': {'command': ('帮助',), 'raw_command': '帮助', 'command_arg': [], 'command_start': ''}}
+          │       │   │    └ PrivateMessageEvent(time=1692024928, self_id=920935721, post_type='message', sub_type='friend', user_id=552491466, message_ty...
+          │       │   └ Bot(type='OneBot V11', self_id='920935721')
+          │       └ <function Matcher.run at 0x7fedf6cf5790>
+          └ Matcher(type='message', module=basic_plugins.help)
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/internal/matcher/matcher.py", line 727, in run
+    await self.simple_run(bot, event, state, stack, dependency_cache)
+          │    │          │    │      │      │      └ {<function _command at 0x7fedf6cf5af0>: <Task finished name='Task-838804' coro=<_command() done, defined at /root/.cache/pypo...
+          │    │          │    │      │      └ <contextlib.AsyncExitStack object at 0x7fedaa224b20>
+          │    │          │    │      └ {'_prefix': {'command': ('帮助',), 'raw_command': '帮助', 'command_arg': [], 'command_start': ''}}
+          │    │          │    └ PrivateMessageEvent(time=1692024928, self_id=920935721, post_type='message', sub_type='friend', user_id=552491466, message_ty...
+          │    │          └ Bot(type='OneBot V11', self_id='920935721')
+          │    └ <function Matcher.simple_run at 0x7fedf6cf5700>
+          └ Matcher(type='message', module=basic_plugins.help)
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/internal/matcher/matcher.py", line 702, in simple_run
+    await handler(
+          └ Dependent(call=_)
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/dependencies/__init__.py", line 108, in __call__
+    return await cast(Callable[..., Awaitable[R]], self.call)(**values)
+                 │    │             │         │    │    │       └ {'bot': Bot(type='OneBot V11', self_id='920935721'), 'event': PrivateMessageEvent(time=1692024928, self_id=920935721, post_ty...
+                 │    │             │         │    │    └ <function _ at 0x7fede14d3b80>
+                 │    │             │         │    └ Dependent(call=_)
+                 │    │             │         └ ~R
+                 │    │             └ typing.Awaitable
+                 │    └ typing.Callable
+                 └ <function cast at 0x7fedf8087ee0>
+
+  File "/opt/zhenxun_bot/basic_plugins/help/__init__.py", line 64, in _
+    await simple_help.finish(image("simple_help.png"))
+          │           │      └ <function image at 0x7fede1dac8b0>
+          │           └ <classmethod object at 0x7fedf6cee9a0>
+          └ Matcher(type='message', module=basic_plugins.help)
+
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/internal/matcher/matcher.py", line 476, in finish
+    await cls.send(message, **kwargs)
+          │   │    │          └ {}
+          │   │    └ MessageSegment(type='image', data={'file': 'file:///opt/zhenxun_bot/resources/image/simple_help.png', 'type': None, 'cache': ...
+          │   └ <classmethod object at 0x7fedf6cee970>
+          └ Matcher(type='message', module=basic_plugins.help)
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/internal/matcher/matcher.py", line 461, in send
+    return await bot.send(event=event, message=_message, **kwargs)
+                 │   │          │              │           └ {}
+                 │   │          │              └ MessageSegment(type='image', data={'file': 'file:///opt/zhenxun_bot/resources/image/simple_help.png', 'type': None, 'cache': ...
+                 │   │          └ PrivateMessageEvent(time=1692024928, self_id=920935721, post_type='message', sub_type='friend', user_id=552491466, message_ty...
+                 │   └ <function Bot.send at 0x7fedf6b24700>
+                 └ Bot(type='OneBot V11', self_id='920935721')
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/adapters/onebot/v11/bot.py", line 220, in send
+    return await self.__class__.send_handler(self, event, message, **kwargs)
+                 │    │                      │     │      │          └ {}
+                 │    │                      │     │      └ MessageSegment(type='image', data={'file': 'file:///opt/zhenxun_bot/resources/image/simple_help.png', 'type': None, 'cache': ...
+                 │    │                      │     └ PrivateMessageEvent(time=1692024928, self_id=920935721, post_type='message', sub_type='friend', user_id=552491466, message_ty...
+                 │    │                      └ Bot(type='OneBot V11', self_id='920935721')
+                 │    └ <attribute '__class__' of 'object' objects>
+                 └ Bot(type='OneBot V11', self_id='920935721')
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/adapters/onebot/v11/bot.py", line 174, in send
+    return await bot.send_msg(**params)
+                 │              └ {'user_id': 552491466, 'message_type': 'private', 'message': [MessageSegment(type='image', data={'file': 'file:///opt/zhenxun...
+                 └ Bot(type='OneBot V11', self_id='920935721')
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/internal/adapter/bot.py", line 120, in call_api
+    raise exception
+          └ NetWorkError(message='WebSocket call api send_msg timeout')
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/internal/adapter/bot.py", line 98, in call_api
+    result = await self.adapter._call_api(self, api, **data)
+                   │    │       │         │     │      └ {'user_id': 552491466, 'message_type': 'private', 'message': [MessageSegment(type='image', data={'file': 'file:///opt/zhenxun...
+                   │    │       │         │     └ 'send_msg'
+                   │    │       │         └ Bot(type='OneBot V11', self_id='920935721')
+                   │    │       └ <function Adapter._call_api at 0x7fedf6b289d0>
+                   │    └ Adapter(name='OneBot V11')
+                   └ Bot(type='OneBot V11', self_id='920935721')
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/adapters/onebot/v11/adapter.py", line 134, in _call_api
+    raise NetworkError(f"WebSocket call api {api} timeout") from None
+          └ <class 'nonebot.adapters.onebot.v11.exception.NetworkError'>
+
+nonebot.adapters.onebot.v11.exception.NetworkError
+08-14 22:57:29 [ERROR] services | 获取订阅状态发生预料之外的错误 Id_：1197454103 || 错误 <class 'playwright._impl._api_types.TimeoutError'>: Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for locator(".bili-dyn-item__main") to be visible
+============================================================
+08-14 22:58:19 [ERROR] services | 获取订阅状态发生预料之外的错误 Id_：1197454103 || 错误 <class 'playwright._impl._api_types.Error'>: Target closed
+=========================== logs ===========================
+waiting for locator(".bili-dyn-item__main") to be visible
+============================================================
+08-14 23:05:48 [ERROR] services | Id：1197454103 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-14 23:07:33 [ERROR] services | 获取订阅状态发生预料之外的错误 Id_：348399122 || 错误 <class 'playwright._impl._api_types.TimeoutError'>: Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for locator(".bili-dyn-item__main") to be visible
+============================================================
+08-14 23:08:27 [ERROR] services | 获取订阅状态发生预料之外的错误 Id_：348399122 || 错误 <class 'playwright._impl._api_types.TimeoutError'>: Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for locator(".bili-dyn-item__main") to be visible
+============================================================
+08-14 23:09:32 [ERROR] services | 获取订阅状态发生预料之外的错误 Id_：1197454103 || 错误 <class 'playwright._impl._api_types.TimeoutError'>: Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for locator(".bili-dyn-item__main") to be visible
+============================================================
+08-14 23:09:49 [ERROR] services | Id：1197454103 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-14 23:10:50 [ERROR] services | Id：348399122 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-14 23:11:49 [ERROR] services | Id：348399122 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-14 23:12:49 [ERROR] services | Id：1197454103 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-14 23:13:50 [ERROR] services | Id：1197454103 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-14 23:14:49 [ERROR] services | Id：348399122 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-14 23:15:50 [ERROR] services | Id：348399122 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-14 23:16:49 [ERROR] services | Id：1197454103 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-14 23:17:50 [ERROR] services | Id：1197454103 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-14 23:18:51 [ERROR] services | Id：348399122 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-14 23:19:49 [ERROR] services | Id：1197454103 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-14 23:20:50 [ERROR] nonebot | Failed to import "slave_market"
+Traceback (most recent call last):
+
+  File "/opt/zhenxun_bot/bot.py", line 15, in <module>
+    nonebot.load_plugins("extensive_plugin")
+    │       └ <function load_plugins at 0x7fe73a040670>
+    └ <module 'nonebot' from '/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/__in...
+
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/plugin/load.py", line 45, in load_plugins
+    return manager.load_all_plugins()
+           │       └ <function PluginManager.load_all_plugins at 0x7fe73a036ee0>
+           └ PluginManager(plugins=set(), search_path={'extensive_plugin'})
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/plugin/manager.py", line 168, in load_all_plugins
+    return set(
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/plugin/manager.py", line 169, in <genexpr>
+    filter(None, (self.load_plugin(name) for name in self.available_plugins))
+                  │    │           │         │       │    └ <property object at 0x7fe73a038680>
+                  │    │           │         │       └ PluginManager(plugins=set(), search_path={'extensive_plugin'})
+                  │    │           │         └ 'slave_market'
+                  │    │           └ 'slave_market'
+                  │    └ <function PluginManager.load_plugin at 0x7fe73a036e50>
+                  └ PluginManager(plugins=set(), search_path={'extensive_plugin'})
+> File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/plugin/manager.py", line 145, in load_plugin
+    module = importlib.import_module(
+             │         └ <function import_module at 0x7fe73b52cd30>
+             └ <module 'importlib' from '/usr/lib/python3.9/importlib/__init__.py'>
+  File "/usr/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           │          │           │    │        │        └ 0
+           │          │           │    │        └ None
+           │          │           │    └ 0
+           │          │           └ 'extensive_plugin.slave_market'
+           │          └ <function _gcd_import at 0x7fe73b6fd310>
+           └ <module 'importlib._bootstrap' (frozen)>
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/plugin/manager.py", line 233, in exec_module
+    super().exec_module(module)
+                        └ <module 'extensive_plugin.slave_market' from '/opt/zhenxun_bot/extensive_plugin/slave_market/__init__.py'>
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+
+  File "/opt/zhenxun_bot/extensive_plugin/slave_market/__init__.py", line 25, in <module>
+    from .utils import *
+
+  File "/opt/zhenxun_bot/extensive_plugin/slave_market/utils.py", line 5, in <module>
+    from nonebot_plugin_imageutils import BuildImage,Text2Image
+
+ModuleNotFoundError: No module named 'nonebot_plugin_imageutils'
+08-14 23:21:45 [ERROR] services | Id：348399122 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-14 23:24:15 [ERROR] services | 获取订阅状态发生预料之外的错误 Id_：1197454103 || 错误 <class 'playwright._impl._api_types.Error'>: Target closed
+=========================== logs ===========================
+waiting for locator(".bili-dyn-item__main") to be visible
+============================================================
+08-14 23:26:56 [ERROR] services | Id：1197454103 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-14 23:27:21 [ERROR] nonebot | Running Matcher(type='message', module=basic_plugins.help) failed.
+Traceback (most recent call last):
+
+  File "/opt/zhenxun_bot/bot.py", line 21, in <module>
+    nonebot.run()
+    │       └ <function run at 0x7f8a4c4801f0>
+    └ <module 'nonebot' from '/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/__in...
+
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/__init__.py", line 273, in run
+    get_driver().run(*args, **kwargs)
+    │                 │       └ {}
+    │                 └ ()
+    └ <function get_driver at 0x7f8a4d8a31f0>
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/drivers/fastapi.py", line 172, in run
+    uvicorn.run(
+    │       └ <function run at 0x7f8a4b615e50>
+    └ <module 'uvicorn' from '/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/uvicorn/__in...
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/uvicorn/main.py", line 578, in run
+    server.run()
+    │      └ <function Server.run at 0x7f8a4b620040>
+    └ <uvicorn.server.Server object at 0x7f8a30f80220>
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/uvicorn/server.py", line 61, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           │       │   │    │             └ None
+           │       │   │    └ <function Server.serve at 0x7f8a4b6200d0>
+           │       │   └ <uvicorn.server.Server object at 0x7f8a30f80220>
+           │       └ <function run at 0x7f8a4d4bc430>
+           └ <module 'asyncio' from '/usr/lib/python3.9/asyncio/__init__.py'>
+  File "/usr/lib/python3.9/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+           │    │                  └ <coroutine object Server.serve at 0x7f8a30f9a640>
+           │    └ <method 'run_until_complete' of 'uvloop.loop.Loop' objects>
+           └ <uvloop.Loop running=True closed=False debug=False>
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/message.py", line 142, in _check_matcher
+    await _run_matcher(Matcher, bot, event, state, stack, dependency_cache)
+          │            │        │    │      │      │      └ {<function _event_to_me at 0x7f8a4c4179d0>: <Task finished name='Task-4068' coro=<_event_to_me() done, defined at /root/.cach...
+          │            │        │    │      │      └ <contextlib.AsyncExitStack object at 0x7f8a2c1fdd00>
+          │            │        │    │      └ {'_prefix': {'command': ('帮助',), 'raw_command': '帮助', 'command_arg': [], 'command_start': ''}}
+          │            │        │    └ PrivateMessageEvent(time=1692026797, self_id=920935721, post_type='message', sub_type='friend', user_id=552491466, message_ty...
+          │            │        └ Bot(type='OneBot V11', self_id='920935721')
+          │            └ Matcher(type='message', module=basic_plugins.help)
+          └ <function _run_matcher at 0x7f8a4c246280>
+> File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/message.py", line 188, in _run_matcher
+    await matcher.run(bot, event, state, stack, dependency_cache)
+          │       │   │    │      │      │      └ {<function _event_to_me at 0x7f8a4c4179d0>: <Task finished name='Task-4068' coro=<_event_to_me() done, defined at /root/.cach...
+          │       │   │    │      │      └ <contextlib.AsyncExitStack object at 0x7f8a2c1fdd00>
+          │       │   │    │      └ {'_prefix': {'command': ('帮助',), 'raw_command': '帮助', 'command_arg': [], 'command_start': ''}}
+          │       │   │    └ PrivateMessageEvent(time=1692026797, self_id=920935721, post_type='message', sub_type='friend', user_id=552491466, message_ty...
+          │       │   └ Bot(type='OneBot V11', self_id='920935721')
+          │       └ <function Matcher.run at 0x7f8a4c417790>
+          └ Matcher(type='message', module=basic_plugins.help)
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/internal/matcher/matcher.py", line 727, in run
+    await self.simple_run(bot, event, state, stack, dependency_cache)
+          │    │          │    │      │      │      └ {<function _event_to_me at 0x7f8a4c4179d0>: <Task finished name='Task-4068' coro=<_event_to_me() done, defined at /root/.cach...
+          │    │          │    │      │      └ <contextlib.AsyncExitStack object at 0x7f8a2c1fdd00>
+          │    │          │    │      └ {'_prefix': {'command': ('帮助',), 'raw_command': '帮助', 'command_arg': [], 'command_start': ''}}
+          │    │          │    └ PrivateMessageEvent(time=1692026797, self_id=920935721, post_type='message', sub_type='friend', user_id=552491466, message_ty...
+          │    │          └ Bot(type='OneBot V11', self_id='920935721')
+          │    └ <function Matcher.simple_run at 0x7f8a4c417700>
+          └ Matcher(type='message', module=basic_plugins.help)
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/internal/matcher/matcher.py", line 702, in simple_run
+    await handler(
+          └ Dependent(call=_)
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/dependencies/__init__.py", line 108, in __call__
+    return await cast(Callable[..., Awaitable[R]], self.call)(**values)
+                 │    │             │         │    │    │       └ {'bot': Bot(type='OneBot V11', self_id='920935721'), 'event': PrivateMessageEvent(time=1692026797, self_id=920935721, post_ty...
+                 │    │             │         │    │    └ <function _ at 0x7f8a38ebcaf0>
+                 │    │             │         │    └ Dependent(call=_)
+                 │    │             │         └ ~R
+                 │    │             └ typing.Awaitable
+                 │    └ typing.Callable
+                 └ <function cast at 0x7f8a4d7a9ee0>
+
+  File "/opt/zhenxun_bot/basic_plugins/help/__init__.py", line 64, in _
+    await simple_help.finish(image("simple_help.png"))
+          │           │      └ <function image at 0x7f8a4a84ed30>
+          │           └ <classmethod object at 0x7f8a4c4109a0>
+          └ Matcher(type='message', module=basic_plugins.help)
+
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/internal/matcher/matcher.py", line 476, in finish
+    await cls.send(message, **kwargs)
+          │   │    │          └ {}
+          │   │    └ MessageSegment(type='image', data={'file': 'file:///opt/zhenxun_bot/resources/image/simple_help.png', 'type': None, 'cache': ...
+          │   └ <classmethod object at 0x7f8a4c410970>
+          └ Matcher(type='message', module=basic_plugins.help)
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/internal/matcher/matcher.py", line 461, in send
+    return await bot.send(event=event, message=_message, **kwargs)
+                 │   │          │              │           └ {}
+                 │   │          │              └ MessageSegment(type='image', data={'file': 'file:///opt/zhenxun_bot/resources/image/simple_help.png', 'type': None, 'cache': ...
+                 │   │          └ PrivateMessageEvent(time=1692026797, self_id=920935721, post_type='message', sub_type='friend', user_id=552491466, message_ty...
+                 │   └ <function Bot.send at 0x7f8a4c246700>
+                 └ Bot(type='OneBot V11', self_id='920935721')
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/adapters/onebot/v11/bot.py", line 220, in send
+    return await self.__class__.send_handler(self, event, message, **kwargs)
+                 │    │                      │     │      │          └ {}
+                 │    │                      │     │      └ MessageSegment(type='image', data={'file': 'file:///opt/zhenxun_bot/resources/image/simple_help.png', 'type': None, 'cache': ...
+                 │    │                      │     └ PrivateMessageEvent(time=1692026797, self_id=920935721, post_type='message', sub_type='friend', user_id=552491466, message_ty...
+                 │    │                      └ Bot(type='OneBot V11', self_id='920935721')
+                 │    └ <attribute '__class__' of 'object' objects>
+                 └ Bot(type='OneBot V11', self_id='920935721')
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/adapters/onebot/v11/bot.py", line 174, in send
+    return await bot.send_msg(**params)
+                 │              └ {'user_id': 552491466, 'message_type': 'private', 'message': [MessageSegment(type='image', data={'file': 'file:///opt/zhenxun...
+                 └ Bot(type='OneBot V11', self_id='920935721')
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/internal/adapter/bot.py", line 120, in call_api
+    raise exception
+          └ NetWorkError(message='WebSocket call api send_msg timeout')
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/internal/adapter/bot.py", line 98, in call_api
+    result = await self.adapter._call_api(self, api, **data)
+                   │    │       │         │     │      └ {'user_id': 552491466, 'message_type': 'private', 'message': [MessageSegment(type='image', data={'file': 'file:///opt/zhenxun...
+                   │    │       │         │     └ 'send_msg'
+                   │    │       │         └ Bot(type='OneBot V11', self_id='920935721')
+                   │    │       └ <function Adapter._call_api at 0x7f8a4c2509d0>
+                   │    └ Adapter(name='OneBot V11')
+                   └ Bot(type='OneBot V11', self_id='920935721')
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/adapters/onebot/v11/adapter.py", line 134, in _call_api
+    raise NetworkError(f"WebSocket call api {api} timeout") from None
+          └ <class 'nonebot.adapters.onebot.v11.exception.NetworkError'>
+
+nonebot.adapters.onebot.v11.exception.NetworkError
+08-14 23:27:54 [ERROR] services | Id：348399122 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-14 23:29:53 [ERROR] services | Id：1197454103 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
+08-14 23:30:53 [ERROR] services | Id：1197454103 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试

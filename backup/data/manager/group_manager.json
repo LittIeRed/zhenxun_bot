@@ -1,0 +1,85 @@
+{
+    "white_group": [],
+    "close_task": [],
+    "group_manager": {
+        "178794340": {
+            "level": 5,
+            "status": true,
+            "close_plugins": [
+                "update_info",
+                "bt",
+                "wbtop",
+                "translate",
+                "yiqing",
+                "search_buff_skin_price",
+                "black_word",
+                "russian",
+                "send_setu",
+                "open_cases",
+                "draw_card",
+                "almanac",
+                "material_remind",
+                "query_resource_points",
+                "query_role",
+                "bind",
+                "mihoyobbs_sign",
+                "genshin_sign",
+                "query_memo",
+                "resin_remind",
+                "TZbank",
+                "TZfulijin",
+                "TZ21",
+                "TZxibai",
+                "TZggl",
+                "TZdajie",
+                "zhenxun_plugins_luckball",
+                "slave_market"
+            ],
+            "group_task_status": {
+                "epic_free_game": false,
+                "open_case_reset_remind": true,
+                "genshin_alc": false,
+                "zwa": true,
+                "broadcast": false,
+                "group_welcome": true,
+                "refund_group_remind": false,
+                "bilibili_parse": true,
+                "fudu": true
+            }
+        },
+        "541371519": {
+            "level": 5,
+            "status": true,
+            "close_plugins": [],
+            "group_task_status": {
+                "epic_free_game": false,
+                "open_case_reset_remind": true,
+                "genshin_alc": false,
+                "zwa": true,
+                "broadcast": false,
+                "group_welcome": true,
+                "refund_group_remind": false,
+                "bilibili_parse": true,
+                "fudu": true
+            }
+        },
+        "666036653": {
+            "level": 5,
+            "status": true,
+            "close_plugins": [
+                "update_info"
+            ],
+            "group_task_status": {
+                "group_welcome": true,
+                "refund_group_remind": false,
+                "broadcast": false,
+                "bilibili_parse": true,
+                "open_case_reset_remind": true,
+                "genshin_alc": false,
+                "epic_free_game": false,
+                "fudu": true,
+                "zwa": true
+            }
+        }
+    }
+}

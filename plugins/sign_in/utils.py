@@ -17,6 +17,9 @@ from models.sign_group_user import SignGroupUser
 from utils.image_utils import BuildImage
 from utils.message_builder import image
 from utils.utils import get_user_avatar
+import pytz
+
+shanghai_tz = pytz.timezone('Asia/Shanghai')
 
 from .config import (
     SIGN_BACKGROUND_PATH,
@@ -56,7 +59,8 @@ async def get_card(
     is_card_view: bool = False,
 ) -> MessageSegment:
     user_id = user.user_id
-    date = datetime.now().date()
+    date = datetime.now(shanghai_tz).date()
+    print("制作卡片", date)
     _type = "view" if is_card_view else "sign"
     card_file = (
         Path(SIGN_TODAY_CARD_PATH) / f"{user_id}_{user.group_id}_{_type}_{date}.png"
@@ -221,7 +225,7 @@ def _generate_card(
     watermark = BuildImage(
         0,
         0,
-        plain_text=f"{NICKNAME}@{datetime.now().year}",
+        plain_text=f"{NICKNAME}@{datetime.now(shanghai_tz).year}",
         color=(255, 255, 255, 0),
         font_size=15,
         font_color=(155, 155, 155),
@@ -244,7 +248,7 @@ def _generate_card(
             A.paste(rank_img, ((A.w - rank_img.w - 10), 20), True)
         today_data.text(
             (0, 0),
-            f"上次签到日期：{'从未' if user.checkin_time_last == datetime.min else user.checkin_time_last.date()}",
+            f"上次签到日期：{'从未' if user.checkin_time_last == datetime.min else user.checkin_time_last.astimezone(shanghai_tz).date()}",
         )
         today_data.text((0, 25), f"总金币：{gold}")
         default_setu_prob = (
@@ -267,7 +271,7 @@ def _generate_card(
             today_data.text((0, 0), f"好感度 + {add_impression:.2f}")
         today_data.text((0, 25), f"金币 + {gold}")
         _type = "sign"
-    current_date = datetime.now()
+    current_date = datetime.now(shanghai_tz)
     current_datetime_str = current_date.strftime("%Y-%m-%d %a %H:%M:%S")
     data = current_date.date()
     data_img = BuildImage(
@@ -355,7 +359,7 @@ def get_level_and_next_impression(impression: float):
 
 
 def clear_sign_data_pic():
-    date = datetime.now().date()
+    date = datetime.now(shanghai_tz).date()
     for file in os.listdir(SIGN_TODAY_CARD_PATH):
         if str(date) not in file:
             os.remove(SIGN_TODAY_CARD_PATH / file)

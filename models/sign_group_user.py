@@ -4,6 +4,7 @@ from typing import List, Literal, Optional, Tuple, Union
 from tortoise import fields
 
 from services.db_context import Model
+import pytz
 
 
 class SignGroupUser(Model):
@@ -40,7 +41,10 @@ class SignGroupUser(Model):
             :param user: 用户
             :param impression: 增加的好感度
         """
-        user.checkin_time_last = datetime.now()
+        user.checkin_time_last = datetime.now(pytz.timezone('Asia/Shanghai'))
+        print("签到")
+        print("datetime.now(pytz.timezone('Asia/Shanghai')", datetime.now(pytz.timezone('Asia/Shanghai')))
+        print("user.checkin_time_last", user.checkin_time_last)
         user.checkin_count = user.checkin_count + 1
         user.add_probability = 0
         user.specify_probability = 0

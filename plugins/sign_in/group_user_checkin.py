@@ -20,26 +20,38 @@ from utils.utils import get_user_avatar
 
 from .random_event import random_event
 from .utils import SIGN_TODAY_CARD_PATH, get_card
+import pytz
+from nonebot import on_command, Driver 
 
+shanghai_tz = pytz.timezone('Asia/Shanghai')
+
+qd = on_command("签到", aliases={"签到"}, priority=5, block=False)
 
 async def group_user_check_in(
     nickname: str, user_id: int, group: int
 ) -> MessageSegment:
     "Returns string describing the result of checking in"
-    present = datetime.now()
+    present = datetime.now(shanghai_tz)
     # 取得相应用户
     user, is_create = await SignGroupUser.get_or_create(
         user_id=str(user_id), group_id=str(group)
     )
     # 如果同一天签到过，特殊处理
+    print("user.checkin_time_last.astimezone(shanghai_tz)", user.checkin_time_last.astimezone(shanghai_tz))
+    #print("user.checkin_time_last", user.checkin_time_last)
+    print("present", present)
+    print("is_create", is_create)
     if not is_create and (
-        user.checkin_time_last.date() >= present.date()
-        or f"{user}_{group}_sign_{datetime.now().date()}"
+        user.checkin_time_last.astimezone(shanghai_tz).date() >= present.date()
+        #user.checkin_time_last.date() >= present.date()
+        or f"{user}_{group}_sign_{present.date()}"
         in os.listdir(SIGN_TODAY_CARD_PATH)
     ):
         gold = await BagUser.get_gold(user_id, group)
-        return await get_card(user, nickname, -1, gold, "")
-    return await _handle_check_in(nickname, user_id, group, present)  # ok
+        await qd.finish("今天你已经签到了", at_sender=True)
+        # return await get_card(user, nickname, -1, gold, "")
+    else:
+        return await _handle_check_in(nickname, user_id, group, present)  # ok
 
 
 async def check_in_all(nickname: str, user_id: str):
@@ -50,12 +62,13 @@ async def check_in_all(nickname: str, user_id: str):
         :param nickname: 昵称
         :param user_id: 用户id
     """
-    present = datetime.now()
+    present = datetime.now(shanghai_tz)
     for u in await SignGroupUser.filter(user_id=user_id).all():
         group = u.group_id
         if not (
-            u.checkin_time_last.date() >= present.date()
-            or f"{u}_{group}_sign_{datetime.now().date()}"
+            u.checkin_time_last.astimezone(shanghai_tz).date() >= present.date()
+            #u.checkin_time_last.date() >= present.date()
+            or f"{u}_{group}_sign_{present.date()}"
             in os.listdir(SIGN_TODAY_CARD_PATH)
         ):
             await _handle_check_in(nickname, user_id, group, present)

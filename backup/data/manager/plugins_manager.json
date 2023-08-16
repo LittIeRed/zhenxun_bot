@@ -886,5 +886,21 @@
         "block_type": null,
         "author": null,
         "version": null
+    },
+    "todaybefore": {
+        "plugin_name": "历史上的今天",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": null,
+        "version": null
+    },
+    "zhenxun_plugin_weibo": {
+        "plugin_name": "微博推送",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": "migang",
+        "version": 0.1
     }
 }

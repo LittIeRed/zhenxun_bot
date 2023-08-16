@@ -24,6 +24,12 @@ _task:
   # DEFAULT_EPIC_FREE_GAME: 被动 epic免费游戏 进群默认开关状态
   # DEFAULT_OPEN_CASE_RESET_REMIND: 被动 每日开箱重置提醒 进群默认开关状态
   # DEFAULT_BILIBILI_PARSE: 被动 B站转发解析 进群默认开关状态
+  # DEFAULT_WEIBO-PCR: 被动 公主连接微博推送 进群默认开关状态
+  # DEFAULT_WEIBO-FF14: 被动 最终幻想14微博推送 进群默认开关状态
+  # DEFAULT_WEIBO-FF14NGA: 被动 最终幻想14nga微博推送 进群默认开关状态
+  # DEFAULT_WEIBO-REVERSEFUTURE1999: 被动 重返未来1999微博推送 进群默认开关状态
+  # DEFAULT_WEIBO-GUANJIANCI: 被动 这是一个推送包含关键词的配置示例 进群默认开关状态
+  # DEFAULT_WEIBO-TEST: 被动 测试 进群默认开关状态
   DEFAULT_ZWA: true
   DEFAULT_BROADCAST: false
   DEFAULT_GROUP_WELCOME: true
@@ -34,6 +40,12 @@ _task:
   DEFAULT_EPIC_FREE_GAME: false
   DEFAULT_OPEN_CASE_RESET_REMIND: true
   DEFAULT_BILIBILI_PARSE: true
+  DEFAULT_WEIBO-PCR: false
+  DEFAULT_WEIBO-FF14: false
+  DEFAULT_WEIBO-FF14NGA: false
+  DEFAULT_WEIBO-REVERSEFUTURE1999: true
+  DEFAULT_WEIBO-GUANJIANCI: false
+  DEFAULT_WEIBO-TEST: false
 _backup:
   # 文件备份
   # BACKUP_FLAG: 是否开启文件备份
@@ -149,7 +161,7 @@ web-ui:
   PASSWORD:
 alapi:
   # alapi
-  # ALAPI_TOKEN: 在 https://admin.alapi.cn/user/login 登录后获取token
+  # ALAPI_TOKEN: 在https://admin.alapi.cn/user/login登录后获取token
   ALAPI_TOKEN:
 word_clouds:
   # 词云
@@ -394,3 +406,21 @@ TZ21:
   # CHANCE: 0-10;0为关
   FC: true
   CHANCE: 3
+zhenxun_plugin_weibo:
+  # 微博推送
+  # FORWARD_MODE: 是否以转发模式推送微博，当配置项为true时将以转发模式推送
+  # DEFAULT_FORMAT: 默认推送格式：0 文本，1 图片
+  # COOKIE: 添加cookie后可以获取到更多的微博
+  # CUSTOM_SEND_TIME: 自定义发送时间，cron格式，若空，则检测到微博后立即发送，反之，仅设定的时刻推送
+  FORWARD_MODE: false
+  DEFAULT_FORMAT: 0
+  COOKIE: _T_WM=43982740492; WEIBOCN_FROM=1110006030; BAIDU_SSP_lcr=https://github.com/LambdaYH/zhenxun_plugin_weibo/tree/main;
+    SSOLoginState=1692108704; ALF=1694700704; SUB=_2A25J3_fwDeRhGeBJ7VMW9yjLzD2IHXVrI5m4rDV6PUNbktAGLRClkW1NRlSbn35DcgmuLbtO0jt1d217L2eEG1Xo;
+    SUBP=0033WrSXqPxfM725Ws9jqgMF55529P9D9WFXkEccpXD.oLrKwKciURyJ5JpX5KzhUgL.FoqNSo2NS0qNS022dJLoIp7LxKML1KBLBKnLxKqL1hnLBoMcS0qpS0McS0Mp;
+    XSRF-TOKEN=4d691e; MLOGIN=1; M_WEIBOCN_PARAMS=oid%3D4910419855280222%26lfid%3D100103type%253D1%2526q%253D%25E9%2587%258D%25E8%25BF%2594%25E6%259C%25AA%25E6%259D%25A51999%26luicode%3D20000174%26uicode%3D20000174;
+    mweibo_short_token=1e6d588800_T_WM=43982740492; WEIBOCN_FROM=1110006030; BAIDU_SSP_lcr=https://github.com/LambdaYH/zhenxun_plugin_weibo/tree/main;
+    SSOLoginState=1692108704; ALF=1694700704; SUB=_2A25J3_fwDeRhGeBJ7VMW9yjLzD2IHXVrI5m4rDV6PUNbktAGLRClkW1NRlSbn35DcgmuLbtO0jt1d217L2eEG1Xo;
+    SUBP=0033WrSXqPxfM725Ws9jqgMF55529P9D9WFXkEccpXD.oLrKwKciURyJ5JpX5KzhUgL.FoqNSo2NS0qNS022dJLoIp7LxKML1KBLBKnLxKqL1hnLBoMcS0qpS0McS0Mp;
+    XSRF-TOKEN=4d691e; MLOGIN=1; M_WEIBOCN_PARAMS=oid%3D4910419855280222%26lfid%3D100103type%253D1%2526q%253D%25E9%2587%258D%25E8%25BF%2594%25E6%259C%25AA%25E6%259D%25A51999%26luicode%3D20000174%26uicode%3D20000174;
+    mweibo_short_token=1e6d588800
+  CUSTOM_SEND_TIME:

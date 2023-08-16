@@ -1,0 +1,116 @@
+{
+    "char": {
+        "title": "「素霓伣天」",
+        "pool_img": "https:\/\/patchwiki.biligame.com\/images\/ys\/thumb\/5\/5f\/cfbl79cc57fe2yyg49hugns055ofs05.png\/1200px-%E7%A5%88%E6%84%BF052-2%E6%9C%9F.png.jpeg",
+        "start_time": "2023-08-16T17:59:00",
+        "end_time": "2023-09-05T17:59:00",
+        "up_char": [
+            {
+                "name": "夜兰",
+                "star": 5,
+                "limited": false,
+                "zoom": 50.0
+            },
+            {
+                "name": "琳妮特",
+                "star": 4,
+                "limited": false,
+                "zoom": 50.0
+            },
+            {
+                "name": "班尼特",
+                "star": 4,
+                "limited": false,
+                "zoom": 50.0
+            },
+            {
+                "name": "芭芭拉",
+                "star": 4,
+                "limited": false,
+                "zoom": 50.0
+            }
+        ]
+    },
+    "arms": {
+        "title": "「神铸赋形」",
+        "pool_img": "https:\/\/patchwiki.biligame.com\/images\/ys\/0\/0b\/4r8qekc20l6w72jipuwat8gvxrt70hs.png",
+        "start_time": "2023-08-16T17:59:00",
+        "end_time": "2023-09-05T17:59:00",
+        "up_char": [
+            {
+                "name": "最初的大魔术",
+                "star": 5,
+                "limited": false,
+                "zoom": 50.0
+            },
+            {
+                "name": "若水",
+                "star": 5,
+                "limited": false,
+                "zoom": 50.0
+            },
+            {
+                "name": "祭礼剑",
+                "star": 4,
+                "limited": false,
+                "zoom": 50.0
+            },
+            {
+                "name": "西风大剑",
+                "star": 4,
+                "limited": false,
+                "zoom": 50.0
+            },
+            {
+                "name": "西风长枪",
+                "star": 4,
+                "limited": false,
+                "zoom": 50.0
+            },
+            {
+                "name": "祭礼残章",
+                "star": 4,
+                "limited": false,
+                "zoom": 50.0
+            },
+            {
+                "name": "祭礼弓",
+                "star": 4,
+                "limited": false,
+                "zoom": 50.0
+            }
+        ]
+    },
+    "char1": {
+        "title": "「光与影的戏术」",
+        "pool_img": "https:\/\/patchwiki.biligame.com\/images\/ys\/thumb\/0\/05\/7m7c8l68nyv32oao34kyv0v37x34bzg.png\/1200px-%E7%A5%88%E6%84%BF052%E6%9C%9F.png.jpeg",
+        "start_time": "2023-08-16T17:59:00",
+        "end_time": "2023-09-05T17:59:00",
+        "up_char": [
+            {
+                "name": "林尼",
+                "star": 5,
+                "limited": false,
+                "zoom": 50.0
+            },
+            {
+                "name": "琳妮特",
+                "star": 4,
+                "limited": false,
+                "zoom": 50.0
+            },
+            {
+                "name": "班尼特",
+                "star": 4,
+                "limited": false,
+                "zoom": 50.0
+            },
+            {
+                "name": "芭芭拉",
+                "star": 4,
+                "limited": false,
+                "zoom": 50.0
+            }
+        ]
+    }
+}

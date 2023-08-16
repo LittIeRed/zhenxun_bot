@@ -212,3 +212,380 @@ Traceback (most recent call last):
   File "uvloop/loop.pyx", line 2016, in uvloop.loop.Loop.create_connection
 
 asyncio.exceptions.CancelledError
+08-16 03:01:00 [ERROR] services | CMD[自动更新好友] 自动更新好友信息错误 || 错误 <class 'tortoise.exceptions.IntegrityError'>: duplicate key value violates unique constraint "friend_users_user_id_key"
+DETAIL:  Key (user_id)=(70395292) already exists.
+08-16 07:59:02 [ERROR] apscheduler | Job "todaybefore_reminder (trigger: cron[hour='7', minute='59'], next run at: 2023-08-17 07:59:00 CST)" raised an exception
+Traceback (most recent call last):
+
+  File "/opt/zhenxun_bot/bot.py", line 21, in <module>
+    nonebot.run()
+    │       └ <function run at 0x7fa3ca7ca1f0>
+    └ <module 'nonebot' from '/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/__in...
+
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/__init__.py", line 273, in run
+    get_driver().run(*args, **kwargs)
+    │                 │       └ {}
+    │                 └ ()
+    └ <function get_driver at 0x7fa3cbbed1f0>
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/drivers/fastapi.py", line 172, in run
+    uvicorn.run(
+    │       └ <function run at 0x7fa3cb1fb160>
+    └ <module 'uvicorn' from '/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/uvicorn/__in...
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/uvicorn/main.py", line 578, in run
+    server.run()
+    │      └ <function Server.run at 0x7fa3cb1fb310>
+    └ <uvicorn.server.Server object at 0x7fa3af2148b0>
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/uvicorn/server.py", line 61, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           │       │   │    │             └ None
+           │       │   │    └ <function Server.serve at 0x7fa3cb1fb3a0>
+           │       │   └ <uvicorn.server.Server object at 0x7fa3af2148b0>
+           │       └ <function run at 0x7fa3cb806430>
+           └ <module 'asyncio' from '/usr/lib/python3.9/asyncio/__init__.py'>
+  File "/usr/lib/python3.9/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+           │    │                  └ <coroutine object Server.serve at 0x7fa3af223640>
+           │    └ <method 'run_until_complete' of 'uvloop.loop.Loop' objects>
+           └ <uvloop.Loop running=True closed=False debug=False>
+> File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/apscheduler/executors/base_py3.py", line 30, in run_coroutine_job
+    retval = await job.func(*job.args, **job.kwargs)
+                   │   │     │   │       │   └ <member 'kwargs' of 'Job' objects>
+                   │   │     │   │       └ <Job (id=todaybefore_reminder name=todaybefore_reminder)>
+                   │   │     │   └ <member 'args' of 'Job' objects>
+                   │   │     └ <Job (id=todaybefore_reminder name=todaybefore_reminder)>
+                   │   └ <member 'func' of 'Job' objects>
+                   └ <Job (id=todaybefore_reminder name=todaybefore_reminder)>
+
+  File "/opt/zhenxun_bot/extensive_plugin/todaybefore/__init__.py", line 36, in todaybefore_reminder
+    for i in groups:
+
+NameError: name 'groups' is not defined
+08-16 10:08:43 [ERROR] nonebot | Running Matcher(type='message', module=plugins.sign_in) failed.
+Traceback (most recent call last):
+
+  File "/opt/zhenxun_bot/bot.py", line 21, in <module>
+    nonebot.run()
+    │       └ <function run at 0x7fa3ca7ca1f0>
+    └ <module 'nonebot' from '/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/__in...
+
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/__init__.py", line 273, in run
+    get_driver().run(*args, **kwargs)
+    │                 │       └ {}
+    │                 └ ()
+    └ <function get_driver at 0x7fa3cbbed1f0>
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/drivers/fastapi.py", line 172, in run
+    uvicorn.run(
+    │       └ <function run at 0x7fa3cb1fb160>
+    └ <module 'uvicorn' from '/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/uvicorn/__in...
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/uvicorn/main.py", line 578, in run
+    server.run()
+    │      └ <function Server.run at 0x7fa3cb1fb310>
+    └ <uvicorn.server.Server object at 0x7fa3af2148b0>
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/uvicorn/server.py", line 61, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           │       │   │    │             └ None
+           │       │   │    └ <function Server.serve at 0x7fa3cb1fb3a0>
+           │       │   └ <uvicorn.server.Server object at 0x7fa3af2148b0>
+           │       └ <function run at 0x7fa3cb806430>
+           └ <module 'asyncio' from '/usr/lib/python3.9/asyncio/__init__.py'>
+  File "/usr/lib/python3.9/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+           │    │                  └ <coroutine object Server.serve at 0x7fa3af223640>
+           │    └ <method 'run_until_complete' of 'uvloop.loop.Loop' objects>
+           └ <uvloop.Loop running=True closed=False debug=False>
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/message.py", line 142, in _check_matcher
+    await _run_matcher(Matcher, bot, event, state, stack, dependency_cache)
+          │            │        │    │      │      │      └ {<function _command at 0x7fa3ca761af0>: <Task finished name='Task-2741612' coro=<_command() done, defined at /root/.cache/pyp...
+          │            │        │    │      │      └ <contextlib.AsyncExitStack object at 0x7fa3aefbdaf0>
+          │            │        │    │      └ {'_prefix': {'command': ('签到',), 'raw_command': '签到', 'command_arg': [], 'command_start': ''}, '_matched': '签到', '_matched_gr...
+          │            │        │    └ GroupMessageEvent(time=1692151722, self_id=920935721, post_type='message', sub_type='normal', user_id=3585425231, message_typ...
+          │            │        └ Bot(type='OneBot V11', self_id='920935721')
+          │            └ Matcher(type='message', module=plugins.sign_in)
+          └ <function _run_matcher at 0x7fa3ca590280>
+> File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/message.py", line 188, in _run_matcher
+    await matcher.run(bot, event, state, stack, dependency_cache)
+          │       │   │    │      │      │      └ {<function _command at 0x7fa3ca761af0>: <Task finished name='Task-2741612' coro=<_command() done, defined at /root/.cache/pyp...
+          │       │   │    │      │      └ <contextlib.AsyncExitStack object at 0x7fa3aefbdaf0>
+          │       │   │    │      └ {'_prefix': {'command': ('签到',), 'raw_command': '签到', 'command_arg': [], 'command_start': ''}, '_matched': '签到', '_matched_gr...
+          │       │   │    └ GroupMessageEvent(time=1692151722, self_id=920935721, post_type='message', sub_type='normal', user_id=3585425231, message_typ...
+          │       │   └ Bot(type='OneBot V11', self_id='920935721')
+          │       └ <function Matcher.run at 0x7fa3ca761790>
+          └ Matcher(type='message', module=plugins.sign_in)
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/internal/matcher/matcher.py", line 727, in run
+    await self.simple_run(bot, event, state, stack, dependency_cache)
+          │    │          │    │      │      │      └ {<function _command at 0x7fa3ca761af0>: <Task finished name='Task-2741612' coro=<_command() done, defined at /root/.cache/pyp...
+          │    │          │    │      │      └ <contextlib.AsyncExitStack object at 0x7fa3aefbdaf0>
+          │    │          │    │      └ {'_prefix': {'command': ('签到',), 'raw_command': '签到', 'command_arg': [], 'command_start': ''}, '_matched': '签到', '_matched_gr...
+          │    │          │    └ GroupMessageEvent(time=1692151722, self_id=920935721, post_type='message', sub_type='normal', user_id=3585425231, message_typ...
+          │    │          └ Bot(type='OneBot V11', self_id='920935721')
+          │    └ <function Matcher.simple_run at 0x7fa3ca761700>
+          └ Matcher(type='message', module=plugins.sign_in)
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/internal/matcher/matcher.py", line 702, in simple_run
+    await handler(
+          └ Dependent(call=_)
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/dependencies/__init__.py", line 108, in __call__
+    return await cast(Callable[..., Awaitable[R]], self.call)(**values)
+                 │    │             │         │    │    │       └ {'event': GroupMessageEvent(time=1692151722, self_id=920935721, post_type='message', sub_type='normal', user_id=3585425231, m...
+                 │    │             │         │    │    └ <function _ at 0x7fa3b5dcaa60>
+                 │    │             │         │    └ Dependent(call=_)
+                 │    │             │         └ ~R
+                 │    │             └ typing.Awaitable
+                 │    └ typing.Callable
+                 └ <function cast at 0x7fa3cbaf3ee0>
+
+  File "/opt/zhenxun_bot/plugins/sign_in/__init__.py", line 117, in _
+    await group_user_check_in(nickname, event.user_id, event.group_id),
+          │                   │         │     │        │     └ 741017215
+          │                   │         │     │        └ GroupMessageEvent(time=1692151722, self_id=920935721, post_type='message', sub_type='normal', user_id=3585425231, message_typ...
+          │                   │         │     └ 3585425231
+          │                   │         └ GroupMessageEvent(time=1692151722, self_id=920935721, post_type='message', sub_type='normal', user_id=3585425231, message_typ...
+          │                   └ '潇煋于客'
+          └ <function group_user_check_in at 0x7fa3b5dca5e0>
+
+  File "/opt/zhenxun_bot/plugins/sign_in/group_user_checkin.py", line 40, in group_user_check_in
+    print("user.checkin_time_last.astimezone(shanghai_tz)", user.checkin_time_last.astimezone(shanghai_tz))
+                                                            │    │                 │          └ <DstTzInfo 'Asia/Shanghai' LMT+8:06:00 STD>
+                                                            │    │                 └ <method 'astimezone' of 'datetime.datetime' objects>
+                                                            │    └ datetime.datetime(1, 1, 1, 0, 0)
+                                                            └ <SignGroupUser: 40>
+
+ValueError: year 0 is out of range
+08-16 10:29:31 [ERROR] nonebot | Running Matcher(type='message', module=plugins.mute) failed.
+Traceback (most recent call last):
+
+  File "/opt/zhenxun_bot/bot.py", line 21, in <module>
+    nonebot.run()
+    │       └ <function run at 0x7fa3ca7ca1f0>
+    └ <module 'nonebot' from '/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/__in...
+
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/__init__.py", line 273, in run
+    get_driver().run(*args, **kwargs)
+    │                 │       └ {}
+    │                 └ ()
+    └ <function get_driver at 0x7fa3cbbed1f0>
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/drivers/fastapi.py", line 172, in run
+    uvicorn.run(
+    │       └ <function run at 0x7fa3cb1fb160>
+    └ <module 'uvicorn' from '/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/uvicorn/__in...
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/uvicorn/main.py", line 578, in run
+    server.run()
+    │      └ <function Server.run at 0x7fa3cb1fb310>
+    └ <uvicorn.server.Server object at 0x7fa3af2148b0>
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/uvicorn/server.py", line 61, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           │       │   │    │             └ None
+           │       │   │    └ <function Server.serve at 0x7fa3cb1fb3a0>
+           │       │   └ <uvicorn.server.Server object at 0x7fa3af2148b0>
+           │       └ <function run at 0x7fa3cb806430>
+           └ <module 'asyncio' from '/usr/lib/python3.9/asyncio/__init__.py'>
+  File "/usr/lib/python3.9/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+           │    │                  └ <coroutine object Server.serve at 0x7fa3af223640>
+           │    └ <method 'run_until_complete' of 'uvloop.loop.Loop' objects>
+           └ <uvloop.Loop running=True closed=False debug=False>
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/message.py", line 142, in _check_matcher
+    await _run_matcher(Matcher, bot, event, state, stack, dependency_cache)
+          │            │        │    │      │      │      └ {<function _command at 0x7fa3ca761af0>: <Task finished name='Task-3096437' coro=<_command() done, defined at /root/.cache/pyp...
+          │            │        │    │      │      └ <contextlib.AsyncExitStack object at 0x7fa3aeb8dfa0>
+          │            │        │    │      └ {'_prefix': {'command': None, 'raw_command': None, 'command_arg': None, 'command_start': None}}
+          │            │        │    └ GroupMessageEvent(time=1692152969, self_id=920935721, post_type='message', sub_type='normal', user_id=853192151, message_type...
+          │            │        └ Bot(type='OneBot V11', self_id='920935721')
+          │            └ Matcher(type='message', module=plugins.mute)
+          └ <function _run_matcher at 0x7fa3ca590280>
+> File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/message.py", line 188, in _run_matcher
+    await matcher.run(bot, event, state, stack, dependency_cache)
+          │       │   │    │      │      │      └ {<function _command at 0x7fa3ca761af0>: <Task finished name='Task-3096437' coro=<_command() done, defined at /root/.cache/pyp...
+          │       │   │    │      │      └ <contextlib.AsyncExitStack object at 0x7fa3aeb8dfa0>
+          │       │   │    │      └ {'_prefix': {'command': None, 'raw_command': None, 'command_arg': None, 'command_start': None}}
+          │       │   │    └ GroupMessageEvent(time=1692152969, self_id=920935721, post_type='message', sub_type='normal', user_id=853192151, message_type...
+          │       │   └ Bot(type='OneBot V11', self_id='920935721')
+          │       └ <function Matcher.run at 0x7fa3ca761790>
+          └ Matcher(type='message', module=plugins.mute)
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/internal/matcher/matcher.py", line 727, in run
+    await self.simple_run(bot, event, state, stack, dependency_cache)
+          │    │          │    │      │      │      └ {<function _command at 0x7fa3ca761af0>: <Task finished name='Task-3096437' coro=<_command() done, defined at /root/.cache/pyp...
+          │    │          │    │      │      └ <contextlib.AsyncExitStack object at 0x7fa3aeb8dfa0>
+          │    │          │    │      └ {'_prefix': {'command': None, 'raw_command': None, 'command_arg': None, 'command_start': None}}
+          │    │          │    └ GroupMessageEvent(time=1692152969, self_id=920935721, post_type='message', sub_type='normal', user_id=853192151, message_type...
+          │    │          └ Bot(type='OneBot V11', self_id='920935721')
+          │    └ <function Matcher.simple_run at 0x7fa3ca761700>
+          └ Matcher(type='message', module=plugins.mute)
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/internal/matcher/matcher.py", line 702, in simple_run
+    await handler(
+          └ Dependent(call=_)
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/dependencies/__init__.py", line 108, in __call__
+    return await cast(Callable[..., Awaitable[R]], self.call)(**values)
+                 │    │             │         │    │    │       └ {'bot': Bot(type='OneBot V11', self_id='920935721'), 'event': GroupMessageEvent(time=1692152969, self_id=920935721, post_type...
+                 │    │             │         │    │    └ <function _ at 0x7fa3b0b013a0>
+                 │    │             │         │    └ Dependent(call=_)
+                 │    │             │         └ ~R
+                 │    │             └ typing.Awaitable
+                 │    └ typing.Callable
+                 └ <function cast at 0x7fa3cbaf3ee0>
+
+  File "/opt/zhenxun_bot/plugins/mute.py", line 111, in _
+    img_hash += await download_img_and_hash(img)
+    │                 │                     └ 'https://gchat.qpic.cn/gchatpic_new/853192151/2168794340-3016784118-9F2B561BBC8A87E8605E11C792F4FF34/0?term=2&is_origin=0'
+    │                 └ <function download_img_and_hash at 0x7fa3b0b01280>
+    └ ''
+
+  File "/opt/zhenxun_bot/plugins/mute.py", line 96, in download_img_and_hash
+    imagehash.average_hash(Image.open(BytesIO((await AsyncHttpx.get(url)).content)))
+    │         │            │     │    │              │          │   └ 'https://gchat.qpic.cn/gchatpic_new/853192151/2168794340-3016784118-9F2B561BBC8A87E8605E11C792F4FF34/0?term=2&is_origin=0'
+    │         │            │     │    │              │          └ <classmethod object at 0x7fa3b748b2b0>
+    │         │            │     │    │              └ <class 'utils.http_utils.AsyncHttpx'>
+    │         │            │     │    └ <class '_io.BytesIO'>
+    │         │            │     └ <function open at 0x7fa3bb2f2820>
+    │         │            └ <module 'PIL.Image' from '/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/PIL/Image....
+    │         └ <function average_hash at 0x7fa3bad9db80>
+    └ <module 'imagehash' from '/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/imagehash/...
+
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/PIL/Image.py", line 3186, in open
+    raise UnidentifiedImageError(
+          └ <class 'PIL.UnidentifiedImageError'>
+
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7fa3ae060220>
+08-16 11:38:19 [ERROR] nonebot | Running Matcher(type='message', module=plugins.mute) failed.
+Traceback (most recent call last):
+
+  File "/opt/zhenxun_bot/bot.py", line 21, in <module>
+    nonebot.run()
+    │       └ <function run at 0x7fa3ca7ca1f0>
+    └ <module 'nonebot' from '/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/__in...
+
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/__init__.py", line 273, in run
+    get_driver().run(*args, **kwargs)
+    │                 │       └ {}
+    │                 └ ()
+    └ <function get_driver at 0x7fa3cbbed1f0>
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/drivers/fastapi.py", line 172, in run
+    uvicorn.run(
+    │       └ <function run at 0x7fa3cb1fb160>
+    └ <module 'uvicorn' from '/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/uvicorn/__in...
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/uvicorn/main.py", line 578, in run
+    server.run()
+    │      └ <function Server.run at 0x7fa3cb1fb310>
+    └ <uvicorn.server.Server object at 0x7fa3af2148b0>
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/uvicorn/server.py", line 61, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           │       │   │    │             └ None
+           │       │   │    └ <function Server.serve at 0x7fa3cb1fb3a0>
+           │       │   └ <uvicorn.server.Server object at 0x7fa3af2148b0>
+           │       └ <function run at 0x7fa3cb806430>
+           └ <module 'asyncio' from '/usr/lib/python3.9/asyncio/__init__.py'>
+  File "/usr/lib/python3.9/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+           │    │                  └ <coroutine object Server.serve at 0x7fa3af223640>
+           │    └ <method 'run_until_complete' of 'uvloop.loop.Loop' objects>
+           └ <uvloop.Loop running=True closed=False debug=False>
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/message.py", line 142, in _check_matcher
+    await _run_matcher(Matcher, bot, event, state, stack, dependency_cache)
+          │            │        │    │      │      │      └ {<function _command at 0x7fa3ca761af0>: <Task finished name='Task-4038658' coro=<_command() done, defined at /root/.cache/pyp...
+          │            │        │    │      │      └ <contextlib.AsyncExitStack object at 0x7fa3ae262a90>
+          │            │        │    │      └ {'_prefix': {'command': None, 'raw_command': None, 'command_arg': None, 'command_start': None}}
+          │            │        │    └ GroupMessageEvent(time=1692157098, self_id=920935721, post_type='message', sub_type='normal', user_id=1584408682, message_typ...
+          │            │        └ Bot(type='OneBot V11', self_id='920935721')
+          │            └ Matcher(type='message', module=plugins.mute)
+          └ <function _run_matcher at 0x7fa3ca590280>
+> File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/message.py", line 188, in _run_matcher
+    await matcher.run(bot, event, state, stack, dependency_cache)
+          │       │   │    │      │      │      └ {<function _command at 0x7fa3ca761af0>: <Task finished name='Task-4038658' coro=<_command() done, defined at /root/.cache/pyp...
+          │       │   │    │      │      └ <contextlib.AsyncExitStack object at 0x7fa3ae262a90>
+          │       │   │    │      └ {'_prefix': {'command': None, 'raw_command': None, 'command_arg': None, 'command_start': None}}
+          │       │   │    └ GroupMessageEvent(time=1692157098, self_id=920935721, post_type='message', sub_type='normal', user_id=1584408682, message_typ...
+          │       │   └ Bot(type='OneBot V11', self_id='920935721')
+          │       └ <function Matcher.run at 0x7fa3ca761790>
+          └ Matcher(type='message', module=plugins.mute)
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/internal/matcher/matcher.py", line 727, in run
+    await self.simple_run(bot, event, state, stack, dependency_cache)
+          │    │          │    │      │      │      └ {<function _command at 0x7fa3ca761af0>: <Task finished name='Task-4038658' coro=<_command() done, defined at /root/.cache/pyp...
+          │    │          │    │      │      └ <contextlib.AsyncExitStack object at 0x7fa3ae262a90>
+          │    │          │    │      └ {'_prefix': {'command': None, 'raw_command': None, 'command_arg': None, 'command_start': None}}
+          │    │          │    └ GroupMessageEvent(time=1692157098, self_id=920935721, post_type='message', sub_type='normal', user_id=1584408682, message_typ...
+          │    │          └ Bot(type='OneBot V11', self_id='920935721')
+          │    └ <function Matcher.simple_run at 0x7fa3ca761700>
+          └ Matcher(type='message', module=plugins.mute)
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/internal/matcher/matcher.py", line 702, in simple_run
+    await handler(
+          └ Dependent(call=_)
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/dependencies/__init__.py", line 108, in __call__
+    return await cast(Callable[..., Awaitable[R]], self.call)(**values)
+                 │    │             │         │    │    │       └ {'bot': Bot(type='OneBot V11', self_id='920935721'), 'event': GroupMessageEvent(time=1692157098, self_id=920935721, post_type...
+                 │    │             │         │    │    └ <function _ at 0x7fa3b0b013a0>
+                 │    │             │         │    └ Dependent(call=_)
+                 │    │             │         └ ~R
+                 │    │             └ typing.Awaitable
+                 │    └ typing.Callable
+                 └ <function cast at 0x7fa3cbaf3ee0>
+
+  File "/opt/zhenxun_bot/plugins/mute.py", line 111, in _
+    img_hash += await download_img_and_hash(img)
+    │                 │                     └ 'https://gchat.qpic.cn/gchatpic_new/1584408682/2168794340-2925638256-952D6047BD5317E4C93155E6B9727E84/0?term=2&is_origin=0'
+    │                 └ <function download_img_and_hash at 0x7fa3b0b01280>
+    └ ''
+
+  File "/opt/zhenxun_bot/plugins/mute.py", line 96, in download_img_and_hash
+    imagehash.average_hash(Image.open(BytesIO((await AsyncHttpx.get(url)).content)))
+    │         │            │     │    │              │          │   └ 'https://gchat.qpic.cn/gchatpic_new/1584408682/2168794340-2925638256-952D6047BD5317E4C93155E6B9727E84/0?term=2&is_origin=0'
+    │         │            │     │    │              │          └ <classmethod object at 0x7fa3b748b2b0>
+    │         │            │     │    │              └ <class 'utils.http_utils.AsyncHttpx'>
+    │         │            │     │    └ <class '_io.BytesIO'>
+    │         │            │     └ <function open at 0x7fa3bb2f2820>
+    │         │            └ <module 'PIL.Image' from '/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/PIL/Image....
+    │         └ <function average_hash at 0x7fa3bad9db80>
+    └ <module 'imagehash' from '/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/imagehash/...
+
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/PIL/Image.py", line 3186, in open
+    raise UnidentifiedImageError(
+          └ <class 'PIL.UnidentifiedImageError'>
+
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7fa3a8d066d0>
+08-16 12:00:00 [ERROR] apscheduler | Job "auto_update_member_info (trigger: cron[hour='12', minute='0'], next run at: 2023-08-17 12:00:00 CST)" raised an exception
+Traceback (most recent call last):
+
+  File "/opt/zhenxun_bot/bot.py", line 21, in <module>
+    nonebot.run()
+    │       └ <function run at 0x7fa3ca7ca1f0>
+    └ <module 'nonebot' from '/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/__in...
+
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/__init__.py", line 273, in run
+    get_driver().run(*args, **kwargs)
+    │                 │       └ {}
+    │                 └ ()
+    └ <function get_driver at 0x7fa3cbbed1f0>
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/drivers/fastapi.py", line 172, in run
+    uvicorn.run(
+    │       └ <function run at 0x7fa3cb1fb160>
+    └ <module 'uvicorn' from '/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/uvicorn/__in...
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/uvicorn/main.py", line 578, in run
+    server.run()
+    │      └ <function Server.run at 0x7fa3cb1fb310>
+    └ <uvicorn.server.Server object at 0x7fa3af2148b0>
+  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/uvicorn/server.py", line 61, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           │       │   │    │             └ None
+           │       │   │    └ <function Server.serve at 0x7fa3cb1fb3a0>
+           │       │   └ <uvicorn.server.Server object at 0x7fa3af2148b0>
+           │       └ <function run at 0x7fa3cb806430>
+           └ <module 'asyncio' from '/usr/lib/python3.9/asyncio/__init__.py'>
+  File "/usr/lib/python3.9/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+           │    │                  └ <coroutine object Server.serve at 0x7fa3af223640>
+           │    └ <method 'run_until_complete' of 'uvloop.loop.Loop' objects>
+           └ <uvloop.Loop running=True closed=False debug=False>
+> File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/apscheduler/executors/base_py3.py", line 30, in run_coroutine_job
+    retval = await job.func(*job.args, **job.kwargs)
+                   │   │     │   │       │   └ <member 'kwargs' of 'Job' objects>
+                   │   │     │   │       └ <Job (id=f476ce02ed2846f8ab1d77da4632f427 name=auto_update_member_info)>
+                   │   │     │   └ <member 'args' of 'Job' objects>
+                   │   │     └ <Job (id=f476ce02ed2846f8ab1d77da4632f427 name=auto_update_member_info)>
+                   │   └ <member 'func' of 'Job' objects>
+                   └ <Job (id=f476ce02ed2846f8ab1d77da4632f427 name=auto_update_member_info)>
+
+  File "/opt/zhenxun_bot/extensive_plugin/slave_market/__init__.py", line 310, in auto_update_member_info
+    _userids.append(user_info.user_qq)
+    │        │      └ <GroupInfoUser: 674>
+    │        └ <method 'append' of 'list' objects>
+    └ []
+
+AttributeError: 'GroupInfoUser' object has no attribute 'user_qq'

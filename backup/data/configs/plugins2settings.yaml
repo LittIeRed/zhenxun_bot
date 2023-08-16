@@ -750,3 +750,21 @@ PluginSettings:
     plugin_type:
     - 群内小游戏
     cost_gold: 0
+  todaybefore:
+    cmd:
+    - 历史上的今天
+    default_status: true
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - 一些工具
+    cost_gold: 0
+  zhenxun_plugin_weibo:
+    cmd:
+    - 微博推送
+    default_status: true
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - normal
+    cost_gold: 0

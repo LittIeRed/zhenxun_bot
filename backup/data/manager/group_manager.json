@@ -33,18 +33,22 @@
                 "TZggl",
                 "TZdajie",
                 "zhenxun_plugins_luckball",
-                "slave_market"
+                "slave_market",
+                "todaybefore",
+                "bilibili_sub"
             ],
             "group_task_status": {
                 "epic_free_game": false,
-                "open_case_reset_remind": true,
+                "open_case_reset_remind": false,
                 "genshin_alc": false,
                 "zwa": true,
                 "broadcast": false,
                 "group_welcome": true,
                 "refund_group_remind": false,
                 "bilibili_parse": true,
-                "fudu": true
+                "fudu": true,
+                "weibo-test": false,
+                "weibo-reverseFuture1999": true
             }
         },
         "541371519": {
@@ -53,21 +57,24 @@
             "close_plugins": [],
             "group_task_status": {
                 "epic_free_game": false,
-                "open_case_reset_remind": true,
+                "open_case_reset_remind": false,
                 "genshin_alc": false,
                 "zwa": true,
                 "broadcast": false,
                 "group_welcome": true,
                 "refund_group_remind": false,
                 "bilibili_parse": true,
-                "fudu": true
+                "fudu": true,
+                "weibo-test": false,
+                "weibo-reverseFuture1999": false
             }
         },
         "666036653": {
             "level": 5,
             "status": true,
             "close_plugins": [
-                "update_info"
+                "update_info",
+                "bilibili_sub"
             ],
             "group_task_status": {
                 "group_welcome": true,
@@ -78,7 +85,83 @@
                 "genshin_alc": false,
                 "epic_free_game": false,
                 "fudu": true,
-                "zwa": true
+                "zwa": true,
+                "weibo-test": false,
+                "weibo-reverseFuture1999": false
+            }
+        },
+        "115618803": {
+            "level": 5,
+            "status": true,
+            "close_plugins": [],
+            "group_task_status": {
+                "zwa": true,
+                "open_case_reset_remind": true,
+                "epic_free_game": false,
+                "genshin_alc": false,
+                "group_welcome": true,
+                "refund_group_remind": false,
+                "broadcast": false,
+                "bilibili_parse": true,
+                "fudu": true,
+                "weibo-test": false,
+                "weibo-reverseFuture1999": false
+            }
+        },
+        "572725814": {
+            "level": 5,
+            "status": true,
+            "close_plugins": [],
+            "group_task_status": {
+                "zwa": true,
+                "open_case_reset_remind": true,
+                "epic_free_game": false,
+                "genshin_alc": false,
+                "group_welcome": true,
+                "refund_group_remind": false,
+                "broadcast": false,
+                "bilibili_parse": true,
+                "fudu": true,
+                "weibo-test": false,
+                "weibo-reverseFuture1999": false
+            }
+        },
+        "741017215": {
+            "level": 5,
+            "status": true,
+            "close_plugins": [
+                "bilibili_sub"
+            ],
+            "group_task_status": {
+                "zwa": true,
+                "open_case_reset_remind": true,
+                "epic_free_game": false,
+                "genshin_alc": false,
+                "group_welcome": true,
+                "refund_group_remind": false,
+                "broadcast": false,
+                "bilibili_parse": true,
+                "fudu": true,
+                "weibo-test": false,
+                "weibo-reverseFuture1999": false
+            }
+        },
+        "822250162": {
+            "level": 5,
+            "status": true,
+            "close_plugins": [],
+            "group_task_status": {
+                "zwa": true,
+                "open_case_reset_remind": true,
+                "epic_free_game": false,
+                "genshin_alc": false,
+                "group_welcome": true,
+                "refund_group_remind": false,
+                "broadcast": false,
+                "bilibili_parse": true,
+                "fudu": true,
+                "weibo-test": false,
+                "weibo-reverseFuture1999": false
             }
         }
     }

@@ -100,6 +100,48 @@ _task:
     default_value: true
     level_module:
     arg_parser:
+  DEFAULT_WEIBO-PCR:
+    value: false
+    name:
+    help: 被动 公主连接微博推送 进群默认开关状态
+    default_value:
+    level_module:
+    arg_parser:
+  DEFAULT_WEIBO-FF14:
+    value: false
+    name:
+    help: 被动 最终幻想14微博推送 进群默认开关状态
+    default_value:
+    level_module:
+    arg_parser:
+  DEFAULT_WEIBO-FF14NGA:
+    value: false
+    name:
+    help: 被动 最终幻想14nga微博推送 进群默认开关状态
+    default_value:
+    level_module:
+    arg_parser:
+  DEFAULT_WEIBO-REVERSEFUTURE1999:
+    value: true
+    name:
+    help: 被动 重返未来1999微博推送 进群默认开关状态
+    default_value:
+    level_module:
+    arg_parser:
+  DEFAULT_WEIBO-GUANJIANCI:
+    value: false
+    name:
+    help: 被动 这是一个推送包含关键词的配置示例 进群默认开关状态
+    default_value:
+    level_module:
+    arg_parser:
+  DEFAULT_WEIBO-TEST:
+    value: false
+    name:
+    help: 被动 测试 进群默认开关状态
+    default_value:
+    level_module:
+    arg_parser:
 _backup:
   BACKUP_FLAG:
     value: true
@@ -402,7 +444,7 @@ alapi:
   ALAPI_TOKEN:
     value:
     name:
-    help: 在 https://admin.alapi.cn/user/login 登录后获取token
+    help: 在https://admin.alapi.cn/user/login登录后获取token
     default_value:
     level_module:
     arg_parser:
@@ -1046,5 +1088,42 @@ TZ21:
     name:
     help: 0-10;0为关
     default_value: 3
+    level_module:
+    arg_parser:
+zhenxun_plugin_weibo:
+  FORWARD_MODE:
+    value: false
+    name:
+    help: 是否以转发模式推送微博，当配置项为true时将以转发模式推送
+    default_value: false
+    level_module:
+    arg_parser:
+  DEFAULT_FORMAT:
+    value: 0
+    name:
+    help: 默认推送格式：0 文本，1 图片
+    default_value: 1
+    level_module:
+    arg_parser:
+  COOKIE:
+    value: _T_WM=43982740492; WEIBOCN_FROM=1110006030; BAIDU_SSP_lcr=https://github.com/LambdaYH/zhenxun_plugin_weibo/tree/main;
+      SSOLoginState=1692108704; ALF=1694700704; SUB=_2A25J3_fwDeRhGeBJ7VMW9yjLzD2IHXVrI5m4rDV6PUNbktAGLRClkW1NRlSbn35DcgmuLbtO0jt1d217L2eEG1Xo;
+      SUBP=0033WrSXqPxfM725Ws9jqgMF55529P9D9WFXkEccpXD.oLrKwKciURyJ5JpX5KzhUgL.FoqNSo2NS0qNS022dJLoIp7LxKML1KBLBKnLxKqL1hnLBoMcS0qpS0McS0Mp;
+      XSRF-TOKEN=4d691e; MLOGIN=1; M_WEIBOCN_PARAMS=oid%3D4910419855280222%26lfid%3D100103type%253D1%2526q%253D%25E9%2587%258D%25E8%25BF%2594%25E6%259C%25AA%25E6%259D%25A51999%26luicode%3D20000174%26uicode%3D20000174;
+      mweibo_short_token=1e6d588800_T_WM=43982740492; WEIBOCN_FROM=1110006030; BAIDU_SSP_lcr=https://github.com/LambdaYH/zhenxun_plugin_weibo/tree/main;
+      SSOLoginState=1692108704; ALF=1694700704; SUB=_2A25J3_fwDeRhGeBJ7VMW9yjLzD2IHXVrI5m4rDV6PUNbktAGLRClkW1NRlSbn35DcgmuLbtO0jt1d217L2eEG1Xo;
+      SUBP=0033WrSXqPxfM725Ws9jqgMF55529P9D9WFXkEccpXD.oLrKwKciURyJ5JpX5KzhUgL.FoqNSo2NS0qNS022dJLoIp7LxKML1KBLBKnLxKqL1hnLBoMcS0qpS0McS0Mp;
+      XSRF-TOKEN=4d691e; MLOGIN=1; M_WEIBOCN_PARAMS=oid%3D4910419855280222%26lfid%3D100103type%253D1%2526q%253D%25E9%2587%258D%25E8%25BF%2594%25E6%259C%25AA%25E6%259D%25A51999%26luicode%3D20000174%26uicode%3D20000174;
+      mweibo_short_token=1e6d588800
+    name:
+    help: 添加cookie后可以获取到更多的微博
+    default_value:
+    level_module:
+    arg_parser:
+  CUSTOM_SEND_TIME:
+    value:
+    name:
+    help: 自定义发送时间，cron格式，若空，则检测到微博后立即发送，反之，仅设定的时刻推送
+    default_value:
     level_module:
     arg_parser:

@@ -1,1207 +1,698 @@
-08-16 01:20:42 [INFO] services.log | 加载配置完成，共加载 47 个配置组及对应 147 个配置项
-08-16 01:20:44 [SUCCESS] nonebot | NoneBot is initializing...
-08-16 01:20:44 [INFO] nonebot | Current Env: dev
-08-16 01:20:47 [SUCCESS] nonebot | Succeeded to import "nonebot_plugin_apscheduler"
-08-16 01:20:54 [SUCCESS] nonebot | Succeeded to import "init_plugin_config"
-08-16 01:20:54 [SUCCESS] nonebot | Succeeded to import "scripts"
-08-16 01:20:55 [SUCCESS] nonebot | Succeeded to import "admin_help"
-08-16 01:20:55 [SUCCESS] nonebot | Succeeded to import "help"
-08-16 01:20:55 [SUCCESS] nonebot | Succeeded to import "plugin_shop"
-08-16 01:20:55 [SUCCESS] nonebot | Succeeded to import "ban"
-08-16 01:20:55 [SUCCESS] nonebot | Succeeded to import "group_handle"
-08-16 01:20:55 [SUCCESS] nonebot | Succeeded to import "rule"
-08-16 01:20:55 [SUCCESS] nonebot | Succeeded to import "update_group_member_info"
-08-16 01:20:56 [SUCCESS] nonebot | Succeeded to import "switch_rule"
-08-16 01:20:56 [SUCCESS] nonebot | Succeeded to import "admin_config"
-08-16 01:20:56 [SUCCESS] nonebot | Succeeded to import "custom_welcome_message"
-08-16 01:20:56 [SUCCESS] nonebot | Succeeded to import "timing_task"
-08-16 01:20:56 [SUCCESS] nonebot | Succeeded to import "admin_bot_manage"
-08-16 01:20:56 [SUCCESS] nonebot | Succeeded to import "my_props"
-08-16 01:20:56 [SUCCESS] nonebot | Succeeded to import "shop_handle"
-08-16 01:20:56 [SUCCESS] nonebot | Succeeded to import "gold"
-08-16 01:20:56 [SUCCESS] nonebot | Succeeded to import "use"
-08-16 01:20:57 [SUCCESS] nonebot | Succeeded to import "buy"
-08-16 01:20:57 [SUCCESS] nonebot | Succeeded to import "shop"
-08-16 01:20:57 [SUCCESS] nonebot | Succeeded to import "invite_manager"
-08-16 01:20:57 [SUCCESS] nonebot | Succeeded to import "set_admin_permissions"
-08-16 01:20:57 [SUCCESS] nonebot | Succeeded to import "reload_setting"
-08-16 01:20:57 [SUCCESS] nonebot | Succeeded to import "manager_group"
-08-16 01:20:57 [SUCCESS] nonebot | Succeeded to import "update_friend_group_info"
-08-16 01:20:58 [SUCCESS] nonebot | Succeeded to import "exec_sql"
-08-16 01:20:58 [SUCCESS] nonebot | Succeeded to import "bot_friend_group"
-08-16 01:20:58 [SUCCESS] nonebot | Succeeded to import "clear_data"
-08-16 01:20:58 [SUCCESS] nonebot | Succeeded to import "super_cmd"
-08-16 01:20:58 [SUCCESS] nonebot | Succeeded to import "apscheduler"
-08-16 01:20:58 [SUCCESS] nonebot | Succeeded to import "broadcast"
-08-16 01:20:58 [SUCCESS] nonebot | Succeeded to import "chat_message"
-08-16 01:20:58 [SUCCESS] nonebot | Succeeded to import "chat_message_handle"
-08-16 01:20:58 [SUCCESS] nonebot | Succeeded to import "chat_history"
-08-16 01:20:58 [SUCCESS] nonebot | Succeeded to import "hooks"
-08-16 01:20:58 [SUCCESS] nonebot | Succeeded to import "super_help"
-08-16 01:20:58 [SUCCESS] nonebot | Succeeded to import "update_info"
-08-16 01:20:59 [SUCCESS] nonebot | Succeeded to import "nickname"
-08-16 01:21:00 [SUCCESS] nonebot | Succeeded to import "poke"
-08-16 01:21:00 [SUCCESS] nonebot | Succeeded to import "russian"
-08-16 01:21:06 [SUCCESS] nonebot | Succeeded to import "bt"
-08-16 01:21:07 [SUCCESS] nonebot | Succeeded to import "gold_redbag"
-08-16 01:21:07 [SUCCESS] nonebot | Succeeded to import "mute"
-08-16 01:21:07 [SUCCESS] nonebot | Succeeded to import "group_welcome_msg"
-08-16 01:21:07 [SUCCESS] nonebot | Succeeded to import "search_anime"
-08-16 01:21:08 [SUCCESS] nonebot | Succeeded to import "self_message"
-08-16 01:21:08 [SUCCESS] nonebot | Succeeded to import "update_setu"
-08-16 01:21:08 [SUCCESS] nonebot | Succeeded to import "send_setu"
-08-16 01:21:08 [SUCCESS] nonebot | Succeeded to import "send_setu_"
-08-16 01:21:08 [SUCCESS] nonebot | Succeeded to import "white2black_image"
-08-16 01:21:09 [SUCCESS] nonebot | Succeeded to import "web_ui"
-08-16 01:21:09 [SUCCESS] nonebot | Succeeded to import "comments_163"
-08-16 01:21:09 [SUCCESS] nonebot | Succeeded to import "jitang"
-08-16 01:21:09 [SUCCESS] nonebot | Succeeded to import "cover"
-08-16 01:21:09 [SUCCESS] nonebot | Succeeded to import "poetry"
-08-16 01:21:09 [SUCCESS] nonebot | Succeeded to import "alapi"
-08-16 01:21:10 [SUCCESS] nonebot | Succeeded to import "pix_update"
-08-16 01:21:10 [SUCCESS] nonebot | Succeeded to import "pix_pass_del_keyword"
-08-16 01:21:10 [SUCCESS] nonebot | Succeeded to import "pix"
-08-16 01:21:10 [SUCCESS] nonebot | Succeeded to import "pix_show_info"
-08-16 01:21:11 [SUCCESS] nonebot | Succeeded to import "pix_add_keyword"
-08-16 01:21:11 [SUCCESS] nonebot | Succeeded to import "pix_gallery"
-08-16 01:21:11 [SUCCESS] nonebot | Succeeded to import "statistics_hook"
-08-16 01:21:11 [SUCCESS] nonebot | Succeeded to import "statistics_handle"
-08-16 01:21:11 [SUCCESS] nonebot | Succeeded to import "statistics"
-08-16 01:21:11 [SUCCESS] nonebot | Succeeded to import "pixiv_rank_search"
-08-16 01:21:11 [SUCCESS] nonebot | Succeeded to import "translate"
-08-16 01:21:12 [SUCCESS] nonebot | Succeeded to import "pid_search"
-08-16 01:21:12 [SUCCESS] nonebot | Succeeded to import "update_gocqhttp"
-08-16 01:21:12 [SUCCESS] nonebot | Succeeded to import "parse_bilibili_json"
-08-16 01:21:13 [SUCCESS] nonebot | Succeeded to import "black_word"
-08-16 01:21:14 [SUCCESS] nonebot | Succeeded to import "weather"
-08-16 01:21:15 [SUCCESS] nonebot | Succeeded to import "word_handle"
-08-16 01:21:15 [SUCCESS] nonebot | Succeeded to import "message_handle"
-08-16 01:21:15 [SUCCESS] nonebot | Succeeded to import "word_bank"
-08-16 01:21:15 [SUCCESS] nonebot | Succeeded to import "withdraw"
-08-16 01:21:16 [SUCCESS] nonebot | Succeeded to import "sign_in"
-08-16 01:21:16 [SUCCESS] nonebot | Succeeded to import "bilibili_sub"
-08-16 01:21:19 [SUCCESS] nonebot | Succeeded to import "draw_card"
-08-16 01:21:19 [SUCCESS] nonebot | Succeeded to import "about"
-08-16 01:21:19 [SUCCESS] nonebot | Succeeded to import "send_image"
-08-16 01:21:19 [SUCCESS] nonebot | Succeeded to import "upload_image"
-08-16 01:21:19 [SUCCESS] nonebot | Succeeded to import "move_image"
-08-16 01:21:19 [SUCCESS] nonebot | Succeeded to import "delete_image"
-08-16 01:21:19 [SUCCESS] nonebot | Succeeded to import "image_management"
-08-16 01:21:20 [SUCCESS] nonebot | Succeeded to import "roll"
-08-16 01:21:20 [SUCCESS] nonebot | Succeeded to import "nbnhhsh"
-08-16 01:21:20 [SUCCESS] nonebot | Succeeded to import "reset_today_query_user_data"
-08-16 01:21:20 [SUCCESS] nonebot | Succeeded to import "query_role"
-08-16 01:21:20 [SUCCESS] nonebot | Succeeded to import "bind"
-08-16 01:21:20 [SUCCESS] nonebot | Succeeded to import "query_memo"
-08-16 01:21:21 [SUCCESS] nonebot | Succeeded to import "resin_remind"
-08-16 01:21:21 [SUCCESS] nonebot | Succeeded to import "genshin_sign"
-08-16 01:21:21 [SUCCESS] nonebot | Succeeded to import "query_memo"
-08-16 01:21:21 [SUCCESS] nonebot | Succeeded to import "mihoyobbs_sign"
-08-16 01:21:21 [SUCCESS] nonebot | Succeeded to import "query_user"
-08-16 01:21:21 [SUCCESS] nonebot | Succeeded to import "material_remind"
-08-16 01:21:21 [SUCCESS] nonebot | Succeeded to import "almanac"
-08-16 01:21:22 [SUCCESS] nonebot | Succeeded to import "query_resource_points"
-08-16 01:21:22 [SUCCESS] nonebot | Succeeded to import "genshin"
-08-16 01:21:22 [SUCCESS] nonebot | Succeeded to import "fudu"
-08-16 01:21:22 [SUCCESS] nonebot | Succeeded to import "fake_msg"
-08-16 01:21:22 [SUCCESS] nonebot | Succeeded to import "search_buff_skin_price"
-08-16 01:21:22 [SUCCESS] nonebot | Succeeded to import "yiqing"
-08-16 01:21:22 [SUCCESS] nonebot | Succeeded to import "one_friend"
-08-16 01:21:22 [SUCCESS] nonebot | Succeeded to import "check"
-08-16 01:21:22 [SUCCESS] nonebot | Succeeded to import "music"
-08-16 01:21:22 [SUCCESS] nonebot | Succeeded to import "search_image"
-08-16 01:21:22 [SUCCESS] nonebot | Succeeded to import "check_zhenxun_update"
-08-16 01:21:22 [SUCCESS] nonebot | Succeeded to import "epic"
-08-16 01:21:22 [SUCCESS] nonebot | Succeeded to import "quotations"
-08-16 01:21:23 [SUCCESS] nonebot | Succeeded to import "update_picture"
-08-16 01:21:23 [SUCCESS] nonebot | Succeeded to import "luxun"
-08-16 01:21:23 [SUCCESS] nonebot | Succeeded to import "wbtop"
-08-16 01:21:23 [SUCCESS] nonebot | Succeeded to import "what_anime"
-08-16 01:21:23 [SUCCESS] nonebot | Succeeded to import "ai"
-08-16 01:21:25 [SUCCESS] nonebot | Succeeded to import "word_clouds"
-08-16 01:21:25 [SUCCESS] nonebot | Succeeded to import "send_dinggong_voice"
-08-16 01:21:25 [SUCCESS] nonebot | Succeeded to import "aconfig"
-08-16 01:21:25 [SUCCESS] nonebot | Succeeded to import "dialogue"
-08-16 01:21:26 [SUCCESS] nonebot | Succeeded to import "open_cases"
-08-16 01:21:26 [SUCCESS] nonebot | Succeeded to import "my_info"
-08-16 01:21:26 [SUCCESS] nonebot | Succeeded to import "coser"
-08-16 01:21:26 [SUCCESS] nonebot | Succeeded to import "zhenxun_plugins_luckball"
-08-16 01:21:26 [SUCCESS] nonebot | Succeeded to import "nonebot_plugin_htmlrender"
-08-16 01:21:31 [SUCCESS] nonebot | Succeeded to import "slave_market"
-08-16 01:21:32 [SUCCESS] nonebot | Succeeded to import "todaybefore"
-08-16 01:21:34 [SUCCESS] nonebot | Succeeded to import "TZ21"
-08-16 01:21:34 [SUCCESS] nonebot | Succeeded to import "TZbank"
-08-16 01:21:34 [SUCCESS] nonebot | Succeeded to import "TZjupai"
-08-16 01:21:35 [SUCCESS] nonebot | Succeeded to import "TZxibai"
-08-16 01:21:35 [SUCCESS] nonebot | Succeeded to import "TZfulijin"
-08-16 01:21:36 [SUCCESS] nonebot | Succeeded to import "TZdajie"
-08-16 01:21:36 [SUCCESS] nonebot | Succeeded to import "piggy"
-08-16 01:21:36 [SUCCESS] nonebot | Succeeded to import "TZggl"
-08-16 01:21:36 [SUCCESS] nonebot | Succeeded to import "zhenxun_plugins_TZseries"
-08-16 01:21:37 [SUCCESS] nonebot | Succeeded to import "zhenxun_plugin_weibo"
-08-16 01:21:37 [SUCCESS] nonebot | Succeeded to import "ban_hook"
-08-16 01:21:37 [SUCCESS] nonebot | Succeeded to import "auth_hook"
-08-16 01:21:37 [SUCCESS] nonebot | Succeeded to import "chkdsk_hook"
-08-16 01:21:37 [SUCCESS] nonebot | Succeeded to import "task_hook"
-08-16 01:21:37 [SUCCESS] nonebot | Succeeded to import "other_hook"
-08-16 01:21:37 [SUCCESS] nonebot | Succeeded to import "withdraw_message_hook"
-08-16 01:21:37 [SUCCESS] nonebot | Running NoneBot...
-08-16 01:21:37 [INFO] uvicorn | Started server process [6839]
-08-16 01:21:37 [INFO] uvicorn | Waiting for application startup.
-08-16 01:21:37 [INFO] services | Database loaded successfully!
-08-16 01:21:38 [INFO] nonebot_plugin_apscheduler | Scheduler Started
-08-16 01:21:39 [INFO] services | 已成功加载 73 个非限制插件.
-08-16 01:21:39 [INFO] services | 已成功加载 7 个Cd限制.
-08-16 01:21:39 [INFO] services | 已成功加载 9 个Block限制.
-08-16 01:21:39 [INFO] services | 已成功加载 2 个Count限制.
-08-16 01:21:41 [INFO] services | 初始化数据完成...
-08-16 01:21:53 [INFO] services | CMD[Web UI] API启动成功
-08-16 01:21:55 [WARNING] services | 获取原神资源失败 code：404
-08-16 01:21:56 [WARNING] services | 获取原神资源类型失败 code：404
-08-16 01:21:57 [INFO] nonebot_plugin_htmlrender | 使用 chromium 启动
-08-16 01:21:58 [INFO] nonebot_plugin_htmlrender | Browser Started.
-08-16 01:21:58 [INFO] services | 微博推送初始化完成
-08-16 01:21:58 [INFO] uvicorn | Application startup complete.
-08-16 01:21:58 [INFO] uvicorn | Uvicorn running on http://23.234.231.178:8080 (Press CTRL+C to quit)
-08-16 01:22:01 [INFO] uvicorn | ('23.234.231.178', 50134) - "WebSocket /onebot/v11/ws/" [accepted]
-08-16 01:22:01 [INFO] nonebot | OneBot V11 | Bot 920935721 connected
-08-16 01:22:01 [INFO] websockets | connection open
-08-16 01:22:01 [INFO] services | 已成功加载 10 个被动技能.
-08-16 01:22:01 [INFO] services | register_use 成功注册商品：好感度双倍加持卡Ⅰ 的使用函数
-08-16 01:22:01 [INFO] services | register_use 成功注册商品：好感度双倍加持卡Ⅱ 的使用函数
-08-16 01:22:01 [INFO] services | register_use 成功注册商品：好感度双倍加持卡Ⅲ 的使用函数
-08-16 01:22:01 [INFO] services | register_use 成功注册商品：真寻的土制存钱罐 的使用函数
-08-16 01:22:02 [INFO] services | register_use 成功注册商品：真寻的银制存钱罐 的使用函数
-08-16 01:22:02 [INFO] services | register_use 成功注册商品：真寻的金制存钱罐 的使用函数
-08-16 01:22:03 [INFO] services | 群聊[114514] 移除不存在的群聊信息
-08-16 01:22:05 [INFO] services | 已成功加载 19 条超级用户命令
-08-16 01:22:06 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message -780633921 from 552491466@[群:666036653] "[CQ:at,qq=920935721] 关闭B站订阅"
-08-16 01:22:06 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
-08-16 01:22:06 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
-08-16 01:22:06 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
-08-16 01:22:06 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
-08-16 01:22:06 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
-08-16 01:22:06 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
-08-16 01:22:06 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
-08-16 01:22:06 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
-08-16 01:22:06 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.admin_bot_manage.switch_rule)
-08-16 01:22:07 [INFO] services | 群聊[666036653] 用户[552491466] CMD[功能管理] 使用群功能管理命令 关闭B站订阅
-08-16 01:22:07 [INFO] nonebot | Matcher(type='message', module=basic_plugins.admin_bot_manage.switch_rule) running complete
-08-16 01:22:15 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message 918574520 from 552491466@[群:666036653] "[CQ:at,qq=920935721] 帮助"
-08-16 01:22:15 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
-08-16 01:22:15 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
-08-16 01:22:15 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
-08-16 01:22:15 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
-08-16 01:22:15 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.help)
-08-16 01:22:15 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
-08-16 01:22:15 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
-08-16 01:22:15 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
-08-16 01:22:15 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
-08-16 01:22:18 [ERROR] services | Id：348399122 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
-08-16 01:22:38 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message -977994497 from 552491466@[群:741017215] "[CQ:at,qq=920935721] 关闭B站订阅"
-08-16 01:22:38 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
-08-16 01:22:38 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
-08-16 01:22:39 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
-08-16 01:22:39 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
-08-16 01:22:39 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
-08-16 01:22:39 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
-08-16 01:22:39 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
-08-16 01:22:39 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
-08-16 01:22:39 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.admin_bot_manage.switch_rule)
-08-16 01:22:40 [INFO] services | 群聊[741017215] 用户[552491466] CMD[功能管理] 使用群功能管理命令 关闭B站订阅
-08-16 01:22:40 [INFO] nonebot | Matcher(type='message', module=basic_plugins.admin_bot_manage.switch_rule) running complete
-08-16 01:22:53 [SUCCESS] nonebot | OneBot V11 920935721 | [message.private.friend]: Message -774424333 from 552491466 "关闭B站订阅 178794340"
-08-16 01:22:53 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
-08-16 01:22:53 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
-08-16 01:22:54 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
-08-16 01:22:54 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
-08-16 01:22:54 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
-08-16 01:22:54 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
-08-16 01:22:54 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.admin_bot_manage.switch_rule)
-08-16 01:22:54 [INFO] services | 用户[552491466] CMD[关闭B站订阅] 使用功能管理命令 关闭B站订阅 | 178794340
-08-16 01:22:54 [INFO] nonebot | Matcher(type='message', module=basic_plugins.admin_bot_manage.switch_rule) running complete
-08-16 01:23:00 [INFO] uvicorn | Shutting down
-08-16 01:23:00 [WARNING] nonebot | OneBot V11 | WebSocket for Bot 920935721 closed by peer
-08-16 01:23:00 [INFO] websockets | connection closed
-08-16 01:23:00 [INFO] uvicorn | Waiting for application shutdown.
-08-16 01:23:00 [INFO] nonebot_plugin_apscheduler | Scheduler Shutdown
-08-16 01:23:09 [INFO] nonebot | Matcher(type='message', module=basic_plugins.help) running complete
-08-16 01:23:09 [ERROR] nonebot | Running Matcher(type='message', module=basic_plugins.help) failed.
-Traceback (most recent call last):
-
-  File "/opt/zhenxun_bot/bot.py", line 21, in <module>
-    nonebot.run()
-    │       └ <function run at 0x7efeb21611f0>
-    └ <module 'nonebot' from '/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/__in...
-
-  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/__init__.py", line 273, in run
-    get_driver().run(*args, **kwargs)
-    │                 │       └ {}
-    │                 └ ()
-    └ <function get_driver at 0x7efeb35841f0>
-  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/drivers/fastapi.py", line 172, in run
-    uvicorn.run(
-    │       └ <function run at 0x7efeb2b93160>
-    └ <module 'uvicorn' from '/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/uvicorn/__in...
-  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/uvicorn/main.py", line 578, in run
-    server.run()
-    │      └ <function Server.run at 0x7efeb2b93310>
-    └ <uvicorn.server.Server object at 0x7efe96a40ca0>
-  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/uvicorn/server.py", line 61, in run
-    return asyncio.run(self.serve(sockets=sockets))
-           │       │   │    │             └ None
-           │       │   │    └ <function Server.serve at 0x7efeb2b933a0>
-           │       │   └ <uvicorn.server.Server object at 0x7efe96a40ca0>
-           │       └ <function run at 0x7efeb319d430>
-           └ <module 'asyncio' from '/usr/lib/python3.9/asyncio/__init__.py'>
-  File "/usr/lib/python3.9/asyncio/runners.py", line 44, in run
-    return loop.run_until_complete(main)
-           │    │                  └ <coroutine object Server.serve at 0x7efe96a63340>
-           │    └ <method 'run_until_complete' of 'uvloop.loop.Loop' objects>
-           └ <uvloop.Loop running=True closed=False debug=False>
-  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/message.py", line 142, in _check_matcher
-    await _run_matcher(Matcher, bot, event, state, stack, dependency_cache)
-          │            │        │    │      │      │      └ {<function _event_to_me at 0x7efeb20f89d0>: <Task finished name='Task-3393' coro=<_event_to_me() done, defined at /root/.cach...
-          │            │        │    │      │      └ <contextlib.AsyncExitStack object at 0x7efe95aa4160>
-          │            │        │    │      └ {'_prefix': {'command': ('帮助',), 'raw_command': '帮助', 'command_arg': [], 'command_start': ''}}
-          │            │        │    └ GroupMessageEvent(time=1692120135, self_id=920935721, post_type='message', sub_type='normal', user_id=552491466, message_type...
-          │            │        └ Bot(type='OneBot V11', self_id='920935721')
-          │            └ Matcher(type='message', module=basic_plugins.help)
-          └ <function _run_matcher at 0x7efeb1f27280>
-> File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/message.py", line 188, in _run_matcher
-    await matcher.run(bot, event, state, stack, dependency_cache)
-          │       │   │    │      │      │      └ {<function _event_to_me at 0x7efeb20f89d0>: <Task finished name='Task-3393' coro=<_event_to_me() done, defined at /root/.cach...
-          │       │   │    │      │      └ <contextlib.AsyncExitStack object at 0x7efe95aa4160>
-          │       │   │    │      └ {'_prefix': {'command': ('帮助',), 'raw_command': '帮助', 'command_arg': [], 'command_start': ''}}
-          │       │   │    └ GroupMessageEvent(time=1692120135, self_id=920935721, post_type='message', sub_type='normal', user_id=552491466, message_type...
-          │       │   └ Bot(type='OneBot V11', self_id='920935721')
-          │       └ <function Matcher.run at 0x7efeb20f8790>
-          └ Matcher(type='message', module=basic_plugins.help)
-  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/internal/matcher/matcher.py", line 727, in run
-    await self.simple_run(bot, event, state, stack, dependency_cache)
-          │    │          │    │      │      │      └ {<function _event_to_me at 0x7efeb20f89d0>: <Task finished name='Task-3393' coro=<_event_to_me() done, defined at /root/.cach...
-          │    │          │    │      │      └ <contextlib.AsyncExitStack object at 0x7efe95aa4160>
-          │    │          │    │      └ {'_prefix': {'command': ('帮助',), 'raw_command': '帮助', 'command_arg': [], 'command_start': ''}}
-          │    │          │    └ GroupMessageEvent(time=1692120135, self_id=920935721, post_type='message', sub_type='normal', user_id=552491466, message_type...
-          │    │          └ Bot(type='OneBot V11', self_id='920935721')
-          │    └ <function Matcher.simple_run at 0x7efeb20f8700>
-          └ Matcher(type='message', module=basic_plugins.help)
-  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/internal/matcher/matcher.py", line 702, in simple_run
-    await handler(
-          └ Dependent(call=_)
-  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/dependencies/__init__.py", line 108, in __call__
-    return await cast(Callable[..., Awaitable[R]], self.call)(**values)
-                 │    │             │         │    │    │       └ {'bot': Bot(type='OneBot V11', self_id='920935721'), 'event': GroupMessageEvent(time=1692120135, self_id=920935721, post_type...
-                 │    │             │         │    │    └ <function _ at 0x7efe9ebc4430>
-                 │    │             │         │    └ Dependent(call=_)
-                 │    │             │         └ ~R
-                 │    │             └ typing.Awaitable
-                 │    └ typing.Callable
-                 └ <function cast at 0x7efeb348aee0>
-
-  File "/opt/zhenxun_bot/basic_plugins/help/__init__.py", line 58, in _
-    await simple_help.send(image(_image_path))
-          │           │    │     └ PosixPath('data/group_help/666036653.png')
-          │           │    └ <function image at 0x7efe9ecb2310>
-          │           └ <classmethod object at 0x7efeb20f2970>
-          └ Matcher(type='message', module=basic_plugins.help)
-
-  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/internal/matcher/matcher.py", line 461, in send
-    return await bot.send(event=event, message=_message, **kwargs)
-                 │   │          │              │           └ {}
-                 │   │          │              └ MessageSegment(type='image', data={'file': 'file:///opt/zhenxun_bot/data/group_help/666036653.png', 'type': None, 'cache': 't...
-                 │   │          └ GroupMessageEvent(time=1692120135, self_id=920935721, post_type='message', sub_type='normal', user_id=552491466, message_type...
-                 │   └ <function Bot.send at 0x7efeb1f27700>
-                 └ Bot(type='OneBot V11', self_id='920935721')
-  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/adapters/onebot/v11/bot.py", line 220, in send
-    return await self.__class__.send_handler(self, event, message, **kwargs)
-                 │    │                      │     │      │          └ {}
-                 │    │                      │     │      └ MessageSegment(type='image', data={'file': 'file:///opt/zhenxun_bot/data/group_help/666036653.png', 'type': None, 'cache': 't...
-                 │    │                      │     └ GroupMessageEvent(time=1692120135, self_id=920935721, post_type='message', sub_type='normal', user_id=552491466, message_type...
-                 │    │                      └ Bot(type='OneBot V11', self_id='920935721')
-                 │    └ <attribute '__class__' of 'object' objects>
-                 └ Bot(type='OneBot V11', self_id='920935721')
-  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/adapters/onebot/v11/bot.py", line 174, in send
-    return await bot.send_msg(**params)
-                 │              └ {'user_id': 552491466, 'group_id': 666036653, 'message_type': 'group', 'message': [MessageSegment(type='image', data={'file':...
-                 └ Bot(type='OneBot V11', self_id='920935721')
-  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/internal/adapter/bot.py", line 120, in call_api
-    raise exception
-          └ NetWorkError(message='WebSocket call api send_msg timeout')
-  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/internal/adapter/bot.py", line 98, in call_api
-    result = await self.adapter._call_api(self, api, **data)
-                   │    │       │         │     │      └ {'user_id': 552491466, 'group_id': 666036653, 'message_type': 'group', 'message': [MessageSegment(type='image', data={'file':...
-                   │    │       │         │     └ 'send_msg'
-                   │    │       │         └ Bot(type='OneBot V11', self_id='920935721')
-                   │    │       └ <function Adapter._call_api at 0x7efeb1f2c9d0>
-                   │    └ Adapter(name='OneBot V11')
-                   └ Bot(type='OneBot V11', self_id='920935721')
-  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/adapters/onebot/v11/adapter.py", line 134, in _call_api
-    raise NetworkError(f"WebSocket call api {api} timeout") from None
-          └ <class 'nonebot.adapters.onebot.v11.exception.NetworkError'>
-
-nonebot.adapters.onebot.v11.exception.NetworkError
-08-16 01:25:42 [INFO] services.log | 加载配置完成，共加载 47 个配置组及对应 147 个配置项
-08-16 01:25:42 [SUCCESS] nonebot | NoneBot is initializing...
-08-16 01:25:42 [INFO] nonebot | Current Env: dev
-08-16 01:25:44 [SUCCESS] nonebot | Succeeded to import "nonebot_plugin_apscheduler"
-08-16 01:25:47 [SUCCESS] nonebot | Succeeded to import "init_plugin_config"
-08-16 01:25:47 [SUCCESS] nonebot | Succeeded to import "help"
-08-16 01:25:47 [SUCCESS] nonebot | Succeeded to import "invite_manager"
-08-16 01:25:47 [SUCCESS] nonebot | Succeeded to import "ban"
-08-16 01:25:48 [SUCCESS] nonebot | Succeeded to import "scripts"
-08-16 01:25:48 [SUCCESS] nonebot | Succeeded to import "nickname"
-08-16 01:25:48 [SUCCESS] nonebot | Succeeded to import "update_info"
-08-16 01:25:48 [SUCCESS] nonebot | Succeeded to import "plugin_shop"
-08-16 01:25:48 [SUCCESS] nonebot | Succeeded to import "chat_message_handle"
-08-16 01:25:48 [SUCCESS] nonebot | Succeeded to import "chat_message"
-08-16 01:25:48 [SUCCESS] nonebot | Succeeded to import "chat_history"
-08-16 01:25:48 [SUCCESS] nonebot | Succeeded to import "super_help"
-08-16 01:25:48 [SUCCESS] nonebot | Succeeded to import "admin_help"
-08-16 01:25:48 [SUCCESS] nonebot | Succeeded to import "apscheduler"
-08-16 01:25:49 [SUCCESS] nonebot | Succeeded to import "shop_handle"
-08-16 01:25:49 [SUCCESS] nonebot | Succeeded to import "use"
-08-16 01:25:49 [SUCCESS] nonebot | Succeeded to import "my_props"
-08-16 01:25:49 [SUCCESS] nonebot | Succeeded to import "buy"
-08-16 01:25:49 [SUCCESS] nonebot | Succeeded to import "gold"
-08-16 01:25:49 [SUCCESS] nonebot | Succeeded to import "shop"
-08-16 01:25:49 [SUCCESS] nonebot | Succeeded to import "rule"
-08-16 01:25:49 [SUCCESS] nonebot | Succeeded to import "admin_config"
-08-16 01:25:49 [SUCCESS] nonebot | Succeeded to import "custom_welcome_message"
-08-16 01:25:49 [SUCCESS] nonebot | Succeeded to import "timing_task"
-08-16 01:25:50 [SUCCESS] nonebot | Succeeded to import "update_group_member_info"
-08-16 01:25:50 [SUCCESS] nonebot | Succeeded to import "switch_rule"
-08-16 01:25:50 [SUCCESS] nonebot | Succeeded to import "admin_bot_manage"
-08-16 01:25:50 [SUCCESS] nonebot | Succeeded to import "hooks"
-08-16 01:25:50 [SUCCESS] nonebot | Succeeded to import "exec_sql"
-08-16 01:25:51 [SUCCESS] nonebot | Succeeded to import "manager_group"
-08-16 01:25:51 [SUCCESS] nonebot | Succeeded to import "bot_friend_group"
-08-16 01:25:51 [SUCCESS] nonebot | Succeeded to import "clear_data"
-08-16 01:25:52 [SUCCESS] nonebot | Succeeded to import "reload_setting"
-08-16 01:25:52 [SUCCESS] nonebot | Succeeded to import "update_friend_group_info"
-08-16 01:25:52 [SUCCESS] nonebot | Succeeded to import "set_admin_permissions"
-08-16 01:25:52 [SUCCESS] nonebot | Succeeded to import "super_cmd"
-08-16 01:25:52 [SUCCESS] nonebot | Succeeded to import "broadcast"
-08-16 01:25:52 [SUCCESS] nonebot | Succeeded to import "group_handle"
-08-16 01:25:52 [SUCCESS] nonebot | Succeeded to import "yiqing"
-08-16 01:25:52 [SUCCESS] nonebot | Succeeded to import "withdraw"
-08-16 01:25:53 [SUCCESS] nonebot | Succeeded to import "pixiv_rank_search"
-08-16 01:25:53 [SUCCESS] nonebot | Succeeded to import "translate"
-08-16 01:25:53 [SUCCESS] nonebot | Succeeded to import "ai"
-08-16 01:25:53 [SUCCESS] nonebot | Succeeded to import "pid_search"
-08-16 01:25:53 [SUCCESS] nonebot | Succeeded to import "cover"
-08-16 01:25:53 [SUCCESS] nonebot | Succeeded to import "poetry"
-08-16 01:25:53 [SUCCESS] nonebot | Succeeded to import "jitang"
-08-16 01:25:53 [SUCCESS] nonebot | Succeeded to import "comments_163"
-08-16 01:25:53 [SUCCESS] nonebot | Succeeded to import "alapi"
-08-16 01:25:53 [SUCCESS] nonebot | Succeeded to import "quotations"
-08-16 01:25:53 [SUCCESS] nonebot | Succeeded to import "dialogue"
-08-16 01:25:54 [SUCCESS] nonebot | Succeeded to import "bt"
-08-16 01:25:54 [SUCCESS] nonebot | Succeeded to import "black_word"
-08-16 01:25:54 [SUCCESS] nonebot | Succeeded to import "epic"
-08-16 01:25:54 [SUCCESS] nonebot | Succeeded to import "white2black_image"
-08-16 01:25:55 [SUCCESS] nonebot | Succeeded to import "send_setu"
-08-16 01:25:55 [SUCCESS] nonebot | Succeeded to import "update_setu"
-08-16 01:25:55 [SUCCESS] nonebot | Succeeded to import "send_setu_"
-08-16 01:25:55 [SUCCESS] nonebot | Succeeded to import "message_handle"
-08-16 01:25:55 [SUCCESS] nonebot | Succeeded to import "word_handle"
-08-16 01:25:55 [SUCCESS] nonebot | Succeeded to import "word_bank"
-08-16 01:25:55 [SUCCESS] nonebot | Succeeded to import "statistics_hook"
-08-16 01:25:55 [SUCCESS] nonebot | Succeeded to import "statistics_handle"
-08-16 01:25:55 [SUCCESS] nonebot | Succeeded to import "statistics"
-08-16 01:25:55 [SUCCESS] nonebot | Succeeded to import "sign_in"
-08-16 01:25:55 [SUCCESS] nonebot | Succeeded to import "one_friend"
-08-16 01:25:55 [SUCCESS] nonebot | Succeeded to import "nbnhhsh"
-08-16 01:25:56 [SUCCESS] nonebot | Succeeded to import "russian"
-08-16 01:25:56 [SUCCESS] nonebot | Succeeded to import "my_info"
-08-16 01:25:57 [SUCCESS] nonebot | Succeeded to import "weather"
-08-16 01:25:57 [SUCCESS] nonebot | Succeeded to import "poke"
-08-16 01:25:57 [SUCCESS] nonebot | Succeeded to import "genshin_sign"
-08-16 01:25:57 [SUCCESS] nonebot | Succeeded to import "reset_today_query_user_data"
-08-16 01:25:57 [SUCCESS] nonebot | Succeeded to import "mihoyobbs_sign"
-08-16 01:25:57 [SUCCESS] nonebot | Succeeded to import "query_memo"
-08-16 01:25:57 [SUCCESS] nonebot | Succeeded to import "resin_remind"
-08-16 01:25:58 [SUCCESS] nonebot | Succeeded to import "bind"
-08-16 01:25:58 [SUCCESS] nonebot | Succeeded to import "query_role"
-08-16 01:25:58 [SUCCESS] nonebot | Succeeded to import "query_user"
-08-16 01:25:58 [SUCCESS] nonebot | Succeeded to import "query_resource_points"
-08-16 01:25:58 [SUCCESS] nonebot | Succeeded to import "almanac"
-08-16 01:25:58 [SUCCESS] nonebot | Succeeded to import "material_remind"
-08-16 01:25:58 [SUCCESS] nonebot | Succeeded to import "genshin"
-08-16 01:25:58 [SUCCESS] nonebot | Succeeded to import "roll"
-08-16 01:25:58 [SUCCESS] nonebot | Succeeded to import "coser"
-08-16 01:25:58 [SUCCESS] nonebot | Succeeded to import "search_image"
-08-16 01:25:58 [SUCCESS] nonebot | Succeeded to import "gold_redbag"
-08-16 01:25:58 [SUCCESS] nonebot | Succeeded to import "music"
-08-16 01:25:59 [SUCCESS] nonebot | Succeeded to import "send_dinggong_voice"
-08-16 01:26:01 [SUCCESS] nonebot | Succeeded to import "luxun"
-08-16 01:26:01 [SUCCESS] nonebot | Succeeded to import "aconfig"
-08-16 01:26:01 [SUCCESS] nonebot | Succeeded to import "pix_update"
-08-16 01:26:02 [SUCCESS] nonebot | Succeeded to import "pix_show_info"
-08-16 01:26:02 [SUCCESS] nonebot | Succeeded to import "pix_pass_del_keyword"
-08-16 01:26:02 [SUCCESS] nonebot | Succeeded to import "pix_add_keyword"
-08-16 01:26:02 [SUCCESS] nonebot | Succeeded to import "pix"
-08-16 01:26:02 [SUCCESS] nonebot | Succeeded to import "pix_gallery"
-08-16 01:26:02 [SUCCESS] nonebot | Succeeded to import "check_zhenxun_update"
-08-16 01:26:03 [SUCCESS] nonebot | Succeeded to import "parse_bilibili_json"
-08-16 01:26:03 [SUCCESS] nonebot | Succeeded to import "about"
-08-16 01:26:03 [SUCCESS] nonebot | Succeeded to import "update_gocqhttp"
-08-16 01:26:03 [SUCCESS] nonebot | Succeeded to import "upload_image"
-08-16 01:26:03 [SUCCESS] nonebot | Succeeded to import "send_image"
-08-16 01:26:04 [SUCCESS] nonebot | Succeeded to import "move_image"
-08-16 01:26:04 [SUCCESS] nonebot | Succeeded to import "delete_image"
-08-16 01:26:04 [SUCCESS] nonebot | Succeeded to import "image_management"
-08-16 01:26:04 [SUCCESS] nonebot | Succeeded to import "fake_msg"
-08-16 01:26:04 [SUCCESS] nonebot | Succeeded to import "web_ui"
-08-16 01:26:04 [SUCCESS] nonebot | Succeeded to import "search_buff_skin_price"
-08-16 01:26:06 [SUCCESS] nonebot | Succeeded to import "update_picture"
-08-16 01:26:06 [SUCCESS] nonebot | Succeeded to import "mute"
-08-16 01:26:06 [SUCCESS] nonebot | Succeeded to import "group_welcome_msg"
-08-16 01:26:07 [SUCCESS] nonebot | Succeeded to import "what_anime"
-08-16 01:26:07 [SUCCESS] nonebot | Succeeded to import "self_message"
-08-16 01:26:07 [SUCCESS] nonebot | Succeeded to import "fudu"
-08-16 01:26:07 [SUCCESS] nonebot | Succeeded to import "wbtop"
-08-16 01:26:07 [SUCCESS] nonebot | Succeeded to import "word_clouds"
-08-16 01:26:10 [SUCCESS] nonebot | Succeeded to import "draw_card"
-08-16 01:26:10 [SUCCESS] nonebot | Succeeded to import "search_anime"
-08-16 01:26:10 [SUCCESS] nonebot | Succeeded to import "bilibili_sub"
-08-16 01:26:11 [SUCCESS] nonebot | Succeeded to import "check"
-08-16 01:26:11 [SUCCESS] nonebot | Succeeded to import "open_cases"
-08-16 01:26:11 [SUCCESS] nonebot | Succeeded to import "todaybefore"
-08-16 01:26:11 [SUCCESS] nonebot | Succeeded to import "zhenxun_plugin_weibo"
-08-16 01:26:12 [SUCCESS] nonebot | Succeeded to import "zhenxun_plugins_luckball"
-08-16 01:26:12 [SUCCESS] nonebot | Succeeded to import "TZdajie"
-08-16 01:26:13 [SUCCESS] nonebot | Succeeded to import "TZbank"
-08-16 01:26:13 [SUCCESS] nonebot | Succeeded to import "TZggl"
-08-16 01:26:14 [SUCCESS] nonebot | Succeeded to import "TZ21"
-08-16 01:26:14 [SUCCESS] nonebot | Succeeded to import "TZfulijin"
-08-16 01:26:14 [SUCCESS] nonebot | Succeeded to import "TZxibai"
-08-16 01:26:14 [SUCCESS] nonebot | Succeeded to import "piggy"
-08-16 01:26:14 [SUCCESS] nonebot | Succeeded to import "TZjupai"
-08-16 01:26:14 [SUCCESS] nonebot | Succeeded to import "zhenxun_plugins_TZseries"
-08-16 01:26:15 [SUCCESS] nonebot | Succeeded to import "nonebot_plugin_htmlrender"
-08-16 01:26:16 [SUCCESS] nonebot | Succeeded to import "slave_market"
-08-16 01:26:16 [SUCCESS] nonebot | Succeeded to import "task_hook"
-08-16 01:26:16 [SUCCESS] nonebot | Succeeded to import "other_hook"
-08-16 01:26:16 [SUCCESS] nonebot | Succeeded to import "withdraw_message_hook"
-08-16 01:26:16 [SUCCESS] nonebot | Succeeded to import "auth_hook"
-08-16 01:26:16 [SUCCESS] nonebot | Succeeded to import "ban_hook"
-08-16 01:26:16 [SUCCESS] nonebot | Succeeded to import "chkdsk_hook"
-08-16 01:26:16 [SUCCESS] nonebot | Running NoneBot...
-08-16 01:26:16 [INFO] uvicorn | Started server process [7212]
-08-16 01:26:16 [INFO] uvicorn | Waiting for application startup.
-08-16 01:26:16 [INFO] services | Database loaded successfully!
-08-16 01:26:17 [INFO] nonebot_plugin_apscheduler | Scheduler Started
-08-16 01:26:18 [INFO] services | 已成功加载 73 个非限制插件.
-08-16 01:26:18 [INFO] services | 已成功加载 7 个Cd限制.
-08-16 01:26:18 [INFO] services | 已成功加载 9 个Block限制.
-08-16 01:26:18 [INFO] services | 已成功加载 2 个Count限制.
-08-16 01:26:21 [INFO] services | 初始化数据完成...
-08-16 01:26:24 [WARNING] services | 获取原神资源失败 code：404
-08-16 01:26:24 [WARNING] services | 获取原神资源类型失败 code：404
-08-16 01:26:24 [INFO] services | CMD[Web UI] API启动成功
-08-16 01:26:24 [INFO] services | 微博推送初始化完成
-08-16 01:26:25 [INFO] nonebot_plugin_htmlrender | 使用 chromium 启动
-08-16 01:26:26 [INFO] nonebot_plugin_htmlrender | Browser Started.
-08-16 01:26:26 [INFO] uvicorn | Application startup complete.
-08-16 01:26:26 [INFO] uvicorn | Uvicorn running on http://23.234.231.178:8080 (Press CTRL+C to quit)
-08-16 01:26:27 [INFO] uvicorn | ('23.234.231.178', 46782) - "WebSocket /onebot/v11/ws/" [accepted]
-08-16 01:26:27 [INFO] nonebot | OneBot V11 | Bot 920935721 connected
-08-16 01:26:27 [INFO] websockets | connection open
-08-16 01:26:28 [INFO] services | 已成功加载 10 个被动技能.
-08-16 01:26:28 [INFO] services | register_use 成功注册商品：好感度双倍加持卡Ⅰ 的使用函数
-08-16 01:26:28 [INFO] services | register_use 成功注册商品：好感度双倍加持卡Ⅱ 的使用函数
-08-16 01:26:28 [INFO] services | register_use 成功注册商品：好感度双倍加持卡Ⅲ 的使用函数
-08-16 01:26:28 [INFO] services | register_use 成功注册商品：真寻的土制存钱罐 的使用函数
-08-16 01:26:28 [INFO] services | register_use 成功注册商品：真寻的银制存钱罐 的使用函数
-08-16 01:26:28 [INFO] services | 群聊[114514] 移除不存在的群聊信息
-08-16 01:26:28 [INFO] services | register_use 成功注册商品：真寻的金制存钱罐 的使用函数
-08-16 01:26:32 [INFO] services | 已成功加载 19 条超级用户命令
-08-16 01:26:36 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message 553708747 from 552491466@[群:666036653] "签到"
-08-16 01:26:36 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
-08-16 01:26:36 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
-08-16 01:26:36 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
-08-16 01:26:36 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
-08-16 01:26:36 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
-08-16 01:26:36 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
-08-16 01:26:36 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
-08-16 01:26:36 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
-08-16 01:26:36 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.sign_in.group_user_checkin)
-08-16 01:26:36 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.sign_in)
-08-16 01:26:36 [INFO] nonebot | Matcher(type='message', module=plugins.sign_in.group_user_checkin) running complete
-08-16 01:26:36 [INFO] services | (USER 552491466, GROUP 666036653) CHECKED IN successfully. score: 4.96 (+0.19).获取金币：1
-08-16 01:26:43 [INFO] nonebot | Matcher(type='message', module=plugins.sign_in) running complete
-08-16 01:26:50 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message -821129753 from 552491466@[群:666036653] "签到"
-08-16 01:26:50 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
-08-16 01:26:50 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
-08-16 01:26:50 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
-08-16 01:26:50 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
-08-16 01:26:50 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
-08-16 01:26:50 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
-08-16 01:26:50 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
-08-16 01:26:50 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
-08-16 01:26:51 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.sign_in.group_user_checkin)
-08-16 01:26:51 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.sign_in)
-08-16 01:26:51 [INFO] nonebot | Matcher(type='message', module=plugins.sign_in.group_user_checkin) running complete
-08-16 01:26:52 [INFO] nonebot | Matcher(type='message', module=plugins.sign_in) running complete
-08-16 01:26:55 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message 644688082 from 552491466@[群:666036653] "好感度"
-08-16 01:26:55 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
-08-16 01:26:55 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
-08-16 01:26:55 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
-08-16 01:26:55 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
-08-16 01:26:55 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
-08-16 01:26:55 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
-08-16 01:26:55 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
-08-16 01:26:55 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
-08-16 01:26:55 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.sign_in)
-08-16 01:27:00 [INFO] nonebot | Matcher(type='message', module=plugins.sign_in) running complete
-08-16 01:27:13 [ERROR] services | Id：348399122 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
-08-16 01:27:25 [INFO] uvicorn | Shutting down
-08-16 01:27:25 [WARNING] nonebot | OneBot V11 | WebSocket for Bot 920935721 closed by peer
-08-16 01:27:25 [INFO] websockets | connection closed
-08-16 01:27:25 [INFO] uvicorn | Waiting for application shutdown.
-08-16 01:27:25 [INFO] nonebot_plugin_apscheduler | Scheduler Shutdown
-08-16 01:27:25 [INFO] nonebot_plugin_htmlrender | Browser Stopped.
-08-16 01:27:25 [INFO] uvicorn | Application shutdown complete.
-08-16 01:27:25 [INFO] uvicorn | Finished server process [7212]
-08-16 01:35:56 [INFO] services.log | 加载配置完成，共加载 47 个配置组及对应 147 个配置项
-08-16 01:35:57 [SUCCESS] nonebot | NoneBot is initializing...
-08-16 01:35:57 [INFO] nonebot | Current Env: dev
-08-16 01:35:58 [SUCCESS] nonebot | Succeeded to import "nonebot_plugin_apscheduler"
-08-16 01:36:04 [SUCCESS] nonebot | Succeeded to import "init_plugin_config"
-08-16 01:36:05 [SUCCESS] nonebot | Succeeded to import "group_handle"
-08-16 01:36:05 [SUCCESS] nonebot | Succeeded to import "hooks"
-08-16 01:36:05 [SUCCESS] nonebot | Succeeded to import "plugin_shop"
-08-16 01:36:05 [SUCCESS] nonebot | Succeeded to import "apscheduler"
-08-16 01:36:05 [SUCCESS] nonebot | Succeeded to import "ban"
-08-16 01:36:05 [SUCCESS] nonebot | Succeeded to import "help"
-08-16 01:36:06 [SUCCESS] nonebot | Succeeded to import "nickname"
-08-16 01:36:06 [SUCCESS] nonebot | Succeeded to import "reload_setting"
-08-16 01:36:06 [SUCCESS] nonebot | Succeeded to import "clear_data"
-08-16 01:36:06 [SUCCESS] nonebot | Succeeded to import "bot_friend_group"
-08-16 01:36:06 [SUCCESS] nonebot | Succeeded to import "exec_sql"
-08-16 01:36:07 [SUCCESS] nonebot | Succeeded to import "set_admin_permissions"
-08-16 01:36:07 [SUCCESS] nonebot | Succeeded to import "update_friend_group_info"
-08-16 01:36:07 [SUCCESS] nonebot | Succeeded to import "manager_group"
-08-16 01:36:07 [SUCCESS] nonebot | Succeeded to import "super_cmd"
-08-16 01:36:07 [SUCCESS] nonebot | Succeeded to import "broadcast"
-08-16 01:36:08 [SUCCESS] nonebot | Succeeded to import "update_info"
-08-16 01:36:08 [SUCCESS] nonebot | Succeeded to import "scripts"
-08-16 01:36:08 [SUCCESS] nonebot | Succeeded to import "chat_message"
-08-16 01:36:08 [SUCCESS] nonebot | Succeeded to import "chat_message_handle"
-08-16 01:36:08 [SUCCESS] nonebot | Succeeded to import "chat_history"
-08-16 01:36:08 [SUCCESS] nonebot | Succeeded to import "super_help"
-08-16 01:36:08 [SUCCESS] nonebot | Succeeded to import "invite_manager"
-08-16 01:36:08 [SUCCESS] nonebot | Succeeded to import "update_group_member_info"
-08-16 01:36:08 [SUCCESS] nonebot | Succeeded to import "admin_config"
-08-16 01:36:08 [SUCCESS] nonebot | Succeeded to import "rule"
-08-16 01:36:08 [SUCCESS] nonebot | Succeeded to import "timing_task"
-08-16 01:36:08 [SUCCESS] nonebot | Succeeded to import "custom_welcome_message"
-08-16 01:36:08 [SUCCESS] nonebot | Succeeded to import "switch_rule"
-08-16 01:36:08 [SUCCESS] nonebot | Succeeded to import "admin_bot_manage"
-08-16 01:36:09 [SUCCESS] nonebot | Succeeded to import "my_props"
-08-16 01:36:09 [SUCCESS] nonebot | Succeeded to import "buy"
-08-16 01:36:09 [SUCCESS] nonebot | Succeeded to import "shop_handle"
-08-16 01:36:09 [SUCCESS] nonebot | Succeeded to import "use"
-08-16 01:36:09 [SUCCESS] nonebot | Succeeded to import "gold"
-08-16 01:36:09 [SUCCESS] nonebot | Succeeded to import "shop"
-08-16 01:36:09 [SUCCESS] nonebot | Succeeded to import "admin_help"
-08-16 01:36:09 [SUCCESS] nonebot | Succeeded to import "luxun"
-08-16 01:36:10 [SUCCESS] nonebot | Succeeded to import "search_anime"
-08-16 01:36:10 [SUCCESS] nonebot | Succeeded to import "group_welcome_msg"
-08-16 01:36:10 [SUCCESS] nonebot | Succeeded to import "pixiv_rank_search"
-08-16 01:36:10 [SUCCESS] nonebot | Succeeded to import "bt"
-08-16 01:36:11 [SUCCESS] nonebot | Succeeded to import "black_word"
-08-16 01:36:11 [SUCCESS] nonebot | Succeeded to import "about"
-08-16 01:36:12 [SUCCESS] nonebot | Succeeded to import "weather"
-08-16 01:36:12 [SUCCESS] nonebot | Succeeded to import "white2black_image"
-08-16 01:36:12 [SUCCESS] nonebot | Succeeded to import "what_anime"
-08-16 01:36:12 [SUCCESS] nonebot | Succeeded to import "check"
-08-16 01:36:12 [SUCCESS] nonebot | Succeeded to import "statistics_handle"
-08-16 01:36:12 [SUCCESS] nonebot | Succeeded to import "statistics_hook"
-08-16 01:36:12 [SUCCESS] nonebot | Succeeded to import "statistics"
-08-16 01:36:13 [SUCCESS] nonebot | Succeeded to import "query_resource_points"
-08-16 01:36:13 [SUCCESS] nonebot | Succeeded to import "almanac"
-08-16 01:36:13 [SUCCESS] nonebot | Succeeded to import "material_remind"
-08-16 01:36:13 [SUCCESS] nonebot | Succeeded to import "query_role"
-08-16 01:36:13 [SUCCESS] nonebot | Succeeded to import "reset_today_query_user_data"
-08-16 01:36:13 [SUCCESS] nonebot | Succeeded to import "bind"
-08-16 01:36:14 [SUCCESS] nonebot | Succeeded to import "mihoyobbs_sign"
-08-16 01:36:14 [SUCCESS] nonebot | Succeeded to import "query_memo"
-08-16 01:36:14 [SUCCESS] nonebot | Succeeded to import "resin_remind"
-08-16 01:36:14 [SUCCESS] nonebot | Succeeded to import "genshin_sign"
-08-16 01:36:14 [SUCCESS] nonebot | Succeeded to import "query_user"
-08-16 01:36:14 [SUCCESS] nonebot | Succeeded to import "genshin"
-08-16 01:36:18 [SUCCESS] nonebot | Succeeded to import "word_clouds"
-08-16 01:36:18 [SUCCESS] nonebot | Succeeded to import "wbtop"
-08-16 01:36:18 [SUCCESS] nonebot | Succeeded to import "coser"
-08-16 01:36:18 [SUCCESS] nonebot | Succeeded to import "ai"
-08-16 01:36:18 [SUCCESS] nonebot | Succeeded to import "update_picture"
-08-16 01:36:18 [SUCCESS] nonebot | Succeeded to import "bilibili_sub"
-08-16 01:36:19 [SUCCESS] nonebot | Succeeded to import "one_friend"
-08-16 01:36:19 [SUCCESS] nonebot | Succeeded to import "pix_show_info"
-08-16 01:36:19 [SUCCESS] nonebot | Succeeded to import "pix_pass_del_keyword"
-08-16 01:36:19 [SUCCESS] nonebot | Succeeded to import "pix_update"
-08-16 01:36:19 [SUCCESS] nonebot | Succeeded to import "pix"
-08-16 01:36:20 [SUCCESS] nonebot | Succeeded to import "pix_add_keyword"
-08-16 01:36:20 [SUCCESS] nonebot | Succeeded to import "pix_gallery"
-08-16 01:36:24 [SUCCESS] nonebot | Succeeded to import "draw_card"
-08-16 01:36:24 [SUCCESS] nonebot | Succeeded to import "epic"
-08-16 01:36:24 [SUCCESS] nonebot | Succeeded to import "music"
-08-16 01:36:24 [SUCCESS] nonebot | Succeeded to import "open_cases"
-08-16 01:36:24 [SUCCESS] nonebot | Succeeded to import "jitang"
-08-16 01:36:25 [SUCCESS] nonebot | Succeeded to import "comments_163"
-08-16 01:36:25 [SUCCESS] nonebot | Succeeded to import "cover"
-08-16 01:36:25 [SUCCESS] nonebot | Succeeded to import "poetry"
-08-16 01:36:25 [SUCCESS] nonebot | Succeeded to import "alapi"
-08-16 01:36:25 [SUCCESS] nonebot | Succeeded to import "aconfig"
-08-16 01:36:25 [SUCCESS] nonebot | Succeeded to import "roll"
-08-16 01:36:25 [SUCCESS] nonebot | Succeeded to import "sign_in"
-08-16 01:36:25 [SUCCESS] nonebot | Succeeded to import "parse_bilibili_json"
-08-16 01:36:26 [SUCCESS] nonebot | Succeeded to import "web_ui"
-08-16 01:36:26 [SUCCESS] nonebot | Succeeded to import "fudu"
-08-16 01:36:26 [SUCCESS] nonebot | Succeeded to import "update_setu"
-08-16 01:36:26 [SUCCESS] nonebot | Succeeded to import "send_setu"
-08-16 01:36:26 [SUCCESS] nonebot | Succeeded to import "send_setu_"
-08-16 01:36:26 [SUCCESS] nonebot | Succeeded to import "yiqing"
-08-16 01:36:27 [SUCCESS] nonebot | Succeeded to import "gold_redbag"
-08-16 01:36:27 [SUCCESS] nonebot | Succeeded to import "fake_msg"
-08-16 01:36:27 [SUCCESS] nonebot | Succeeded to import "mute"
-08-16 01:36:27 [SUCCESS] nonebot | Succeeded to import "delete_image"
-08-16 01:36:27 [SUCCESS] nonebot | Succeeded to import "upload_image"
-08-16 01:36:27 [SUCCESS] nonebot | Succeeded to import "move_image"
-08-16 01:36:27 [SUCCESS] nonebot | Succeeded to import "send_image"
-08-16 01:36:27 [SUCCESS] nonebot | Succeeded to import "image_management"
-08-16 01:36:27 [SUCCESS] nonebot | Succeeded to import "pid_search"
-08-16 01:36:27 [SUCCESS] nonebot | Succeeded to import "poke"
-08-16 01:36:28 [SUCCESS] nonebot | Succeeded to import "search_buff_skin_price"
-08-16 01:36:28 [SUCCESS] nonebot | Succeeded to import "send_dinggong_voice"
-08-16 01:36:28 [SUCCESS] nonebot | Succeeded to import "check_zhenxun_update"
-08-16 01:36:28 [SUCCESS] nonebot | Succeeded to import "withdraw"
-08-16 01:36:28 [SUCCESS] nonebot | Succeeded to import "update_gocqhttp"
-08-16 01:36:28 [SUCCESS] nonebot | Succeeded to import "message_handle"
-08-16 01:36:28 [SUCCESS] nonebot | Succeeded to import "word_handle"
-08-16 01:36:28 [SUCCESS] nonebot | Succeeded to import "word_bank"
-08-16 01:36:29 [SUCCESS] nonebot | Succeeded to import "dialogue"
-08-16 01:36:29 [SUCCESS] nonebot | Succeeded to import "search_image"
-08-16 01:36:29 [SUCCESS] nonebot | Succeeded to import "translate"
-08-16 01:36:29 [SUCCESS] nonebot | Succeeded to import "russian"
-08-16 01:36:29 [SUCCESS] nonebot | Succeeded to import "quotations"
-08-16 01:36:30 [SUCCESS] nonebot | Succeeded to import "self_message"
-08-16 01:36:30 [SUCCESS] nonebot | Succeeded to import "nbnhhsh"
-08-16 01:36:30 [SUCCESS] nonebot | Succeeded to import "my_info"
-08-16 01:36:30 [SUCCESS] nonebot | Succeeded to import "TZbank"
-08-16 01:36:30 [SUCCESS] nonebot | Succeeded to import "piggy"
-08-16 01:36:31 [SUCCESS] nonebot | Succeeded to import "TZggl"
-08-16 01:36:31 [SUCCESS] nonebot | Succeeded to import "TZdajie"
-08-16 01:36:32 [SUCCESS] nonebot | Succeeded to import "TZfulijin"
-08-16 01:36:33 [SUCCESS] nonebot | Succeeded to import "TZ21"
-08-16 01:36:33 [SUCCESS] nonebot | Succeeded to import "TZjupai"
-08-16 01:36:33 [SUCCESS] nonebot | Succeeded to import "TZxibai"
-08-16 01:36:33 [SUCCESS] nonebot | Succeeded to import "zhenxun_plugins_TZseries"
-08-16 01:36:33 [SUCCESS] nonebot | Succeeded to import "todaybefore"
-08-16 01:36:33 [SUCCESS] nonebot | Succeeded to import "zhenxun_plugins_luckball"
-08-16 01:36:33 [SUCCESS] nonebot | Succeeded to import "zhenxun_plugin_weibo"
-08-16 01:36:34 [SUCCESS] nonebot | Succeeded to import "nonebot_plugin_htmlrender"
-08-16 01:36:35 [SUCCESS] nonebot | Succeeded to import "slave_market"
-08-16 01:36:35 [SUCCESS] nonebot | Succeeded to import "auth_hook"
-08-16 01:36:35 [SUCCESS] nonebot | Succeeded to import "ban_hook"
-08-16 01:36:35 [SUCCESS] nonebot | Succeeded to import "withdraw_message_hook"
-08-16 01:36:35 [SUCCESS] nonebot | Succeeded to import "task_hook"
-08-16 01:36:35 [SUCCESS] nonebot | Succeeded to import "chkdsk_hook"
-08-16 01:36:35 [SUCCESS] nonebot | Succeeded to import "other_hook"
-08-16 01:36:35 [SUCCESS] nonebot | Running NoneBot...
-08-16 01:36:36 [INFO] uvicorn | Started server process [7586]
-08-16 01:36:36 [INFO] uvicorn | Waiting for application startup.
-08-16 01:36:36 [INFO] services | Database loaded successfully!
-08-16 01:36:37 [INFO] nonebot_plugin_apscheduler | Scheduler Started
-08-16 01:36:37 [INFO] services | 已成功加载 73 个非限制插件.
-08-16 01:36:37 [INFO] services | 已成功加载 7 个Cd限制.
-08-16 01:36:37 [INFO] services | 已成功加载 9 个Block限制.
-08-16 01:36:37 [INFO] services | 已成功加载 2 个Count限制.
-08-16 01:36:39 [INFO] services | 初始化数据完成...
-08-16 01:36:42 [WARNING] services | 获取原神资源失败 code：404
-08-16 01:36:42 [WARNING] services | 获取原神资源类型失败 code：404
-08-16 01:36:43 [INFO] services | CMD[Web UI] API启动成功
-08-16 01:36:43 [INFO] services | 微博推送初始化完成
-08-16 01:36:43 [INFO] nonebot_plugin_htmlrender | 使用 chromium 启动
-08-16 01:36:44 [INFO] nonebot_plugin_htmlrender | Browser Started.
-08-16 01:36:44 [INFO] uvicorn | Application startup complete.
-08-16 01:36:44 [INFO] uvicorn | Uvicorn running on http://23.234.231.178:8080 (Press CTRL+C to quit)
-08-16 01:36:45 [INFO] uvicorn | ('23.234.231.178', 45622) - "WebSocket /onebot/v11/ws/" [accepted]
-08-16 01:36:45 [INFO] nonebot | OneBot V11 | Bot 920935721 connected
-08-16 01:36:45 [INFO] websockets | connection open
-08-16 01:36:45 [INFO] services | 已成功加载 10 个被动技能.
-08-16 01:36:45 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message -2114647774 from 3237743014@[群:178794340] "[CQ:json,data={"ver":"1.0.0.19"&#44;"desc":"Rock 'n' Roll!! 星锑8.15生日快乐！【重返未来：1999】"&#44;"prompt":"&#91;QQ小程序&#93;Rock 'n' Roll!! 星锑8.15生日快乐！【重返未来：1999】"&#44;"config":{"type":"normal"&#44;"width":0&#44;"height":0&#44;"forward":1&#44;"autoSize":0&#44;"ctime":1692120610&#44;"token":"211e6f03e058559ac57ec3e4336083ab"}&#44;"needShareCallBack":false&#44;"app":"com.tencent.miniapp_01"&#44;"view":"view_8C8E89B49BE609866298ADDFF2DBABA4"&#44;"meta":{"detail_1":{"appid":"1109937557"&#44;"appType":0&#44;"title":"哔哩哔哩"&#44;"desc":"Rock 'n' Roll!! 星锑8.15生日快乐！【重返未来：1999】"&#44;"icon":"https:\/\/open.gtimg.cn\/open\/app_icon\/00\/95\/17\/76\/100951776_100_m.png?t=1692008162"&#44;"preview":"pubminishare-30161.picsz.qpic.cn\/8a9bc74f-ef54-45b9-bebe-f1146227de49"&#44;"url":"m.q.qq.com\/a\/s\/02727d25d7c6f9231632d634b7333615"&#44;"scene":1036&#44;"host":{"uin":3237743014&#44;"nick":"Dr.Pepper"}&#44;"shareTemplateId":"8C8E89B49BE609866298ADDFF2DBABA4"&#44;"shareTemplateData":{}&#44;"qqdocurl":"https:\/\/b23.tv\/Gy8hSeN?share_medium=android&amp;share_source=qq&amp;bbid=XYB33A3BAD23037E631A0F935D33DAB5ACE59&amp;ts=1692120607865"&#44;"showLittleTail":""&#44;"gamePoints":""&#44;"gamePointsUrl":""}}}]"
-08-16 01:36:45 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message -151897676 from 3237743014@[群:178794340] "厨力这么强"
-08-16 01:36:45 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message 1716331557 from 2031972086@[群:178794340] "震惊"
-08-16 01:36:45 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message 290067635 from 552491466@[群:178794340] "好家伙"
-08-16 01:36:45 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message 1136394196 from 2656464264@[群:178794340] "[CQ:image,file=7d2c4a3b1cea55840fe2c93332a5766d.image,subType=1,url=https://gchat.qpic.cn/gchatpic_new/2656464264/2168794340-3158516488-7D2C4A3B1CEA55840FE2C93332A5766D/0?term=2&amp;is_origin=0]"
-08-16 01:36:45 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
-08-16 01:36:45 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
-08-16 01:36:45 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
-08-16 01:36:45 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
-08-16 01:36:45 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
-08-16 01:36:45 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
-08-16 01:36:45 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
-08-16 01:36:45 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
-08-16 01:36:45 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
-08-16 01:36:45 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
-08-16 01:36:46 [INFO] services | register_use 成功注册商品：好感度双倍加持卡Ⅰ 的使用函数
-08-16 01:36:46 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
-08-16 01:36:46 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
-08-16 01:36:46 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
-08-16 01:36:46 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
-08-16 01:36:46 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
-08-16 01:36:46 [INFO] services | register_use 成功注册商品：好感度双倍加持卡Ⅱ 的使用函数
-08-16 01:36:46 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
-08-16 01:36:46 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
-08-16 01:36:46 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
-08-16 01:36:46 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
-08-16 01:36:46 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
-08-16 01:36:46 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
-08-16 01:36:46 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
-08-16 01:36:46 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
-08-16 01:36:46 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
-08-16 01:36:46 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
-08-16 01:36:46 [INFO] services | register_use 成功注册商品：好感度双倍加持卡Ⅲ 的使用函数
-08-16 01:36:46 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
-08-16 01:36:46 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
-08-16 01:36:46 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
-08-16 01:36:46 [INFO] services | register_use 成功注册商品：真寻的土制存钱罐 的使用函数
-08-16 01:36:46 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
-08-16 01:36:46 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
-08-16 01:36:46 [INFO] services | 群聊[114514] 移除不存在的群聊信息
-08-16 01:36:46 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
-08-16 01:36:46 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
-08-16 01:36:46 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
-08-16 01:36:46 [INFO] services | register_use 成功注册商品：真寻的银制存钱罐 的使用函数
-08-16 01:36:46 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
-08-16 01:36:46 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
-08-16 01:36:46 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
-08-16 01:36:46 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
-08-16 01:36:46 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
-08-16 01:36:46 [INFO] services | register_use 成功注册商品：真寻的金制存钱罐 的使用函数
-08-16 01:36:46 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
-08-16 01:36:48 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.fudu)
-08-16 01:36:48 [INFO] nonebot | Matcher(type='message', module=plugins.fudu) running complete
-08-16 01:36:48 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.fudu)
-08-16 01:36:48 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.fudu)
-08-16 01:36:48 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.fudu)
-08-16 01:36:49 [INFO] nonebot | Matcher(type='message', module=plugins.fudu) running complete
-08-16 01:36:49 [INFO] nonebot | Matcher(type='message', module=plugins.fudu) running complete
-08-16 01:36:49 [INFO] nonebot | Matcher(type='message', module=plugins.fudu) running complete
-08-16 01:36:49 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
-08-16 01:36:51 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message -933017090 from 552491466@[群:666036653] "好感度"
-08-16 01:36:51 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
-08-16 01:36:51 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
-08-16 01:36:51 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
-08-16 01:36:51 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
-08-16 01:36:51 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
-08-16 01:36:51 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
-08-16 01:36:51 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
-08-16 01:36:51 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
-08-16 01:36:51 [INFO] services | 已成功加载 19 条超级用户命令
-08-16 01:36:51 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.sign_in)
-08-16 01:36:52 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.fudu)
-08-16 01:36:53 [INFO] services | 下载 https://gchat.qpic.cn/gchatpic_new/2656464264/2168794340-3158516488-7D2C4A3B1CEA55840FE2C93332A5766D/0?term=2&is_origin=0 成功.. Path：/opt/zhenxun_bot/resources/temp/compare_178794340_img.jpg
-08-16 01:36:53 [INFO] nonebot | Matcher(type='message', module=plugins.fudu) running complete
-08-16 01:36:57 [INFO] nonebot | Matcher(type='message', module=plugins.sign_in) running complete
-08-16 01:37:14 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message 752310730 from 552491466@[群:741017215] "签到"
-08-16 01:37:14 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
-08-16 01:37:14 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
-08-16 01:37:14 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
-08-16 01:37:14 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
-08-16 01:37:15 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
-08-16 01:37:15 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
-08-16 01:37:15 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
-08-16 01:37:15 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
-08-16 01:37:15 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.sign_in.group_user_checkin)
-08-16 01:37:15 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.sign_in)
-08-16 01:37:15 [INFO] nonebot | Matcher(type='message', module=plugins.sign_in.group_user_checkin) running complete
-08-16 01:37:15 [INFO] services | (USER 552491466, GROUP 741017215) CHECKED IN successfully. score: 0.59 (+0.07).获取金币：39
-08-16 01:37:20 [INFO] nonebot | Matcher(type='message', module=plugins.sign_in) running complete
-08-16 01:37:22 [ERROR] services | Id：1197454103 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
-08-16 01:37:27 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message -1025951514 from 552491466@[群:741017215] "签到"
-08-16 01:37:27 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
-08-16 01:37:27 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
-08-16 01:37:27 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
-08-16 01:37:27 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
-08-16 01:37:27 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
-08-16 01:37:27 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
-08-16 01:37:27 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
-08-16 01:37:27 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
-08-16 01:37:28 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.sign_in.group_user_checkin)
-08-16 01:37:28 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.sign_in)
-08-16 01:37:28 [INFO] nonebot | Matcher(type='message', module=plugins.sign_in.group_user_checkin) running complete
-08-16 01:37:29 [INFO] nonebot | Matcher(type='message', module=plugins.sign_in) running complete
-08-16 01:37:41 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message 627119585 from 552491466@[群:741017215] "好感度"
-08-16 01:37:41 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
-08-16 01:37:41 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
-08-16 01:37:41 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
-08-16 01:37:41 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
-08-16 01:37:41 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
-08-16 01:37:41 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
-08-16 01:37:41 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
-08-16 01:37:41 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
-08-16 01:37:42 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.sign_in)
-08-16 01:37:47 [INFO] nonebot | Matcher(type='message', module=plugins.sign_in) running complete
-08-16 01:38:21 [ERROR] services | Id：348399122 获取信息失败... || 错误 <class 'bilireq.exceptions.ResponseCodeError'>: 错误码: -799, 信息: 请求过于频繁，请稍后再试
-08-16 01:38:24 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message 802907385 from 552491466@[群:666036653] "查看B站订阅"
-08-16 01:38:24 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
-08-16 01:38:24 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
-08-16 01:38:24 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
-08-16 01:38:24 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
-08-16 01:38:24 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
-08-16 01:38:24 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
-08-16 01:38:24 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
-08-16 01:38:24 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
-08-16 01:38:24 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.fudu)
-08-16 01:38:24 [INFO] nonebot | Matcher(type='message', module=plugins.fudu) running complete
-08-16 01:38:34 [INFO] uvicorn | Shutting down
-08-16 01:38:34 [WARNING] nonebot | OneBot V11 | WebSocket for Bot 920935721 closed by peer
-08-16 01:38:34 [INFO] websockets | connection closed
-08-16 01:38:34 [INFO] uvicorn | Waiting for application shutdown.
-08-16 01:38:34 [INFO] nonebot_plugin_apscheduler | Scheduler Shutdown
-08-16 01:44:04 [INFO] services.log | 加载配置完成，共加载 47 个配置组及对应 147 个配置项
-08-16 01:44:04 [SUCCESS] nonebot | NoneBot is initializing...
-08-16 01:44:04 [INFO] nonebot | Current Env: dev
-08-16 01:44:05 [SUCCESS] nonebot | Succeeded to import "nonebot_plugin_apscheduler"
-08-16 01:44:09 [SUCCESS] nonebot | Succeeded to import "rule"
-08-16 01:44:09 [SUCCESS] nonebot | Succeeded to import "switch_rule"
-08-16 01:44:09 [SUCCESS] nonebot | Succeeded to import "update_group_member_info"
-08-16 01:44:09 [SUCCESS] nonebot | Succeeded to import "custom_welcome_message"
-08-16 01:44:09 [SUCCESS] nonebot | Succeeded to import "admin_config"
-08-16 01:44:10 [SUCCESS] nonebot | Succeeded to import "timing_task"
-08-16 01:44:10 [SUCCESS] nonebot | Succeeded to import "admin_bot_manage"
-08-16 01:44:10 [SUCCESS] nonebot | Succeeded to import "apscheduler"
-08-16 01:44:10 [SUCCESS] nonebot | Succeeded to import "group_handle"
-08-16 01:44:10 [SUCCESS] nonebot | Succeeded to import "invite_manager"
-08-16 01:44:10 [SUCCESS] nonebot | Succeeded to import "nickname"
-08-16 01:44:10 [SUCCESS] nonebot | Succeeded to import "help"
-08-16 01:44:10 [SUCCESS] nonebot | Succeeded to import "buy"
-08-16 01:44:10 [SUCCESS] nonebot | Succeeded to import "shop_handle"
-08-16 01:44:10 [SUCCESS] nonebot | Succeeded to import "gold"
-08-16 01:44:10 [SUCCESS] nonebot | Succeeded to import "use"
-08-16 01:44:10 [SUCCESS] nonebot | Succeeded to import "my_props"
-08-16 01:44:10 [SUCCESS] nonebot | Succeeded to import "shop"
-08-16 01:44:10 [SUCCESS] nonebot | Succeeded to import "scripts"
-08-16 01:44:11 [SUCCESS] nonebot | Succeeded to import "admin_help"
-08-16 01:44:11 [SUCCESS] nonebot | Succeeded to import "chat_message"
-08-16 01:44:11 [SUCCESS] nonebot | Succeeded to import "chat_message_handle"
-08-16 01:44:11 [SUCCESS] nonebot | Succeeded to import "chat_history"
-08-16 01:44:11 [SUCCESS] nonebot | Succeeded to import "hooks"
-08-16 01:44:11 [SUCCESS] nonebot | Succeeded to import "update_friend_group_info"
-08-16 01:44:11 [SUCCESS] nonebot | Succeeded to import "manager_group"
-08-16 01:44:11 [SUCCESS] nonebot | Succeeded to import "reload_setting"
-08-16 01:44:11 [SUCCESS] nonebot | Succeeded to import "exec_sql"
-08-16 01:44:12 [SUCCESS] nonebot | Succeeded to import "bot_friend_group"
-08-16 01:44:12 [SUCCESS] nonebot | Succeeded to import "clear_data"
-08-16 01:44:12 [SUCCESS] nonebot | Succeeded to import "set_admin_permissions"
-08-16 01:44:12 [SUCCESS] nonebot | Succeeded to import "super_cmd"
-08-16 01:44:12 [SUCCESS] nonebot | Succeeded to import "init_plugin_config"
-08-16 01:44:12 [SUCCESS] nonebot | Succeeded to import "ban"
-08-16 01:44:12 [SUCCESS] nonebot | Succeeded to import "broadcast"
-08-16 01:44:12 [SUCCESS] nonebot | Succeeded to import "update_info"
-08-16 01:44:12 [SUCCESS] nonebot | Succeeded to import "super_help"
-08-16 01:44:12 [SUCCESS] nonebot | Succeeded to import "plugin_shop"
-08-16 01:44:12 [SUCCESS] nonebot | Succeeded to import "search_image"
-08-16 01:44:12 [SUCCESS] nonebot | Succeeded to import "luxun"
-08-16 01:44:14 [SUCCESS] nonebot | Succeeded to import "word_clouds"
-08-16 01:44:14 [SUCCESS] nonebot | Succeeded to import "quotations"
-08-16 01:44:14 [SUCCESS] nonebot | Succeeded to import "send_dinggong_voice"
-08-16 01:44:14 [SUCCESS] nonebot | Succeeded to import "ai"
-08-16 01:44:14 [SUCCESS] nonebot | Succeeded to import "update_gocqhttp"
-08-16 01:44:14 [SUCCESS] nonebot | Succeeded to import "pid_search"
-08-16 01:44:14 [SUCCESS] nonebot | Succeeded to import "jitang"
-08-16 01:44:15 [SUCCESS] nonebot | Succeeded to import "poetry"
-08-16 01:44:15 [SUCCESS] nonebot | Succeeded to import "comments_163"
-08-16 01:44:15 [SUCCESS] nonebot | Succeeded to import "cover"
-08-16 01:44:15 [SUCCESS] nonebot | Succeeded to import "alapi"
-08-16 01:44:15 [SUCCESS] nonebot | Succeeded to import "black_word"
-08-16 01:44:15 [SUCCESS] nonebot | Succeeded to import "white2black_image"
-08-16 01:44:15 [SUCCESS] nonebot | Succeeded to import "delete_image"
-08-16 01:44:15 [SUCCESS] nonebot | Succeeded to import "upload_image"
-08-16 01:44:15 [SUCCESS] nonebot | Succeeded to import "move_image"
-08-16 01:44:15 [SUCCESS] nonebot | Succeeded to import "send_image"
-08-16 01:44:15 [SUCCESS] nonebot | Succeeded to import "image_management"
-08-16 01:44:16 [SUCCESS] nonebot | Succeeded to import "search_buff_skin_price"
-08-16 01:44:16 [SUCCESS] nonebot | Succeeded to import "aconfig"
-08-16 01:44:16 [SUCCESS] nonebot | Succeeded to import "web_ui"
-08-16 01:44:16 [SUCCESS] nonebot | Succeeded to import "self_message"
-08-16 01:44:16 [SUCCESS] nonebot | Succeeded to import "pix_add_keyword"
-08-16 01:44:17 [SUCCESS] nonebot | Succeeded to import "pix_show_info"
-08-16 01:44:17 [SUCCESS] nonebot | Succeeded to import "pix_update"
-08-16 01:44:17 [SUCCESS] nonebot | Succeeded to import "pix"
-08-16 01:44:17 [SUCCESS] nonebot | Succeeded to import "pix_pass_del_keyword"
-08-16 01:44:17 [SUCCESS] nonebot | Succeeded to import "pix_gallery"
-08-16 01:44:17 [SUCCESS] nonebot | Succeeded to import "check_zhenxun_update"
-08-16 01:44:17 [SUCCESS] nonebot | Succeeded to import "gold_redbag"
-08-16 01:44:17 [SUCCESS] nonebot | Succeeded to import "check"
-08-16 01:44:18 [SUCCESS] nonebot | Succeeded to import "dialogue"
-08-16 01:44:18 [SUCCESS] nonebot | Succeeded to import "translate"
-08-16 01:44:18 [SUCCESS] nonebot | Succeeded to import "mute"
-08-16 01:44:18 [SUCCESS] nonebot | Succeeded to import "group_welcome_msg"
-08-16 01:44:18 [SUCCESS] nonebot | Succeeded to import "weather"
-08-16 01:44:18 [SUCCESS] nonebot | Succeeded to import "coser"
-08-16 01:44:18 [SUCCESS] nonebot | Succeeded to import "roll"
-08-16 01:44:18 [SUCCESS] nonebot | Succeeded to import "update_setu"
-08-16 01:44:18 [SUCCESS] nonebot | Succeeded to import "send_setu"
-08-16 01:44:18 [SUCCESS] nonebot | Succeeded to import "send_setu_"
-08-16 01:44:18 [SUCCESS] nonebot | Succeeded to import "about"
-08-16 01:44:18 [SUCCESS] nonebot | Succeeded to import "bilibili_sub"
-08-16 01:44:18 [SUCCESS] nonebot | Succeeded to import "bt"
-08-16 01:44:18 [SUCCESS] nonebot | Succeeded to import "almanac"
-08-16 01:44:19 [SUCCESS] nonebot | Succeeded to import "material_remind"
-08-16 01:44:19 [SUCCESS] nonebot | Succeeded to import "mihoyobbs_sign"
-08-16 01:44:19 [SUCCESS] nonebot | Succeeded to import "query_role"
-08-16 01:44:19 [SUCCESS] nonebot | Succeeded to import "query_memo"
-08-16 01:44:19 [SUCCESS] nonebot | Succeeded to import "resin_remind"
-08-16 01:44:19 [SUCCESS] nonebot | Succeeded to import "bind"
-08-16 01:44:19 [SUCCESS] nonebot | Succeeded to import "reset_today_query_user_data"
-08-16 01:44:19 [SUCCESS] nonebot | Succeeded to import "genshin_sign"
-08-16 01:44:19 [SUCCESS] nonebot | Succeeded to import "query_user"
-08-16 01:44:20 [SUCCESS] nonebot | Succeeded to import "query_resource_points"
-08-16 01:44:20 [SUCCESS] nonebot | Succeeded to import "genshin"
-08-16 01:44:20 [SUCCESS] nonebot | Succeeded to import "my_info"
-08-16 01:44:20 [SUCCESS] nonebot | Succeeded to import "sign_in"
-08-16 01:44:20 [SUCCESS] nonebot | Succeeded to import "what_anime"
-08-16 01:44:20 [SUCCESS] nonebot | Succeeded to import "fudu"
-08-16 01:44:20 [SUCCESS] nonebot | Succeeded to import "parse_bilibili_json"
-08-16 01:44:20 [SUCCESS] nonebot | Succeeded to import "one_friend"
-08-16 01:44:20 [SUCCESS] nonebot | Succeeded to import "pixiv_rank_search"
-08-16 01:44:20 [SUCCESS] nonebot | Succeeded to import "statistics_handle"
-08-16 01:44:20 [SUCCESS] nonebot | Succeeded to import "statistics_hook"
-08-16 01:44:20 [SUCCESS] nonebot | Succeeded to import "statistics"
-08-16 01:44:20 [SUCCESS] nonebot | Succeeded to import "epic"
-08-16 01:44:21 [SUCCESS] nonebot | Succeeded to import "withdraw"
-08-16 01:44:21 [SUCCESS] nonebot | Succeeded to import "music"
-08-16 01:44:21 [SUCCESS] nonebot | Succeeded to import "open_cases"
-08-16 01:44:21 [SUCCESS] nonebot | Succeeded to import "yiqing"
-08-16 01:44:21 [SUCCESS] nonebot | Succeeded to import "poke"
-08-16 01:44:21 [SUCCESS] nonebot | Succeeded to import "search_anime"
-08-16 01:44:24 [SUCCESS] nonebot | Succeeded to import "draw_card"
-08-16 01:44:24 [SUCCESS] nonebot | Succeeded to import "fake_msg"
-08-16 01:44:24 [SUCCESS] nonebot | Succeeded to import "nbnhhsh"
-08-16 01:44:24 [SUCCESS] nonebot | Succeeded to import "update_picture"
-08-16 01:44:25 [SUCCESS] nonebot | Succeeded to import "wbtop"
-08-16 01:44:25 [SUCCESS] nonebot | Succeeded to import "russian"
-08-16 01:44:25 [SUCCESS] nonebot | Succeeded to import "word_handle"
-08-16 01:44:25 [SUCCESS] nonebot | Succeeded to import "message_handle"
-08-16 01:44:25 [SUCCESS] nonebot | Succeeded to import "word_bank"
-08-16 01:44:25 [SUCCESS] nonebot | Succeeded to import "nonebot_plugin_htmlrender"
-08-16 01:44:28 [SUCCESS] nonebot | Succeeded to import "slave_market"
-08-16 01:44:28 [SUCCESS] nonebot | Succeeded to import "piggy"
-08-16 01:44:28 [SUCCESS] nonebot | Succeeded to import "TZfulijin"
-08-16 01:44:29 [SUCCESS] nonebot | Succeeded to import "TZbank"
-08-16 01:44:29 [SUCCESS] nonebot | Succeeded to import "TZjupai"
-08-16 01:44:29 [SUCCESS] nonebot | Succeeded to import "TZggl"
-08-16 01:44:29 [SUCCESS] nonebot | Succeeded to import "TZxibai"
-08-16 01:44:29 [SUCCESS] nonebot | Succeeded to import "TZdajie"
-08-16 01:44:31 [SUCCESS] nonebot | Succeeded to import "TZ21"
-08-16 01:44:31 [SUCCESS] nonebot | Succeeded to import "zhenxun_plugins_TZseries"
-08-16 01:44:31 [SUCCESS] nonebot | Succeeded to import "zhenxun_plugins_luckball"
-08-16 01:44:31 [SUCCESS] nonebot | Succeeded to import "zhenxun_plugin_weibo"
-08-16 01:44:31 [SUCCESS] nonebot | Succeeded to import "todaybefore"
-08-16 01:44:31 [SUCCESS] nonebot | Succeeded to import "chkdsk_hook"
-08-16 01:44:31 [SUCCESS] nonebot | Succeeded to import "ban_hook"
-08-16 01:44:31 [SUCCESS] nonebot | Succeeded to import "other_hook"
-08-16 01:44:31 [SUCCESS] nonebot | Succeeded to import "auth_hook"
-08-16 01:44:31 [SUCCESS] nonebot | Succeeded to import "withdraw_message_hook"
-08-16 01:44:31 [SUCCESS] nonebot | Succeeded to import "task_hook"
-08-16 01:44:31 [SUCCESS] nonebot | Running NoneBot...
-08-16 01:44:31 [INFO] uvicorn | Started server process [7953]
-08-16 01:44:31 [INFO] uvicorn | Waiting for application startup.
-08-16 01:44:31 [INFO] services | Database loaded successfully!
-08-16 01:44:32 [INFO] nonebot_plugin_apscheduler | Scheduler Started
-08-16 01:44:36 [INFO] services | 已成功加载 73 个非限制插件.
-08-16 01:44:36 [INFO] services | 已成功加载 7 个Cd限制.
-08-16 01:44:36 [INFO] services | 已成功加载 9 个Block限制.
-08-16 01:44:36 [INFO] services | 已成功加载 2 个Count限制.
-08-16 01:44:38 [INFO] services | 初始化数据完成...
-08-16 01:44:38 [INFO] services | CMD[Web UI] API启动成功
-08-16 01:44:39 [WARNING] services | 获取原神资源失败 code：404
-08-16 01:44:40 [WARNING] services | 获取原神资源类型失败 code：404
-08-16 01:44:41 [INFO] nonebot_plugin_htmlrender | 使用 chromium 启动
-08-16 01:44:41 [INFO] nonebot_plugin_htmlrender | Browser Started.
-08-16 01:44:41 [INFO] services | 微博推送初始化完成
-08-16 01:44:41 [INFO] uvicorn | Application startup complete.
-08-16 01:44:41 [INFO] uvicorn | Uvicorn running on http://23.234.231.178:8080 (Press CTRL+C to quit)
-08-16 01:44:42 [INFO] uvicorn | ('23.234.231.178', 33188) - "WebSocket /onebot/v11/ws/" [accepted]
-08-16 01:44:42 [INFO] nonebot | OneBot V11 | Bot 920935721 connected
-08-16 01:44:42 [INFO] websockets | connection open
-08-16 01:44:42 [INFO] services | 已成功加载 10 个被动技能.
-08-16 01:44:42 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message 884789058 from 1704198943@[群:178794340] "全都是特殊款吗"
-08-16 01:44:42 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message -1380606216 from 552491466@[群:178794340] "徽章还分普通特殊款吗"
-08-16 01:44:42 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message -625824146 from 1704198943@[群:178794340] "有吧好像"
-08-16 01:44:42 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message 1154890701 from 1704198943@[群:178794340] "特殊款好像会有角度区别"
-08-16 01:44:42 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message 869337947 from 2031972086@[群:178794340] "我记得没有"
-08-16 01:44:42 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
-08-16 01:44:42 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
-08-16 01:44:42 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
-08-16 01:44:42 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
-08-16 01:44:42 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
-08-16 01:44:42 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
-08-16 01:44:42 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
-08-16 01:44:42 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
-08-16 01:44:42 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
-08-16 01:44:42 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
-08-16 01:44:42 [INFO] services | register_use 成功注册商品：好感度双倍加持卡Ⅰ 的使用函数
-08-16 01:44:43 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
-08-16 01:44:43 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
-08-16 01:44:43 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
-08-16 01:44:43 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
-08-16 01:44:43 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
-08-16 01:44:43 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
-08-16 01:44:43 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
-08-16 01:44:43 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
-08-16 01:44:43 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
-08-16 01:44:43 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
-08-16 01:44:43 [INFO] services | register_use 成功注册商品：好感度双倍加持卡Ⅱ 的使用函数
-08-16 01:44:43 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
-08-16 01:44:43 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
-08-16 01:44:43 [INFO] services | register_use 成功注册商品：好感度双倍加持卡Ⅲ 的使用函数
-08-16 01:44:43 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
-08-16 01:44:43 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
-08-16 01:44:44 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
-08-16 01:44:44 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
-08-16 01:44:44 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
-08-16 01:44:44 [INFO] services | register_use 成功注册商品：真寻的土制存钱罐 的使用函数
-08-16 01:44:44 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
-08-16 01:44:44 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
-08-16 01:44:44 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
-08-16 01:44:44 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
-08-16 01:44:44 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
-08-16 01:44:44 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
-08-16 01:44:44 [INFO] services | register_use 成功注册商品：真寻的银制存钱罐 的使用函数
-08-16 01:44:44 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
-08-16 01:44:44 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
-08-16 01:44:44 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
-08-16 01:44:44 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
-08-16 01:44:44 [INFO] services | register_use 成功注册商品：真寻的金制存钱罐 的使用函数
-08-16 01:44:44 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
-08-16 01:44:44 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
-08-16 01:44:44 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
-08-16 01:44:44 [INFO] services | 群聊[114514] 移除不存在的群聊信息
-08-16 01:44:45 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.fudu)
-08-16 01:44:45 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.fudu)
-08-16 01:44:45 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.fudu)
-08-16 01:44:45 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.fudu)
-08-16 01:44:45 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.fudu)
-08-16 01:44:45 [INFO] nonebot | Matcher(type='message', module=plugins.fudu) running complete
-08-16 01:44:45 [INFO] nonebot | Matcher(type='message', module=plugins.fudu) running complete
-08-16 01:44:45 [INFO] nonebot | Matcher(type='message', module=plugins.fudu) running complete
-08-16 01:44:45 [INFO] nonebot | Matcher(type='message', module=plugins.fudu) running complete
-08-16 01:44:45 [INFO] nonebot | Matcher(type='message', module=plugins.fudu) running complete
-08-16 01:44:48 [INFO] services | 已成功加载 19 条超级用户命令
-08-16 01:46:43 [INFO] services | 未检测到@7600886366的新微博
-08-16 01:46:48 [INFO] services | 未检测到@7759764101的新微博
-08-16 01:46:52 [INFO] services | 未检测到@7821559060的新微博
-08-16 01:48:46 [INFO] services | 未检测到@7600886366的新微博
-08-16 01:48:51 [INFO] services | 未检测到@7759764101的新微博
-08-16 01:48:55 [INFO] services | 未检测到@7821559060的新微博
-08-16 01:50:48 [INFO] services | 未检测到@7600886366的新微博
-08-16 01:50:53 [INFO] services | 未检测到@7759764101的新微博
-08-16 01:50:53 [INFO] uvicorn | Shutting down
-08-16 01:50:53 [WARNING] nonebot | OneBot V11 | WebSocket for Bot 920935721 closed by peer
-08-16 01:50:53 [INFO] websockets | connection closed
-08-16 01:50:53 [INFO] uvicorn | Waiting for application shutdown.
-08-16 01:50:53 [INFO] nonebot_plugin_apscheduler | Scheduler Shutdown
-08-16 01:50:53 [INFO] nonebot_plugin_htmlrender | Browser Stopped.
-08-16 01:50:53 [INFO] uvicorn | Application shutdown complete.
-08-16 01:50:53 [INFO] uvicorn | Finished server process [7953]
-08-16 01:50:53 [ERROR] apscheduler | Job "_ (trigger: interval[0:02:00], next run at: 2023-08-16 01:52:45 CST)" raised an exception
-Traceback (most recent call last):
-
-  File "/opt/zhenxun_bot/bot.py", line 21, in <module>
-    nonebot.run()
-    │       └ <function run at 0x7f602efbf1f0>
-    └ <module 'nonebot' from '/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/__in...
-
-  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/__init__.py", line 273, in run
-    get_driver().run(*args, **kwargs)
-    │                 │       └ {}
-    │                 └ ()
-    └ <function get_driver at 0x7f60303e21f0>
-  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/nonebot/drivers/fastapi.py", line 172, in run
-    uvicorn.run(
-    │       └ <function run at 0x7f602f9ef160>
-    └ <module 'uvicorn' from '/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/uvicorn/__in...
-  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/uvicorn/main.py", line 578, in run
-    server.run()
-    │      └ <function Server.run at 0x7f602f9ef310>
-    └ <uvicorn.server.Server object at 0x7f6010fddd30>
-  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/uvicorn/server.py", line 61, in run
-    return asyncio.run(self.serve(sockets=sockets))
-           │       │   │    │             └ None
-           │       │   │    └ <function Server.serve at 0x7f602f9ef3a0>
-           │       │   └ <uvicorn.server.Server object at 0x7f6010fddd30>
-           │       └ <function run at 0x7f602fffc430>
-           └ <module 'asyncio' from '/usr/lib/python3.9/asyncio/__init__.py'>
-  File "/usr/lib/python3.9/asyncio/runners.py", line 44, in run
-    return loop.run_until_complete(main)
-           │    │                  └ <coroutine object Server.serve at 0x7f6010e09140>
-           │    └ <method 'run_until_complete' of 'uvloop.loop.Loop' objects>
-           └ <uvloop.Loop running=True closed=False debug=False>
-> File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/apscheduler/executors/base_py3.py", line 30, in run_coroutine_job
-    retval = await job.func(*job.args, **job.kwargs)
-                   │   │     │   │       │   └ <member 'kwargs' of 'Job' objects>
-                   │   │     │   │       └ <Job (id=1d671fb867f94daf9fc44a6a9f81c2e0 name=_)>
-                   │   │     │   └ <member 'args' of 'Job' objects>
-                   │   │     └ <Job (id=1d671fb867f94daf9fc44a6a9f81c2e0 name=_)>
-                   │   └ <member 'func' of 'Job' objects>
-                   └ <Job (id=1d671fb867f94daf9fc44a6a9f81c2e0 name=_)>
-
-  File "/opt/zhenxun_bot/extensive_plugin/zhenxun_plugin_weibo/__init__.py", line 314, in _
-    latest_weibos = await spider.get_latest_weibos()
-                          │      └ <function BaseWeiboSpider.get_latest_weibos at 0x7f6011286ca0>
-                          └ <extensive_plugin.zhenxun_plugin_weibo.weibo_spider.UserWeiboSpider object at 0x7f601127ea00>
-
-  File "/opt/zhenxun_bot/extensive_plugin/zhenxun_plugin_weibo/weibo_spider.py", line 359, in get_latest_weibos
-    js = await self.get_weibo_json()
-               │    └ <function BaseWeiboSpider.get_weibo_json at 0x7f6011286af0>
-               └ <extensive_plugin.zhenxun_plugin_weibo.weibo_spider.UserWeiboSpider object at 0x7f601127ea00>
-
-  File "/opt/zhenxun_bot/extensive_plugin/zhenxun_plugin_weibo/weibo_spider.py", line 301, in get_weibo_json
-    js = await self.get_json(
-               │    └ <function BaseWeiboSpider.get_json at 0x7f6011286430>
-               └ <extensive_plugin.zhenxun_plugin_weibo.weibo_spider.UserWeiboSpider object at 0x7f601127ea00>
-
-  File "/opt/zhenxun_bot/extensive_plugin/zhenxun_plugin_weibo/weibo_spider.py", line 116, in get_json
-    r = await client.get(
-              │      └ <function ClientSession.get at 0x7f6015a39160>
-              └ <aiohttp.client.ClientSession object at 0x7f6009f23f40>
-
-  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/aiohttp/client.py", line 520, in _request
-    conn = await self._connector.connect(
-                 │    └ None
-                 └ <aiohttp.client.ClientSession object at 0x7f6009f23f40>
-  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/aiohttp/connector.py", line 535, in connect
-    proto = await self._create_connection(req, traces, timeout)
-                  │    │                  │    │       └ ClientTimeout(total=20, connect=None, sock_read=None, sock_connect=None)
-                  │    │                  │    └ []
-                  │    │                  └ <aiohttp.client_reqrep.ClientRequest object at 0x7f6008128a90>
-                  │    └ <function TCPConnector._create_connection at 0x7f6015af2af0>
-                  └ <aiohttp.connector.TCPConnector object at 0x7f60084156a0>
-  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/aiohttp/connector.py", line 892, in _create_connection
-    _, proto = await self._create_direct_connection(req, traces, timeout)
-                     │    │                         │    │       └ ClientTimeout(total=20, connect=None, sock_read=None, sock_connect=None)
-                     │    │                         │    └ []
-                     │    │                         └ <aiohttp.client_reqrep.ClientRequest object at 0x7f6008128a90>
-                     │    └ <function TCPConnector._create_direct_connection at 0x7f6015af2e50>
-                     └ <aiohttp.connector.TCPConnector object at 0x7f60084156a0>
-  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/aiohttp/connector.py", line 1020, in _create_direct_connection
-    transp, proto = await self._wrap_create_connection(
-                          │    └ <function TCPConnector._wrap_create_connection at 0x7f6015af2dc0>
-                          └ <aiohttp.connector.TCPConnector object at 0x7f60084156a0>
-  File "/root/.cache/pypoetry/virtualenvs/zhenxun-bot-RCuEOm72-py3.9/lib/python3.9/site-packages/aiohttp/connector.py", line 969, in _wrap_create_connection
-    return await self._loop.create_connection(*args, **kwargs)  # type: ignore  # noqa
-                 │    │     │                  │       └ {'ssl': <ssl.SSLContext object at 0x7f6009f97ec0>, 'family': <AddressFamily.AF_INET: 2>, 'proto': 6, 'flags': <AddressInfo.AI...
-                 │    │     │                  └ (functools.partial(<class 'aiohttp.client_proto.ResponseHandler'>, loop=<uvloop.Loop running=True closed=False debug=False>),...
-                 │    │     └ <method 'create_connection' of 'uvloop.loop.Loop' objects>
-                 │    └ <uvloop.Loop running=True closed=False debug=False>
-                 └ <aiohttp.connector.TCPConnector object at 0x7f60084156a0>
-  File "uvloop/loop.pyx", line 2029, in create_connection
-  File "uvloop/loop.pyx", line 2016, in uvloop.loop.Loop.create_connection
-
-asyncio.exceptions.CancelledError
+08-17 00:00:00 [INFO] services | 商品每日限购次数重置成功...
+08-17 00:00:13 [INFO] services | 未检测到@重返未来1999的新微博
+08-17 00:00:18 [INFO] services | 未检测到@芬斯伯克1999的新微博
+08-17 00:00:20 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message 669858504 from 552491466@[群:178794340] "wc居然抢到了"
+08-17 00:00:20 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
+08-17 00:00:20 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
+08-17 00:00:20 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
+08-17 00:00:20 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
+08-17 00:00:20 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
+08-17 00:00:20 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
+08-17 00:00:20 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
+08-17 00:00:20 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
+08-17 00:00:20 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.fudu)
+08-17 00:00:20 [INFO] nonebot | Matcher(type='message', module=plugins.fudu) running complete
+08-17 00:00:21 [INFO] services | 未检测到@咕嗞咕嗞1999的新微博
+08-17 00:00:46 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message 1357515358 from 1584408682@[群:178794340] "[CQ:image,file=161339109518533d342c49b6cabec02e.image,subType=0,url=https://gchat.qpic.cn/gchatpic_new/1584408682/2168794340-2486762954-161339109518533D342C49B6CABEC02E/0?term=2&amp;is_origin=0]"
+08-17 00:00:46 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
+08-17 00:00:46 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
+08-17 00:00:46 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
+08-17 00:00:46 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
+08-17 00:00:46 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
+08-17 00:00:46 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
+08-17 00:00:46 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
+08-17 00:00:48 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message -1364283851 from 1584408682@[群:178794340] "好"
+08-17 00:00:48 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
+08-17 00:00:48 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
+08-17 00:00:48 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
+08-17 00:00:48 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
+08-17 00:00:48 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
+08-17 00:00:48 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
+08-17 00:00:48 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
+08-17 00:00:48 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
+08-17 00:00:48 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
+08-17 00:00:48 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.fudu)
+08-17 00:00:48 [INFO] nonebot | Matcher(type='message', module=plugins.fudu) running complete
+08-17 00:00:49 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message -643195229 from 1584408682@[群:178794340] "[CQ:face,id=201]"
+08-17 00:00:49 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
+08-17 00:00:49 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
+08-17 00:00:49 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
+08-17 00:00:49 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
+08-17 00:00:49 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
+08-17 00:00:49 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
+08-17 00:00:49 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
+08-17 00:00:49 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
+08-17 00:00:50 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.fudu)
+08-17 00:00:50 [INFO] nonebot | Matcher(type='message', module=plugins.fudu) running complete
+08-17 00:00:50 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.fudu)
+08-17 00:00:51 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message 1084280601 from 552491466@[群:178794340] "[CQ:reply,id=777746147][CQ:at,qq=2031972086] [CQ:at,qq=2031972086]  帖子说的观点群里也有讨论到呀"
+08-17 00:00:51 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
+08-17 00:00:51 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
+08-17 00:00:51 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
+08-17 00:00:51 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
+08-17 00:00:51 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
+08-17 00:00:51 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
+08-17 00:00:51 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
+08-17 00:00:51 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
+08-17 00:00:51 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.fudu)
+08-17 00:00:51 [INFO] nonebot | Matcher(type='message', module=plugins.fudu) running complete
+08-17 00:00:51 [INFO] services | 下载 https://gchat.qpic.cn/gchatpic_new/1584408682/2168794340-2486762954-161339109518533D342C49B6CABEC02E/0?term=2&is_origin=0 成功.. Path：/opt/zhenxun_bot/resources/temp/compare_178794340_img.jpg
+08-17 00:00:51 [INFO] nonebot | Matcher(type='message', module=plugins.fudu) running complete
+08-17 00:01:00 [WARNING] services | 重置原神查询记录成功..
+08-17 00:01:01 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message 933756815 from 3585425231@[群:178794340] "[CQ:at,qq=552491466] 帽子不能挂脚本吗"
+08-17 00:01:01 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
+08-17 00:01:01 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
+08-17 00:01:02 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
+08-17 00:01:02 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
+08-17 00:01:02 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
+08-17 00:01:02 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
+08-17 00:01:02 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
+08-17 00:01:02 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
+08-17 00:01:02 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.fudu)
+08-17 00:01:02 [INFO] nonebot | Matcher(type='message', module=plugins.fudu) running complete
+08-17 00:01:07 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message -1446811092 from 552491466@[群:178794340] "怎么今天又好抢了"
+08-17 00:01:07 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
+08-17 00:01:07 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
+08-17 00:01:07 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
+08-17 00:01:07 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
+08-17 00:01:07 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
+08-17 00:01:07 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
+08-17 00:01:07 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
+08-17 00:01:07 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
+08-17 00:01:07 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.fudu)
+08-17 00:01:07 [INFO] nonebot | Matcher(type='message', module=plugins.fudu) running complete
+08-17 00:01:15 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message -557557062 from 1584408682@[群:178794340] "不晓得"
+08-17 00:01:15 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
+08-17 00:01:15 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
+08-17 00:01:15 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
+08-17 00:01:15 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
+08-17 00:01:15 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
+08-17 00:01:15 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
+08-17 00:01:15 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
+08-17 00:01:15 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
+08-17 00:01:15 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.fudu)
+08-17 00:01:15 [INFO] nonebot | Matcher(type='message', module=plugins.fudu) running complete
+08-17 00:01:16 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message 1204620032 from 1584408682@[群:178794340] "奇怪"
+08-17 00:01:16 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
+08-17 00:01:16 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
+08-17 00:01:16 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
+08-17 00:01:16 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
+08-17 00:01:16 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
+08-17 00:01:16 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
+08-17 00:01:16 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
+08-17 00:01:17 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
+08-17 00:01:17 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.fudu)
+08-17 00:01:17 [INFO] nonebot | Matcher(type='message', module=plugins.fudu) running complete
+08-17 00:01:18 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message 818559894 from 552491466@[群:178794340] "你说连点器？"
+08-17 00:01:18 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
+08-17 00:01:18 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
+08-17 00:01:18 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
+08-17 00:01:18 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
+08-17 00:01:18 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
+08-17 00:01:18 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
+08-17 00:01:18 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
+08-17 00:01:18 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
+08-17 00:01:18 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.fudu)
+08-17 00:01:18 [INFO] nonebot | Matcher(type='message', module=plugins.fudu) running complete
+08-17 00:01:26 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message -1602935289 from 1584408682@[群:178794340] "我反正手抢"
+08-17 00:01:26 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
+08-17 00:01:26 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
+08-17 00:01:26 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
+08-17 00:01:26 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
+08-17 00:01:26 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
+08-17 00:01:26 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
+08-17 00:01:26 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
+08-17 00:01:26 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
+08-17 00:01:26 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.fudu)
+08-17 00:01:26 [INFO] nonebot | Matcher(type='message', module=plugins.fudu) running complete
+08-17 00:01:29 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message -680388975 from 552491466@[群:178794340] "我到点立马刷新"
+08-17 00:01:29 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
+08-17 00:01:29 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
+08-17 00:01:29 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
+08-17 00:01:29 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
+08-17 00:01:29 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
+08-17 00:01:29 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
+08-17 00:01:29 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
+08-17 00:01:30 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
+08-17 00:01:30 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.fudu)
+08-17 00:01:30 [INFO] nonebot | Matcher(type='message', module=plugins.fudu) running complete
+08-17 00:01:30 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message -1212833932 from 1584408682@[群:178794340] "[CQ:image,file=53d1b8f3c31ddd581ecb062c4905c4ed.image,subType=1,url=https://gchat.qpic.cn/gchatpic_new/1584408682/2168794340-2348399616-53D1B8F3C31DDD581ECB062C4905C4ED/0?term=2&amp;is_origin=0]"
+08-17 00:01:30 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
+08-17 00:01:30 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
+08-17 00:01:30 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
+08-17 00:01:30 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
+08-17 00:01:30 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
+08-17 00:01:30 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
+08-17 00:01:30 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
+08-17 00:01:31 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
+08-17 00:01:31 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message -1062031390 from 2031972086@[群:178794340] "10天的还是抢不到"
+08-17 00:01:31 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
+08-17 00:01:31 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
+08-17 00:01:31 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
+08-17 00:01:32 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
+08-17 00:01:32 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
+08-17 00:01:32 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
+08-17 00:01:32 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
+08-17 00:01:32 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
+08-17 00:01:32 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.fudu)
+08-17 00:01:32 [INFO] nonebot | Matcher(type='message', module=plugins.fudu) running complete
+08-17 00:01:32 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.fudu)
+08-17 00:01:33 [INFO] services | 下载 https://gchat.qpic.cn/gchatpic_new/1584408682/2168794340-2348399616-53D1B8F3C31DDD581ECB062C4905C4ED/0?term=2&is_origin=0 成功.. Path：/opt/zhenxun_bot/resources/temp/compare_178794340_img.jpg
+08-17 00:01:33 [INFO] nonebot | Matcher(type='message', module=plugins.fudu) running complete
+08-17 00:01:35 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message 1505492568 from 552491466@[群:178794340] "点一下就中了"
+08-17 00:01:35 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
+08-17 00:01:35 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
+08-17 00:01:35 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
+08-17 00:01:35 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
+08-17 00:01:35 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
+08-17 00:01:35 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
+08-17 00:01:35 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
+08-17 00:01:35 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
+08-17 00:01:35 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.fudu)
+08-17 00:01:35 [INFO] nonebot | Matcher(type='message', module=plugins.fudu) running complete
+08-17 00:01:41 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message 784125646 from 552491466@[群:178794340] "突如其来的惊喜"
+08-17 00:01:41 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
+08-17 00:01:41 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
+08-17 00:01:41 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
+08-17 00:01:41 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
+08-17 00:01:41 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
+08-17 00:01:41 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
+08-17 00:01:41 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
+08-17 00:01:41 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
+08-17 00:01:41 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.fudu)
+08-17 00:01:41 [INFO] nonebot | Matcher(type='message', module=plugins.fudu) running complete
+08-17 00:01:47 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message -1327998099 from 3585425231@[群:178794340] "[CQ:reply,id=818559894][CQ:at,qq=552491466] [CQ:at,qq=552491466] 不是"
+08-17 00:01:47 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
+08-17 00:01:47 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
+08-17 00:01:47 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
+08-17 00:01:47 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
+08-17 00:01:47 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
+08-17 00:01:47 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
+08-17 00:01:47 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
+08-17 00:01:47 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
+08-17 00:01:47 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.fudu)
+08-17 00:01:47 [INFO] nonebot | Matcher(type='message', module=plugins.fudu) running complete
+08-17 00:01:51 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message -941659141 from 3585425231@[群:178794340] "就是那种脚本"
+08-17 00:01:51 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
+08-17 00:01:51 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
+08-17 00:01:52 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
+08-17 00:01:52 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
+08-17 00:01:52 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
+08-17 00:01:52 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
+08-17 00:01:52 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
+08-17 00:01:52 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
+08-17 00:01:52 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.fudu)
+08-17 00:01:52 [INFO] nonebot | Matcher(type='message', module=plugins.fudu) running complete
+08-17 00:01:54 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message 1591097921 from 3585425231@[群:178794340] "程序"
+08-17 00:01:54 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
+08-17 00:01:54 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
+08-17 00:01:54 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
+08-17 00:01:54 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
+08-17 00:01:54 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
+08-17 00:01:54 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
+08-17 00:01:54 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
+08-17 00:01:54 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
+08-17 00:01:54 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.fudu)
+08-17 00:01:54 [INFO] nonebot | Matcher(type='message', module=plugins.fudu) running complete
+08-17 00:02:14 [INFO] services | 未检测到@重返未来1999的新微博
+08-17 00:02:18 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message 701565655 from 552491466@[群:178794340] "能啊，你有的话"
+08-17 00:02:18 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
+08-17 00:02:18 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
+08-17 00:02:19 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
+08-17 00:02:19 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
+08-17 00:02:19 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
+08-17 00:02:19 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
+08-17 00:02:19 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
+08-17 00:02:19 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
+08-17 00:02:19 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.fudu)
+08-17 00:02:19 [INFO] nonebot | Matcher(type='message', module=plugins.fudu) running complete
+08-17 00:02:20 [INFO] services | 未检测到@芬斯伯克1999的新微博
+08-17 00:02:24 [INFO] services | 未检测到@咕嗞咕嗞1999的新微博
+08-17 00:02:32 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message -1183967418 from 3585425231@[群:178794340] "你不挂吗"
+08-17 00:02:32 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
+08-17 00:02:32 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
+08-17 00:02:32 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
+08-17 00:02:32 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
+08-17 00:02:32 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
+08-17 00:02:32 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
+08-17 00:02:32 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
+08-17 00:02:32 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
+08-17 00:02:33 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.fudu)
+08-17 00:02:33 [INFO] nonebot | Matcher(type='message', module=plugins.fudu) running complete
+08-17 00:02:37 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message -831969328 from 2031972086@[群:178794340] "昨天研究了一下"
+08-17 00:02:37 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
+08-17 00:02:37 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
+08-17 00:02:37 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
+08-17 00:02:37 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
+08-17 00:02:37 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
+08-17 00:02:37 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
+08-17 00:02:37 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
+08-17 00:02:37 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
+08-17 00:02:37 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.fudu)
+08-17 00:02:38 [INFO] nonebot | Matcher(type='message', module=plugins.fudu) running complete
+08-17 00:02:54 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message 1739935242 from 2031972086@[群:178794340] "貌似脚本需要“点击领取”那个地址"
+08-17 00:02:54 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
+08-17 00:02:54 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
+08-17 00:02:55 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
+08-17 00:02:55 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
+08-17 00:02:55 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
+08-17 00:02:55 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
+08-17 00:02:55 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
+08-17 00:02:55 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
+08-17 00:02:55 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.fudu)
+08-17 00:02:55 [INFO] nonebot | Matcher(type='message', module=plugins.fudu) running complete
+08-17 00:03:04 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message 280133276 from 2031972086@[群:178794340] "然而我根本得不到那个地址"
+08-17 00:03:04 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
+08-17 00:03:04 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
+08-17 00:03:04 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
+08-17 00:03:04 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
+08-17 00:03:05 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
+08-17 00:03:05 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
+08-17 00:03:05 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
+08-17 00:03:05 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
+08-17 00:03:05 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.fudu)
+08-17 00:03:05 [INFO] nonebot | Matcher(type='message', module=plugins.fudu) running complete
+08-17 00:03:09 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message -1984221402 from 552491466@[群:178794340] "那个f12就能拿到"
+08-17 00:03:09 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
+08-17 00:03:09 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
+08-17 00:03:09 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
+08-17 00:03:09 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
+08-17 00:03:09 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
+08-17 00:03:09 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
+08-17 00:03:09 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
+08-17 00:03:09 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
+08-17 00:03:09 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.fudu)
+08-17 00:03:09 [INFO] nonebot | Matcher(type='message', module=plugins.fudu) running complete
+08-17 00:03:16 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message -21225552 from 2031972086@[群:178794340] "因为我打开的时候就已经没了"
+08-17 00:03:16 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
+08-17 00:03:16 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
+08-17 00:03:16 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
+08-17 00:03:16 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
+08-17 00:03:16 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
+08-17 00:03:16 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
+08-17 00:03:16 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
+08-17 00:03:16 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
+08-17 00:03:16 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.fudu)
+08-17 00:03:16 [INFO] nonebot | Matcher(type='message', module=plugins.fudu) running complete
+08-17 00:03:23 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message 1624803859 from 552491466@[群:178794340] "f12，network"
+08-17 00:03:23 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
+08-17 00:03:23 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
+08-17 00:03:23 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
+08-17 00:03:23 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
+08-17 00:03:23 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
+08-17 00:03:23 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
+08-17 00:03:23 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
+08-17 00:03:23 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
+08-17 00:03:23 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.fudu)
+08-17 00:03:23 [INFO] nonebot | Matcher(type='message', module=plugins.fudu) running complete
+08-17 00:03:30 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message 400538245 from 2031972086@[群:178794340] "我f12了啊"
+08-17 00:03:30 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
+08-17 00:03:30 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
+08-17 00:03:30 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
+08-17 00:03:30 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
+08-17 00:03:30 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
+08-17 00:03:30 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
+08-17 00:03:30 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
+08-17 00:03:30 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
+08-17 00:03:30 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.fudu)
+08-17 00:03:30 [INFO] nonebot | Matcher(type='message', module=plugins.fudu) running complete
+08-17 00:03:47 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message -1898517697 from 2031972086@[群:178794340] "但是它是“暂无领取资格”的地址"
+08-17 00:03:47 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
+08-17 00:03:47 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
+08-17 00:03:47 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
+08-17 00:03:47 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
+08-17 00:03:47 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
+08-17 00:03:47 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
+08-17 00:03:47 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
+08-17 00:03:47 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
+08-17 00:03:47 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.fudu)
+08-17 00:03:47 [INFO] nonebot | Matcher(type='message', module=plugins.fudu) running complete
+08-17 00:03:59 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message -103687255 from 552491466@[群:178794340] "暂无领取资格你就点不了"
+08-17 00:03:59 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
+08-17 00:03:59 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
+08-17 00:03:59 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
+08-17 00:04:00 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
+08-17 00:04:00 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
+08-17 00:04:00 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
+08-17 00:04:00 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
+08-17 00:04:00 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
+08-17 00:04:00 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.fudu)
+08-17 00:04:00 [INFO] nonebot | Matcher(type='message', module=plugins.fudu) running complete
+08-17 00:04:07 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message 1768867384 from 2031972086@[群:178794340] "是啊"
+08-17 00:04:07 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
+08-17 00:04:07 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
+08-17 00:04:07 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
+08-17 00:04:07 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
+08-17 00:04:07 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
+08-17 00:04:07 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
+08-17 00:04:07 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
+08-17 00:04:07 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
+08-17 00:04:07 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.fudu)
+08-17 00:04:07 [INFO] nonebot | Matcher(type='message', module=plugins.fudu) running complete
+08-17 00:04:17 [INFO] services | 未检测到@重返未来1999的新微博
+08-17 00:04:19 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message 510260910 from 552491466@[群:178794340] "不过它可能和每日任务的说不定是同个接口"
+08-17 00:04:19 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
+08-17 00:04:19 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
+08-17 00:04:19 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
+08-17 00:04:19 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
+08-17 00:04:19 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
+08-17 00:04:19 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
+08-17 00:04:19 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
+08-17 00:04:19 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
+08-17 00:04:20 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.fudu)
+08-17 00:04:20 [INFO] nonebot | Matcher(type='message', module=plugins.fudu) running complete
+08-17 00:04:21 [INFO] services | 未检测到@芬斯伯克1999的新微博
+08-17 00:04:22 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message 2125365067 from 2031972086@[群:178794340] "我想得到“点击领取”那个地址"
+08-17 00:04:22 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
+08-17 00:04:22 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
+08-17 00:04:22 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
+08-17 00:04:22 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
+08-17 00:04:22 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
+08-17 00:04:22 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
+08-17 00:04:22 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
+08-17 00:04:22 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
+08-17 00:04:23 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.fudu)
+08-17 00:04:23 [INFO] nonebot | Matcher(type='message', module=plugins.fudu) running complete
+08-17 00:04:24 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message 162090973 from 552491466@[群:178794340] "只是参数不同"
+08-17 00:04:24 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
+08-17 00:04:24 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
+08-17 00:04:24 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
+08-17 00:04:24 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
+08-17 00:04:24 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
+08-17 00:04:24 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
+08-17 00:04:24 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
+08-17 00:04:24 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
+08-17 00:04:24 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.fudu)
+08-17 00:04:24 [INFO] nonebot | Matcher(type='message', module=plugins.fudu) running complete
+08-17 00:04:25 [INFO] services | 未检测到@咕嗞咕嗞1999的新微博
+08-17 00:04:28 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message -1868554649 from 2031972086@[群:178794340] "可是根本得不到"
+08-17 00:04:28 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
+08-17 00:04:28 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
+08-17 00:04:28 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
+08-17 00:04:28 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
+08-17 00:04:28 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
+08-17 00:04:28 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
+08-17 00:04:28 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
+08-17 00:04:28 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
+08-17 00:04:28 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.fudu)
+08-17 00:04:28 [INFO] nonebot | Matcher(type='message', module=plugins.fudu) running complete
+08-17 00:04:36 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message -408473871 from 2031972086@[群:178794340] "有可能"
+08-17 00:04:36 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
+08-17 00:04:36 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
+08-17 00:04:36 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
+08-17 00:04:36 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
+08-17 00:04:36 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
+08-17 00:04:36 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
+08-17 00:04:36 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
+08-17 00:04:36 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
+08-17 00:04:37 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.fudu)
+08-17 00:04:37 [INFO] nonebot | Matcher(type='message', module=plugins.fudu) running complete
+08-17 00:04:48 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message 2042870610 from 2031972086@[群:178794340] "回头再试试吧"
+08-17 00:04:48 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
+08-17 00:04:48 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
+08-17 00:04:48 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
+08-17 00:04:48 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
+08-17 00:04:48 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
+08-17 00:04:48 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
+08-17 00:04:48 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
+08-17 00:04:48 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
+08-17 00:04:48 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.fudu)
+08-17 00:04:48 [INFO] nonebot | Matcher(type='message', module=plugins.fudu) running complete
+08-17 00:06:26 [INFO] services | 未检测到@重返未来1999的新微博
+08-17 00:06:31 [INFO] services | 未检测到@芬斯伯克1999的新微博
+08-17 00:06:37 [INFO] services | 未检测到@咕嗞咕嗞1999的新微博
+08-17 00:07:19 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message 247761860 from 71971829@[群:178794340] "！安早"
+08-17 00:07:19 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
+08-17 00:07:19 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
+08-17 00:07:19 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
+08-17 00:07:19 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
+08-17 00:07:19 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
+08-17 00:07:19 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
+08-17 00:07:19 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
+08-17 00:07:19 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
+08-17 00:07:19 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.fudu)
+08-17 00:07:19 [INFO] nonebot | Matcher(type='message', module=plugins.fudu) running complete
+08-17 00:07:36 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message -1748116866 from 552491466@[群:178794340] "早"
+08-17 00:07:36 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
+08-17 00:07:36 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
+08-17 00:07:36 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
+08-17 00:07:36 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
+08-17 00:07:36 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
+08-17 00:07:36 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
+08-17 00:07:36 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
+08-17 00:07:36 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
+08-17 00:07:37 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.fudu)
+08-17 00:07:37 [INFO] nonebot | Matcher(type='message', module=plugins.fudu) running complete
+08-17 00:07:56 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message 1392178754 from 1736753202@[群:541371519] "这波和国产联动，第一个中文配音的式神"
+08-17 00:07:56 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
+08-17 00:07:56 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
+08-17 00:07:56 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
+08-17 00:07:56 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
+08-17 00:07:56 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
+08-17 00:07:56 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
+08-17 00:07:56 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
+08-17 00:07:56 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
+08-17 00:07:56 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.fudu)
+08-17 00:07:56 [INFO] nonebot | Matcher(type='message', module=plugins.fudu) running complete
+08-17 00:08:13 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message -523572504 from 3237743014@[群:178794340] "谁家打鸣公鸡"
+08-17 00:08:13 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
+08-17 00:08:13 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
+08-17 00:08:13 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
+08-17 00:08:13 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
+08-17 00:08:13 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
+08-17 00:08:13 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
+08-17 00:08:13 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
+08-17 00:08:13 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
+08-17 00:08:13 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.fudu)
+08-17 00:08:13 [INFO] nonebot | Matcher(type='message', module=plugins.fudu) running complete
+08-17 00:08:23 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message 1886779257 from 552491466@[群:178794340] "哈哈哈"
+08-17 00:08:23 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
+08-17 00:08:23 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
+08-17 00:08:23 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
+08-17 00:08:23 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
+08-17 00:08:23 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
+08-17 00:08:23 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
+08-17 00:08:23 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
+08-17 00:08:23 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
+08-17 00:08:24 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.fudu)
+08-17 00:08:24 [INFO] nonebot | Matcher(type='message', module=plugins.fudu) running complete
+08-17 00:08:27 [INFO] services | 未检测到@重返未来1999的新微博
+08-17 00:08:32 [INFO] services | 未检测到@芬斯伯克1999的新微博
+08-17 00:08:35 [INFO] services | 未检测到@咕嗞咕嗞1999的新微博
+08-17 00:08:46 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message 124962799 from 3585425231@[群:178794340] "wc群公鸡"
+08-17 00:08:46 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
+08-17 00:08:46 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
+08-17 00:08:46 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
+08-17 00:08:46 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
+08-17 00:08:46 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
+08-17 00:08:46 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
+08-17 00:08:46 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
+08-17 00:08:46 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
+08-17 00:08:46 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.fudu)
+08-17 00:08:46 [INFO] nonebot | Matcher(type='message', module=plugins.fudu) running complete
+08-17 00:09:00 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message 1434659976 from 2031972086@[群:178794340] "五点再打鸣"
+08-17 00:09:00 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
+08-17 00:09:00 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
+08-17 00:09:01 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
+08-17 00:09:01 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
+08-17 00:09:01 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
+08-17 00:09:01 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
+08-17 00:09:01 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
+08-17 00:09:01 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
+08-17 00:09:01 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.fudu)
+08-17 00:09:01 [INFO] nonebot | Matcher(type='message', module=plugins.fudu) running complete
+08-17 00:10:36 [INFO] services | 未检测到@重返未来1999的新微博
+08-17 00:10:41 [INFO] services | 未检测到@芬斯伯克1999的新微博
+08-17 00:10:45 [INFO] services | 未检测到@咕嗞咕嗞1999的新微博
+08-17 00:10:48 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message 579083294 from 2031972086@[群:178794340] "[CQ:image,file=8f0848f93d7a9d17038e8df1f57fb5b0.image,subType=0,url=https://gchat.qpic.cn/gchatpic_new/2031972086/2168794340-2402671954-8F0848F93D7A9D17038E8DF1F57FB5B0/0?term=2&amp;is_origin=0]"
+08-17 00:10:48 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
+08-17 00:10:48 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
+08-17 00:10:48 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
+08-17 00:10:48 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
+08-17 00:10:48 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
+08-17 00:10:48 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
+08-17 00:10:48 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
+08-17 00:10:50 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
+08-17 00:10:53 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.fudu)
+08-17 00:10:54 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message -1148367452 from 2031972086@[群:178794340] "突然发现这个已经没人抢了"
+08-17 00:10:54 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
+08-17 00:10:54 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
+08-17 00:10:54 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
+08-17 00:10:54 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
+08-17 00:10:54 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
+08-17 00:10:54 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
+08-17 00:10:54 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
+08-17 00:10:54 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
+08-17 00:10:54 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.fudu)
+08-17 00:10:54 [INFO] nonebot | Matcher(type='message', module=plugins.fudu) running complete
+08-17 00:10:55 [INFO] services | 下载 https://gchat.qpic.cn/gchatpic_new/2031972086/2168794340-2402671954-8F0848F93D7A9D17038E8DF1F57FB5B0/0?term=2&is_origin=0 成功.. Path：/opt/zhenxun_bot/resources/temp/compare_178794340_img.jpg
+08-17 00:10:55 [INFO] nonebot | Matcher(type='message', module=plugins.fudu) running complete
+08-17 00:11:16 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message -863339214 from 2031972086@[群:178794340] "[CQ:image,file=db76a0f6a92c35b51203b4a539593c4f.image,subType=0,url=https://gchat.qpic.cn/gchatpic_new/2031972086/2168794340-2440439326-DB76A0F6A92C35B51203B4A539593C4F/0?term=2&amp;is_origin=0]"
+08-17 00:11:16 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
+08-17 00:11:16 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
+08-17 00:11:16 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
+08-17 00:11:16 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
+08-17 00:11:16 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
+08-17 00:11:16 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
+08-17 00:11:16 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
+08-17 00:11:18 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
+08-17 00:11:22 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.fudu)
+08-17 00:11:23 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message 1391388817 from 2031972086@[群:178794340] "前面的都没人抢了"
+08-17 00:11:23 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
+08-17 00:11:23 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
+08-17 00:11:23 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
+08-17 00:11:23 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
+08-17 00:11:23 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
+08-17 00:11:23 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
+08-17 00:11:23 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
+08-17 00:11:23 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
+08-17 00:11:23 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.fudu)
+08-17 00:11:23 [INFO] nonebot | Matcher(type='message', module=plugins.fudu) running complete
+08-17 00:11:24 [INFO] services | 下载 https://gchat.qpic.cn/gchatpic_new/2031972086/2168794340-2440439326-DB76A0F6A92C35B51203B4A539593C4F/0?term=2&is_origin=0 成功.. Path：/opt/zhenxun_bot/resources/temp/compare_178794340_img.jpg
+08-17 00:11:24 [INFO] nonebot | Matcher(type='message', module=plugins.fudu) running complete
+08-17 00:11:52 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message 636082183 from 552491466@[群:178794340] "该枪的都抢了"
+08-17 00:11:52 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
+08-17 00:11:52 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
+08-17 00:11:52 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
+08-17 00:11:52 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
+08-17 00:11:52 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
+08-17 00:11:52 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
+08-17 00:11:52 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
+08-17 00:11:52 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
+08-17 00:11:52 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.fudu)
+08-17 00:11:52 [INFO] nonebot | Matcher(type='message', module=plugins.fudu) running complete
+08-17 00:11:54 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message -1126135363 from 3585425231@[群:178794340] "怎么又更新"
+08-17 00:11:54 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
+08-17 00:11:54 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
+08-17 00:11:54 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
+08-17 00:11:54 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
+08-17 00:11:54 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
+08-17 00:11:54 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
+08-17 00:11:54 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
+08-17 00:11:54 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
+08-17 00:11:54 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.fudu)
+08-17 00:11:54 [INFO] nonebot | Matcher(type='message', module=plugins.fudu) running complete
+08-17 00:12:07 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message -874006229 from 2031972086@[群:178794340] "我希望过几天后面的也这样"
+08-17 00:12:07 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
+08-17 00:12:07 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
+08-17 00:12:07 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
+08-17 00:12:07 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
+08-17 00:12:07 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
+08-17 00:12:07 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
+08-17 00:12:07 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
+08-17 00:12:07 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
+08-17 00:12:08 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.fudu)
+08-17 00:12:08 [INFO] nonebot | Matcher(type='message', module=plugins.fudu) running complete
+08-17 00:12:39 [INFO] services | 未检测到@重返未来1999的新微博
+08-17 00:12:44 [INFO] services | 未检测到@芬斯伯克1999的新微博
+08-17 00:12:48 [INFO] services | 未检测到@咕嗞咕嗞1999的新微博
+08-17 00:13:57 [INFO] services | 清理日常签到图片数据数据完成....
+08-17 00:14:49 [INFO] services | 未检测到@重返未来1999的新微博
+08-17 00:14:54 [INFO] services | 未检测到@芬斯伯克1999的新微博
+08-17 00:14:58 [INFO] services | 未检测到@咕嗞咕嗞1999的新微博
+08-17 00:15:59 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message 1532535994 from 552491466@[群:178794340] "[CQ:image,file=71c650673d57ae5b58afe9ccfbb001c1.image,subType=0,url=https://gchat.qpic.cn/gchatpic_new/552491466/2168794340-2440711420-71C650673D57AE5B58AFE9CCFBB001C1/0?term=2&amp;is_origin=0]"
+08-17 00:15:59 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
+08-17 00:15:59 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
+08-17 00:15:59 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
+08-17 00:15:59 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
+08-17 00:15:59 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
+08-17 00:16:00 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
+08-17 00:16:00 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
+08-17 00:16:01 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
+08-17 00:16:03 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.fudu)
+08-17 00:16:04 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message 744461356 from 552491466@[群:178794340] "是同一个接口"
+08-17 00:16:04 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
+08-17 00:16:04 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
+08-17 00:16:04 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
+08-17 00:16:04 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
+08-17 00:16:04 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
+08-17 00:16:04 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
+08-17 00:16:04 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
+08-17 00:16:04 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
+08-17 00:16:04 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.fudu)
+08-17 00:16:04 [INFO] nonebot | Matcher(type='message', module=plugins.fudu) running complete
+08-17 00:16:05 [INFO] services | 下载 https://gchat.qpic.cn/gchatpic_new/552491466/2168794340-2440711420-71C650673D57AE5B58AFE9CCFBB001C1/0?term=2&is_origin=0 成功.. Path：/opt/zhenxun_bot/resources/temp/compare_178794340_img.jpg
+08-17 00:16:05 [INFO] nonebot | Matcher(type='message', module=plugins.fudu) running complete
+08-17 00:16:21 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message 1285037513 from 552491466@[群:178794340] "[CQ:image,file=de702a8903ec07b07686cf5d87793dd7.image,subType=0,url=https://gchat.qpic.cn/gchatpic_new/552491466/2168794340-2447803702-DE702A8903EC07B07686CF5D87793DD7/0?term=2&amp;is_origin=0]"
+08-17 00:16:21 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
+08-17 00:16:21 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
+08-17 00:16:21 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
+08-17 00:16:21 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
+08-17 00:16:21 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
+08-17 00:16:21 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
+08-17 00:16:21 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
+08-17 00:16:22 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
+08-17 00:16:24 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.fudu)
+08-17 00:16:26 [INFO] services | 下载 https://gchat.qpic.cn/gchatpic_new/552491466/2168794340-2447803702-DE702A8903EC07B07686CF5D87793DD7/0?term=2&is_origin=0 成功.. Path：/opt/zhenxun_bot/resources/temp/compare_178794340_img.jpg
+08-17 00:16:26 [INFO] nonebot | Matcher(type='message', module=plugins.fudu) running complete
+08-17 00:16:26 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message 1000287583 from 552491466@[群:178794340] "参数稍有不同"
+08-17 00:16:26 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
+08-17 00:16:26 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
+08-17 00:16:26 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
+08-17 00:16:26 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
+08-17 00:16:26 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
+08-17 00:16:26 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
+08-17 00:16:26 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
+08-17 00:16:26 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
+08-17 00:16:26 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.fudu)
+08-17 00:16:26 [INFO] nonebot | Matcher(type='message', module=plugins.fudu) running complete
+08-17 00:16:52 [INFO] services | 未检测到@重返未来1999的新微博
+08-17 00:16:57 [INFO] services | 未检测到@芬斯伯克1999的新微博
+08-17 00:17:01 [INFO] services | 未检测到@咕嗞咕嗞1999的新微博
+08-17 00:18:56 [INFO] services | 未检测到@重返未来1999的新微博
+08-17 00:19:00 [INFO] services | 未检测到@芬斯伯克1999的新微博
+08-17 00:19:04 [INFO] services | 未检测到@咕嗞咕嗞1999的新微博
+08-17 00:21:02 [INFO] services | 未检测到@重返未来1999的新微博
+08-17 00:21:07 [INFO] services | 未检测到@芬斯伯克1999的新微博
+08-17 00:21:11 [INFO] services | 未检测到@咕嗞咕嗞1999的新微博
+08-17 00:23:03 [INFO] services | 未检测到@重返未来1999的新微博
+08-17 00:23:07 [INFO] services | 未检测到@芬斯伯克1999的新微博
+08-17 00:23:11 [INFO] services | 未检测到@咕嗞咕嗞1999的新微博
+08-17 00:23:59 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message -1567195931 from 2031972086@[群:178794340] "居然是吗"
+08-17 00:23:59 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
+08-17 00:23:59 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
+08-17 00:23:59 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
+08-17 00:23:59 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
+08-17 00:23:59 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
+08-17 00:23:59 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
+08-17 00:23:59 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
+08-17 00:23:59 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
+08-17 00:23:59 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.fudu)
+08-17 00:23:59 [INFO] nonebot | Matcher(type='message', module=plugins.fudu) running complete
+08-17 00:24:11 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message -711897997 from 2031972086@[群:178794340] "下次再试一下"
+08-17 00:24:11 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
+08-17 00:24:11 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
+08-17 00:24:11 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
+08-17 00:24:11 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
+08-17 00:24:11 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
+08-17 00:24:11 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
+08-17 00:24:11 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
+08-17 00:24:11 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
+08-17 00:24:11 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.fudu)
+08-17 00:24:11 [INFO] nonebot | Matcher(type='message', module=plugins.fudu) running complete
+08-17 00:25:11 [INFO] services | 未检测到@重返未来1999的新微博
+08-17 00:25:16 [INFO] services | 未检测到@芬斯伯克1999的新微博
+08-17 00:25:19 [INFO] services | 未检测到@咕嗞咕嗞1999的新微博
+08-17 00:25:47 [SUCCESS] nonebot | OneBot V11 920935721 | [message.group.normal]: Message 1274403280 from 552491466@[群:178794340] "合理也应该是的，没必要做两个不同的"
+08-17 00:25:47 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.black_word)
+08-17 00:25:47 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.mute)
+08-17 00:25:48 [INFO] nonebot | Event will be handled by Matcher(type='message', module=basic_plugins.chat_history.chat_message)
+08-17 00:25:48 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.parse_bilibili_json)
+08-17 00:25:48 [INFO] nonebot | Matcher(type='message', module=plugins.black_word) running complete
+08-17 00:25:48 [INFO] nonebot | Matcher(type='message', module=plugins.mute) running complete
+08-17 00:25:48 [INFO] nonebot | Matcher(type='message', module=basic_plugins.chat_history.chat_message) running complete
+08-17 00:25:48 [INFO] nonebot | Matcher(type='message', module=plugins.parse_bilibili_json) running complete
+08-17 00:25:48 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.fudu)
+08-17 00:25:48 [INFO] nonebot | Matcher(type='message', module=plugins.fudu) running complete
+08-17 00:27:18 [INFO] services | 未检测到@重返未来1999的新微博
+08-17 00:27:25 [INFO] services | 未检测到@芬斯伯克1999的新微博
+08-17 00:27:28 [INFO] services | 未检测到@咕嗞咕嗞1999的新微博
+08-17 00:29:22 [INFO] services | 未检测到@重返未来1999的新微博
+08-17 00:29:27 [INFO] services | 未检测到@芬斯伯克1999的新微博
+08-17 00:29:30 [INFO] services | 未检测到@咕嗞咕嗞1999的新微博
+08-17 00:31:27 [INFO] services | 未检测到@重返未来1999的新微博
+08-17 00:31:32 [INFO] services | 未检测到@芬斯伯克1999的新微博
+08-17 00:31:35 [INFO] services | 未检测到@咕嗞咕嗞1999的新微博
+08-17 00:33:36 [INFO] services | 未检测到@重返未来1999的新微博
+08-17 00:33:40 [INFO] services | 未检测到@芬斯伯克1999的新微博
+08-17 00:33:44 [INFO] services | 未检测到@咕嗞咕嗞1999的新微博

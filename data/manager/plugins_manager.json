@@ -325,7 +325,7 @@
         "error": false,
         "block_type": null,
         "author": "HibiKier",
-        "version": 0.1
+        "version": 0
     },
     "almanac": {
         "plugin_name": "原神老黄历",
@@ -333,7 +333,7 @@
         "error": false,
         "block_type": null,
         "author": "HibiKier",
-        "version": 0.1
+        "version": 0
     },
     "query_memo": {
         "plugin_name": "原神便笺查询",
@@ -341,7 +341,7 @@
         "error": false,
         "block_type": null,
         "author": "HibiKier",
-        "version": 0.1
+        "version": 0
     },
     "resin_remind": {
         "plugin_name": "原神树脂提醒",
@@ -349,7 +349,7 @@
         "error": false,
         "block_type": null,
         "author": "HibiKier",
-        "version": 0.1
+        "version": 0
     },
     "query_role": {
         "plugin_name": "原神玩家查询",
@@ -357,7 +357,7 @@
         "error": false,
         "block_type": null,
         "author": "HibiKier",
-        "version": 0.1
+        "version": 0
     },
     "mihoyobbs_sign": {
         "plugin_name": "米游社自动签到",
@@ -365,7 +365,7 @@
         "error": false,
         "block_type": null,
         "author": "HDU_Nbsp",
-        "version": 0.1
+        "version": 0
     },
     "genshin_sign": {
         "plugin_name": "原神自动签到",
@@ -373,7 +373,7 @@
         "error": false,
         "block_type": null,
         "author": "HibiKier",
-        "version": 0.2
+        "version": 0
     },
     "bind": {
         "plugin_name": "原神绑定",
@@ -381,7 +381,7 @@
         "error": false,
         "block_type": null,
         "author": "HibiKier",
-        "version": 0.1
+        "version": 0
     },
     "query_resource_points": {
         "plugin_name": "原神资源查询",
@@ -389,7 +389,7 @@
         "error": false,
         "block_type": null,
         "author": "HibiKier",
-        "version": 0.1
+        "version": 0
     },
     "music": {
         "plugin_name": "点歌",
@@ -901,6 +901,14 @@
         "error": false,
         "block_type": null,
         "author": "migang",
+        "version": 0.1
+    },
+    "character_resonance": {
+        "plugin_name": "角色共鸣",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": null,
         "version": 0.1
     }
 }

@@ -696,3 +696,8 @@
 08-17 00:33:36 [INFO] services | 未检测到@重返未来1999的新微博
 08-17 00:33:40 [INFO] services | 未检测到@芬斯伯克1999的新微博
 08-17 00:33:44 [INFO] services | 未检测到@咕嗞咕嗞1999的新微博
+08-17 00:35:25 [INFO] uvicorn | Shutting down
+08-17 00:35:25 [WARNING] nonebot | OneBot V11 | WebSocket for Bot 920935721 closed by peer
+08-17 00:35:25 [INFO] websockets | connection closed
+08-17 00:35:25 [INFO] uvicorn | Waiting for application shutdown.
+08-17 00:35:25 [INFO] nonebot_plugin_apscheduler | Scheduler Shutdown

@@ -768,3 +768,12 @@ PluginSettings:
     plugin_type:
     - normal
     cost_gold: 0
+  character_resonance:
+    cmd:
+    - 角色共鸣
+    default_status: true
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - 重返未来1999
+    cost_gold: 0

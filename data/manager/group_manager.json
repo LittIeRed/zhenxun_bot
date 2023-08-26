@@ -3,7 +3,7 @@
     "close_task": [],
     "group_manager": {
         "178794340": {
-            "level": 5,
+            "level": 8,
             "status": true,
             "close_plugins": [
                 "update_info",
@@ -163,6 +163,12 @@
                 "weibo-test": false,
                 "weibo-reverseFuture1999": false
             }
+        },
+        "178794040": {
+            "level": 8,
+            "status": true,
+            "close_plugins": [],
+            "group_task_status": {}
         }
     }
 }

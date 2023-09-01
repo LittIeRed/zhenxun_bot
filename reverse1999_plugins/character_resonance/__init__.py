@@ -53,6 +53,6 @@ async def _(bot: Bot, event: MessageEvent, arg: str = EventPlainText()):
         if img:
             await resonance.finish(img)
         else:
-            await resonance.finish("查看角色共鸣信息失败")
+            await resonance.finish("异常，查看角色共鸣信息失败")
     else:
-        await resonance.finish("当前还没有该角色的共鸣信息哦")
+        await resonance.finish("当前还没有该角色的共鸣信息哦，请检查角色名是否输入正确")

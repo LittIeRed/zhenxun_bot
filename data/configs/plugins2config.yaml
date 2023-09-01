@@ -444,7 +444,7 @@ alapi:
   ALAPI_TOKEN:
     value:
     name:
-    help: 在https://admin.alapi.cn/user/login登录后获取token
+    help: 在 https://admin.alapi.cn/user/login 登录后获取token
     default_value:
     level_module:
     arg_parser:

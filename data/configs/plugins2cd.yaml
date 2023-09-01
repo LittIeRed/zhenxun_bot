@@ -54,3 +54,9 @@ PluginCdLimit:
     check_type: all
     limit_type: user
     rst: 每二十秒只能操作一次...
+  draw_card_1999:
+    cd: 10
+    status: true
+    check_type: group
+    limit_type: user
+    rst: 哎呀金兔兔不够了，别急，小真寻马上去打工给你赚金兔兔[at]

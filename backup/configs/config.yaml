@@ -257,7 +257,7 @@ ban:
   # BAN_LEVEL [LEVEL]: ban/unban所需要的管理员权限等级
   BAN_LEVEL [LEVEL]: 5
 resin_remind:
-  # 原神树脂提醒
+  # resin_remind
   # AUTO_CLOSE_QUERY_FAIL_RESIN_REMIND: 当请求连续三次失败时，关闭用户的树脂提醒
   # CUSTOM_RESIN_OVERFLOW_REMIND: 自定义树脂溢出指定数量时的提醒，空值是为关闭
   AUTO_CLOSE_QUERY_FAIL_RESIN_REMIND: true

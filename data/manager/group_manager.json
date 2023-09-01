@@ -59,7 +59,7 @@
                 "epic_free_game": false,
                 "open_case_reset_remind": false,
                 "genshin_alc": false,
-                "zwa": true,
+                "zwa": false,
                 "broadcast": false,
                 "group_welcome": true,
                 "refund_group_remind": false,
@@ -81,11 +81,11 @@
                 "refund_group_remind": false,
                 "broadcast": false,
                 "bilibili_parse": true,
-                "open_case_reset_remind": true,
+                "open_case_reset_remind": false,
                 "genshin_alc": false,
                 "epic_free_game": false,
                 "fudu": true,
-                "zwa": true,
+                "zwa": false,
                 "weibo-test": false,
                 "weibo-reverseFuture1999": false
             }
@@ -95,8 +95,8 @@
             "status": true,
             "close_plugins": [],
             "group_task_status": {
-                "zwa": true,
-                "open_case_reset_remind": true,
+                "zwa": false,
+                "open_case_reset_remind": false,
                 "epic_free_game": false,
                 "genshin_alc": false,
                 "group_welcome": true,
@@ -113,8 +113,8 @@
             "status": true,
             "close_plugins": [],
             "group_task_status": {
-                "zwa": true,
-                "open_case_reset_remind": true,
+                "zwa": false,
+                "open_case_reset_remind": false,
                 "epic_free_game": false,
                 "genshin_alc": false,
                 "group_welcome": true,
@@ -133,8 +133,8 @@
                 "bilibili_sub"
             ],
             "group_task_status": {
-                "zwa": true,
-                "open_case_reset_remind": true,
+                "zwa": false,
+                "open_case_reset_remind": false,
                 "epic_free_game": false,
                 "genshin_alc": false,
                 "group_welcome": true,
@@ -151,8 +151,8 @@
             "status": true,
             "close_plugins": [],
             "group_task_status": {
-                "zwa": true,
-                "open_case_reset_remind": true,
+                "zwa": false,
+                "open_case_reset_remind": false,
                 "epic_free_game": false,
                 "genshin_alc": false,
                 "group_welcome": true,

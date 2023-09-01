@@ -89,94 +89,6 @@ PluginSettings:
     plugin_type:
     - normal
     cost_gold: 0
-  query_resource_points:
-    cmd:
-    - 原神资源查询
-    - 原神资源列表
-    default_status: false
-    level: 5
-    limit_superuser: false
-    plugin_type:
-    - 原神相关
-    cost_gold: 0
-  material_remind:
-    cmd:
-    - 今日素材
-    - 今天素材
-    default_status: false
-    level: 5
-    limit_superuser: false
-    plugin_type:
-    - 原神相关
-    cost_gold: 0
-  mihoyobbs_sign:
-    cmd:
-    - 米游社签到
-    - 米游社自动签到
-    default_status: false
-    level: 5
-    limit_superuser: false
-    plugin_type:
-    - 原神相关
-    cost_gold: 0
-  bind:
-    cmd:
-    - 原神绑定
-    default_status: false
-    level: 5
-    limit_superuser: false
-    plugin_type:
-    - 原神相关
-    cost_gold: 0
-  genshin_sign:
-    cmd:
-    - 原神签到
-    - 原神自动签到
-    default_status: false
-    level: 5
-    limit_superuser: false
-    plugin_type:
-    - 原神相关
-    cost_gold: 0
-  query_memo:
-    cmd:
-    - 原神便笺查询
-    default_status: false
-    level: 5
-    limit_superuser: false
-    plugin_type:
-    - 原神相关
-    cost_gold: 0
-  query_role:
-    cmd:
-    - 原神玩家查询
-    default_status: false
-    level: 5
-    limit_superuser: false
-    plugin_type:
-    - 原神相关
-    cost_gold: 0
-  resin_remind:
-    cmd:
-    - 原神树脂提醒
-    - 关原神树脂提醒
-    - 开原神树脂提醒
-    default_status: false
-    level: 5
-    limit_superuser: false
-    plugin_type:
-    - 原神相关
-    cost_gold: 0
-  almanac:
-    cmd:
-    - 原神黄历
-    - 原神老黄历
-    default_status: false
-    level: 5
-    limit_superuser: false
-    plugin_type:
-    - 原神相关
-    cost_gold: 0
   luxun:
     cmd:
     - 鲁迅说
@@ -767,4 +679,13 @@ PluginSettings:
     limit_superuser: false
     plugin_type:
     - normal
+    cost_gold: 0
+  character_resonance:
+    cmd:
+    - 角色共鸣
+    default_status: true
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - 重返未来1999
     cost_gold: 0

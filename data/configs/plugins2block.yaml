@@ -17,11 +17,6 @@ PluginBlockLimit:
     check_type: group
     limit_type: group
     rst:
-  query_resource_points:
-    status: true
-    check_type: group
-    limit_type: user
-    rst: 您有资源正在查询！
   luxun:
     status: true
     check_type: group

@@ -1,13 +1,4 @@
 {
     "bilibili_sub": 0,
-    "zhenxun_plugin_weibo": 0,
-    "material_remind": 3,
-    "almanac": 3,
-    "query_memo": 3,
-    "resin_remind": 3,
-    "query_role": 3,
-    "mihoyobbs_sign": 3,
-    "genshin_sign": 3,
-    "bind": 3,
-    "query_resource_points": 3
+    "zhenxun_plugin_weibo": 0
 }

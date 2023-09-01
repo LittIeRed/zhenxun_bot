@@ -11,40 +11,48 @@ USERS_COUNT_FOR_FIVE: dict[int, int] = {}
 USERS_COUNT_FOR_FOUR: dict[int, int] = {}
 
 # 常驻池单抽
-def draw_one(draw_seed: int) -> str:
+def draw_one(draw_seed: int):
+    # 获取抽卡前抽数再 + 1
+    draw_count_for_six = USERS_COUNT_FOR_SIX.get(draw_seed, 0) + 10
     character_name = draw_one_operator(draw_seed)
     img_path = IMAGE_PATH / "reverse_1999" / "draw_card" / "character" / f"{character_name}.png"
     if img_path.exists():
-        return IMAGE_PATH / "reverse_1999" / "draw_card" / "character" / f"{character_name}.png"
+        return img_path, draw_count_for_six
     else:
-        return ""
+        return "", draw_count_for_six
 
 # 常驻池十连
-def draw_ten(draw_seed: int) -> BuildImage:
+def draw_ten(draw_seed: int):
     img = build_background_img()
     pos_list = [(338, -100), (577, 35), (845, -31), (1083, 105), (1352, 38),
                 (260, 442), (499, 577), (767, 511), (1005, 647), (1274, 580)]
+
+    # 获取抽卡前抽数再 + 10
+    draw_count_for_six = USERS_COUNT_FOR_SIX.get(draw_seed, 0) + 10
+
     for i in range(len(pos_list)):
         character_name = draw_one_operator(draw_seed)
         img_path = IMAGE_PATH / "reverse_1999" / "draw_card" / "character_rotate" / f"{character_name}.png"
         if img_path.exists():
             paste_img = Image.open(img_path)
-        # else:
-        #     img_path = IMAGE_PATH / "reverse_1999" / "draw_card" / "character_rotate" / "white.png"
-        #     if img_path.exists():
-        #         paste_img = Image.open(img_path)
-        #     else:
-        #         rotate_and_save_white_png(Image.new("RGB", (250, 455), (255, 255, 255)))
-        #         paste_img = Image.open(img_path)
+        else:
+            print("这张图片不见了", img_path)
+            img_path = IMAGE_PATH / "reverse_1999" / "draw_card" / "character_rotate" / "white.png"
+            if img_path.exists():
+                paste_img = Image.open(img_path)
+            else:
+                rotate_and_save_white_png(Image.new("RGB", (250, 455), (255, 255, 255)))
+                paste_img = Image.open(img_path)
         img.paste(img=paste_img, pos=pos_list.pop(0), alpha=True)
-    return img
 
-def build_background_img() -> BuildImage:
+    return img, draw_count_for_six
+
+def build_background_img():
     img_path = IMAGE_PATH / "reverse_1999" / "draw_card" / "background" / "draw_bg.png"
     if img_path.exists():
         return BuildImage(w=0, h=0, background=(IMAGE_PATH / "reverse_1999" / "draw_card" / "background" / "draw_bg.png"))
     else:
-        return BuildImage(w=1920, h=1080)
+        return BuildImage(w=1920, h=1080),
 
 
 def draw_one_operator(user_id: int) -> str:

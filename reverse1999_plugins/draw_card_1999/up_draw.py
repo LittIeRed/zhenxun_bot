@@ -16,37 +16,45 @@ USERS_COUNT_FOR_FOUR: dict[int, int] = {}
 IS_FIRST_DIVERGE: dict[int, bool] = {}
 
 # up单抽
-def draw_one(draw_seed: int, card_pool:list[UpEvent]) -> str:
+def draw_one(draw_seed: int, card_pool:list[UpEvent]):
+    # 获取抽卡前抽数再+1
+    draw_count_for_six = USERS_COUNT_FOR_SIX.get(draw_seed, 0) + 1
     # 获取当期up角色
     up_name_list = get_up_event_name_list(card_pool)
     character_name = draw_one_operator(draw_seed, card_pool, up_name_list)
     img_path = IMAGE_PATH / "reverse_1999" / "draw_card" / "character" / f"{character_name}.png"
     if img_path.exists():
-        return IMAGE_PATH / "reverse_1999" / "draw_card" / "character" / f"{character_name}.png"
+        return img_path, draw_count_for_six
     else:
-        return ""
+        return "", draw_count_for_six
 
 # up池十连
-def draw_ten(draw_seed: int, card_pool:list[UpEvent]) -> BuildImage:
+def draw_ten(draw_seed: int, card_pool:list[UpEvent]):
     img = build_background_img()
     pos_list = [(338, -100), (577, 35), (845, -31), (1083, 105), (1352, 38),
                 (260, 442),(499, 577), (767, 511), (1005, 647), (1274, 580)]
     # 获取当期up角色
     up_name_list = get_up_event_name_list(card_pool)
+
+    # 获取抽卡前抽数再 + 10
+    draw_count_for_six = USERS_COUNT_FOR_SIX.get(draw_seed, 0) + 10
+
     for i in range(len(pos_list)):
         character_name = draw_one_operator(draw_seed, card_pool, up_name_list)
         img_path = IMAGE_PATH / "reverse_1999" / "draw_card" / "character_rotate" / f"{character_name}.png"
         if img_path.exists():
             paste_img = Image.open(img_path)
-        # else:
-        #     img_path = IMAGE_PATH / "reverse_1999" / "draw_card" / "character_rotate" / "white.png"
-        #     if img_path.exists():
-        #         paste_img = Image.open(img_path)
-        #     else:
-        #         rotate_and_save_white_png(Image.new("RGB", (250, 455), (255, 255, 255)))
-        #         paste_img = Image.open(img_path)
+        else:
+            print("这张图片不见了", img_path)
+            img_path = IMAGE_PATH / "reverse_1999" / "draw_card" / "character_rotate" / "white.png"
+            if img_path.exists():
+                paste_img = Image.open(img_path)
+            else:
+                rotate_and_save_white_png(Image.new("RGB", (250, 455), (255, 255, 255)))
+                paste_img = Image.open(img_path)
         img.paste(img=paste_img, pos=pos_list.pop(0), alpha=True)
-    return img
+
+    return img, draw_count_for_six
 
 def get_up_event_name_list(card_pool: list[UpEvent]) -> list[str]:
     for item in [x.operator for x in card_pool]:

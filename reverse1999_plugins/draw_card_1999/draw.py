@@ -7,14 +7,14 @@ UP_CARDPOOL_DICK: dict[str, list[UpEvent]] = {
     '限定': PSEUDO_LIMITED_CARDPOOL,
     '轮换': ROTATE_UP_CARDPOOL
 }
-def draw_one(user_id: int, card_pool_name: str) -> BuildImage:
+def draw_one(user_id: int, card_pool_name: str):
     card_pool = UP_CARDPOOL_DICK.get(card_pool_name)
     if card_pool:
         return up_draw_one(user_id, card_pool)
     else:
         return not_up_draw_one(user_id)
 
-def draw_ten(user_id: int, card_pool_name: str) -> BuildImage:
+def draw_ten(user_id: int, card_pool_name: str):
     card_pool = UP_CARDPOOL_DICK.get(card_pool_name)
     if card_pool:
         return up_draw_ten(user_id, card_pool)

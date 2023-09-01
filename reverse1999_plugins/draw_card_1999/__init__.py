@@ -41,10 +41,10 @@ async def _(bot: Bot, event: MessageEvent, msg: str = Fullmatch()):
     card_pool = msg[0: 2]
     draw_num = msg[2: 5]
     if "单抽" == draw_num:
-        img = draw_one(event.user_id, card_pool)
+        img, current_draw_num = draw_one(event.user_id, card_pool)
     else:
-        img = draw_ten(event.user_id, card_pool)
+        img, current_draw_num = draw_ten(event.user_id, card_pool)
     if img != "":
-        await draw.finish(image(img), at_sender=True)
+        await draw.finish(card_pool + "池当前抽数为第"+ str(current_draw_num - 9) + "~" + str(current_draw_num) +"抽" + image(img), at_sender=True)
     else:
         await draw.finish("角色图片素材丢失", at_sender=True)

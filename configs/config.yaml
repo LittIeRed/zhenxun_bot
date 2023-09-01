@@ -161,7 +161,7 @@ web-ui:
   PASSWORD:
 alapi:
   # alapi
-  # ALAPI_TOKEN: 在 https://admin.alapi.cn/user/login 登录后获取token
+  # ALAPI_TOKEN: 在https://admin.alapi.cn/user/login登录后获取token
   ALAPI_TOKEN:
 word_clouds:
   # 词云

@@ -55,7 +55,7 @@ PluginCdLimit:
     limit_type: user
     rst: 每二十秒只能操作一次...
   draw_card_1999:
-    cd: 10
+    cd: 12
     status: true
     check_type: group
     limit_type: user

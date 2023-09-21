@@ -2,8 +2,9 @@ import random
 from configs.path_config import IMAGE_PATH
 from utils.image_utils import BuildImage
 from PIL import Image
+from io import BytesIO
 from .model import UpEvent, PERMANENT_CARDPOOL
-from .utils import rotate_and_save_white_png
+from .utils import rotate_and_save_white_png, trans_BytesIO
 
 # up池各星级角色保底计数
 # 6星保底计数
@@ -12,8 +13,8 @@ USERS_COUNT_FOR_SIX: dict[int, int] = {}
 USERS_COUNT_FOR_FIVE: dict[int, int] = {}
 # 4星保底计数
 USERS_COUNT_FOR_FOUR: dict[int, int] = {}
-# up池第一次歪了第二次必中
-IS_FIRST_DIVERGE: dict[int, bool] = {}
+# up池这次歪了下次必中
+IS_DIVERGE: dict[int, bool] = {}
 
 # up单抽
 def draw_one(draw_seed: int, card_pool:list[UpEvent]):
@@ -29,7 +30,7 @@ def draw_one(draw_seed: int, card_pool:list[UpEvent]):
         return "", draw_count_for_six
 
 # up池十连
-def draw_ten(draw_seed: int, card_pool:list[UpEvent]):
+async def draw_ten(draw_seed: int, card_pool:list[UpEvent]):
     img = build_background_img()
     pos_list = [(338, -100), (577, 35), (845, -31), (1083, 105), (1352, 38),
                 (260, 442),(499, 577), (767, 511), (1005, 647), (1274, 580)]
@@ -52,8 +53,9 @@ def draw_ten(draw_seed: int, card_pool:list[UpEvent]):
             else:
                 rotate_and_save_white_png(Image.new("RGB", (250, 455), (255, 255, 255)))
                 paste_img = Image.open(img_path)
-        img.paste(img=paste_img, pos=pos_list.pop(0), alpha=True)
-
+        await img.apaste(img=paste_img, pos=pos_list.pop(0), alpha=True)
+    # 这里不走原有工具类image(img)方法，此图片是压缩过后的JPG图片，该方法中会将图片转PNG格式导致图片体积变大
+    img = trans_BytesIO(img)
     return img, draw_count_for_six
 
 def get_up_event_name_list(card_pool: list[UpEvent]) -> list[str]:
@@ -62,14 +64,14 @@ def get_up_event_name_list(card_pool: list[UpEvent]) -> list[str]:
     return up_name_list
 
 def build_background_img() -> BuildImage:
-    img_path = IMAGE_PATH / "reverse_1999" / "draw_card" / "background" / "draw_bg.png"
+    img_path = IMAGE_PATH / "reverse_1999" / "draw_card" / "background" / "draw_bg.jpg"
     if img_path.exists():
-        return BuildImage(w=0, h=0, background=(IMAGE_PATH / "reverse_1999" / "draw_card" / "background" / "draw_bg.png"))
+        return BuildImage(w=0, h=0, background=(IMAGE_PATH / "reverse_1999" / "draw_card" / "background" / "draw_bg.jpg"))
     else:
         return BuildImage(w=1920, h=1080)
 
 def draw_one_operator(user_id: int, card_pool: list[UpEvent], up_name_list:list[str]) -> str:
-    is_first_diverge, star = confirm_star(user_id)
+    is_diverge, star = confirm_star(user_id)
 
     # 生成对应卡池和处理up事件
     up_event = [(x.zoom, x.operator) for x in card_pool if x.star == star]
@@ -78,10 +80,10 @@ def draw_one_operator(user_id: int, card_pool: list[UpEvent], up_name_list:list[
         # 对应星级有up活动
         up_zoom, up_operator = up_event[0]
 
-        # 第一次歪第二次必中
-        if is_first_diverge:
+        # 六星这次歪了下次必中
+        if star == 6 and is_diverge:
             up_zoom = 1
-            IS_FIRST_DIVERGE.update({user_id: False})
+            IS_DIVERGE.update({user_id: False})
 
         # 确定是否up
         if random.random() <= up_zoom:
@@ -93,7 +95,8 @@ def draw_one_operator(user_id: int, card_pool: list[UpEvent], up_name_list:list[
                 [x.name for x in PERMANENT_CARDPOOL if (
                         x.star == star and not any([x.is_limited])) and not x.name in up_name_list],
                 k=1)[0]
-            IS_FIRST_DIVERGE.update({user_id: True})
+            if star == 6:
+                IS_DIVERGE.update({user_id: True})
     else:
         # 对应星级无up活动
         character_name = random.choices(
@@ -107,14 +110,14 @@ def confirm_star(user_id):
     global USERS_COUNT_FOR_SIX
     global USERS_COUNT_FOR_FIVE
     global USERS_COUNT_FOR_FOUR
-    global IS_FIRST_DIVERGE
+    global IS_DIVERGE
     draw_count_for_six = USERS_COUNT_FOR_SIX.get(user_id, 0) + 1
     draw_count_for_five = USERS_COUNT_FOR_FIVE.get(user_id, 0) + 1
     draw_count_for_four = USERS_COUNT_FOR_FOUR.get(user_id, 0) + 1
     USERS_COUNT_FOR_SIX.update({user_id: draw_count_for_six})
     USERS_COUNT_FOR_FIVE.update({user_id: draw_count_for_five})
     USERS_COUNT_FOR_FOUR.update({user_id: draw_count_for_four})
-    is_first_diverge = IS_FIRST_DIVERGE.get(user_id, False)
+    is_diverge = IS_DIVERGE.get(user_id, False)
     # 首先要先决定出的星级
     if 1 <= draw_count_for_six <= 60:
         # 没有抽过或者刚刚重置过, 无概率提升
@@ -149,4 +152,4 @@ def confirm_star(user_id):
         USERS_COUNT_FOR_FOUR.update({user_id: 0})
         USERS_COUNT_FOR_FIVE.update({user_id: 0})
         USERS_COUNT_FOR_SIX.update({user_id: 0})
-    return is_first_diverge, star
+    return is_diverge, star

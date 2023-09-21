@@ -17,7 +17,7 @@ class SignGroupUser(Model):
     """群聊id"""
     checkin_count = fields.IntField(default=0)
     """签到次数"""
-    checkin_time_last = fields.DatetimeField(default=datetime.min)
+    checkin_time_last = fields.DatetimeField(default=datetime.now())
     """最后签到时间"""
     impression = fields.DecimalField(10, 3, default=0)
     """好感度"""

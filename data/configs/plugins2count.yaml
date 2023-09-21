@@ -22,3 +22,8 @@ PluginCountLimit:
     status: true
     limit_type: user
     rst: '[at]小真寻今天不会再给你钱了！'
+  draw_card_1999:
+    max_count: 24
+    status: true
+    limit_type: group
+    rst: 真寻的金兔子用光了，明天再来吧

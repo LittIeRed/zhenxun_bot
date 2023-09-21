@@ -14,12 +14,12 @@ def draw_one(user_id: int, card_pool_name: str):
     else:
         return not_up_draw_one(user_id)
 
-def draw_ten(user_id: int, card_pool_name: str):
+async def draw_ten(user_id: int, card_pool_name: str):
     card_pool = UP_CARDPOOL_DICK.get(card_pool_name)
     if card_pool:
-        return up_draw_ten(user_id, card_pool)
+        return await up_draw_ten(user_id, card_pool)
     else:
-        return not_up_draw_ten(user_id)
+        return await not_up_draw_ten(user_id)
 
 
 __all__ = [

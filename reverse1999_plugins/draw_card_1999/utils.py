@@ -1,6 +1,15 @@
 import os
 from PIL import Image
 from configs.path_config import IMAGE_PATH
+
+from io import BytesIO
+import base64
+
+def trans_BytesIO(img):
+    buf = BytesIO()
+    img.markImg.save(buf, format="JPEG")
+    base64_str = base64.b64encode(buf.getvalue()).decode()
+    return "base64://" + base64_str
 def trans_PNG(file_name, img, new_pic):
     #将图片转换为四通道，而第四个通道是我们要修改的透明度，
     #值可以设置成0-255之间的值，透明度会不太一样，看脑洞有多大咯。

@@ -16,15 +16,15 @@ PSEUDO_LIMITED_CARDPOOL: list[UpEvent] = [
     UpEvent(
         star=6,
         operator=[
-            Operator(name='洁西卡', star=6, is_limited=True),
+            Operator(name='鬃毛沙砾', star=6, is_limited=True),
         ],
         zoom=0.5
     ),
     UpEvent(
         star=5,
         operator=[
-            Operator(name='恐怖通', star=5, is_limited=True),
-            Operator(name='讣告人', star=5, is_limited=False),
+            Operator(name='坎吉拉', star=5, is_limited=True),
+            Operator(name='坦南特', star=5, is_limited=False),
         ],
         zoom=0.5
     )
@@ -35,15 +35,15 @@ ROTATE_UP_CARDPOOL: list[UpEvent] = [
     UpEvent(
         star=6,
         operator=[
-            Operator(name='泥鯭的士', star=6, is_limited=False),
+            Operator(name='温妮弗雷德', star=6, is_limited=False),
         ],
         zoom=0.5
     ),
     UpEvent(
         star=5,
         operator=[
-            Operator(name='玛丽莲', star=5, is_limited=False),
-            Operator(name='夏利', star=5, is_limited=False),
+            Operator(name='婴儿蓝', star=5, is_limited=False),
+            Operator(name='咔嚓咔嚓', star=5, is_limited=False),
         ],
         zoom=0.5
     )

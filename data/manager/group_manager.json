@@ -35,7 +35,11 @@
                 "zhenxun_plugins_luckball",
                 "slave_market",
                 "todaybefore",
-                "bilibili_sub"
+                "bilibili_sub",
+                "my_props",
+                "buy",
+                "use",
+                "gold"
             ],
             "group_task_status": {
                 "epic_free_game": false,

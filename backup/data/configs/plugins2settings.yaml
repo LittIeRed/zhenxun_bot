@@ -689,3 +689,30 @@ PluginSettings:
     plugin_type:
     - 重返未来1999
     cost_gold: 0
+  draw_card_1999:
+    cmd:
+    - 抽卡模拟
+    default_status: true
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - 重返未来1999
+    cost_gold: 0
+  active_check:
+    cmd:
+    - 活跃检测 [Hidden]
+    default_status: true
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - normal
+    cost_gold: 0
+  draw_card_1999_interceptor:
+    cmd:
+    - 抽卡模拟拦截器[Hidden]
+    default_status: true
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - normal
+    cost_gold: 0

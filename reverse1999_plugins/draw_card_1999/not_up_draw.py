@@ -3,7 +3,7 @@ from configs.path_config import IMAGE_PATH
 from utils.image_utils import BuildImage
 from PIL import Image
 from .model import PERMANENT_CARDPOOL
-from .utils import rotate_and_save_white_png
+from .utils import rotate_and_save_white_png, trans_BytesIO
 
 # 常驻池各星级角色保底计数
 USERS_COUNT_FOR_SIX: dict[int, int] = {}
@@ -22,7 +22,7 @@ def draw_one(draw_seed: int):
         return "", draw_count_for_six
 
 # 常驻池十连
-def draw_ten(draw_seed: int):
+async def draw_ten(draw_seed: int):
     img = build_background_img()
     pos_list = [(338, -100), (577, 35), (845, -31), (1083, 105), (1352, 38),
                 (260, 442), (499, 577), (767, 511), (1005, 647), (1274, 580)]
@@ -43,14 +43,15 @@ def draw_ten(draw_seed: int):
             else:
                 rotate_and_save_white_png(Image.new("RGB", (250, 455), (255, 255, 255)))
                 paste_img = Image.open(img_path)
-        img.paste(img=paste_img, pos=pos_list.pop(0), alpha=True)
-
+        await img.apaste(img=paste_img, pos=pos_list.pop(0), alpha=True)
+    # 这里不走原有工具类image(img)方法，此图片是压缩过后的JPG图片，该方法中会将图片转PNG格式导致图片体积变大
+    img = trans_BytesIO(img)
     return img, draw_count_for_six
 
 def build_background_img():
-    img_path = IMAGE_PATH / "reverse_1999" / "draw_card" / "background" / "draw_bg.png"
+    img_path = IMAGE_PATH / "reverse_1999" / "draw_card" / "background" / "draw_bg.jpg"
     if img_path.exists():
-        return BuildImage(w=0, h=0, background=(IMAGE_PATH / "reverse_1999" / "draw_card" / "background" / "draw_bg.png"))
+        return BuildImage(w=0, h=0, background=(IMAGE_PATH / "reverse_1999" / "draw_card" / "background" / "draw_bg.jpg"))
     else:
         return BuildImage(w=1920, h=1080),
 

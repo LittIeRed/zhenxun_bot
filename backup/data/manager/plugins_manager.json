@@ -838,5 +838,29 @@
         "block_type": null,
         "author": null,
         "version": 0.1
+    },
+    "draw_card_1999": {
+        "plugin_name": "抽卡模拟",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": null,
+        "version": 0.1
+    },
+    "active_check": {
+        "plugin_name": "活跃检测",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": null,
+        "version": 0.1
+    },
+    "draw_card_1999_interceptor": {
+        "plugin_name": "抽卡模拟拦截器",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": null,
+        "version": 0.1
     }
 }

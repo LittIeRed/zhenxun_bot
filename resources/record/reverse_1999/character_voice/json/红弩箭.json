@@ -1,0 +1,130 @@
+{
+    "初遇": {
+        "encontent": "As long as you watch my flight once, you will never\n forget my name. I am Lilya. In other words, I am your\n Goddess of Victory.",
+        "content": "只要看过一次我的飞行就不会忘记我的名字。我是红弩箭\n，换而言之，我是你的胜利女神。"
+    },
+    "箱中气候": {
+        "encontent": "The wind ... It's most comfortable now. Let's take\n off!",
+        "content": "这时候的风最舒服了，让我们起飞吧！"
+    },
+    "致未来": {
+        "encontent": "I'm not sure what's going on now, but it would be nice\n to soar into the air. We will need your help. Take\n us to the future, will you?",
+        "content": "我并不知道现在的事儿是怎么回事，但能在未来翱翔也不\n错。这方面就需要你来加油了，把我们带向未来，对吧？"
+    },
+    "孑立": {
+        "encontent": "Oh? Oh ...! Hey ... Здра́вствуй? Can anyone hear my\n voice? Any man alive?",
+        "content": "哦？哦……！嗨——你好？有人听得见我的声音吗？这儿\n还有活人吗？"
+    },
+    "问候": {
+        "encontent": "Don't be in and out. You're bugging me.",
+        "content": "别进进出出的，烦死了。"
+    },
+    "朝晨": {
+        "encontent": "Good morning, Mr. Golden Sun!",
+        "content": "早上好，亲爱的太阳！"
+    },
+    "信任-朝晨": {
+        "encontent": "Come and tell me what dreams you had yesterday. No one cares\n about your dreams though. I just want to listen to something\n for breakfast to shatter the boredom.",
+        "content": "来，和我说说你昨天做了什么梦。虽然并没有任何人关心\n你的梦。但我的早餐需要听点东西来解闷。"
+    },
+    "夜暮": {
+        "encontent": "Go. Don't be annoying. I am going to take care of my\n lady Su-01ве now. You want to help? What if you break\n it?",
+        "content": "去去、别烦人，我现在要去保养我的宝贝Su-01ве。你\n想帮忙？被你碰坏了怎么办？"
+    },
+    "信任-夜暮": {
+        "encontent": "There's still a vacancy behind me on my broomstick.\n Would you like to ride together? Of course, if you\n dare to vomit on my back, I won't spare you.",
+        "content": "我的扫帚后面还有一个位置呢，要不要一起兜个风？当然\n，你敢吐在我背上的话我饶不了你。"
+    },
+    "帽檐与发鬓": {
+        "encontent": "You should be grateful that I am too lazy to move now.\n Or you should know the first-class pilot's got a first-class\n head-butt, too.",
+        "content": "你该庆幸我现在懒得动弹。不然你就该知道一流飞行员的\n头槌也同样一流了。"
+    },
+    "袖与手": {
+        "encontent": "You must learn to control your wrist first to ride\n a broomstick ...  You know, there are many recruits\n who break their legs every year.",
+        "content": "骑扫帚得先学会控制手腕的力量——要知道，每年摔断腿\n的新兵可不少。"
+    },
+    "衣着与身形": {
+        "encontent": "Feel awesome? Now it's my turn to pet you.",
+        "content": "摸爽了吗？现在该轮到我摸回去了吧。"
+    },
+    "嗜好": {
+        "encontent": "If you haven't tried Kholodets with блин, you've never\n really lived. Come here! I will show you the real\n Russian style.",
+        "content": "如果你还没尝过俄式肉冻配布林饼，这一生就算是白活了\n。过来！让我带你去见识见识什么叫真正的俄罗斯绝活。"
+    },
+    "赞赏": {
+        "encontent": "How can anyone not know how to appreciate Su-01ве! Look at her\n elegant lines. Look at her wonderful propulsion system.Listen\n to her operation. It is music from heaven.",
+        "content": "怎么会有人不懂得欣赏Su-01ве！看看这流畅的线\n条，看看这美妙的推进系统。听听她运作的声音，那可是\n天籁之音。"
+    },
+    "亲昵": {
+        "encontent": "Hasn't the flight be approved yet? Forget it. Sit in\n your seat. I will lift your body up, and make sure\n you look like flying in the air ... ",
+        "content": "飞行批准还没有下来吗？算了，你坐在座位上。我抬高你\n的身体，保证让你看上去像在空中飞行……"
+    },
+    "闲谈Ⅰ": {
+        "encontent": "If all the rules of the flight manual shall be followed,\n I'd rather take the train.",
+        "content": "如果全都得按照飞行手册的规矩来，那我还不如去坐火车\n。"
+    },
+    "闲谈Ⅱ": {
+        "encontent": "Не слышны в саду даже шорохиВсё здесь замерло до утраЕсли\n б знали вы, как мне дорогиПодмосковные вечера.",
+        "content": "夜色来临到花园静悄悄月儿照明风儿歌唱如果你知晓，此\n刻多美妙在这宁静的晚上"
+    },
+    "独白": {
+        "encontent": "I like the feeling of flying high at the highest speed.\n I can split the air like a knife. Nothing could catch\n me, they can only see my red shadow.",
+        "content": "我喜欢在高空以最快速飞行的感觉。我能像刀子一样劈开\n空气。所有一切都无法追上我，只能遥望我红色的残影。"
+    },
+    "入队": {
+        "encontent": "No wingman is needed.",
+        "content": "我不需要僚机。"
+    },
+    "战前": {
+        "encontent": "Look at my back.",
+        "content": "好好看着我的背影吧。"
+    },
+    "择选咒语Ⅰ": {
+        "encontent": "Fine.",
+        "content": "哦。"
+    },
+    "择选咒语Ⅱ": {
+        "encontent": "Wanna watch the aerial stunts?",
+        "content": "想看空中特技么？"
+    },
+    "择选高阶咒语": {
+        "encontent": "Хорошо!",
+        "content": "明白。"
+    },
+    "择选至终的仪式": {
+        "encontent": "ВДВ – сколько побед!",
+        "content": "来自天空的问候！"
+    },
+    "释放神秘术Ⅰ": {
+        "encontent": "Right wind!",
+        "content": "风向正好！"
+    },
+    "释放神秘术Ⅱ": {
+        "encontent": "... Oh oh.",
+        "content": "——哦哦。"
+    },
+    "召唤至终的仪式": {
+        "encontent": "Swallow my exhaust!",
+        "content": "吃我的尾气去吧！"
+    },
+    "受敌Ⅰ": {
+        "encontent": "Haven't you eaten? ",
+        "content": "没吃饭吗？"
+    },
+    "受敌Ⅱ": {
+        "encontent": "Chi!",
+        "content": "嘁！"
+    },
+    "战斗胜利": {
+        "encontent": "Hah ... Red-38 is about to return.",
+        "content": "呵哈……红色38，即将返程。"
+    },
+    "洞悉": {
+        "encontent": "Limit? Still a long way off. Go ahead.",
+        "content": "极限？还远着呢，继续吧。"
+    },
+    "洞悉之底": {
+        "encontent": "Well done. Now I will bring countless victories as red flash.You\n ... you made the right choice. I'll give you half of the medals.Thank\n me for being generous.",
+        "content": "做得好，现在的我将像红色闪电一样带来无数胜利。……至\n于你，眼光不错，奖章算你一半。感谢我的慷慨吧！"
+    }
+}

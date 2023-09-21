@@ -1438,14 +1438,15 @@ class BuildMat:
 
 
 async def text2image(
-    text: str,
-    auto_parse: bool = True,
-    font_size: int = 20,
-    color: Union[str, Tuple[int, int, int], Tuple[int, int, int, int]] = "white",
-    font: str = "CJGaoDeGuo.otf",
-    font_color: Union[str, Tuple[int, int, int]] = "black",
-    padding: Union[int, Tuple[int, int, int, int]] = 0,
-    _add_height: float = 0,
+        text: str,
+        auto_parse: bool = True,
+        font_size: int = 20,
+        color: Union[str, Tuple[int, int, int], Tuple[int, int, int, int]] = "white",
+        font: str = "CJGaoDeGuo.otf",
+        font_color: Union[str, Tuple[int, int, int]] = "black",
+        padding: Union[int, Tuple[int, int, int, int]] = 0,
+        _add_height: float = 0,
+        is_alpha: bool = False
 ) -> BuildImage:
     """
     说明:
@@ -1461,6 +1462,7 @@ async def text2image(
             你最近还好吗，<f font_size=15 font_color=black>我非常想你</f>，这段时间我非常不好过，
             <f font_size=25>抽卡抽不到金色</f>，这让我很痛苦
     参数:
+        :param is_alpha: 背景是否透明
         :param text: 文本
         :param auto_parse: 是否自动解析，否则原样发送
         :param font_size: 普通字体大小
@@ -1530,7 +1532,7 @@ async def text2image(
             # img_width += len(_tmp_text) * font_size
             # 开始画图
             A = BuildImage(
-                img_width, img_height, color=color, font=font, font_size=font_size
+                img_width, img_height, color=color, font=font, font_size=font_size, is_alpha=is_alpha
             )
             basic_font_h = A.getsize("正")[1]
             current_width = 0
@@ -1576,7 +1578,7 @@ async def text2image(
                 s = s[
                     s.index(f"[placeholder_{current_placeholder_index}]")
                     + len(f"[placeholder_{current_placeholder_index}]") :
-                ]
+                    ]
                 current_placeholder_index += 1
             if s:
                 slice_ = s.split(f"[placeholder_{current_placeholder_index}]")
@@ -1592,7 +1594,7 @@ async def text2image(
             width = width if width > img.w else img.w
         width += pw
         height += ph
-        A = BuildImage(width + left_padding, height + top_padding, color=color)
+        A = BuildImage(width + left_padding, height + top_padding, color=color, is_alpha=is_alpha)
         current_height = top_padding
         for img in image_list:
             await A.apaste(img, (left_padding, current_height), True)
@@ -1602,11 +1604,13 @@ async def text2image(
         height = 0
         _tmp = BuildImage(0, 0, font=font, font_size=font_size)
         _, h = _tmp.getsize("正")
+        h = _add_height if _add_height else h
         line_height = int(font_size / 3)
         image_list = []
         for x in text.split("\n"):
             w, _ = _tmp.getsize(x.strip() or "正")
-            height += h + line_height
+            height += (h + line_height)
+            #height += h
             width = width if width > w else w
             image_list.append(
                 BuildImage(
@@ -1616,6 +1620,8 @@ async def text2image(
                     font_size=font_size,
                     plain_text=x.strip(),
                     color=color,
+                    font_color=font_color,
+                    is_alpha=is_alpha
                 )
             )
         width += pw
@@ -1624,10 +1630,11 @@ async def text2image(
             width + left_padding,
             height + top_padding + 2,
             color=color,
+            is_alpha=is_alpha
         )
         cur_h = ph
         for img in image_list:
-            await A.apaste(img, (pw, cur_h), True)
+            await A.apaste(img, (pw, cur_h), alpha=is_alpha)
             cur_h += img.h + line_height
     return A
 

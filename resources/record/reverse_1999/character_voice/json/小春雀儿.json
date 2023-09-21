@@ -1,0 +1,122 @@
+{
+    "初遇": {
+        "encontent": "The BSA number? I'm ... I am so sorry, I don't have\n a number ... But I will make every effort to do my\n best. Trust me, please!",
+        "content": "童子军编号？我、我很抱歉，我没有编号……但我会尽全\n力做到最好的，请您相信我。"
+    },
+    "箱中气候": {
+        "encontent": "It's cloudy again. What does Arlington look like now?",
+        "content": "又是阴天了，现在的阿灵顿，是什么样子呢？"
+    },
+    "致未来": {
+        "encontent": "In the future, I hope both boys and girls can join\n the scouts, freely.",
+        "content": "我希望在未来，不论是男孩还是女孩，都可以自由地加入\n童子军。"
+    },
+    "孑立": {
+        "encontent": "I will make my plan even when the commander is not\n here.",
+        "content": "长官不在的时候，我也会制定好自己的计划。"
+    },
+    "问候": {
+        "encontent": "... Hmm? You're here.",
+        "content": "……嗯？您来了。"
+    },
+    "朝晨": {
+        "encontent": "Good morning. Let me help you put the tent away, please.",
+        "content": "早上好，让我帮您把帐篷收起来吧。"
+    },
+    "信任-朝晨": {
+        "encontent": "Good morning. I will sketch the way you wake up now\n in my diary.",
+        "content": "早上好，我会把您现在的样子如实地写进日记里面的。"
+    },
+    "夜暮": {
+        "encontent": "Good evening. Please rest early. It's always right\n to have a regular schedule.",
+        "content": "晚安。请您早点休息，规律的作息总是没错的。"
+    },
+    "信任-夜暮": {
+        "encontent": "The stars ... They are so beautiful ... If I stay longer\n ...  No! No, we should all go to bed! Good night!",
+        "content": "今晚的星空……真美啊，真想再多看一会儿……不，不行\n！我们都该休息了！祝您好梦！"
+    },
+    "帽檐与发鬓": {
+        "encontent": "Am I wearing it right?",
+        "content": "我的帽子没歪吧？"
+    },
+    "袖与手": {
+        "encontent": "If you want to get along with another Boy Scout, extend\n your left hand and firmly grasp their left hand. This\n is how we greet each other.",
+        "content": "如果你想和另外一名童子军友好相处。就伸出你的手，向\n对方做左握礼吧。这是我们童子军之间交流的暗号。"
+    },
+    "衣着与身形": {
+        "encontent": "... I have my father's military badge in my necklace.\n It will lead my way.",
+        "content": "……我的项链里放着父亲的军徽，它能带给我前进的力量\n。"
+    },
+    "嗜好": {
+        "encontent": "All the soldiers were collecting badges, so was father,\n wasn't he? When I collect enough badges, I will give\n him all of them.",
+        "content": "士兵们都在收集徽章，父亲一定也一样吧？等我有了很多\n的徽章，就全部送给他。"
+    },
+    "赞赏": {
+        "encontent": "Tough. Brave. Never give up. You've done a great job.",
+        "content": "坚韧、勇敢、不轻言放弃。您做得非常好。"
+    },
+    "亲昵": {
+        "encontent": "Please praise me ... Will you?",
+        "content": "请您夸奖我……可以吗？"
+    },
+    "闲谈Ⅰ": {
+        "encontent": "Yes, I'm here. Do you need my help?",
+        "content": "是的，我在。您需要我的帮助吗？"
+    },
+    "闲谈Ⅱ": {
+        "encontent": "I like photos very much. It's the Arcane Skill that\n allows people to \"never fade.\" Let's take pictures\n together later.",
+        "content": "我很喜欢相片，这是能够让人“永不褪色”的神秘术。希\n望我们以后有机会一起去拍照。"
+    },
+    "独白": {
+        "encontent": "It is you who convinced me ... that even if I don't\n join the Boy Scouts, I could stand on my own.",
+        "content": "多亏了您，才让我如此确信……即使我没有成为一名童子\n军。我也依旧可以成为一名独当一面的人。"
+    },
+    "入队": {
+        "encontent": "Be prepared!",
+        "content": "时刻准备着！"
+    },
+    "战前": {
+        "encontent": "I will assist you to keep the battle under control.",
+        "content": "我会帮您把控战局的。"
+    },
+    "择选咒语Ⅰ": {
+        "encontent": "Hooah!",
+        "content": "明白！"
+    },
+    "择选咒语Ⅱ": {
+        "encontent": "Forward!",
+        "content": "前进吧。"
+    },
+    "择选至终的仪式": {
+        "encontent": "This is Eagle. Target found! ",
+        "content": "春雀发现目标位置！"
+    },
+    "释放神秘术Ⅰ": {
+        "encontent": "Hah!",
+        "content": "呵！"
+    },
+    "释放神秘术Ⅱ": {
+        "encontent": "Target locked.",
+        "content": "已锁定目标。"
+    },
+    "召唤至终的仪式": {
+        "encontent": "Flaws! Take the offensive! ",
+        "content": "有破绽，请加强攻势！"
+    },
+    "受敌": {
+        "encontent": "Uwh ... ",
+        "content": "唔……"
+    },
+    "战斗胜利": {
+        "encontent": "Did I meet your expectations?",
+        "content": "我有达到您的期许吗？"
+    },
+    "洞悉": {
+        "encontent": "... Is this a reward for me?",
+        "content": "……这是给我的奖励么？"
+    },
+    "洞悉之底": {
+        "encontent": "Thank you for your appreciation, commander ... I will\n not stop making efforts. ",
+        "content": "感谢您的赏识，长官。……在此之后，我会继续努力的。"
+    }
+}

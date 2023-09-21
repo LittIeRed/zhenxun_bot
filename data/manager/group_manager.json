@@ -39,7 +39,8 @@
                 "my_props",
                 "buy",
                 "use",
-                "gold"
+                "gold",
+                "poke"
             ],
             "group_task_status": {
                 "epic_free_game": false,

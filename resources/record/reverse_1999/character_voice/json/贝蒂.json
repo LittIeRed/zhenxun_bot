@@ -1,0 +1,126 @@
+{
+    "初遇": {
+        "encontent": "Hmmm ... Excuse me, is this the way to the audition?",
+        "content": "呃……您好，请问试镜是在这边吗？"
+    },
+    "箱中气候": {
+        "encontent": "Raindrops and dance, singing under the streetlamp—Ah,\n that one classic dance in the rain.If someday I could\n be starring ... ",
+        "content": "雨水、舞蹈，路灯下的歌曲——在雨中扶着灯柱肆意起舞\n。啊～真是经典的一幕，如果有一天，我也能当上主演的\n话……"
+    },
+    "致未来": {
+        "encontent": "A character for me, a line for me,such a day will eventually\n come to me.",
+        "content": "一个属于我自己的角色，一句属于我自己的台词，总会有\n那么一天的。"
+    },
+    "孑立": {
+        "encontent": "Hello, I am Bette. I am here for the new character audition.\n I am going to present you ... No no no ... Hello, my name is\n Bette. I am here for the audition! ",
+        "content": "您好，我是贝蒂，我来面试这次的新角色，下面是我准备\n的……不不不……您好，我是贝蒂，我来面试这次的新角\n色！"
+    },
+    "问候": {
+        "encontent": "Hello, please take a seat.Oh I'm sorry. Just a minute,\n I'll find another place for these costumes right now!\n ",
+        "content": "您好，请随便坐。哦，抱歉，稍等一下，我马上就把这些\n戏服挪开！"
+    },
+    "朝晨": {
+        "encontent": "Oh, bacon, a big no no for all beautiful girls on the\n film crew. They envy my ability to change appearance,\n but I am so jealous of their lines. ",
+        "content": "哦，培根，剧组里漂亮姑娘的天敌。她们羡慕我可以随意\n改变的身形，而我却羡慕她们嘴巴里的那些台词。"
+    },
+    "信任-朝晨": {
+        "encontent": "Good morning, how do I look? Do you think I can nail today's\n audition? It's for an ordinary character and the only line is\n \"Good morning\". But ... it's still better than nothing!",
+        "content": "早上好，我看起来怎么样？你觉得这次的试镜我能成功吗\n？那是个普通的角色，只有一句“早上好”的台词。但……但\n也很好，比一句台词都没有的时候好多了！"
+    },
+    "夜暮": {
+        "encontent": "Oh hello ... I didn't realize you're here. This, this\n is just a notebook. Nothing special. It's just my\n script ... ",
+        "content": "哦，你好……我没意识到你来了。这，这只是个本子。没\n什么，只是我的剧本而已……"
+    },
+    "信任-夜暮": {
+        "encontent": "Vagrants, forty-niners, hairdressers, winos ... every one of\n us lives a life and every night we share the sky.This is what\n films teach us. Magical, isn't it?",
+        "content": "流浪汉、淘金者、理发师、酒鬼……每个人都有自己的人\n生，在夜晚都会看向同一片星空。电影能让大家明白这些\n，真是神奇，不是吗？"
+    },
+    "帽檐与发鬓": {
+        "encontent": "Cover my hair, blur my features! Now it's all up to\n my acting.",
+        "content": "盖住头发，抹去特征！接下来需要的就只有演技了。"
+    },
+    "袖与手": {
+        "encontent": "Ha ha ... They might be a little rough. To tightly\n grab the eave does require abundant practice.",
+        "content": "哈哈……它们可能有些粗糙。想要抓稳房檐，确实需要一\n定时间的练习。"
+    },
+    "衣着与身形": {
+        "encontent": "Before the advent of sound in films, body language\n was the only way to express emotions.See, like this!\n ",
+        "content": "在电影出现声音之前，肢体语言是传递情绪的唯一方式。看\n，就像这样～"
+    },
+    "嗜好": {
+        "encontent": "When I am upset, frustrated or fail the audition, I always stay\n in my bedroom going through my little notebook.The rustling\n sound of paper always helps calm me down.",
+        "content": "当我难过，心烦意乱，或是又从试镜中落选的时候，我总\n是会一个人在房间里翻我的本子。纸张的声音总是能够帮\n助我放松下来。"
+    },
+    "赞赏": {
+        "encontent": "Well done, perfect! Let's call it a day!Oh, sorry,\n I forgot we are not filming.",
+        "content": "做得好，完美！收工！哦，抱歉，我忘了这不是在片场。"
+    },
+    "亲昵": {
+        "encontent": "Argh, don't mind me ... I'm just observing, or imitating\n you.Just in case someday you might need a reliable\n stand-in.",
+        "content": "呃，您不用在意我这边……我只是在观察，或者说是在模\n仿您。以备有朝一日您需要一个可靠的动作替身。"
+    },
+    "闲谈Ⅰ": {
+        "encontent": "Never give up, the future is bright. Everything's gonna\n be alright!",
+        "content": "呼……只要不放弃，前方总有机会，一切都会好起来的！"
+    },
+    "闲谈Ⅱ": {
+        "encontent": "A 720° flip and a 3½ backward somersault ... Uhh, I\n ... I am not sure ... Are these heroics really necessary?",
+        "content": "“空中转体720度接向后翻腾三周半”……呃，我，我\n不确定，真的会有这种难度系数的英雄救美吗？"
+    },
+    "独白": {
+        "encontent": "I've dreamt forever about my first character, not as a rich young\n man, a courageous adventurer, a fair or rich lady,but the first\n character starred by me, Bette with brown hair!I have noted\n them all in this notebook, which is called \"My Script.\" ",
+        "content": "我想过无数次，我的第一个角色会是什么样。不是富豪男\n子，不是勇猛的冒险家，更不是窈窕淑女与富家千金，而\n是贝蒂，长着棕红色头发的贝蒂——所出演的第一个角色\n！我把它们都记在这个小本子里了，我称呼它为“我的剧\n本”。"
+    },
+    "入队": {
+        "encontent": "Here I am!",
+        "content": "来了来了！ "
+    },
+    "战前": {
+        "encontent": "Hah, director, I am ready!",
+        "content": "呼～导演，我准备好了！"
+    },
+    "择选咒语Ⅰ": {
+        "encontent": "Well received, director!",
+        "content": "好的导演！"
+    },
+    "择选咒语Ⅱ": {
+        "encontent": "One more take?",
+        "content": "需要再来一条吗？"
+    },
+    "择选高阶咒语": {
+        "encontent": "And a forward roll? No problem!",
+        "content": "接一个前滚翻？没问题！"
+    },
+    "择选至终的仪式": {
+        "encontent": "Arrangement noted!",
+        "content": "听您的安排～"
+    },
+    "释放神秘术Ⅰ": {
+        "encontent": "Perfect escape!",
+        "content": "完美脱离！"
+    },
+    "释放神秘术Ⅱ": {
+        "encontent": "It's my duty to reduce damage!",
+        "content": "分担风险是我的工作！"
+    },
+    "召唤至终的仪式": {
+        "encontent": "Salute to you, my lord!",
+        "content": "“向您致意！我的先生。”"
+    },
+    "受敌Ⅰ": {
+        "encontent": "Urrgh!",
+        "content": "呃唔！"
+    },
+    "受敌Ⅱ": {
+        "encontent": "Sorry, one more take!",
+        "content": "抱歉，再来一条！"
+    },
+    "战斗胜利": {
+        "encontent": "Have I made it, director?",
+        "content": "我成功了吗，导演？"
+    },
+    "洞悉": {
+        "encontent": "What? I am so very grateful for your approval!",
+        "content": "什么？我太……感谢您的认可了！"
+    }
+}

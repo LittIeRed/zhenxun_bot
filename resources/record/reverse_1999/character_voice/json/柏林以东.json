@@ -1,0 +1,130 @@
+{
+    "初遇": {
+        "encontent": "Are you a brave speaker? You look like one ... Hmm,\n and sound like too.",
+        "content": "你会是个勇敢的发声者吗？你看上去长得像——嗯，声音\n听起来也像。"
+    },
+    "箱中气候": {
+        "encontent": "Seeds will grow up with the kiss of raindrop ... So\n does hope.",
+        "content": "种子会在雨水滋润下破土而出……希望也是。"
+    },
+    "致未来": {
+        "encontent": "I've planned to have a new job a long long time ago\n ... but \"now\" is not the time.",
+        "content": "很久很久之前，我就打算换一份新工作了……只是“现在\n”还没有辞职的机会。"
+    },
+    "孑立": {
+        "encontent": "Be quiet, my old pal ... You always let me hear everything\n clearly. Ha ... ",
+        "content": "安静，我的老朋友。你总能让我更清晰地听见一切……哈\n……"
+    },
+    "问候": {
+        "encontent": "I'm not good at dealing with visitors ... It reminds\n me of something bad.",
+        "content": "我不太擅长被人登门拜访……这会让我联想起某些不好的\n事情。"
+    },
+    "朝晨": {
+        "encontent": "I brought you a flower, go find it in the woodpecker\n house by the street.",
+        "content": "给你带了一支花，快去路边的啄木鸟屋里找找看～"
+    },
+    "信任-朝晨": {
+        "encontent": "... Didn't sleep well? That's for sure! You know who else didn't\n sleep well? The family on the other side of the monitor. Poor\n baby was sick and cried all night. All of us are exhausted.",
+        "content": "……我没睡好？那是当然！你知道还有谁没睡好吗？监听\n器另一头那家人。他们可怜的孩子病了，哭了一整夜，这\n让我们所有人都很憔悴。"
+    },
+    "夜暮": {
+        "encontent": "The darkness swallows the sun, the starlight quietly\n leaks out of its belly.",
+        "content": "黑夜将太阳吞下，星光悄悄从肚子里漏了出来。"
+    },
+    "信任-夜暮": {
+        "encontent": "The Stasi is watching everyone and everything, except\n people's dreams. Sleep ... Go find your own promise\n land.",
+        "content": "史塔西监视着所有人的一切，除了人们的梦。睡吧……去\n寻找那片属于你的自由乐土。"
+    },
+    "帽檐与发鬓": {
+        "encontent": "Wearing headphones for too long will give you a headache.\n Don't be surprised, everyone has had it, although\n we seem poker-faced and indifferent.",
+        "content": "耳机戴得久了总是会头痛。别这么惊讶，所有人都有这个\n问题。即使我们的确看上去面无表情，满不在乎。"
+    },
+    "袖与手": {
+        "encontent": "I don't recommend you read those reports. Firstly,\n it's really boring. And secondly, the Stasi may find\n you.",
+        "content": "我不建议你碰这些监听报告。原因之一是它真的很无趣，之\n二是这一举动很可能招来更危险的同事们。"
+    },
+    "衣着与身形": {
+        "encontent": "Someone once wanted to scratch his back but ended up\n caught in the tree ... Of course he didn't know it\n was me who called help for him.",
+        "content": "有人为了挠背上的痒，结果把自己挂在了树上……当然他\n肯定不知道最后帮他打求救电话的是我。"
+    },
+    "嗜好": {
+        "encontent": "I—bought half jar of Lübeck marzipan in a small store\n ... Try some? Not much left, don't eat too fast!",
+        "content": "我在……某个小店淘到了半罐吕贝克杏仁糖。……尝尝？剩\n的不多了，你可得珍惜着点儿！"
+    },
+    "赞赏": {
+        "encontent": "You're doing the same thing as I do ... No, you're\n far braver than me.",
+        "content": "你在做和我一样的事……不，你远比我更加勇敢。"
+    },
+    "亲昵": {
+        "encontent": "Hm? I seem to hear the sound of \"contraband\" ... Don't\n want to share with me?",
+        "content": "嗯？我在你身上听到了“违禁品”的声音呢……不打算分\n享给我吗？"
+    },
+    "闲谈Ⅰ": {
+        "encontent": "Do you know where you can see flowers? In a parterre or in a\n garden? Neither, my friend, you should go under the bridge where\n even a tramp will find it too dirty to spend a night. Only on\n the mud-coatted walls of the aperture can you see the most beautiful\n cornflowers' ... graffiti.",
+        "content": "你知道在哪儿能看到花吗？在花圃？在花园？都不是，朋\n友，你该去那些连流浪汉也不想寄宿的肮脏桥洞。只有那\n泥水涂满的墙壁上才能看见最好的矢车菊——涂鸦。"
+    },
+    "闲谈Ⅱ": {
+        "encontent": "At least for once, I want to check up on the kids on the other\n side of the monitor ... Well, we've never met in person, but\n they are already my old acquaintances.",
+        "content": "至少一次，我想去看看监听器另一侧的孩子们……怎么说\n呢，我们从没见过面，但他们已经是我的老熟人了。"
+    },
+    "独白": {
+        "encontent": "To act like an idealist may be too big a goal, but\n \"to be a nice person\" doesn't sound bad either ...\n Will they write a sonata about me too?",
+        "content": "理想主义者似乎太伟大了，“成为一个好人”听起来不错\n……未来会有一首为我而弹的奏鸣曲么？"
+    },
+    "入队": {
+        "encontent": "Shall I \"ask\" the enemy for their tactics?",
+        "content": "需要我去“问问”敌人们的战术安排吗？"
+    },
+    "战前": {
+        "encontent": "Finally, some interesting work.",
+        "content": "总算有点新鲜的差事了～"
+    },
+    "择选咒语Ⅰ": {
+        "encontent": "Shh, I hear something!",
+        "content": "嘘，有动静！"
+    },
+    "择选咒语Ⅱ": {
+        "encontent": "Whose heart is beating so loud?",
+        "content": "是谁的心脏这么吵？"
+    },
+    "择选高阶咒语": {
+        "encontent": "For tomorrow.",
+        "content": "为了明天。"
+    },
+    "择选至终的仪式": {
+        "encontent": "We should listen to what people say.",
+        "content": "我们都该停下来，听听人们在说什么。"
+    },
+    "释放神秘术Ⅰ": {
+        "encontent": "Agents have guns. It's called common sense.",
+        "content": "特工有枪，这是常识。"
+    },
+    "释放神秘术Ⅱ": {
+        "encontent": "Don't be so furious.",
+        "content": "火气别这么大。"
+    },
+    "召唤至终的仪式": {
+        "encontent": "Secrets always hide in careless words ... Listen carefully.",
+        "content": "秘密总藏在不经意的言语之中……仔细听。"
+    },
+    "受敌Ⅰ": {
+        "encontent": "Hey, I am the support staff ...",
+        "content": "嘿，我可是后勤人员——"
+    },
+    "受敌Ⅱ": {
+        "encontent": "Retreat! ... What, I can't make the call?",
+        "content": "撤退！……什么，我说了不算吗？"
+    },
+    "战斗胜利": {
+        "encontent": "Stay low-profile. I don't want to be shunted to some\n radical department ...",
+        "content": "不要张扬，我可不想被调入某些行事激进的部门……"
+    },
+    "洞悉": {
+        "encontent": "Technically, these are all contraband ...Now you are\n my accomplice.",
+        "content": "严格意义上这些东西属于违禁品……现在我们是共犯了～"
+    },
+    "洞悉之底": {
+        "encontent": "The times never stop. Maybe I can't change anything\n ... But at least I've once spoken out.",
+        "content": "时代的脚步永不停歇，也许我改变不了什么……但我的声\n音曾经存在过。"
+    }
+}

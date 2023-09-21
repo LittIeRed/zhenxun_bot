@@ -1,0 +1,142 @@
+{
+    "初遇": {
+        "encontent": "I'm Door, an insignificant piece of a mirror. By nature\n I'm of no difference to my other 3587 siblings; but\n knowing you has made me different to them.",
+        "content": "我是门，一片微不足道的碎片，来自一块镜面。从本质上\n来说，我与我其他三千五百八十七片兄弟姐妹们并无区别\n，而与你相识，使我同他们不再相同。"
+    },
+    "箱中气候": {
+        "encontent": "Today is gloomy and somber enough as it is, don't let\n the cloud hang over you. Take a look at this, it may\n cheer you up.",
+        "content": "阴郁、沉闷，但也别被乌云遮了心。瞧瞧这个，你会感到\n好一些的。"
+    },
+    "致未来": {
+        "encontent": "When the mirror was shattered, I broke off and lay scattered\n at where I am now. I shall travel through days and nights to\n seek the truth, to return to where I was born. Oh, wait. There\n is no such era of truth. That's right. No era is true ...",
+        "content": "我破碎，我散落在我所在的地方。我将穿越日夜寻求真实\n，回到我出生的地方。噢，不对。不存在真实的时代，没\n错，不存在真实的时代……"
+    },
+    "孑立": {
+        "encontent": "Em ... no one is here. Standing still, eyes on the\n target, start spinning ... Ahem, \"the dart is going\n straight onto the bull's-eye!\"",
+        "content": "嗯……确定无人。站直身姿，瞄准方向，开始旋转……咳\n咳，“飞镖正向十环进发！”"
+    },
+    "问候": {
+        "encontent": "Hello, curious explorer. I hope what reflects in the\n mirror would bring you joy.",
+        "content": "你好，好奇的探索者。希望镜中的倒影能令你喜悦。"
+    },
+    "朝晨": {
+        "encontent": "Morning used to be the time when I had to keep a low profile.\n Spoke no words and took no actions, just to be good at being\n a mirror. But now, I'm merely a fragment of what I used to be.\n You see, I was lucky to be freed from the life-long duty to\n reflect others' images.",
+        "content": "清晨应当是我最低调的时刻。我得沉默，安静，就像是一\n面镜子，做好一面镜子——而现在，我只是一块儿碎片。你\n看，我很幸运，得以从映照他人的时刻中解脱出来。"
+    },
+    "信任-朝晨": {
+        "encontent": "The tides coming to the shore, Carbuncles in the woods opening\n their sleepy eyes, or the first light of morning shedding on\n a city avenue ... Which one of the sceneries better brightens\n your mood while you enjoy your breakfast? ",
+        "content": "海潮爬上沙滩、森林里的卡邦克鲁开始苏醒、曙光洒落大\n道……哪个镜中画面，能更好地愉悦你享用早餐的心情？"
+    },
+    "夜暮": {
+        "encontent": "A floating UFO lamp, a radio unwilling to talk, a wooden horse\n comes from a great bloodline ... they are all real, living on\n the other side of the mirror, at somewhere under this sky. They\n are so lively, so honest and benign.",
+        "content": "飘浮的UFO台灯，沉默寡言的收音机，继承伟大血统的\n木马……这些都是真实存在的。在某一侧，某一处。他们\n如此雀跃，如此温实。"
+    },
+    "信任-夜暮": {
+        "encontent": "Try ending your long day with a milk bath and clearing\n your mind in the tub. I promise, you will wake up\n feeling in top form in the next day.",
+        "content": "试试卸下一天的重担，泡个舒畅的牛奶浴，脑袋空空。我\n保证，到了明天，肯定什么都难不住你。"
+    },
+    "帽檐与发鬓": {
+        "encontent": "I can feel your eyes. Now, if you give off a smile,\n you'd find yourself being smiled at too.",
+        "content": "我察觉到你在注视着我，如果此时，你尝试展露笑容，我\n也会同你展露笑容。"
+    },
+    "袖与手": {
+        "encontent": "Oh, please be very, very careful. I don't wish to see\n more of the unnecessary bloodshed on any scale.",
+        "content": "噢，请十分小心、小心，我不希望再有人因我而无谓地流\n血。"
+    },
+    "衣着与身形": {
+        "encontent": "While you gaze your reflection in me, I gaze back and\n see my own reflection in your eyes.",
+        "content": "你将在我的镜中看见你，而我也将在你的眼中瞧见我。"
+    },
+    "嗜好": {
+        "encontent": "All these frames in the world! Although they don't\n belong to me, I'm deeply enchanted by their caring\n nature, or say, their carrying nature.",
+        "content": "世界上所有的框！虽然它们不为我所拥有，但仅是这种承\n载我们的存在，就深深迷住了我。"
+    },
+    "赞赏": {
+        "encontent": "\"Mirror, mirror, who is the most exceptional one of all?\" \"Oh,\n this person is, right before me. Behold, the reflection of the\n embodiment of virtues and manners.\"",
+        "content": "“魔镜、魔镜，世界上最优秀的家伙在哪？”“噢，就在\n我面前。看吧，我正映照出优秀的品行与端正的姿态。”"
+    },
+    "亲昵": {
+        "encontent": "It's my pleasure to reflect your look day and night,\n when you are resting and working. The companionship\n goes both ways. ",
+        "content": "我很乐意映照你的面容，不管是休息时，还是认真工作时\n。这既是为了你，也是为了我自己。"
+    },
+    "闲谈Ⅰ": {
+        "encontent": "Sorry to bother you with this, but please attach this piece of\n note to my back. Yes—it says \"no entry.\" I have to find a way\n to stop those fanatics from getting passed through me to that\n \"world in the mirror.\" ",
+        "content": "麻烦你，请将这张纸条贴在我背上。是的——是“此路不\n通”。我必须想些办法制止那些企图进入镜中世界的人，他\n们太疯狂了……"
+    },
+    "闲谈Ⅱ": {
+        "encontent": "Yes, please decorate me with the things you like. I think I can\n handle different colors, glittering ribbons, or some scorchingly\n warm lightbulbs. Having them around me would smooth my sharp\n edges and thaw my coldness, and give me a touch of warmth and\n festivity.",
+        "content": "是的，以你喜欢的任何方式装点我。我想我能够适应许多\n色彩、闪亮的飘带或灼热的灯泡。在它们的衬托下，我不\n再锋利冰冷，而是充满了温馨与节日的气息。"
+    },
+    "独白": {
+        "encontent": "A sophisticated mirror would know what can be reflected\n and what cannot.",
+        "content": "一面成熟的镜子，应该知道能倒映什么，不能倒映什么。"
+    },
+    "入队": {
+        "encontent": "Oh, are we fighting ... balloons?",
+        "content": "噢，难不成……对手是气球吗？"
+    },
+    "战前": {
+        "encontent": "My enemy is fighting their enemy's enemy. ",
+        "content": "敌人的敌人，正是镜中的敌人。"
+    },
+    "择选咒语Ⅰ": {
+        "encontent": "Mind the shards.",
+        "content": "小心“锋利”。"
+    },
+    "择选咒语Ⅱ": {
+        "encontent": "No way, the door says.",
+        "content": "没门儿。"
+    },
+    "择选高阶咒语": {
+        "encontent": "This is poetic, don't you think?",
+        "content": "这很有诗意，对吧。"
+    },
+    "择选至终的仪式": {
+        "encontent": "Wholeness is only a matter on the surface.",
+        "content": "完璧与否，皆为表象。"
+    },
+    "释放神秘术Ⅰ": {
+        "encontent": "Hidding within the cracks.",
+        "content": "匿于裂痕之中。"
+    },
+    "释放神秘术Ⅱ": {
+        "encontent": "The reader of the light.",
+        "content": "光的读者。"
+    },
+    "召唤至终的仪式": {
+        "encontent": "I see—a million suns!",
+        "content": "我看到了——亿万个太阳！"
+    },
+    "受敌Ⅰ": {
+        "encontent": "Worry not.",
+        "content": "别担心。"
+    },
+    "受敌Ⅱ": {
+        "encontent": "*crack*",
+        "content": "*碎裂声*"
+    },
+    "战斗胜利": {
+        "encontent": "They have witnessed their failure with their own eyes\n ... though it was too cruel to be my intention.",
+        "content": "他们“亲眼”见证了自己的失败……这并非我的本意。"
+    },
+    "洞悉": {
+        "encontent": "The view in the mirror has become the reality ... or\n it seems that way.",
+        "content": "镜中景象正成为现实……或许如此。"
+    },
+    "特殊待机2": {
+        "encontent": "",
+        "content": ""
+    },
+    "特殊待机3": {
+        "encontent": "",
+        "content": ""
+    },
+    "特殊待机4": {
+        "encontent": "",
+        "content": ""
+    },
+    "特殊待机5": {
+        "encontent": "",
+        "content": ""
+    }
+}

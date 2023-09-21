@@ -1,0 +1,130 @@
+{
+    "初遇": {
+        "encontent": "Purrrrrrr ... Ra ... bies ... Rabies ... ",
+        "content": "噜噜噜噜……爱……宠……爱宠……"
+    },
+    "箱中气候": {
+        "encontent": "Can brr ... brr ... barely ... see ... ",
+        "content": "看不清……噜……噜……看不清……"
+    },
+    "致未来": {
+        "encontent": "Blue sky ... and ... wind ... ",
+        "content": "蓝天……还有……风……"
+    },
+    "孑立": {
+        "encontent": "*cat's purring*",
+        "content": "*低沉的，猫的呼噜声*"
+    },
+    "问候": {
+        "encontent": "Rabies ... says ... hi ... ",
+        "content": "爱宠……说……你好……"
+    },
+    "朝晨": {
+        "encontent": "*sparrow chirping*",
+        "content": "*麻雀的叫声*"
+    },
+    "信任-朝晨": {
+        "encontent": "Woof! Woof! ",
+        "content": "汪——！汪——！"
+    },
+    "夜暮": {
+        "encontent": "Lying down ... Rabies ... lying down ... too!",
+        "content": "躺……爱宠……也会躺！"
+    },
+    "信任-夜暮": {
+        "encontent": "At night ... her ... tears ... boohoo ... ",
+        "content": "夜晚……她……眼泪……呜呜……"
+    },
+    "帽檐与发鬓": {
+        "encontent": "Oh ... it's not on ... ion.",
+        "content": "呜……这不是洋……葱。   "
+    },
+    "袖与手": {
+        "encontent": "Paw? Give ... paw? Purr ... ",
+        "content": "手？递……手？呼噜噜噜……"
+    },
+    "衣着与身形": {
+        "encontent": "Straws ... be hugged. Rabies ... feels it. ",
+        "content": "稻草……被抱，爱宠……也懂。"
+    },
+    "嗜好": {
+        "encontent": "Voices ... many voices ... Fri ... friends! ",
+        "content": "声音……好多声音……大家，朋友！"
+    },
+    "赞赏": {
+        "encontent": "Fun! Goo ... good fun!",
+        "content": "好有趣！好有……趣！"
+    },
+    "亲昵": {
+        "encontent": "*dog's panting*",
+        "content": "*狗兴奋时的嘶哈声*"
+    },
+    "闲谈Ⅰ": {
+        "encontent": "Rabies ... top-notch ... pests gone ... ",
+        "content": "爱宠，很厉害……害虫，不会靠近……"
+    },
+    "闲谈Ⅱ": {
+        "encontent": "Rabies, walk ... Scarecrow, shouldn't ... walk?",
+        "content": "爱宠，会走路……稻草人，不该……走路？"
+    },
+    "独白": {
+        "encontent": "Ali ... cia ... who? Good ... lady ... Ali ... cia?",
+        "content": "艾莉……西亚……是谁？好……女人……艾莉……西亚？"
+    },
+    "入队": {
+        "encontent": "Hrrrooo ... ",
+        "content": "噜噜噜噜……"
+    },
+    "战前": {
+        "encontent": "Ar ... rooff! ",
+        "content": "咳——汪！"
+    },
+    "择选咒语Ⅰ": {
+        "encontent": "Meow?",
+        "content": "喵？"
+    },
+    "择选咒语Ⅱ": {
+        "encontent": "Houyhn! ",
+        "content": "呣～！"
+    },
+    "择选高阶咒语": {
+        "encontent": "Arrrgh!",
+        "content": "呜——！"
+    },
+    "择选至终的仪式": {
+        "encontent": "Crow, away!",
+        "content": "乌鸦，走开！"
+    },
+    "释放神秘术Ⅰ": {
+        "encontent": "Yurrra!",
+        "content": "嘎哈！"
+    },
+    "释放神秘术Ⅱ": {
+        "encontent": "Guard, the field!",
+        "content": "守卫，田地！"
+    },
+    "召唤至终的仪式": {
+        "encontent": "Go, gooooo!",
+        "content": "离开，离开！"
+    },
+    "受敌Ⅰ": {
+        "encontent": "Boohoo ... ",
+        "content": "阿呜——"
+    },
+    "受敌Ⅱ": {
+        "encontent": "Ar rooff!",
+        "content": "嗷呜！"
+    },
+    "战斗胜利": {
+        "encontent": "Ah! Ah! Ah! Ah ...! Dinner! Dinner! ",
+        "content": "嘎！嘎！嘎！嘎……！晚餐！晚餐！"
+    },
+    "洞悉": {
+        "encontent": "More ... straws ... more ... ",
+        "content": "更多的……稻草，更多……"
+    },
+    "洞悉之底": {
+        "encontent": "What ... is ... this? Micro ... scope? Microsco ...\n new toy!",
+        "content": "这是……什么？显……微镜？显微……新玩具！"
+    }
+}

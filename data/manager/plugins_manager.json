@@ -862,5 +862,13 @@
         "block_type": null,
         "author": null,
         "version": 0.1
+    },
+    "character_voice": {
+        "plugin_name": "戳一戳掉落语音",
+        "status": true,
+        "error": false,
+        "block_type": null,
+        "author": null,
+        "version": 0.1
     }
 }

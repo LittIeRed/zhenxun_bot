@@ -1,0 +1,130 @@
+{
+    "初遇": {
+        "encontent": "Здравствуйте ... No, nothing ... The name is ... on\n the paper ...  Please ... have a look ... ",
+        "content": "……您好。……不，没什么。……名字，在这张纸上……请\n您过目。"
+    },
+    "箱中气候": {
+        "encontent": "Have you ever wondered ... why does it rain ...? Not\n about how ... but, um ... but why.",
+        "content": "你有没有想过，为什么……会下雨？不是、不是积雨云，而\n是……唔……为什么会下雨。"
+    },
+    "致未来": {
+        "encontent": "The future ... There may be Tsar no more ...  But,\n I won't go back to the St. Petersburg either ... \n I like the bise in the Far East ... and ... зима.",
+        "content": "未来可能并没有沙皇的存在……但我也不会回到圣彼得堡\n了……我喜欢这远东的寒风……与冬。"
+    },
+    "孑立": {
+        "encontent": "... Всему живущему идти путем зерна.",
+        "content": "……不同的道路，在每一个活着的人脚下。"
+    },
+    "问候": {
+        "encontent": "I'm not ... writing ... poems ... ",
+        "content": "……我没写……诗……"
+    },
+    "朝晨": {
+        "encontent": "The in ... inspiration always comes at night ... till\n now.",
+        "content": "灵感总是深夜造访……直到现在。"
+    },
+    "信任-朝晨": {
+        "encontent": "... You're awake? Would you like to hear ... my work\n from last night ...?",
+        "content": "……你醒了？想要听听……我昨晚的创作吗？"
+    },
+    "夜暮": {
+        "encontent": "Just one more page ... ",
+        "content": "让我，再写一页……"
+    },
+    "信任-夜暮": {
+        "encontent": "Now ... now I'm going out for a walk ...  The moonlight\n is ... beautiful ... It's good for writing ...  Maybe\n ... you should try to write a poem too.",
+        "content": "现在……现在我要出去散步。月色，非常好，适合……写\n诗。或许你……也该写首诗看看。"
+    },
+    "帽檐与发鬓": {
+        "encontent": "Inspirations ... are elusive ... They come and go,\n as they please.",
+        "content": "灵感……难以捉摸。想来的时候来，想走的时候就走。"
+    },
+    "袖与手": {
+        "encontent": "Think much ... Write less ... just like chatting.",
+        "content": "想到的很多，写下的很少……类似交谈。"
+    },
+    "衣着与身形": {
+        "encontent": "Warm ... Wind-proof ... шуба. Everyone should have\n it.",
+        "content": "保暖，又防风。淑巴大衣。……大家都该有一件的。"
+    },
+    "嗜好": {
+        "encontent": "Perhaps ... I once, too, was a lively bird.",
+        "content": "也许我也曾是……某只活泼的山雀。"
+    },
+    "赞赏": {
+        "encontent": "You've won my respect ... Although it might not help\n ... ",
+        "content": "您……获得了……我的尊重……虽然没有什么用。"
+    },
+    "亲昵": {
+        "encontent": "Зима is close to you ... it's not just an assumption\n ... ",
+        "content": "冬很亲近你……这并不只是我的想法……"
+    },
+    "闲谈Ⅰ": {
+        "encontent": "The throne of the Tsar is covered in heaps of gold\n ... and stains of blood. It is dwarfed ... by the\n firs and the frozen land.",
+        "content": "国王的座上满是黄金……殷红，比不上我的……冷杉与冻\n土。"
+    },
+    "闲谈Ⅱ": {
+        "encontent": "Write when you want ... stop when you don't. There\n are not many poems like the orange hair thinks.",
+        "content": "想写的时候写，不想的时候就没有……诗歌……没有橘色\n头发想得那么多。"
+    },
+    "独白": {
+        "encontent": "The fallen Tsar is just like the fallen leaves on the\n island. зима, do you know, what the Tsar is? You walk\n so quietly ... ",
+        "content": "皇帝和岛上的落叶一起消逝了，冬知道什么是皇帝么？你\n的脚步很轻……"
+    },
+    "入队": {
+        "encontent": "C ... can I, not go ...?",
+        "content": "我可以……不去吗？"
+    },
+    "战前": {
+        "encontent": "... Not even close to the soldiers.",
+        "content": "……比不上那些卫兵。"
+    },
+    "择选咒语Ⅰ": {
+        "encontent": "Hmm. ",
+        "content": "嗯。"
+    },
+    "择选咒语Ⅱ": {
+        "encontent": "... Хорошо.",
+        "content": "……可以。"
+    },
+    "择选高阶咒语": {
+        "encontent": "I've prepared ... something ... ",
+        "content": "我，准备好了，一点东西……"
+    },
+    "择选至终的仪式": {
+        "encontent": "Calm down ... ",
+        "content": "冷静一下。"
+    },
+    "释放神秘术Ⅰ": {
+        "encontent": "It's just ... a greeting.",
+        "content": "只是……问候。"
+    },
+    "释放神秘术Ⅱ": {
+        "encontent": "Keep distance ... when socializing.",
+        "content": "社交……不宜太近。"
+    },
+    "召唤至终的仪式": {
+        "encontent": "Не было бы счастьe, да несчастьe помогло.",
+        "content": "因祸得……福。"
+    },
+    "受敌Ⅰ": {
+        "encontent": "Violence is ... not good.",
+        "content": "粗鲁可不……好。"
+    },
+    "受敌Ⅱ": {
+        "encontent": "Urgh ... ",
+        "content": "呃……"
+    },
+    "战斗胜利": {
+        "encontent": "Хорошо! I'll go back, then ... ",
+        "content": "太好了……！告、辞，我先回去了……"
+    },
+    "洞悉": {
+        "encontent": "Зима, poems, are my expressions.",
+        "content": "冬，诗，我的表达。"
+    },
+    "洞悉之底": {
+        "encontent": "I hear ... more sounds ...  from animals, trees, oceans\n and ... poems.",
+        "content": "我听到了……更多的声音。小动物的，树木的，大海的……还\n有诗歌的。"
+    }
+}

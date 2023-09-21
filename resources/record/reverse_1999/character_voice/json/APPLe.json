@@ -1,0 +1,122 @@
+{
+    "初遇": {
+        "encontent": "... Greetings, madam. I am here.",
+        "content": "……你好，女士，我在这儿。"
+    },
+    "箱中气候": {
+        "encontent": "Clouds help predict the weather, and also affect the\n air humidity ...  Oh, my wine!",
+        "content": "云朵对于天气预报有辅助作用，同时也会影响空气湿度……噢\n，我的酒！"
+    },
+    "致未来": {
+        "encontent": "People are infatuated with time, chasing after immortality.\n That's the thing that never changes ...  It's the\n motivation, also the limitation.",
+        "content": "人们迷恋时间，追求永生。自古至今，恒常不变……这是\n动力，亦是限制。"
+    },
+    "孑立": {
+        "encontent": "Just like Cézanne's <i>The Kitchen Table</i>, Balthus' <i>Still\n Life with a Figure</i> ...  Well, I think Caravaggio's <i>Basket\n of Fruit</i> is better.",
+        "content": "就像塞尚《厨房的桌子》，或是巴尔蒂斯的《静物》……好\n吧，我想卡拉瓦乔的《一篮水果》更合适些。"
+    },
+    "问候": {
+        "encontent": "Are you here to confirm this APPLe's expiration date?\n Don't worry!",
+        "content": "你来确认APPLe某的保质期吗？不必担心～"
+    },
+    "朝晨": {
+        "encontent": "An apple a day keeps the doctor away. However, please\n do not count on this APPLe, will you? My friend.",
+        "content": "每天一苹果，医生远离你。但别希望我为你赶走医生，好\n吗？我的朋友。"
+    },
+    "信任-朝晨": {
+        "encontent": "The light particles traveling from one medium to a\n different medium in a parallel direction ...  Um,\n hi ... good morning.",
+        "content": "光微粒在两种介质界面处受到的力在平行方向上被……呃\n，嗨……早上好。"
+    },
+    "夜暮": {
+        "encontent": "When the side of the earth turns away form the sun,\n people call it night ...  While in fact, everything\n stays the same and nothing changes.",
+        "content": "当地球背对太阳，人们将其称之为黑夜……可实际上一切\n都是最初的样子，什么也没有改变。"
+    },
+    "信任-夜暮": {
+        "encontent": "Hello, Ms. Vertin ... sssssss ... W-When did you, burp,\n master my ... optical arcane skill? But I-I don't\n see ... any sunlight in here?",
+        "content": "维尔汀小姐——们，你也领悟了光、光学的折射技巧么？……可\n是我没有见到、太阳呀？！"
+    },
+    "帽檐与发鬓": {
+        "encontent": "Apples will drop when they're ripe ...  Umm, why am\n I saying these?",
+        "content": "苹果成熟后会自然落……唔，我为什么要说这些？"
+    },
+    "袖与手": {
+        "encontent": "What are you looking for? I think I ... may not be\n of help.",
+        "content": "你在寻找什么？我想我……应该帮不上忙吧。"
+    },
+    "衣着与身形": {
+        "encontent": "I am not heavy ...  since I have to consider the force\n that the people sitting under the tree can withstand.",
+        "content": "我的体重并不重。——毕竟，我需要考虑树下人们的颅骨\n承受力。"
+    },
+    "嗜好": {
+        "encontent": "Alcohol can sterilize, disinfect and innerve ... I\n mean, Sherry is pretty good.",
+        "content": "酒精能够杀菌、消毒，让神经亢奋……嗝，雪利酒就很不\n错。"
+    },
+    "赞赏": {
+        "encontent": "You've read through  <i>The basic study of alchemy</i>?How about\n  <i>Theoretical system of nature philosophy</i>? And  <i>The\n trajectories of the planets</i>? ... You may now be able to\n discuss more things with this APPLe!",
+        "content": "《炼金术的基础研究》已经通读了？《自然哲学的理论体\n系》呢？《行星的运动轨迹》？……或许你能与APPLe某\n讨论更多相关的东西了！"
+    },
+    "亲昵": {
+        "encontent": "About the study of fission and enrichment of the tungsten\n powder in displacement reaction, this APPLe considers\n you as the perfect assistant.",
+        "content": "关于“钨尘在金属置换反应中的裂变与集聚”的相关研究\n课题，APPLe某认为你是非常合适的协助对象。"
+    },
+    "闲谈Ⅰ": {
+        "encontent": "Waffle! Ugh, please don't misunderstand me. It's just\n a little admonition for this APPLe himself ...  Haven't\n the posts on this forum been checked?! ",
+        "content": "胡扯！呃，别误会，只是APPLe某对自己的小小训诫\n……这个论坛的文章难道没有经过审核么？！"
+    },
+    "闲谈Ⅱ": {
+        "encontent": "I heard that there is a medieval knight wandering around. May\n I have a look at him ... or his armor? ... Maybe we can talk\n about wines in the Loire region.",
+        "content": "听说有一名中世纪骑士在四处游荡，我能见见他的铠甲么\n？……也许我们能聊聊卢瓦尔河地区的葡萄酒。"
+    },
+    "独白": {
+        "encontent": "The shattered memories from the past sometimes haunt\n me ...  I see the revoluting celestial bodies faraway,giant\n telescope and rainbow lights ... ",
+        "content": "关于过去的零碎记忆时常扰乱着我……我总能看到那些遥\n远的运转着的天体，巨大的望远镜，一道道彩虹光……"
+    },
+    "入队": {
+        "encontent": "Hmm ... there will be some differences between theory\n and practice.",
+        "content": "唔……实践与理论存在着一定的偏差。"
+    },
+    "战前": {
+        "encontent": "You can't see me, you can't see me ... ",
+        "content": "看不见我看不见我……"
+    },
+    "择选咒语Ⅰ": {
+        "encontent": "Affirmative.",
+        "content": "想法一致。"
+    },
+    "择选咒语Ⅱ": {
+        "encontent": "Oh, I can't agree more.",
+        "content": "噢，我十分同意。"
+    },
+    "择选至终的仪式": {
+        "encontent": "Don't worry. Weightlessness only lasts a second. ",
+        "content": "别担心，失重只有短短的一瞬间。"
+    },
+    "释放神秘术Ⅰ": {
+        "encontent": "White? Or say, all colors?",
+        "content": "白色？亦或者是所有颜色？"
+    },
+    "释放神秘术Ⅱ": {
+        "encontent": "An apple a day keeps the doctor away.",
+        "content": "每天一苹果，医生远离你。"
+    },
+    "召唤至终的仪式": {
+        "encontent": "The star falls towards the sun, as the apple drops\n to the ground.",
+        "content": "星球坠向太阳，正如苹果从树枝落下。"
+    },
+    "受敌": {
+        "encontent": "Be careful, young man.",
+        "content": "小心，年轻人。"
+    },
+    "战斗胜利": {
+        "encontent": "Which matters more, knowledge or strength?",
+        "content": "智慧与力量，到底哪一个更重要？"
+    },
+    "洞悉": {
+        "encontent": "Marvelous ...  If possible, may this APPLe have one\n more please? This APPLe thinks there is still room\n for formula improvement.",
+        "content": "奇妙的感觉……如果方便的话，能再给APPLe某一份\n相同的原料么？APPLe某认为此配方仍有精进的空间\n。"
+    },
+    "洞悉之底": {
+        "encontent": "If I have seen further, it is by standing on the table\n ... ",
+        "content": "我能看得更远，因为我站在了桌子上……"
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "初遇": {
+        "encontent": "This is where the arcanists live? ... To be fair, not\n a bad taste, but the place needs a touch of bright\n colors. Do you mind me changing the curtains?",
+        "content": "这就是神秘学家住的地方？……说实话，格调不错。就是\n缺了点亮色。你介意我换掉房间的窗帘吗？"
+    },
+    "箱中气候": {
+        "encontent": "I hate rainy days, no parties.no outings.only getting\n stuck with these morons to play some board games.\n Alright, take a card.",
+        "content": "我讨厌雨天，没有派对、不能旅行，只能和呆——子们一\n起在室内玩桌游。好了，抓牌吧。"
+    },
+    "致未来": {
+        "encontent": "People once loved Disco, then hated it, then killed\n it, and now they resurrected it in Electropop. ...Everthing\n can happen in the future, dear.",
+        "content": "人们先爱迪斯科，再恨它，最终杀死它，而现在它在电子\n流行乐中再次复活……未来没什么不能发生的，亲爱的。"
+    },
+    "孑立": {
+        "encontent": "Where's the lie? The party was very successful, even\n the host has sneaked away.",
+        "content": "可不是嘛，派对棒极了，连主办人都溜之大吉了。"
+    },
+    "问候": {
+        "encontent": "... You'd better really have something ... important\n to say.",
+        "content": "……我希望你最好是真的有很……很重要的事儿。"
+    },
+    "朝晨": {
+        "encontent": "Always having skimmed milk and cereal for breakfast.\n Or do you think you can get slim by a poke of the\n needle like a balloon?",
+        "content": "脱脂牛奶和麦片～ 要不然你以为身材和气球一样，戳一\n戳就会瘦么？"
+    },
+    "信任-朝晨": {
+        "encontent": "Breakfast first, then some shopping in the mall ... Then I gotta\n take Jessica to the park for a Pets'Day-out in the afternoon.\n After that, we are driving to the beach to have a nighttime\n barbecue. I also need to take a few shots of Jessica for my\n movie ... Hurry up, the day is insanely packed!",
+        "content": "首先是早餐，然后去商场挑衣服……下午带洁西卡去公园\n参加宠物聚会，晚上开车去海边烧烤，再为洁西卡拍摄一\n些用于电影的镜头——动作快点儿，这一天还有好多事呢\n！"
+    },
+    "夜暮": {
+        "encontent": "This assignment has ruuuuuined my nightlife. Are you\n here to show sympathy? Then will you write the essay\n for me?",
+        "content": "教授的作业把我的夜生活全——毁了。你是来同情我的吗\n？那你能帮我写论文吗？"
+    },
+    "信任-夜暮": {
+        "encontent": "Buy a disco ball and put on your best clothes. I'm\n gonna show you how to dance!",
+        "content": "去买个七彩灯球，挑上你最漂亮的衣裳，接下来我会告诉\n你什么是真正的舞蹈"
+    },
+    "帽檐与发鬓": {
+        "encontent": "Do you see anything different on me today?... Humph,\n I have my hair made. You have no idea how to appreciate\n beauty.",
+        "content": "猜猜我和平时有什么不一样？……哈，我新做了头发，缺\n少审美的家伙。"
+    },
+    "袖与手": {
+        "encontent": "Interesting, it's been a while since l last met someone\n who would start with holding hands.",
+        "content": "有意思，好久没遇到流程是从牵手开始的了。"
+    },
+    "衣着与身形": {
+        "encontent": "Ahem ... This is just a random boring doll, I bought it just\n to match my clothes. Who cares if it's expensive or a limited\n edition ... Dad will pay for it anyway.",
+        "content": "……一个无聊的小木偶，我随手买来的，它很搭我的衣服\n。谁管它是不是很贵，是不是限量款呢——反正我爸爸有\n的是钱。"
+    },
+    "嗜好": {
+        "encontent": "I like ... What a boring question is this? Why do l\n have to answer it?",
+        "content": "我喜欢的是……什么无聊的问题？为什么我非得回答？"
+    },
+    "赞赏": {
+        "encontent": "Maybe it's not so bad to join your little club. You\n are much funnier than those dorks in college.",
+        "content": "加入你们或许也不是坏事。你可比学校里那些书呆子和蠢\n货有趣多了。"
+    },
+    "亲昵": {
+        "encontent": "Yes, I know I have quick mood swings, lack of vision, and I'm\n self-centered, frivolous, and fickle ... But this is who l am,\n you should learn to bear with me.",
+        "content": "是，我知道自己情绪不太稳定，眼光不够长远，过于自我\n中心，轻浮又朝三暮四……但没办法，这就是我，忍着点\n吧。"
+    },
+    "闲谈Ⅰ": {
+        "encontent": "You always seem so certain of your life ... What a\n bo- ... boring life to live like this.",
+        "content": "你好像生来就知道自己该做什么…… 这样的生活，也、也\n太无趣了。"
+    },
+    "闲谈Ⅱ": {
+        "encontent": "Sweetheart ... is she a movie star? She is is defintely\n blessed by the god of fashion, I have to find a way\n to talk to her ...",
+        "content": "玛丽莲……她是个电影明星吗？她简直就是被时尚亲吻过\n的人，我一定得找个机会搭话才行……"
+    },
+    "独白": {
+        "encontent": "ls it true that humans and arcanists cannot live in harmony？\n We have so many things in common to share and enjoy, like movies.\n As I learned about humans from the movies, so can humans learned\n about arcanists ... It's just that no one has made such a movie\n yet.",
+        "content": "人类和神秘学家，真的无法调合吗？总有很多东西是共通\n的，比如电影。就像我从电影里了解了人类，人们也可以\n从电影里了解神秘学家……只是还没有人拍这样一部电影\n。"
+    }
+}

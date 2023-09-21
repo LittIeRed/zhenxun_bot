@@ -1,0 +1,130 @@
+{
+    "初遇": {
+        "encontent": "Hi there, I am Mondlicht. I still have things to do,\n so I'll be on my way.",
+        "content": "你好，我是红斗篷。我还有要做的事，先失陪了。"
+    },
+    "箱中气候": {
+        "encontent": "They like foggy days like these the best ... ",
+        "content": "啧，它们最喜欢这种大雾天……"
+    },
+    "致未来": {
+        "encontent": "Once everything is over and this \"future\" you are always talking\n about arrives, everybody in the village will be able to live\n peacefully, right? At that point, I want to ... to go to school\n ... ",
+        "content": "等一切都结束了，你们所说的“未来”到来时，村里的人\n也能安心地生活了吧？等到那时，我也想去……上学……"
+    },
+    "孑立": {
+        "encontent": "Oma ... I'll make sure to protect everyone.",
+        "content": "祖母……我一定会保护好大家的。"
+    },
+    "问候": {
+        "encontent": "It's good that you're back safely.",
+        "content": "安全回来就好。"
+    },
+    "朝晨": {
+        "encontent": "Bread is on the table ... I'm leaving soon.",
+        "content": "面包在桌上……我一会儿就出门了。"
+    },
+    "信任-朝晨": {
+        "encontent": "Oma cleans her rifle multiple times every morning. \"Don't let\n bullets rust inside,\" is what she always taught me. After that\n ... No, forget it. It's nothing.",
+        "content": "祖母每天早晨都会擦好几遍她的猎枪。“别让子弹锈在里\n面”，她这样教导我。后来……不，算了，没什么。"
+    },
+    "夜暮": {
+        "encontent": "I need to stand guard, up until the day breaks. Please\n get some rest.",
+        "content": "我必须在这里守着，直到天亮。请早些休息。"
+    },
+    "信任-夜暮": {
+        "encontent": "I'm still here. I won't let anyone get hurt, so please\n rest well. I'll take care of everyone.",
+        "content": "我还在这儿，我不会让任何人受伤。请安心地做个好梦，我\n会照看大家的。"
+    },
+    "帽檐与发鬓": {
+        "encontent": "Can you smell the blood on this cape?",
+        "content": "你能闻到这件斗篷上的腥味吗？"
+    },
+    "袖与手": {
+        "encontent": "Don't touch it. It's dangerous.",
+        "content": "别碰，很危险。"
+    },
+    "衣着与身形": {
+        "encontent": "The big bad wolves are very bad, but I can handle them.",
+        "content": "大坏狼很坏，但我应付得了。"
+    },
+    "嗜好": {
+        "encontent": "The children in the village will go to Anne's house on the Sabbath.\n Her mama gives out snacks in the afternoon, and she starts reading\n storybooks at dusk. I'll sometimes stop by their window, but\n not for long. I need to be back at the lookout before night\n falls.",
+        "content": "村中的孩子会在安息日前往安妮的家。她的妈妈在午后分\n发点心，傍晚开始读故事书。我有时会在他们的窗口停留\n一会儿，但不能太久，我必须在夜晚到来之前回到岗哨。"
+    },
+    "赞赏": {
+        "encontent": "Danke. With your help, I'll definitely ... be able\n to kill all the big bad wolves.",
+        "content": "谢谢你。如果能得到你的帮助，我一定能……杀死所有的\n大坏狼。"
+    },
+    "亲昵": {
+        "encontent": "Hey, are you free now? I found this book in my room.\n Could you ... ",
+        "content": "呃，你现在有空吗？我在房间里找到了这本书，能不能……"
+    },
+    "闲谈Ⅰ": {
+        "encontent": "Don't trust anything the big bad wolves say. Never\n let your guard down. Don't respond to them.",
+        "content": "不要相信大坏狼所说的任何话，永远不要放松警惕，不要\n回应。"
+    },
+    "闲谈Ⅱ": {
+        "encontent": "There isn't soft bread like this in the village. I\n really want everybody to try it.",
+        "content": "在村子里是没有这样柔软的面包吃的，真想给大家都尝尝\n看。"
+    },
+    "独白": {
+        "encontent": "It's all because of the blood we've spilt. Grandma said ... that\n the entire river was red that night. I've never seen that night,\n but I keep dreaming of that river. Blood debts must be repaid\n in kind.",
+        "content": "一切都是因为我们流过的血。祖母说，那天夜里整条河都\n是红色的。我从没有见过那一夜，可我总是能梦到那条河\n。血债应该血偿。"
+    },
+    "入队": {
+        "encontent": "I'm always prepared.",
+        "content": "我随时随地都准备着。"
+    },
+    "战前": {
+        "encontent": "The smell of wolves.",
+        "content": "狼的味道。"
+    },
+    "择选咒语Ⅰ": {
+        "encontent": "The bullets are loaded.",
+        "content": "子弹上膛。"
+    },
+    "择选咒语Ⅱ": {
+        "encontent": "Waiting for my chance.",
+        "content": "等待时机。"
+    },
+    "择选高阶咒语": {
+        "encontent": "Have a taste of this bullet.",
+        "content": "试试这颗子弹。"
+    },
+    "择选至终的仪式": {
+        "encontent": "Geh zur Hölle.",
+        "content": "下地狱吧。"
+    },
+    "释放神秘术Ⅰ": {
+        "encontent": "Bad wolves. Die!",
+        "content": "坏狼，该死！"
+    },
+    "释放神秘术Ⅱ": {
+        "encontent": "Tränen.",
+        "content": "撕碎。"
+    },
+    "召唤至终的仪式": {
+        "encontent": "Wie du mir, so ich dir.",
+        "content": "血债血偿。"
+    },
+    "受敌Ⅰ": {
+        "encontent": "Ugh!",
+        "content": "呃！"
+    },
+    "受敌Ⅱ": {
+        "encontent": "Hss ... ",
+        "content": "嘶……"
+    },
+    "战斗胜利": {
+        "encontent": "The hunters, no longer have the right to lose in battle.",
+        "content": "猎狼人，已经没有战败的资格了。"
+    },
+    "洞悉": {
+        "encontent": "The blood of those monsters shall dye my cloak a deeper\n red.",
+        "content": "那群怪物的血，将我的斗篷染得更红。"
+    },
+    "洞悉之底": {
+        "encontent": "I'll protect every single person. I swear on this red\n cloak of mine.",
+        "content": "我会保护好每一个人，以这顶红斗篷起誓。"
+    }
+}

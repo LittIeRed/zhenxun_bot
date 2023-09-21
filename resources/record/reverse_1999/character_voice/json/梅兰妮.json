@@ -1,0 +1,130 @@
+{
+    "初遇": {
+        "encontent": "An unexpected encounter ... A room, a frame, and an old TV ...\n I need some time to figure out the situation here, approximately\n 12 minutes and 31 seconds ...",
+        "content": "计、计划外的相遇……房间、画框、古旧电视……我需要\n时间厘清状况，大概是12分31秒……"
+    },
+    "箱中气候": {
+        "encontent": "... The weather today is too normal. On such a wonderful\n day, I can't sniff out any traces of incidents.",
+        "content": "……无聊的天气。这种美妙的日子，没有任何“事件”的\n味道。"
+    },
+    "致未来": {
+        "encontent": "The content of Guidance on Security will be enriched.\n I am also glad to contribute to the revision.",
+        "content": "《安保指南》会越来越厚，我也很乐意为他们提供更丰富\n的修订意见。"
+    },
+    "孑立": {
+        "encontent": "... Ms. Acey, did you again replace my Bearnaise sauce and Sauce\n Velouté with Cheddar ...Those are the specialties I went all\n the way to get! [They tasted awful.]",
+        "content": "……艾西老师，我的伯那西酱和天鹅绒酱汁又被您换成了\n切达干酪……那是我好不容易到手的当地特产！【难吃。】"
+    },
+    "问候": {
+        "encontent": "Hmm? Can I help you ... Sorry, your visit was not on\n my plan so I am feeling a bit nervous ...",
+        "content": "嗯？有什么事吗……不好意思，你的造访属于计划外事项\n，所以我有一点慌张……"
+    },
+    "朝晨": {
+        "encontent": "Newspapers and TV channels would never miss out on any possible\n breaking news. So ... what we need is a seemingly authentic\n statement. Then the journalists amassing over will drive those\n security companies crazy.",
+        "content": "报纸与电视台向来不愿意错过任何可能发生的大新闻。所\n以……只需要一份似是而非的声明，蜂拥而至的记者们就\n足以让那些安保公司们焦头烂额。"
+    },
+    "信任-朝晨": {
+        "encontent": "Good, good ... This is exactly the same as I planned—I get up,\n enjoy breakfast, and have you sitting on my right-hand side.\n It's going to be a wonderful day.",
+        "content": "很好……一切都和我预想中的一样，起床一样，早餐一样\n，坐在我右侧进餐的你也一样。今天一定会是美好的一天\n。"
+    },
+    "夜暮": {
+        "encontent": "It was a normal night, I \"paid a visit\" to the legendary Foundation,\n even though I wasn't invited ... Frankly, their security traps\n are quite uniquely designed.",
+        "content": "在某个寻常的夜晚，我有幸“抵达”过传说中的基金会，以\n一种不太体面的方式……坦白说，里面的机关设计得相当\n独特。"
+    },
+    "信任-夜暮": {
+        "encontent": "I think I need more coffee to stay awake and be better inspired\n ... to take on my ... final assignment.... Professor Claire\n or Ms. Acey, which one of them is more dreadful ...",
+        "content": "我想我需要更多咖啡，用它们保持精神，试图激发更多灵\n感……来面对我的……期末作业。呼……克莱尔教授和艾\n西老师，究竟是哪一个更加可怕呢……"
+    },
+    "帽檐与发鬓": {
+        "encontent": "\"Well done. Please keep on.\" ... Aren't you going to\n say that?",
+        "content": "“做得很好，请继续努力。”……你不打算这么说吗？"
+    },
+    "袖与手": {
+        "encontent": "Ms. Acey barely talks. In silence she supports me,\n or poses challenges ...Unfortunately, the latter is\n more common.",
+        "content": "艾西老师很少说话，她总是默默地为我提供帮助，或是制\n造难题……遗憾的是，后者居多。"
+    },
+    "衣着与身形": {
+        "encontent": "People are always surprised at my identity as a thief\n ... Why? Is there a book providing them with a definition\n of what a thief should look like? ",
+        "content": "人们总对我的真实身份感到意外……难道他们手头上都有\n一本《盗贼认证指南》吗？"
+    },
+    "嗜好": {
+        "encontent": "It's not that I have to steal something ...For me, thievery is\n like solving a puzzle or proving a conjecture of security. They\n are always there waiting for me.",
+        "content": "我并非想要偷走什么……于我而言，这些就像是安保世界\n里未证明的猜想与难题，它们在等着我。"
+    },
+    "赞赏": {
+        "encontent": "Full mark ... Ahem, this is not a rate given by Ms.\n Acey, but by me.",
+        "content": "满分答案……咳、这并非艾西老师给出的评分，而是我给\n你的。"
+    },
+    "亲昵": {
+        "encontent": "Excuse me ... May I have a look at the gem on your\n neckband?Yeah, yeah, just taking a look at it ...",
+        "content": "请问……我可以看看你领口处的这枚宝石吗？当然，当然\n，我只是看看……"
+    },
+    "闲谈Ⅰ": {
+        "encontent": "Father was fond of collecting photos of himself and the assets\n entrusted to him for safekeeping. Those photos would always\n hit the headlines. He stayed high-profile and was such an idealist\n that made other people around him looked superficial and profit-hungry\n ... One after another, his peers and friends left him. Eventually,\n no one was there for him.",
+        "content": "父亲热衷于收集自己与保管品的合照，它们通常会被刊登\n在新闻头条上。他一直很高调，而且太过于理想化，便使\n得其他人看上去市侩……再后来，他的同行朋友越来越少\n。直到一个也没有。"
+    },
+    "闲谈Ⅱ": {
+        "encontent": "Dealing with journalists is not my forte. They always raise harsh\n questions and bring about suffocating topics, like my dissertation,\n my future plans, or my ambitions. Although I am good at making\n plans, these are too far away to think of ...",
+        "content": "我并不擅长应对媒体记者们，他们的问题太过苛刻，都是\n一些毕业论文、未来规划、人生理想之类的致命话题。我\n虽然擅长做计划，但我想，我还没有计划得那样遥远……"
+    },
+    "独白": {
+        "encontent": "Vengence is not doing justice, and I wanted nothing but to sort\n out the mysteries. Father died for his broken dream ... But\n it's gonna be fine now, for I can see his dream is reliving\n in me.",
+        "content": "复仇是无关正义的报复，而我只打算厘清错漏百出的故事\n结尾。父亲曾为自己破碎的梦想而死去……但没关系，我\n看见它正在我身上重生。"
+    },
+    "入队": {
+        "encontent": "Wait, give me ten more minutes ...",
+        "content": "等一等，再给我十分钟……"
+    },
+    "战前": {
+        "encontent": "Nothing unexpected ... for now.",
+        "content": "尚在计划之中……至少目前如此。"
+    },
+    "择选咒语Ⅰ": {
+        "encontent": "Plan A.",
+        "content": "PLAN A."
+    },
+    "择选咒语Ⅱ": {
+        "encontent": "Plan B.",
+        "content": "PLAN B."
+    },
+    "择选高阶咒语": {
+        "encontent": "Wait for ... 5 seconds.",
+        "content": "距离预定时间还有……5秒。"
+    },
+    "择选至终的仪式": {
+        "encontent": "The show's on, hounds.",
+        "content": "开幕了，“猎犬”们。"
+    },
+    "释放神秘术Ⅰ": {
+        "encontent": "An unconventional choice!",
+        "content": "非常规选项！"
+    },
+    "释放神秘术Ⅱ": {
+        "encontent": "Squeak squeak!",
+        "content": "咯吱咯吱！"
+    },
+    "召唤至终的仪式": {
+        "encontent": "Time waits for no one, even for a great thief.",
+        "content": "时机不等人，对怪盗也一样。"
+    },
+    "受敌Ⅰ": {
+        "encontent": "Ahh ...!",
+        "content": "呀……！"
+    },
+    "受敌Ⅱ": {
+        "encontent": "The plan failed ...!",
+        "content": "计划失误……！"
+    },
+    "战斗胜利": {
+        "encontent": "That went smooth.[Exactly.]",
+        "content": "相当顺利。【的确如此。】"
+    },
+    "洞悉": {
+        "encontent": "Did you See that! The story of Ramirez continues.",
+        "content": "看到了吗？拉米雷斯的故事仍在继续。"
+    },
+    "洞悉之底": {
+        "encontent": "Next, next, next. Show me the next question.",
+        "content": "下一题。下一题。下一题。再下一题。"
+    }
+}

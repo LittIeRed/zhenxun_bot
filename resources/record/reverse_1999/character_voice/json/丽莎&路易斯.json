@@ -1,0 +1,126 @@
+{
+    "初遇": {
+        "encontent": "Hello, I'm Lisa (Louise)!",
+        "content": "你好，我是丽莎/路易斯！"
+    },
+    "箱中气候": {
+        "encontent": "Wanna play dodgeball with Lisa (Louise)?",
+        "content": "想要和丽莎/路易斯一起出去玩躲避球吗？"
+    },
+    "致未来": {
+        "encontent": "Um ... I hate changes.",
+        "content": "呃……我讨厌变化。"
+    },
+    "孑立": {
+        "encontent": "It's okay, it's okay. Let's play together. ",
+        "content": "没关系，没关系，让我们一起来玩游戏。"
+    },
+    "问候": {
+        "encontent": "Are you here for Lisa or Louise (Louise or Lisa)?",
+        "content": "你是来找丽莎/路易斯的，还是丽莎/路易斯？"
+    },
+    "朝晨": {
+        "encontent": "There are two pats of butter on mommy's pancake. There\n are two glasses of orange juice on the table. Mommy\n is a good mommy. I love my mommy.",
+        "content": "妈咪的煎饼上有两片黄油，桌上的橙汁有两杯。妈咪是一\n个好妈咪，我爱我的妈咪。"
+    },
+    "信任-朝晨": {
+        "encontent": "Do you want some orange juice? Make it 3 and stay with\n us forever. ",
+        "content": "你想让橙汁变成三杯吗？你可以永远和我们在一起。"
+    },
+    "夜暮": {
+        "encontent": "Daddy is home. Sometimes he's home early, sometimes\n late. Most of the time he will bring us gifts. Daddy\n is a good daddy. I love my daddy.",
+        "content": "爸爸已经到家了。他有时回来得晚，有时回来得早，许多\n时候，都会带来礼物。爸爸是一个好爸爸，我爱我的爸爸\n。"
+    },
+    "信任-夜暮": {
+        "encontent": "No, no! I don't want to brush my teeth!",
+        "content": "不，不！我不喜欢刷牙！"
+    },
+    "帽檐与发鬓": {
+        "encontent": "Scrunchies, clips, golden hair, good daughters, cute\n daughter! Hahaha!",
+        "content": "发带，发卡，金头发，好女儿～可爱的女儿～哈哈哈～"
+    },
+    "袖与手": {
+        "encontent": "Rock paper scissors! Rock paper scissors! I win!",
+        "content": "石头，剪刀，布！石头，剪刀，布！我赢啦！"
+    },
+    "衣着与身形": {
+        "encontent": "I get taller now!",
+        "content": "我又长高了！"
+    },
+    "嗜好": {
+        "encontent": "Alright! There is only one thing I don't like, but\n I can't remember what it is!",
+        "content": "好吧！我不喜欢的东西只有一点，但我也想不起那是什么\n了！"
+    },
+    "赞赏": {
+        "encontent": "This little thing is for you. It can move and make\n noises.Squeak! Kiki! Hahahaha!",
+        "content": "这个小东西送给你。它还会动，也会发声。吱吱！唧唧！哈\n哈哈～"
+    },
+    "亲昵": {
+        "encontent": "How can people just show up whenever I want to play?Is\n it the same for you?",
+        "content": "当我想玩游戏的时候，大家自然会来到我身边。你也会这\n样吗？"
+    },
+    "闲谈Ⅰ": {
+        "encontent": "All work, no play, makes Jack a dull boy.",
+        "content": "只工作，不玩耍，聪明孩子也变傻。"
+    },
+    "闲谈Ⅱ": {
+        "encontent": "Dave used to be bad! He is strong, loud and he bullies\n others. But, one day he became a good boy.Now, he\n is our best friend!",
+        "content": "戴夫惹人讨厌！他力气大，声音响，粗鲁地欺负人。但，有\n一天他突然就长成了好男孩。现在，他是我们最好的朋友\n！"
+    },
+    "独白": {
+        "encontent": "I don't want to be alone. Luckily I'm never alone.",
+        "content": "我不想独自一个人。还好我从来都不是一个人。"
+    },
+    "入队": {
+        "encontent": "I wanna go, I wanna go too!",
+        "content": "我也要去，我也要去！"
+    },
+    "战前": {
+        "encontent": "New friends.",
+        "content": "新朋友们。"
+    },
+    "择选咒语Ⅰ": {
+        "encontent": "Catch them catch them!",
+        "content": "抓起来抓起来～！"
+    },
+    "择选咒语Ⅱ": {
+        "encontent": "Haha!",
+        "content": "哈哈～"
+    },
+    "择选高阶咒语": {
+        "encontent": "Shiny shiny!",
+        "content": "闪亮闪亮的！"
+    },
+    "择选至终的仪式": {
+        "encontent": "Try something funnier!",
+        "content": "试试更好玩的东西吧！"
+    },
+    "释放神秘术Ⅰ": {
+        "encontent": "You are a bad guy!",
+        "content": "你是坏家伙！"
+    },
+    "释放神秘术Ⅱ": {
+        "encontent": "Where could you be?",
+        "content": "你藏好了吗～？"
+    },
+    "召唤至终的仪式": {
+        "encontent": "Now you have a friend to play with you too!",
+        "content": "现在你也有朋友陪你一起玩啦～"
+    },
+    "受敌Ⅰ": {
+        "encontent": "Ouch!",
+        "content": "哎哟！"
+    },
+    "受敌Ⅱ": {
+        "encontent": "Whoaaa—!",
+        "content": "哇——！"
+    },
+    "战斗胜利": {
+        "encontent": "Well done, Lisa (Louise)!",
+        "content": "丽莎/路易斯，做得好。"
+    },
+    "洞悉": {
+        "encontent": "Thank you for your gift!",
+        "content": "谢谢你的礼物～"
+    }
+}

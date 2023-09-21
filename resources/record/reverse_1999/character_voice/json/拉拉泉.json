@@ -1,0 +1,126 @@
+{
+    "初遇": {
+        "encontent": "Have you heard that story? A magical golden lamp, rub it 3 times\n and there was a genie, who can satisfy all your wishes?  Yes\n you say? Well then, go to that guy instead!",
+        "content": "你听说过那个传说吗？一个神秘的金色神灯，只要摩擦三\n下就会有个精灵出来满足你的所有愿望？听过？听过就对\n了，去找那家伙吧！"
+    },
+    "箱中气候": {
+        "encontent": "It is said in a foggy day, there will be ... a faceless\n ghost～ Ha! Haha haha.",
+        "content": "传说在这样的大雾天，就会出现没有脸的幽灵～……哇！……嘻\n哈哈哈～"
+    },
+    "致未来": {
+        "encontent": "People always toss coins and talk about their future\n wishes ...  So why don't they start it right now?",
+        "content": "乱丢硬币的人们总念叨着以后的打算。——那为什么不从\n现在开始就多动动手呢？"
+    },
+    "孑立": {
+        "encontent": "If you come back now, you will hear my weird wish collection!\n  Hey ... are you there?",
+        "content": "如果你现在回来，就能听到我收集起来的奇怪愿望合集咯\n——！嘿——你在吗？"
+    },
+    "问候": {
+        "encontent": "First, just to be sure, you didn't bring any coins,\n did you?",
+        "content": "先确认一下，你身上没带着硬币吧？"
+    },
+    "朝晨": {
+        "encontent": "Birdie ... birdie, talk to me. ... Though I don't understand\n a word.",
+        "content": "鸟儿啊，与我交谈吧～……虽然我完全听不懂你们在叫什\n么。"
+    },
+    "信任-朝晨": {
+        "encontent": "Ah ... Morning morning! Nice, finally wasn't woken\n up by any coins.",
+        "content": "啊，早上好呢！真不错，今天总算不是被硬币砸醒的。"
+    },
+    "夜暮": {
+        "encontent": "OK, that's all for today's spring visit. Go home, people!\n You are dismissed! ",
+        "content": "好了，今天参观喷泉的时间到此结束，都散了吧。"
+    },
+    "信任-夜暮": {
+        "encontent": "I can't sleep yet ... Who knows if the daydreamers will come\n back?  ... Just like this. Whoosh! And the coin falls into the\n jar! You have to protect me!",
+        "content": "我还不能睡觉……谁知道那些做白日梦的家伙还会不会再\n来？……像这样，嗖——硬币就突然飞进了罐子！你……你\n可要保护好我啊！"
+    },
+    "帽檐与发鬓": {
+        "encontent": "Sacrilegious! ... Isn't it?",
+        "content": "这属于亵渎神明的行为！……难道不算吗？"
+    },
+    "袖与手": {
+        "encontent": "So, why am I holding a jar?",
+        "content": "所以说，我为什么要举着这个罐子呢？"
+    },
+    "衣着与身形": {
+        "encontent": "Hey!! It tickles! Don't do that!",
+        "content": "哇！好痒，别碰我！！"
+    },
+    "嗜好": {
+        "encontent": "People always make up those stories: they've met angels,\n their dreams come true ...  Unfortunately, it's me\n they've met!",
+        "content": "人们总爱编造那些遇见天使实现心愿的事……但是很遗憾\n，他们遇见的——是我！"
+    },
+    "赞赏": {
+        "encontent": "Well done! I'll give you my permission to wash your\n hands in this jar ... once only!",
+        "content": "做得真好，我允许你在我的陶罐里洗手，就一次！"
+    },
+    "亲昵": {
+        "encontent": "I've heard girls on the outside world wear fashionable\n clothes ... May I have a try?",
+        "content": "听说外面世界的女孩会穿时髦的衣服，我也可以穿穿看吗\n？"
+    },
+    "闲谈Ⅰ": {
+        "encontent": "Hey, the Arcanum water purification unit ... You mentioned\n it before ...  What is it?",
+        "content": "嘿，你之前说的那个……神秘学流动净水装置，是，是什\n么呀……"
+    },
+    "闲谈Ⅱ": {
+        "encontent": "There once was a very kind guy. He took away my coins,\n here, one by one carefully ...  Wait, that's the so-called\n thief? What ... ",
+        "content": "我遇到过一个很有公德心的人。他把我罐子里的硬币一个\n个细心地捡走了……你说那叫做小贼？啊——"
+    },
+    "独白": {
+        "encontent": "What's in the jar, you ask? Gold, jewelry, pine cones\n ...? No no no, there is and there always is, spring\n water.",
+        "content": "陶罐里有什么呢？金币、珠宝、松果……不，陶罐里有的\n，始终只是泉水而已～"
+    },
+    "入队": {
+        "encontent": "Hee hee, I got the whole jar of water.",
+        "content": "嘻嘻～一大罐子水都能派上用场了～"
+    },
+    "战前": {
+        "encontent": "I can also grant my enemies' wishes ... in my own way!",
+        "content": "敌人的愿望我也可以实现，用我高兴的方式！"
+    },
+    "择选咒语Ⅰ": {
+        "encontent": "Fine ... ",
+        "content": "好吧。"
+    },
+    "择选咒语Ⅱ": {
+        "encontent": "Made up your mind?",
+        "content": "你想好了？"
+    },
+    "择选高阶咒语": {
+        "encontent": "I hear your wish.",
+        "content": "我听到你的愿望啦。"
+    },
+    "择选至终的仪式": {
+        "encontent": "Whoa ... like a fountain!",
+        "content": "哇哦，喷发如泉涌！"
+    },
+    "释放神秘术Ⅰ": {
+        "encontent": "Oh, you deserve it!",
+        "content": "哦，你们活该！"
+    },
+    "释放神秘术Ⅱ": {
+        "encontent": "Thank my water!",
+        "content": "感谢我的慷慨吧～"
+    },
+    "召唤至终的仪式": {
+        "encontent": "No! More! Wishes! To! Me!",
+        "content": "不！要！再！来！许！愿！了！"
+    },
+    "受敌Ⅰ": {
+        "encontent": "It's gonna break ... It's gonna break ... ",
+        "content": "要碎了，要碎掉了！"
+    },
+    "受敌Ⅱ": {
+        "encontent": "Aw ... ",
+        "content": "呜——"
+    },
+    "战斗胜利": {
+        "encontent": "The triomphe of the wise La Source for sure!",
+        "content": "当然是智慧的泉中聆听者大～获～全～胜～"
+    },
+    "洞悉": {
+        "encontent": "The jar gets heavier ... or lighter? It's heavy and\n light! So weird ... I don't get it!!",
+        "content": "罐子都变重了呢……不，还是变轻了？又轻又重！真奇怪\n啊——我想不通了！！"
+    }
+}

@@ -27,3 +27,8 @@ PluginCountLimit:
     status: true
     limit_type: group
     rst: 真寻的金兔子用光了，明天再来吧
+  character_voice:
+    max_count: 50
+    status: true
+    limit_type: group
+    rst: 今日语音放送完毕，明天再来吧~

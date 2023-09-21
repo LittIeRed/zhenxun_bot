@@ -1,0 +1,130 @@
+{
+    "初遇": {
+        "encontent": "Silence.Speak. From whence dost thou hail and what\n is thy purpose?",
+        "content": "肃静。申告吧。你因何而来，意欲何为？"
+    },
+    "箱中气候": {
+        "encontent": "The flames of injustice are yet to burn at the stake\n on rainy days. All is not yet lost.",
+        "content": "在雨天，火刑柱下不公的火焰尚未被点燃，一切都还来得\n及。"
+    },
+    "致未来": {
+        "encontent": "There are numerous injustices in the world. The law\n cannot prevail over power, but there shalt eventually\n be a sword sharp enough to cut it down.",
+        "content": "世上不义之事多有，律法不敌权势，终有利剑将其斩落。"
+    },
+    "孑立": {
+        "encontent": "Silence.",
+        "content": "请保持安静。"
+    },
+    "问候": {
+        "encontent": "Speak.",
+        "content": "说。"
+    },
+    "朝晨": {
+        "encontent": "Oh? Thou art early.I think thou were like those lords\n ... No, 'tis of no concern.",
+        "content": "嗯？你来得很早。我原以为你也和那些领主一样……不，没\n什么。"
+    },
+    "信任-朝晨": {
+        "encontent": "There is much to be done today. I will be on my way\n after greeting thee.",
+        "content": "今日事务忙碌，在此和你打过招呼后，我就要走了。"
+    },
+    "夜暮": {
+        "encontent": "The trial today hath ended. Was it fair? Certainly.",
+        "content": "今天的庭审结束了。公正？当然。"
+    },
+    "信任-夜暮": {
+        "encontent": "Everything I doth ... is so I may enjoy this calm wind\n on nights like this, rather than hear the sorrowful\n cries and moans of unhappiness.",
+        "content": "我所做的这一切……是为了在这样的夜晚享受宁静的风声\n，而非聆听不甘的悲泣与哀嚎。"
+    },
+    "帽檐与发鬓": {
+        "encontent": "Thou art overstepping my boundaries, arcanist.",
+        "content": "你僭越了，神秘学家。"
+    },
+    "袖与手": {
+        "encontent": "If a greedy hand commits a crime, it shalt be cut off.",
+        "content": "贪婪的手掌犯罪，便斩其手掌。"
+    },
+    "衣着与身形": {
+        "encontent": "This body is a representation of justice. Laziness\n is not permitted.",
+        "content": "此身即为公正的代表，容不得半点怠惰。"
+    },
+    "嗜好": {
+        "encontent": "The idle chatter of the people is entertaining, but 'tis more\n entertaining that they are always the first to know about the\n corrupt behavior of nobles.",
+        "content": "与村民们闲话家常是一件趣事，但更有趣的是，他们总会\n第一时间知道又有哪位大人在贪赃枉法。"
+    },
+    "赞赏": {
+        "encontent": "We seem to be on a similar path. Keep going, o' ...\n friend of mine.",
+        "content": "我们似乎走上了相似的道路，继续前行吧，我的……朋友\n。"
+    },
+    "亲昵": {
+        "encontent": "Those who hurt others shalt eventually be the ones dripping with\n blood. Makers of injustice shalt be visited by justice.I have\n seen the righteous wielding much power fall to it.When I succumb,\n do not be merciful.",
+        "content": "让人流血者终将鲜血流淌，创造不公者终将被公义造访。我\n见过许多手握权力的正直者终究沉沦于权力。当我面临那\n一天时，请你不要心慈手软。"
+    },
+    "闲谈Ⅰ": {
+        "encontent": "Thou cannot trust those greedy gents to abide by the\n law. Thou must pick up thy sword, hold it to their\n throats, and the law can then prevail.",
+        "content": "你不能寄望于那群贪婪的家伙遵守法律。你应该拿起你的\n剑，架住他们的喉头，由此法律便生效了。"
+    },
+    "闲谈Ⅱ": {
+        "encontent": "They cried bitterly afore the trial, then threw a handful\n of fine salt at me ... Next? They repented by apologizing\n profusely.",
+        "content": "那些家伙们在临刑前痛哭流涕，朝我的肩上撒上一把精磨\n细盐……后来？他们忏悔的说辞大概又多了几条。"
+    },
+    "独白": {
+        "encontent": "There shall always be those who think themselves above others\n and ensure it with their power, wealth and wickedness. If they\n keep the commandment of the strong judging the weak, they should\n not have complaints.",
+        "content": "总有人以权力、以财富、以恶毒的手段，凌驾于其他生命\n之上。如果他们接受更强者裁决更弱者的戒律，在面对我\n时就不应有抱怨。"
+    },
+    "入队": {
+        "encontent": "Silence.",
+        "content": "肃静。"
+    },
+    "战前": {
+        "encontent": "This trial is mine to judge.",
+        "content": "这场审判，由我担任审判长。"
+    },
+    "择选咒语Ⅰ": {
+        "encontent": "A tooth for a tooth.",
+        "content": "以牙还牙。"
+    },
+    "择选咒语Ⅱ": {
+        "encontent": "An eye for an eye.",
+        "content": "以眼还眼。"
+    },
+    "择选高阶咒语": {
+        "encontent": "Atop the scale of justice.",
+        "content": "置于天平之上。"
+    },
+    "择选至终的仪式": {
+        "encontent": "Off thou go.",
+        "content": "去吧。"
+    },
+    "释放神秘术Ⅰ": {
+        "encontent": "Pay for thy sins with thy blood.",
+        "content": "以血赎罪。"
+    },
+    "释放神秘术Ⅱ": {
+        "encontent": "Noble or lowly, sin shall be punished.",
+        "content": "不殊贵贱，一断于法。"
+    },
+    "召唤至终的仪式": {
+        "encontent": "Thou shalt make an atonement for thy sins in full.",
+        "content": "你将足尝恶行带来的苦果。"
+    },
+    "受敌Ⅰ": {
+        "encontent": "Resistance is futile!",
+        "content": "愚蠢的抵抗！"
+    },
+    "受敌Ⅱ": {
+        "encontent": "Ugh!",
+        "content": "呃！"
+    },
+    "战斗胜利": {
+        "encontent": "Using troops? Pfft. ",
+        "content": "拥兵自重？哼。"
+    },
+    "洞悉": {
+        "encontent": "Trials are akin to flames.",
+        "content": "审判正如焰火。"
+    },
+    "洞悉之底": {
+        "encontent": "It concerns me that I can imagine how it feels to be\n in a position of power.",
+        "content": "那些高高在上的家伙们，我竟有一瞬的感同身受。"
+    }
+}

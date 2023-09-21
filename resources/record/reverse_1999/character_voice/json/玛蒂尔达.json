@@ -1,0 +1,130 @@
+{
+    "初遇": {
+        "encontent": "Hey, why are you here? ... Wait, does it mean Sonetto\n is also ... ",
+        "content": "喂，你为什么会在这里？！……等等，这是不是说明十四\n行诗也……"
+    },
+    "箱中气候": {
+        "encontent": "The glorious sun, as bright as Matilda! Huh, any problem?",
+        "content": "美妙的太阳，就像玛蒂尔达一样耀眼的太阳！怎么？你有\n意见吗？"
+    },
+    "致未来": {
+        "encontent": "The Great Matilda will become the Foundation's best on-site investigator\n ever. Together with her assistant Sone ... they will excel at\n all missions assigned.",
+        "content": "伟大的玛蒂尔达同学将成为基金会历史上最好的外派调查\n员，和她的助手十四一起，出色地完成了所有的任务。"
+    },
+    "孑立": {
+        "encontent": "Matilda is now available. Feel free to ask her anything\n ... Ahem! Did you hear me?",
+        "content": "玛蒂尔达现在很有空，你有什么问题都可以来问她了……咳\n咳！听到了吗？"
+    },
+    "问候": {
+        "encontent": "Knock first! Now walk out and wait till I say \"Come\n in please\"!",
+        "content": "进门之前，请先敲门！退出去再来一次，等我说“请进”之\n后再进来！"
+    },
+    "朝晨": {
+        "encontent": "You have no taste in food. Say, baguette tastes fabulous\n only with Beurre maitre d'hotel. Watch me and learn,\n come on!",
+        "content": "你们对食物缺乏灵感，比方说，法式面包只有配上蒜香黄\n油，才能发挥出美妙的香气。看看我是怎么做的，来！"
+    },
+    "信任-朝晨": {
+        "encontent": "The silk scarf kinda fits your shirt. Nice. Please maintain the\n great taste for lifestyle and always keep in mind that you are\n working with the monitor assistant Matilda!",
+        "content": "今天这条丝巾很衬你的衬衫，选得好。请继续保持这样高\n品位的生活方式，时刻谨记你可是在与协助教员玛蒂尔达\n同行！"
+    },
+    "夜暮": {
+        "encontent": "Bougies parfumées, thym, sauge ... Super. Décoration\n terminée.  Oh boule de crystal, montre-moi l'avenir,\n s'il te plaît ... ",
+        "content": "熏香蜡烛、百里香、鼠尾草……很好，布置完成了。水晶\n球啊，请给予我答案……"
+    },
+    "信任-夜暮": {
+        "encontent": "Matilda is of course the best. Huh. She's even the\n first one who gets into bed!",
+        "content": "玛蒂尔达当然是第一名，哼哼，就连睡觉，也是第一个钻\n进床铺的！"
+    },
+    "帽檐与发鬓": {
+        "encontent": "Listen, if you have anything unclear, come to the Great\n Matilda. No matter arcanum or things in the outside\n world, Matilda is omniscient.",
+        "content": "听好了，假如你有什么不懂的问题，都可以来问了不起的\n玛蒂尔达。不管是神秘学还是外面的世界，我都无所不知\n，无所不晓！"
+    },
+    "袖与手": {
+        "encontent": "Si douce, si délicate comme un doux rêve ... ses mains\n sont comme de la barbe à papa ... What ... what are\n you looking at! You didn't hear anything!",
+        "content": "又光滑，又柔软，在梦里……她的手就像棉花糖……看，看\n我做什么！你什么都没听到！"
+    },
+    "衣着与身形": {
+        "encontent": "Don't get carried away! I am the monitor assitant!\n Someday ... someday Sonetto will become my assistant\n ... ",
+        "content": "你不要太得意！我现在也是协助教员了！早晚——早晚十\n四行诗会过来当我的助手……"
+    },
+    "嗜好": {
+        "encontent": "Sonetto? Why do you suddenly mention that annoying\n gal? Ahem, listen, the best student could only be\n me! I will definitely best her!",
+        "content": "十四行诗？你怎么突然提起那个讨厌的家伙了？咳咳，听\n好了，第一名只能是我，她迟早会被我打败。"
+    },
+    "赞赏": {
+        "encontent": "The Great Monitor Matilda highly recognizes you. And\n you ... can be really proud of that.",
+        "content": "伟大的教员玛蒂尔达，给予了你高度的赞扬……而你，大\n可以对此感到自豪。"
+    },
+    "亲昵": {
+        "encontent": "Huh, the best student Matilda kindly offers you, the\n worst student, the honor to hang out with her ...\n Enjoy.",
+        "content": "哼，第一名的玛蒂尔达，给了垫底的你与她一起出去玩的\n荣誉……尽管高兴吧。"
+    },
+    "闲谈Ⅰ": {
+        "encontent": "Why are you so very special? Why is Sonetto willing\n to be your assistant? You were my subordinate when\n we were at school!",
+        "content": "你究竟有什么不一样的地方呢？十四行诗为什么甘心当你\n的助手？明明在学校的时候你是我的“下级”才对！"
+    },
+    "闲谈Ⅱ": {
+        "encontent": "The nature of divination is deduction based on reality\n ... It is not always correct, but I surely am.",
+        "content": "占卜的本质是基于现行一切的推演……它并非永远正确，只\n不过，我总是对的。"
+    },
+    "独白": {
+        "encontent": "It's dangerous to be a foreteller. My mum used to hold my hands\n and tell me that I'll be free from danger only if I've taken\n complete command of foreseeing.  I didn't understand her but\n luckily I was always the best student. Jusqu'à, jusqu'à ...\n ",
+        "content": "预言是一个危险的能力，妈妈拉着我的手说我必须完全掌\n握它，才能不为自己带来危险，我不明白她的意思，但好\n在我总是第一名。直到，直到……"
+    },
+    "入队": {
+        "encontent": "Anyone else? ... Is ... she ... here?",
+        "content": "只有我吗？……她……在吗？"
+    },
+    "战前": {
+        "encontent": "Time to present the marvelous Matilda Bouanich!",
+        "content": "让他们领教一下玛蒂尔达·布翁尼小姐的能力！"
+    },
+    "择选咒语Ⅰ": {
+        "encontent": "I know how to do it.",
+        "content": "我知道怎么做。"
+    },
+    "择选咒语Ⅱ": {
+        "encontent": "Don't tell me what to do.",
+        "content": "别命令我。"
+    },
+    "择选高阶咒语": {
+        "encontent": "The best, the greatest, Matilda!",
+        "content": "最棒的，最好的，玛蒂尔达！"
+    },
+    "择选至终的仪式": {
+        "encontent": "I can see, I am able to see clearly ... ",
+        "content": "我能看见，我能够很清楚地看见……"
+    },
+    "释放神秘术Ⅰ": {
+        "encontent": "Hey, witness me!",
+        "content": "喂，看好了！"
+    },
+    "释放神秘术Ⅱ": {
+        "encontent": "This is your gloomy fate!",
+        "content": "该尝尝苦头了！"
+    },
+    "召唤至终的仪式": {
+        "encontent": "Your fate is doomed!",
+        "content": "你的命运已然注定！"
+    },
+    "受敌Ⅰ": {
+        "encontent": "Zut! ",
+        "content": "见鬼！"
+    },
+    "受敌Ⅱ": {
+        "encontent": "Merde!",
+        "content": "可恶！"
+    },
+    "战斗胜利": {
+        "encontent": "Vive la France, Vive la Matilda! Ha ha!",
+        "content": "法兰西万岁，玛蒂尔达万岁，哈哈～"
+    },
+    "洞悉": {
+        "encontent": "Huh, far from enough ... ",
+        "content": "哼，还差得远呢……"
+    },
+    "洞悉之底": {
+        "encontent": "Aujourd'hui, Matilda la surdouée domine le monde entier\n ... en tant que meilleure élève.",
+        "content": "天才的玛蒂尔达，于今天让世界臣服在她的脚下……以第\n一名的成绩。"
+    }
+}

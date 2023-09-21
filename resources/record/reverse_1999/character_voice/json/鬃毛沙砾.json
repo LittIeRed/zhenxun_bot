@@ -1,0 +1,74 @@
+{
+    "初遇": {
+        "encontent": "Huh, what is this place? Tsk-tsk, the serene lake, and the clear\n horizon at the end of the vast treeless plain ... I would have\n thought I was back in the good old mountains if I didn't see\n you here. Alright, do you mind showing me around, my grave-looking\n friend?",
+        "content": "嚯，这是什么地方？啧啧，静谧的湖泊，辽阔无人的天际\n线，要不是看到你这小家伙，我差点以为回到了熟识的老\n地方——行吧，希望你能带我四处逛逛，我严肃的朋友！"
+    },
+    "箱中气候": {
+        "encontent": "See that? On rainy days, this is how you get yourself\n an enormous wild boar on the glass with moderate effort!",
+        "content": "看到了没？这天气，只需要稍微用点力气，你就能在玻璃\n窗上画出一只硕大无朋的野猪！"
+    },
+    "致未来": {
+        "encontent": "Future is a perennial topic threaded throughout our\n lives ... I have been chasing after mine for 40 years,\n yet it was never the right one.",
+        "content": "未来的话题总是贯穿人生始终……我为此追逐了四十余年\n，它也始终不曾到来。"
+    },
+    "孑立": {
+        "encontent": "When you take a nap, always keep your ears to the ground\n and the leaves ... The bear cub walks like drums,\n and pheasant like flutes.",
+        "content": "打盹的时候，你得留神树叶与土地的声音……熊崽子的脚\n步声浑厚有力，而雉鸡更为轻盈。"
+    },
+    "问候": {
+        "encontent": "Well, well, I heard your footsteps when you rounded\n the corner ... Anything I can help you with?",
+        "content": "当然，当然，你路过拐角的时候我就听出来了……有什么\n需要帮忙的吗？"
+    },
+    "朝晨": {
+        "encontent": "Eeh, wanna have some yak butter tea? If this is your first time\n trying this, I'd suggest that you not smell it before you drink\n it. No no, it tastes good, except for that special odor, haha\n ... You'll learn to love it once you're used to it!",
+        "content": "哦，我说，你要不要来尝尝牦牛奶茶？要是第一次喝，你\n得捂上鼻子。唔，别怕，倒也不难喝，就是膻味怪大的，哈\n哈……喝习惯了就成！"
+    },
+    "信任-朝晨": {
+        "encontent": "Take your time, my friend, there is no need to race\n against the clock. Everything happens in its own time.",
+        "content": "慢慢来，朋友，时间永远跟在我们屁股后头。"
+    },
+    "夜暮": {
+        "encontent": "Help yourself to the tandoori chicken, cinnamon-spiced lamb soup,\n and lamb biryani. The chickpea curry, chickpea roll and chickpea\n & pumpkin stew are for the Buddhist vegetarian.",
+        "content": "唐杜里鸡、肉桂汤与山羊饭属于每一位食客，而鹰嘴豆咖\n喱、鹰嘴豆卷与鹰嘴豆炖南瓜属于清修徒。"
+    },
+    "信任-夜暮": {
+        "encontent": "I remember the first time I saw my teacher dance. The villagers\n said the dance would rid them of illness and evil spirits and\n lend them health and happiness. The heat from the bonfire distorted\n my vision ... And I no longer saw the dance, but a fierce fight\n between a brown bear and a snow leopard.",
+        "content": "我仍记得第一次观摩师父跳舞，村民们说那舞蹈可以驱邪\n治病，疗愈安康。隔着篝火，一切都被温度扭曲——而我\n却看到，师父的身上，棕熊和雪豹在搏斗。"
+    },
+    "帽檐与发鬓": {
+        "encontent": "Interested in this mask? Here, I have all sorts of them in different\n shapes and patterns. They are the source of my power and as\n important to me as your wands to you. They witnessed my rebirth\n as a Shaman.",
+        "content": "你对我的面具感兴趣？瞧，它们样貌各异，是我汲取力量\n的媒介，就像是术杖一般重要。毕竟，它们见证了一个萨\n满的诞生。"
+    },
+    "袖与手": {
+        "encontent": "I once thought this is a price I paid for being weak ... But\n now I see it as a medal of bravery. I mean ... look at it! It's\n so much cooler than the other arm!",
+        "content": "我曾认为这是因弱小而付出的代价……而如今我把它当作\n勇士的勋章——我是说……你瞧！它明显比右边那个酷多\n了！"
+    },
+    "衣着与身形": {
+        "encontent": "The deepest cut on my back was inflicted by a wolf cub, took\n me two months to ease the pain. Never underestimate the wolf\n pup, it can be more fierce than its parents, no less.",
+        "content": "背上这条最深的伤口是被一只小狼崽咬的，疼了我两个月\n。可别小瞧幼狼，它比它的父母都要凶悍。"
+    },
+    "嗜好": {
+        "encontent": "My life here is quite similar to the time when I studied and\n meditated in the mountains. Living in solitude, dealing with\n dangerous critters, and the unpredictable mischief-makers ...\n How confusing yet exciting this is! Life can't get better!",
+        "content": "这儿的一切都与那段在山麓修行的日子十分接近，离群索\n居的生活，危险的魔精，难以预料的捣乱分子……令人一\n头雾水又斗志昂扬，实在是太精彩了！"
+    },
+    "赞赏": {
+        "encontent": "Look at your wise and clear eyes, the strong and agile movements,\n the considerable professional experience, and the composed character\n ... though I think the composure appears too soon on you at\n this age, I'm deeply amazed by what you have achieved!",
+        "content": "智慧而清澈的瞳孔，矫健而敏捷的四肢，以及丰富的经验\n与成熟的人格——尽管我认为后者过早地出现在了你身上\n，但我仍为你拥有的这一切而赞叹！"
+    },
+    "亲昵": {
+        "encontent": "Raise your hand, clench your fist, then hold up your\n index finger and the middle finger, keep your thumb\n out, and waggle, waggle ... Look! A wolf cub!",
+        "content": "抬起手，握拳，伸出食指与中指，接着有规律地活动它们\n……嘿，看！你也得到一只活泼的小狼崽子了！"
+    },
+    "闲谈Ⅰ": {
+        "encontent": "It's hard to imagine that you people can learn so much\n from that hissing metal box. Even the most forbidden\n shamanistic ritual can't achieve this.",
+        "content": "真令人难以相信，人们居然能从那个滋滋作响的金属盒子\n里了解一切，再禁忌的萨满巫术也没法做到这一点。"
+    },
+    "闲谈Ⅱ": {
+        "encontent": "Kumar is hardly a good sister, but neither am I a good\n brother to her ... so we're cool!",
+        "content": "库玛尔称不上是个好姐姐，当然，我也算不上合格的弟弟\n……我俩扯平了！"
+    },
+    "独白": {
+        "encontent": "Twenty years is a long time. It ebbs one's hostility and immaturity,\n but also takes away almost everything one once owned. Fortunately,\n I got through it and find myself at the end.",
+        "content": "二十年是一段漫长的岁月，它让你洗去青涩、敌视——以\n及曾经所拥有的一切。但值得庆幸的是，我总算成为了我\n自己。"
+    }
+}

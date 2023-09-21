@@ -1,0 +1,126 @@
+{
+    "初遇": {
+        "encontent": "Hi hi, I'm here. I'm aliEn T, a peace-loving visitor\n from outer space.",
+        "content": "嗨，嗨，我在这里。我是星之眼，一名热爱和平的域外访\n客。"
+    },
+    "箱中气候": {
+        "encontent": "Increasing humidity and decreasing visibility detected.\n  My friend, what's happening? You have to tell me\n about this please.",
+        "content": "检测到周围湿度上升，能见度下降。我的朋友，这是发生\n了什么事情？请一定要告诉我。"
+    },
+    "致未来": {
+        "encontent": "I don't think you should worry about the future, as\n long as our plan is going to work ... ",
+        "content": "我不认为你们需要担心未来的事儿，如果我们的计划能实\n现的话……"
+    },
+    "孑立": {
+        "encontent": "WHEN! DO! YOU! GET! ME! BACK!  I'm so done with it, and I'm telling\n you, you blue jelly feather birdy tail,  screw your nebula office\n process ... I'M DONE WITH IT!",
+        "content": "你们！到底！什么时候！才会来接我回去？！我受够了，我\n再告诉你一次你这个蓝果冻羽毛鸟尾巴。去你的星云办公\n流程——我已经受！够！了！！"
+    },
+    "问候": {
+        "encontent": "... Oh, hey! My dear friend!",
+        "content": "……哦，嘿！我亲爱的朋友！"
+    },
+    "朝晨": {
+        "encontent": "Another morning, and the night follows it. That's the\n reason why trees and grass grow. Said to me a lady\n in a gown.",
+        "content": "又是一个清晨，与夜交替。植物因此而生长，这是一位穿\n长裙的小姐告诉我的。"
+    },
+    "信任-朝晨": {
+        "encontent": "Today you are 27 minutes and 35 seconds later than\n usual.  Oh it's okay my dear friend, you do need more\n sleep.",
+        "content": "今天的你比平日晚起了27分钟35秒。噢，没关系的，我\n亲爱的朋友，你的确需要更多休息。"
+    },
+    "夜暮": {
+        "encontent": "It's detected that, people at this time of the day are having\n their most intense emotional fluctuations.  Thus it's extremely\n difficult to verify the authenticity of their statements.",
+        "content": "经检测，这一时间段的人们正处于情感波动最剧烈的阶段\n。发言真实性的判断难度极高。"
+    },
+    "信任-夜暮": {
+        "encontent": "The data I've collected shows that some people will turn into\n werewolves because of the full moon ... What do you mean \"they\n are into flying objects\"  ... a flying object, like me?!",
+        "content": "因为“月圆”而成为狼人，这是我曾收集过的数据……你\n所说的“他们喜欢飞盘”又是什么意思？……飞盘，就像\n我这种？！"
+    },
+    "帽檐与发鬓": {
+        "encontent": "Metal, plastic, or other materials, it doesn't matter.",
+        "content": "金属，塑料，还是其他的物质，这都不重要。"
+    },
+    "袖与手": {
+        "encontent": "Cow ... Cow?! What cow?! This is not a cow ...  My dear friend,\n this is ... this is the DUU-DUU-BELL-BOO that lives on the back\n side of the atmosphere! That's ... Yes, that's what it's called!\n ",
+        "content": "奶牛？！什么奶牛？！这不是奶牛——我、我亲爱的朋友\n，这是……这是生长在大气层后侧的DUU-DUU-BELL-BOO！对\n，这是它的名字。"
+    },
+    "衣着与身形": {
+        "encontent": "... Fresh and healthy, right? I regularly provide it\n energy, and that's the only entertainment I have.\n Grow some grass! Be a gardener! ... Egh.",
+        "content": "……新鲜又健康，对吧？我给了它定期的能量供给，这是\n我能做的唯一娱乐了。养点草！像个园丁！——呃。"
+    },
+    "嗜好": {
+        "encontent": "If you have any clue about dispelling the effect of\n the \"shrink and imprison\" incantation, please tell\n me ... No, not for me, I have a friend who ... ",
+        "content": "如果你有任何关于“解除缩小禁锢”的咒语，都可以分享\n给我……不，不是我，是我的一个朋友他……"
+    },
+    "赞赏": {
+        "encontent": "Being such an erudite, do you also have some missions?",
+        "content": "你的知识储量这样丰富，难道你也有相关的任务在身吗？"
+    },
+    "亲昵": {
+        "encontent": "May I come with you next time you go out? I just ...\n want to hang out.",
+        "content": "下次出行的时候能让我一同前往吗？——我只是想，出去\n走走。"
+    },
+    "闲谈Ⅰ": {
+        "encontent": "What Susie said to her husband was the opposite to the reality.\n  It is called lying, a skill that mastered by many creatures.\n  It is troublesome, yet convenient.",
+        "content": "最新的电视剧里，苏西对她的丈夫说了谎。这是谎言，一\n种生物们所熟练的技能。它很麻烦，也很便捷。"
+    },
+    "闲谈Ⅱ": {
+        "encontent": "... Arcanist, the biggest variate in my investigation and observation.\n We never knew your existence. You are huge ...  New friends,\n brand new friends to us.",
+        "content": "……神秘学家，我调查与观测途中最大的变数。我们从不\n知道你们的存在。你们对我们来说是巨大的————新朋\n友、全新的朋友。"
+    },
+    "独白": {
+        "encontent": "... These emotional words, I shouldn't have told anybody. But\n I have family, I miss them too. How long haven't I seen them?\n T-9910.2 and C-00138,I can barely remember the color of their\n outboard window's coating.",
+        "content": "……这些感性的糟心话，我不该对任何人说的。可我也有\n家人，我也想念他们，我有多久没能见过他们了？T-9910.2和\nC-00138，我都快记不起他们外舷视窗镀膜的颜色\n了。"
+    },
+    "入队": {
+        "encontent": "Who knew an investigator will need to do such a thing.",
+        "content": "资料采集员居然需要做到如此地步。"
+    },
+    "战前": {
+        "encontent": "Hello! Hello!",
+        "content": "您好！您好！"
+    },
+    "择选咒语Ⅰ": {
+        "encontent": "Oh, hey!",
+        "content": "噢，嘿！"
+    },
+    "择选咒语Ⅱ": {
+        "encontent": "All set ... ",
+        "content": "准备就绪——"
+    },
+    "择选高阶咒语": {
+        "encontent": "It's just a little illusion.",
+        "content": "这只是一点点的幻觉。"
+    },
+    "择选至终的仪式": {
+        "encontent": "Guys, get ready!",
+        "content": "伙计们，准备好！"
+    },
+    "释放神秘术Ⅰ": {
+        "encontent": "Self-defense!",
+        "content": "正当防卫！"
+    },
+    "释放神秘术Ⅱ": {
+        "encontent": "You dumb! Fool! Stinky socks!",
+        "content": "你这个傻瓜！蠢货！臭袜子！"
+    },
+    "召唤至终的仪式": {
+        "encontent": "My friend! Dance together with DUU-DUU-BELL-BOO!",
+        "content": "朋友！与DUU-DUU-BELL-BOO一起起舞吧\n！"
+    },
+    "受敌Ⅰ": {
+        "encontent": "How dare you!",
+        "content": "你好大的胆子！"
+    },
+    "受敌Ⅱ": {
+        "encontent": "It's useless!",
+        "content": "没用的！"
+    },
+    "战斗胜利": {
+        "encontent": "That's a lot of data. I have full confidence in the\n future.",
+        "content": "丰富的数据采集，我对未来充满信心。"
+    },
+    "洞悉": {
+        "encontent": "Thank you so much, my dear human friend. Thinking about\n the future, I'm really sorry.",
+        "content": "十分感谢你，我亲爱的人类朋友。想到以后的事情，我真\n是感到不舍。"
+    }
+}

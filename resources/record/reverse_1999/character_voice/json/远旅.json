@@ -1,0 +1,130 @@
+{
+    "初遇": {
+        "encontent": "Heh heh ...",
+        "content": "呵呵……"
+    },
+    "箱中气候": {
+        "encontent": "Forte ... piano.",
+        "content": "Forte ... piano."
+    },
+    "致未来": {
+        "encontent": "Hmm?... Hmm.",
+        "content": "嗯？……嗯。"
+    },
+    "孑立": {
+        "encontent": "*a soothing piece*",
+        "content": "*一段舒缓的音乐*"
+    },
+    "问候": {
+        "encontent": "*humming**surprised*... Heh heh.",
+        "content": "♪…………呀。……呵呵。"
+    },
+    "朝晨": {
+        "encontent": "Hm?",
+        "content": "嗯？"
+    },
+    "信任-朝晨": {
+        "encontent": "Um ...",
+        "content": "唔……"
+    },
+    "夜暮": {
+        "encontent": "Shh.",
+        "content": "嘘。"
+    },
+    "信任-夜暮": {
+        "encontent": "Hmm.*a dreamy piece*",
+        "content": "……嗯嗯。*一段如梦的音乐*"
+    },
+    "帽檐与发鬓": {
+        "encontent": "Oh?",
+        "content": "啊呀？"
+    },
+    "袖与手": {
+        "encontent": "Hm...",
+        "content": "嗯……"
+    },
+    "衣着与身形": {
+        "encontent": "Hee hee.",
+        "content": "嘿嘿～"
+    },
+    "嗜好": {
+        "encontent": "\"Woof\" ... \"Meow\" ... \"Coo coo\" ...",
+        "content": "“汪汪”……“喵”……“咕咕、咕咕咕——”"
+    },
+    "赞赏": {
+        "encontent": "*a cheerful piece*",
+        "content": "*一段欢欣的音乐*"
+    },
+    "亲昵": {
+        "encontent": "*humming*",
+        "content": "♪……"
+    },
+    "闲谈Ⅰ": {
+        "encontent": "Hm ...",
+        "content": "嗯……"
+    },
+    "闲谈Ⅱ": {
+        "encontent": "Heh heh.",
+        "content": "呵呵。"
+    },
+    "独白": {
+        "encontent": "I ... can't over exaggerate my gratitude for that planetary\n alignment. It ... brought me that letter.",
+        "content": "我……多感谢行星直列，它……为我带来了那封信。"
+    },
+    "入队": {
+        "encontent": "*a piece of music symbolizing her trying*",
+        "content": "*一段试奏的音乐*"
+    },
+    "战前": {
+        "encontent": "*a set of lively notes*",
+        "content": "*一枚轻快的音符*"
+    },
+    "择选咒语Ⅰ": {
+        "encontent": "*a set of evenly-divided notes*",
+        "content": "*一段错位的音符*"
+    },
+    "择选咒语Ⅱ": {
+        "encontent": "*a set of agitated notes*",
+        "content": "*一段跌宕的音符*"
+    },
+    "择选高阶咒语": {
+        "encontent": "Heh heh ...",
+        "content": "呵呵～"
+    },
+    "择选至终的仪式": {
+        "encontent": "*a brisk piece*",
+        "content": "*一段嗡鸣的音乐*"
+    },
+    "释放神秘术Ⅰ": {
+        "encontent": "Beating ...",
+        "content": "跳动——"
+    },
+    "释放神秘术Ⅱ": {
+        "encontent": "For everyone ...",
+        "content": "为大家……"
+    },
+    "召唤至终的仪式": {
+        "encontent": "Stars.",
+        "content": "群星。"
+    },
+    "受敌Ⅰ": {
+        "encontent": "Urgh ...",
+        "content": "唔……！"
+    },
+    "受敌Ⅱ": {
+        "encontent": "Please don't ...",
+        "content": "请不要……"
+    },
+    "战斗胜利": {
+        "encontent": "Phew ...Yes, great.",
+        "content": "呼……！很、好。"
+    },
+    "洞悉": {
+        "encontent": "*a piece soaked in moonlight*",
+        "content": "*一段沁润着月色的音乐*"
+    },
+    "洞悉之底": {
+        "encontent": "It's a secret.",
+        "content": "……秘密。"
+    }
+}

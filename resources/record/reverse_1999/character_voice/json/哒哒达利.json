@@ -1,0 +1,126 @@
+{
+    "初遇": {
+        "encontent": "Alright, ready to welcome me! Prepare your softest brush, smoothest\n silk, flaxseed oil or something more expensive, and ... Hey,\n is that a carrot? Ohh! For me? Thank you!",
+        "content": "好的，迎接我吧！你要准备最柔软的梳子，光滑的绸缎、亚\n麻，或是更昂贵的香油，以及……嘿，那是胡萝卜吗？哦\n！给我的？谢谢你！"
+    },
+    "箱中气候": {
+        "encontent": "Darley Clatter is ready, is ready, is ready!",
+        "content": "哒哒达利，正在待命，正在待命，正在待命！"
+    },
+    "致未来": {
+        "encontent": "Run, chase liberty. Now I am racing on the ground.\n In the future, I will be dashing in the sky!",
+        "content": "奔跑，更自由地奔跑。现在我在地上奔跑，未来，我将在\n天上奔跑！"
+    },
+    "孑立": {
+        "encontent": "Ho, ho ho! From now on, this is the racecourse of Darley\n Clatter!",
+        "content": "嚯嚯嚯，现在开始，这里就是哒哒达利的跑马场了！"
+    },
+    "问候": {
+        "encontent": "You are granted an audience with the Darley Arabian.",
+        "content": "达利阿拉伯，接受你的觐见。"
+    },
+    "朝晨": {
+        "encontent": "Let the morning sunlight shine on my mane. It deserves\n that ... I mean the sunlight.",
+        "content": "该让晨光洒满我的鬃毛，它值得这个——我是说晨光。"
+    },
+    "信任-朝晨": {
+        "encontent": "Darley sometimes gets up late. There's nothing to be\n blamed.",
+        "content": "达利偶尔也会赖床，这没什么大不了的。"
+    },
+    "夜暮": {
+        "encontent": "Please offer me a bed with a soft mattress, goose down\n duvet, rabbit fur cover, delicate sewing patterns\n and designer perfume sprayed.",
+        "content": "请给我一张软床，它得是鹅毛的芯子，兔毛的皮面，绣着\n花纹儿，喷洒香水儿。"
+    },
+    "信任-夜暮": {
+        "encontent": "That is awesome! You must really be looking forward to spending\n a wonderful evening with Darley! Oh the story, about the golden\n carrot in the lake, you have my permission to tell it one more\n time.",
+        "content": "太好了！你一定十分期待和达利共度夜晚！关于那个有关\n湖中金萝卜的故事，我允许你再讲一遍。"
+    },
+    "帽檐与发鬓": {
+        "encontent": "Oh ... I can't deny you are really good at patting.",
+        "content": "呜……不得不承认，这是只驯马的“好手”。"
+    },
+    "袖与手": {
+        "encontent": "Faster than the wind! I am undoubtedly the fastest\n runner!",
+        "content": "比风更快的速度！陆地上当之无愧的王者！"
+    },
+    "衣着与身形": {
+        "encontent": "Take a look at my beautiful muscles! I don't need to\n explain how fabulous I am.Hey, watch out! Rub me in\n the direction my mane grows.",
+        "content": "瞧瞧这充满力量感的线条，我的优秀简直不言自明～嘿，当\n心点！抚摸时要注意顺着毛发的生长方向。"
+    },
+    "嗜好": {
+        "encontent": "The breeze that combs my mane, the golden carrot, and\n my little Lilian ...  Oh, you don't know her? She\n is my lady ... Ahem, my maid!",
+        "content": "掠过鬃毛的风，金色的胡萝卜，以及我那个年幼的莉莉安\n……哦？你不认识她，她是我的小主人……咳，仆从！"
+    },
+    "赞赏": {
+        "encontent": "Oh yes! The great Lord of the Wooden Rocking Horse,\n is me, who grants you the right to ride on my back!",
+        "content": "哦，是的！伟大的木马之王，也就是我，允许你骑在我背\n上！"
+    },
+    "亲昵": {
+        "encontent": "Adorable? Ahh? You don't even have a taste!",
+        "content": "可爱？哼！没品位！"
+    },
+    "闲谈Ⅰ": {
+        "encontent": "Mass production? Oh my god!The great ... great Darley\n Arabian is the one and only!!",
+        "content": "量产？我的上帝！伟……伟大的达利阿拉伯是独一无二的\n！！"
+    },
+    "闲谈Ⅱ": {
+        "encontent": "Hey, hey! Come over here. I have a secret to share.\n I am the legendary Darley Arabian ... Why are you\n laughing? Come on this is not funny at all!",
+        "content": "嘿，嘿！过来，我有个秘密要告诉你，我就是传说中的达\n利阿拉伯……为什么你在笑？这不好笑！"
+    },
+    "独白": {
+        "encontent": "All the horses shall race freely, no matter made of wood or iron,\n glass or flesh and blood. As long as they possess the soul of\n a real horse, they are qualified to race.",
+        "content": "所有马儿都应当自由自在地奔跑，无论它们是木头做的、铁\n做的、玻璃做的，或是血与肉做的。只要那之中有着马的\n灵魂，它们便能跑。"
+    },
+    "入队": {
+        "encontent": "Enter the starting gate!",
+        "content": "入闸！"
+    },
+    "战前": {
+        "encontent": "Race, race, race!",
+        "content": "争分夺秒！"
+    },
+    "择选咒语Ⅰ": {
+        "encontent": "Oh yeah!",
+        "content": "耶耶～"
+    },
+    "择选咒语Ⅱ": {
+        "encontent": "Proposal accepted!",
+        "content": "接受你的提议～"
+    },
+    "择选高阶咒语": {
+        "encontent": "Right, that's exactly what I live for.",
+        "content": "很好，正是这种感觉。"
+    },
+    "择选至终的仪式": {
+        "encontent": "Darley Arabian! It's time!",
+        "content": "伟大的达利阿拉伯！此时！此刻！"
+    },
+    "释放神秘术Ⅰ": {
+        "encontent": "Ha ha!",
+        "content": "哈哈——！"
+    },
+    "释放神秘术Ⅱ": {
+        "encontent": "Darley is here!",
+        "content": "达利来了！"
+    },
+    "召唤至终的仪式": {
+        "encontent": "The endowments from the great Arabian!",
+        "content": "伟大始祖的赏赐！"
+    },
+    "受敌Ⅰ": {
+        "encontent": "*neigh*",
+        "content": "*小马的叫声*"
+    },
+    "受敌Ⅱ": {
+        "encontent": "Oh no!",
+        "content": "哦！不！"
+    },
+    "战斗胜利": {
+        "encontent": "Hey, anyone there?I need to get my hoofs ... Oops,\n I mean wheels cleaned.",
+        "content": "嘿，有人吗？我需要清洁下我的马蹄……噢，我是说轮子\n。"
+    },
+    "洞悉": {
+        "encontent": "Darley Arabian does not need a clean body. The mud\n is the glory!",
+        "content": "达利阿拉伯并不需要光洁的身躯，满身泥泞正如功勋。"
+    }
+}

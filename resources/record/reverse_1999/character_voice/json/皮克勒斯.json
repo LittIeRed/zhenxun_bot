@@ -1,0 +1,130 @@
+{
+    "初遇": {
+        "encontent": "(You smell like a friend.) (Before you pat me on the head,) (could\n you please try and tell me, does every species have the same\n kind of soul?)\"lnstead of a pat on the head, the puppy prefers\n a handshake like a friend.\"",
+        "content": "<朋友的味道。><先别摸我的头——><请试着回答我\n，是不是所有物种的灵魂都相同？>“相比抚摸头颅，小\n狗更希望能与你握手相谈。”"
+    },
+    "箱中气候": {
+        "encontent": "(We don't get to see such nice weather often ... The\n rain separates everyone, while the river outside the\n window flows upstream.)",
+        "content": "<难得的好天气……雨幕把所有人都隔绝开来，窗外淌着\n逆流的河。>"
+    },
+    "致未来": {
+        "encontent": "(An everlasting space where there is no disc or globe\n but eternal time, can you imagine that?)",
+        "content": "<你能想象到吗？一个永恒的时间与空间，没有狗狗飞盘\n或任何球状物的地方。>"
+    },
+    "孑立": {
+        "encontent": "\"The puppy expressed his lasting loneliness. He may\n require some adequate physical reassurance.\"",
+        "content": "“小狗表达了它长久的孤独，或许它需要妥善的抚慰。”"
+    },
+    "问候": {
+        "encontent": "\"The puppy is delighted by your visit. He is about\n ...\"",
+        "content": "“小狗对你的到来感到欣喜。他应该——”"
+    },
+    "朝晨": {
+        "encontent": "(I am going to have breakfast in my room. Please allow\n me to spend the moment alone.)",
+        "content": "<我准备把早餐拖进房间里，请你容许这段小小的独处时\n光。>"
+    },
+    "信任-朝晨": {
+        "encontent": "(Two Kenkel's crackers and a bowl of canned short ribs ... )(It\n is highly possible that their offer will result in the corruption\n of a puppy warrior's independent will. )(Of course they also\n work on a puppy philosopher's.)",
+        "content": "<两份“啃啃乐”饼干脆，一碗牛肋骨罐头……><这极\n有可能会腐蚀一位狗狗战士的独立意志。><当然，对狗\n狗哲学家也一样。>"
+    },
+    "夜暮": {
+        "encontent": "(This is the time when most people open their hearts to each\n other, so is for puppies ...) (I have heard Wendy's soulful\n confession over 30 times and sometimes, to be honest, I'm envious\n of her straightforwardness.)",
+        "content": "<人们大多选择在这个时候互诉衷肠，就连小狗们也不例\n外……><我已经听过了不下三十次温迪的深情演讲，偶\n尔我也羡慕它的直白。>"
+    },
+    "信任-夜暮": {
+        "encontent": "\"The puppy assures you that he will be by your side\n throughout the night, and suggests reading ...\"",
+        "content": "“小狗表示他会守护在你身边，并将这一段漫长的夜色用\n于阅读……”"
+    },
+    "帽檐与发鬓": {
+        "encontent": "(... Relax your fingers, go down, down, down ...)",
+        "content": "<……手指放松，再往后一点。>"
+    },
+    "袖与手": {
+        "encontent": "(Thank you for your kind greeting, and remember to wash your\n hand. I just stepped on something you may find unpleasant.)\n \"The puppy would like to keep that smell a secret.\"",
+        "content": "<多谢你的善意，记得洗手。我刚才踩了会让你不愉快的\n东西。>“对于小狗而言，这是一个有味道的秘密。”"
+    },
+    "衣着与身形": {
+        "encontent": "(I do lose hair regularly. I'm very sorry about your\n floor.)",
+        "content": "<我确实会周期性地掉一些毛。对你的地板，我感到很抱\n歉。>"
+    },
+    "嗜好": {
+        "encontent": "(Doggie is way too warmhearted and acute in most of\n the time ...) (Its battery is unbelievably long-lasting.)",
+        "content": "<“Doggie”时常表现得过于热情，也过于敏锐……><它\n的电池充沛得令人讶异。>"
+    },
+    "赞赏": {
+        "encontent": "(I thought a space of my own and plenty of time to spend alone\n were just a dream ...)(But that dream has come true. Everything\n is so different and amazing here.)",
+        "content": "<我本以为无人打扰的房间与充裕的独处时光仅仅存在于\n梦中……><然而，现在的一切都是那么的非同凡响。>"
+    },
+    "亲昵": {
+        "encontent": "(I'm not a neat freak, but could you clean my body\n with a modest amount of water?)( I will control it\n when I shake.)",
+        "content": "<我并没有洁癖，但适当的，请你用水冲一冲我的身体。><我\n不会把水甩得到处都是的。>"
+    },
+    "闲谈Ⅰ": {
+        "encontent": "(Never thought there would be so many unusual characters here,\n even the word \"special\" feels different now.) \"The puppy hopes\n your friendship lasts forever, no matter if he's the unique\n friend or not among the special friends of yours.\"",
+        "content": "<……与众不同的朋友多得难以想象，在这里，“特别”的\n意义发生了改变。>“但愿小狗能始终作为你的朋友之一\n，不论是特别的，还是普通的。”"
+    },
+    "闲谈Ⅱ": {
+        "encontent": "(I tried to find inner peace,) (but now it turns out\n to be a boomerang game: the best way to get it is\n to wait.)",
+        "content": "<我一度努力寻找内心的平静。><但现在看来，平静就\n像狗狗回旋镖，获得它的最好方式只有等待。>"
+    },
+    "独白": {
+        "encontent": "(I was once stuck with nihilism after a certain setback. )(I\n thought life no longer had any meaning, but then a ball fell\n down the stairs and I was, enlightened.) (I didn't want it to\n reach me, so I need to keep running forward, whatever it takes.)",
+        "content": "<在挫败后，我曾短暂地陷入虚无主义。><我感到意义\n离我而去，在那一刻，是从楼梯滚下来的球唤起了我的意\n识。><我不愿意碰它，所以我要不顾一切往前跑。>"
+    },
+    "入队": {
+        "encontent": "(No better canine for the position?)",
+        "content": "<没有更合适的犬选了吗？>"
+    },
+    "战前": {
+        "encontent": "\"The puppy wishes to come along.\"",
+        "content": "“小狗希望跟随你。”"
+    },
+    "择选咒语Ⅰ": {
+        "encontent": "\"The puppy agreed with your decision.\"",
+        "content": "“小狗认可了你。”"
+    },
+    "择选咒语Ⅱ": {
+        "encontent": "(Fight for the ideas!)",
+        "content": "<为思想而战！>"
+    },
+    "择选高阶咒语": {
+        "encontent": "(Fight as an arcanist.)",
+        "content": "<以神秘学家的身份。>"
+    },
+    "择选至终的仪式": {
+        "encontent": "(A bumpy road.)",
+        "content": "<不平坦的道路。>"
+    },
+    "释放神秘术Ⅰ": {
+        "encontent": "(Face yourself!)",
+        "content": "<面对你自己。>"
+    },
+    "释放神秘术Ⅱ": {
+        "encontent": "(The nature of ball.)",
+        "content": "<球的本质！>"
+    },
+    "召唤至终的仪式": {
+        "encontent": "(On top of the ladder of progress, there stands a dog\n interwined in happiness and pain.)",
+        "content": "<阶梯之上，快乐的小狗与痛苦的小狗。>"
+    },
+    "受敌Ⅰ": {
+        "encontent": "(This hurts ...)",
+        "content": "<痛……>"
+    },
+    "受敌Ⅱ": {
+        "encontent": "(Please put me through to the Animal Protection Society\n ...)",
+        "content": "<请为我接通动物保护协会……>"
+    },
+    "战斗胜利": {
+        "encontent": "\"Warning! Warning! The puppy is fleeing the scene at\n its maximum speed.\"",
+        "content": "“警告！警告！小狗正以最快的速度逃离现场。”"
+    },
+    "洞悉": {
+        "encontent": "(This may be too much for a puppy, but is just fine\n for an arcanist.)",
+        "content": "<这对一只小狗而言分量甚重，对于神秘学家而言则恰到\n好处。>"
+    },
+    "洞悉之底": {
+        "encontent": "(Sometimes things go wrong, even in a puppy's life\n ... Smile, hand shake, next.)",
+        "content": "<故事的发展总有不尽如犬意的时候……微笑，握手，下\n一位。>"
+    }
+}

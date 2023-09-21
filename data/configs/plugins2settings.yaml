@@ -716,3 +716,12 @@ PluginSettings:
     plugin_type:
     - normal
     cost_gold: 0
+  character_voice:
+    cmd:
+    - 戳一戳掉落语音
+    default_status: true
+    level: 5
+    limit_superuser: false
+    plugin_type:
+    - 重返未来1999
+    cost_gold: 0

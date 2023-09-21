@@ -1,0 +1,130 @@
+{
+    "初遇": {
+        "encontent": "Ms., your hat is tilted.",
+        "content": "您的帽子歪了，小姐。"
+    },
+    "箱中气候": {
+        "encontent": "Lighting needs to be appropriate. Too bright will cause\n overexposure ... And the films should be saved for\n sensational moments.",
+        "content": "光线还是恰当为好，太强烈会使画面过曝……胶卷要用在\n刀刃上。"
+    },
+    "致未来": {
+        "encontent": "The smoke of war has never fully cleared. It just occasionally\n gets thinner ... I will follow it and keep photographing it\n until the day it eventually dissipates.  ",
+        "content": "硝烟从未彻底散去，只是味道或浓或淡的问题……我一直\n会记录到它们消失的那一天。"
+    },
+    "孑立": {
+        "encontent": "I am no longer afraid of land mines ... Wait, I never\n was.",
+        "content": "我再也不怕地雷了……不对，我就没害怕过地雷。"
+    },
+    "问候": {
+        "encontent": "If possible ... a knock on the door will be appreciated.",
+        "content": "如果可以……我希望您能先敲门。"
+    },
+    "朝晨": {
+        "encontent": "I am not afraid of the sun. I just dislike being exposed\n to it ... Maybe I need a pair of sunglasses?",
+        "content": "说不上是害怕，但我现在不太喜欢阳光……或许我需要一\n副墨镜？"
+    },
+    "信任-朝晨": {
+        "encontent": "If you are interested, I can show you my \"workplace.\"\n Hmm ... remember to take your safety helmet.",
+        "content": "如果您有兴趣，我可以带您去我的“职场”看看，嗯……请\n自备头盔。"
+    },
+    "夜暮": {
+        "encontent": "Those air raids always strike at night, so it is probably\n a good thing to stay awake late at night ... no matter\n as a civilian or a war correspondent.",
+        "content": "那些轰炸总是会在夜晚来临，所以在深夜还能保持清醒未\n尝不是一件好事……无论是作为普通人还是战地记者都是\n如此。"
+    },
+    "信任-夜暮": {
+        "encontent": "There's no day and night in the air-raid shelter ... but it's\n not depressing. Sometimes, not frequently, people enjoy the\n afternoon tea in the dark ... so do I. Taking photos of them\n sometimes makes me feel much better.",
+        "content": "防空洞内不分昼夜……但并不压抑，有时候，很少一部分\n时候，人们甚至有心情在一片黑暗中享用下午茶……我也\n一样。拍这种照片的时候我的心情总要好得多。"
+    },
+    "帽檐与发鬓": {
+        "encontent": "I once had a strong helmet. And then ... then what\n happened ...?",
+        "content": "我有过一个很结实的头盔，后来、后来发生了什么来着……？"
+    },
+    "袖与手": {
+        "encontent": "Baseline 100mm, shutter speed 1/1250 of a second; it's very resilient\n ... This camera is the best device to take with me to cross\n the ruins and record the truth.",
+        "content": "对焦基线100mm，最高快门速度1/1250秒，而\n且密封性极好……没有什么比它更适合穿梭废墟，记录真\n实。"
+    },
+    "衣着与身形": {
+        "encontent": "I am visible but impalpable ... This is ideal for a\n journalist.",
+        "content": "虽然看得到，但是却碰不着……没有比这状态更适合当一\n名记者了。"
+    },
+    "嗜好": {
+        "encontent": "Or ... sometimes, I have nothing to do but float ...\n ",
+        "content": "或者，有时，我会无所事事地漂浮……"
+    },
+    "赞赏": {
+        "encontent": "<i>The Great Adventure of Ms. Vertin</i>, another memorable\n photo portfolio.",
+        "content": "《维尔汀小姐的盛大冒险》，同样是一组值得珍藏的精彩\n影集。"
+    },
+    "亲昵": {
+        "encontent": "Do you ... mind me putting these photos of you into\n my portfolio?",
+        "content": "您……介意我将您的照片收入摄影集中吗？"
+    },
+    "闲谈Ⅰ": {
+        "encontent": "A quarrel is happening in the hall 320 meters away.\n It's the wolf and ... the lily. Sorry, I have to go.",
+        "content": "三百二十米以外的大厅内正在发生激烈的争辩，其源头是\n狼与……百合花，抱歉，我要走了。"
+    },
+    "闲谈Ⅱ": {
+        "encontent": "This one is much funnier. A white kitten is confronting\n a lady ... It seems not into vegetables because cats\n just aren't.",
+        "content": "这张就有趣得多了，一只白色的猫和一个女人的冲突……它\n看起来不太爱吃蔬菜，因为猫本来就不爱吃蔬菜。"
+    },
+    "独白": {
+        "encontent": "Is war correspondent a good occupation?... It shaped me into\n somebody but also took my life away. Now I can still take photos,\n so I think death is not a bad ending. ",
+        "content": "战地记者是一份好差事吗？……它成就了我，也杀死了我\n。但我还能继续拍摄，我想这不是什么大问题。"
+    },
+    "入队": {
+        "encontent": "Standing by you ... like an ally?",
+        "content": "并肩作战……就像战友？"
+    },
+    "战前": {
+        "encontent": "Join the battlefield, like what I've always been doing.",
+        "content": "亲临战场，就像是我一直都在做的那样。"
+    },
+    "择选咒语Ⅰ": {
+        "encontent": "Bold composition.",
+        "content": "疯狂的构图。"
+    },
+    "择选咒语Ⅱ": {
+        "encontent": "One sec, need a better angle.",
+        "content": "等等，我换个角度。"
+    },
+    "择选高阶咒语": {
+        "encontent": "Ha ah ...",
+        "content": "哈啊——"
+    },
+    "择选至终的仪式": {
+        "encontent": "... Good! Close enough.",
+        "content": "……很好！足够近了。"
+    },
+    "释放神秘术Ⅰ": {
+        "encontent": "... Almost missed it.",
+        "content": "……差点就错过了。"
+    },
+    "释放神秘术Ⅱ": {
+        "encontent": "What an amazing memory ... ",
+        "content": "美好的回忆……"
+    },
+    "召唤至终的仪式": {
+        "encontent": "A historic moment for commemoration.",
+        "content": "一个值得被历史记录的时刻。"
+    },
+    "受敌Ⅰ": {
+        "encontent": "Urrgh ... My camera!",
+        "content": "呃……我的相机！"
+    },
+    "受敌Ⅱ": {
+        "encontent": "No! ",
+        "content": "——不！"
+    },
+    "战斗胜利": {
+        "encontent": "I used too many films ... but it is worthwhile.",
+        "content": "胶卷消耗得有些多……不过一切都很值得。"
+    },
+    "洞悉": {
+        "encontent": "This portfolio ... you wanna buy it? ... It is my honor!",
+        "content": "这本摄影集……你要买下吗？……我很荣幸！"
+    },
+    "洞悉之底": {
+        "encontent": "... A perfect moment! ",
+        "content": "……一个完美的瞬间！"
+    }
+}
